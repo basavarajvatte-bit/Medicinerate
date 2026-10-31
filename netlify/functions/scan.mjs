@@ -34,7 +34,8 @@ export default async (req) => {
           type: "OBJECT",
           properties: {
             name: { type: "STRING" }, salt: { type: "STRING" },
-            use: { type: "STRING" }, idx: { type: "INTEGER", nullable: true },
+            use: { type: "STRING", description: "Simple everyday MARATHI in Devanagari script, max 10 words, e.g. शुगरची गोळी, बीपीची गोळी. Never English or Hindi." },
+            idx: { type: "INTEGER", nullable: true },
           },
           required: ["name", "salt", "use"],
         },
@@ -66,4 +67,4 @@ export default async (req) => {
   let items = [];
   try { items = JSON.parse(text).items || []; } catch {}
   return Response.json({ items });
-};
+}; 
