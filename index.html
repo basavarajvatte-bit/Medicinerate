@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Dawa Price Compare</title>
+<title>Tuljabhavani Medical</title>
 <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;600;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#f3f7f4;--card:#fff;--ink:#14281d;--mute:#5d7366;--line:#d5e2d9;--brand:#0f6b46;--brand-ink:#fff;--good:#0f6b46;--goodbg:#dff3e7;--bad:#a4261c;--badbg:#fbe4e1;--accent:#e8a317;
@@ -14,7 +14,11 @@ html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 Mukta,system-ui,sans-serif}
 .wrap{max-width:560px;margin:0 auto;padding:16px}
-h1{font-size:26px;font-weight:800;margin:4px 0 2px}
+.brand{display:flex;align-items:center;gap:14px;background:var(--brand);color:var(--brand-ink);padding:14px 16px;border-radius:18px;margin-bottom:10px}
+.logo{position:relative;flex:none;width:72px;height:72px;border-radius:50%;background:rgba(255,255,255,.22);display:grid;place-items:center;font-size:34px;overflow:hidden;border:3px solid rgba(255,255,255,.55)}
+.logo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+h1{font-size:25px;line-height:1.15;font-weight:800;margin:0}
+.tag{font-size:13px;opacity:.85;margin-top:2px}
 .sub{color:var(--mute);margin:0 0 14px}
 .tabs{display:flex;gap:6px;background:var(--line);padding:4px;border-radius:12px;margin-bottom:14px}
 .tabs button{flex:1;border:0;background:transparent;color:var(--ink);font:600 15px Mukta,sans-serif;padding:9px;border-radius:9px;cursor:pointer}
@@ -49,7 +53,10 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
 </head>
 <body>
 <div class="wrap">
-  <h1>Dawa ka rate compare karo</h1>
+  <header class="brand">
+    <span class="logo"><span aria-hidden="true">🙏</span><img src="devi.jpg" alt="Shri Tulja Bhavani" onerror="this.remove()"></span>
+    <div><h1>Tuljabhavani Medical</h1><div class="tag">Dawa ka rate compare karo</div></div>
+  </header>
   <p class="sub">Doctor ne jo dawa likhi hai, uska hamare yahan ka rate turant dekho.</p>
   <div class="tabs" role="tablist">
     <button id="t1" class="on" role="tab">Compare</button>
@@ -57,7 +64,9 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
   </div>
 
   <section id="p1">
-    <label class="btn scan" id="scanbtn" for="file"><span aria-hidden="true">📷</span> Camera se scan karo</label>
+    <a class="btn scan" href="https://lens.google.com/" target="_blank" rel="noopener" style="text-decoration:none"><span aria-hidden="true">🔍</span> Google Lens se scan karo</a>
+    <p class="salt" style="text-align:center;margin:-4px 0 14px">Lens me dawa ka naam dikhe to wapas aakar niche type karo.</p>
+    <label class="btn scan" id="scanbtn" for="file" style="background:transparent;color:var(--brand);border:1.5px solid var(--brand);font-size:16px;padding:12px"><span aria-hidden="true">📷</span> Photo se scan karo</label>
     <input id="file" class="pick" type="file" accept="image/*" capture="environment">
     <label class="gal" for="file2">ya gallery se photo chuno</label>
     <input id="file2" class="pick" type="file" accept="image/*">
@@ -153,39 +162,38 @@ $("imp").onclick=function(){
   save();$("csv").value="";renderAll();alert(c+" dawa import hui.");
 };
 
-var smp=null;
-function noscan(){smp=null}
-try{claude.use("sample").then(function(x){smp=x;if(!x)noscan()})}catch(e){noscan()}
 function shrink(f){return new Promise(function(ok,no){
   var u=URL.createObjectURL(f),im=new Image();
-  im.onload=function(){var k=Math.min(1,1400/Math.max(im.width,im.height)),c=document.createElement("canvas");
+  im.onload=function(){var k=Math.min(1,1000/Math.max(im.width,im.height)),c=document.createElement("canvas");
     c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext("2d").drawImage(im,0,0,c.width,c.height);
-    URL.revokeObjectURL(u);c.toBlob(function(b){b?ok(b):no(new Error("img"))},"image/jpeg",0.82)};
+    URL.revokeObjectURL(u);c.toBlob(function(b){b?ok(b):no(new Error("img"))},"image/jpeg",0.7)};
   im.onerror=function(){no(new Error("img"))};im.src=u})}
+function b64(blob){return new Promise(function(ok,no){var r=new FileReader();r.onload=function(){ok(String(r.result).split(",")[1])};r.onerror=no;r.readAsDataURL(blob)})}
 async function doScan(f){
-  var out=$("scanres");$("res").innerHTML="";$("sug").innerHTML="";
-  if(!smp){out.innerHTML='<div class="empty">Scan yahan available nahi hai. Link ko Claude app ya claude.ai me kholo, ya naam type karo.</div>';return}
-  out.innerHTML='<div class="empty">Padh raha hu… thoda ruko</div>';
+  var out=$("scanres"),t0=Date.now();$("res").innerHTML="";$("sug").innerHTML="";
+  out.innerHTML='<div class="empty">Scan ho raha hai…</div>';
   try{
-    var blob=await shrink(f);
+    var blob=await shrink(f),img=await b64(blob);
     var list=meds.map(function(d,i){return i+": "+d.n+" ("+d.s+")"}).join("\n");
-    var r=await smp.json("Image me dawa ka strip/box ya doctor ki parchi hai (handwriting bhi ho sakti hai). Usme likhi saari dawaiyan padho aur neeche ki LIST se match karo (brand ya salt same ho to match). Sirf JSON do, aur kuch nahi: {\"matches\":[{\"idx\":<list number>}],\"unmatched\":[\"image me padhi gayi dawa jo list me nahi hai\"]}. Andaza mat lagao: pakka na ho to unmatched me daalo.\n\nLIST:\n"+list,{images:[blob]});
-    var seen={},ms=[];
-    (r.matches||[]).forEach(function(m){var i=+m.idx;if(meds[i]&&!seen[i]){seen[i]=1;ms.push(i)}});
-    var h="";
-    if(ms.length){
-      h+='<div class="list">'+ms.map(function(i){var d=meds[i];return '<button class="item" data-i="'+i+'"><span>'+esc(d.n)+'<small>'+esc(d.s)+' · MRP '+fm(d.m)+'</small></span><span class="price">'+fm(d.p)+'</span></button>'}).join("")+'</div>';
-      if(ms.length>1){var t=0,mm=0;ms.forEach(function(i){t+=meds[i].p;mm+=meds[i].m});
-        h+='<div class="sum"><span>Total (hamare yahan)</span><span>'+fm(t)+'</span></div><p class="salt" style="margin:6px 2px">MRP total '+fm(mm)+' · bachat '+fm(mm-t)+'</p>'}
-    }
-    var un=(r.unmatched||[]).filter(Boolean);
-    if(un.length)h+='<div class="un">List me nahi mili: '+un.map(esc).join(", ")+'. Dukaan par puchho.</div>';
-    if(!h)h='<div class="empty">Dawa pehchani nahi gayi. Saaf photo lo ya naam type karo.</div>';
+    var res=await fetch("/.netlify/functions/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,list:list})});
+    var j=await res.json().catch(function(){return{}});
+    if(!res.ok)throw new Error(j.error||"Scan nahi ho paya.");
+    var its=j.items||[],h="",tot=0,mrp=0,n=0;
+    its.forEach(function(it){
+      var d=(it.idx!=null&&meds[it.idx])?meds[it.idx]:null;
+      h+='<div class="result" style="margin:0 0 10px"><h2>'+esc(it.name)+'</h2><p class="salt">'+esc(it.salt)+'</p><div>'+esc(it.use)+'</div>';
+      if(d){n++;tot+=d.p;mrp+=d.m;h+='<div class="row" style="margin-top:10px"><span>Hamare yahan</span><span class="big">'+fm(d.p)+'</span></div><div class="row"><span>MRP</span><b>'+fm(d.m)+'</b></div>';}
+      else h+='<div class="un">Hamari rate list me nahi mili. Dukaan par puchho.</div>';
+      h+='</div>';
+    });
+    if(n>1)h+='<div class="sum"><span>Total (hamare yahan)</span><span>'+fm(tot)+'</span></div><p class="salt" style="margin:6px 2px">MRP total '+fm(mrp)+' · bachat '+fm(mrp-tot)+'</p>';
+    if(!its.length)h='<div class="empty">Dawa pehchani nahi gayi. Saaf photo lo ya naam type karo.</div>';
+    else h+='<p class="note">Scan me '+((Date.now()-t0)/1000).toFixed(1)+' second lage. Dawa dene se pehle pharmacist se confirm karo.</p>';
     out.innerHTML=h;
   }catch(e){
-    out.innerHTML='<div class="empty">'+(e&&e.code==="not_granted"?"Scan ki permission nahi mili. Naam type karo.":"Scan nahi ho paya. Dobara try karo ya naam type karo.")+'</div>';
+    out.innerHTML='<div class="empty">'+esc(e&&e.message?e.message:"Scan nahi ho paya.")+' Dobara try karo ya naam type karo.</div>';
   }
-};
+}
 $("file").onchange=function(){var f=this.files[0];this.value="";if(f)doScan(f)};
 $("file2").onchange=function(){var f=this.files[0];this.value="";if(f)doScan(f)};
 $("scanres").onclick=function(e){var b=e.target.closest("button[data-i]");if(!b)return;sel=+b.dataset.i;$("q").value=meds[sel].n;show();$("res").scrollIntoView({behavior:"smooth"})};
