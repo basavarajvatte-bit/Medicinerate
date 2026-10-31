@@ -115,7 +115,7 @@ var DEF=[
 var meds;
 try{meds=JSON.parse(localStorage.getItem("meds")||"null")}catch(e){meds=null}
 if(!Array.isArray(meds))meds=DEF.slice();
-var API="/.netlify/functions/list";
+var API="/api/list";
 var pw="";
 try{pw=localStorage.getItem("opw")||""}catch(e){}
 function cache(){try{localStorage.setItem("meds",JSON.stringify(meds))}catch(e){}}
@@ -223,7 +223,7 @@ async function doScan(f){
   try{
     var blob=await shrink(f),img=await b64(blob);
     var list=meds.map(function(d,i){return i+": "+d.n+" ("+d.s+")"}).join("\n");
-    var res=await fetch("/.netlify/functions/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,list:list})});
+    var res=await fetch("/api/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,list:list})});
     var j=await res.json().catch(function(){return{}});
     if(!res.ok)throw new Error(j.error||"स्कॅन झाले नाही.");
     var its=j.items||[],h="",tot=0,mrp=0,n=0;
