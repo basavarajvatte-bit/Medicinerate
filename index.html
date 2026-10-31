@@ -57,9 +57,7 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
   </div>
 
   <section id="p1">
-    <a class="btn scan" href="https://lens.google.com/" target="_blank" rel="noopener" style="text-decoration:none"><span aria-hidden="true">🔍</span> Google Lens se scan karo</a>
-    <p class="salt" style="text-align:center;margin:-4px 0 14px">Lens me dawa ka naam dikhe to wapas aakar niche type karo.</p>
-    <label class="btn scan" id="scanbtn" for="file" style="background:transparent;color:var(--brand);border:1.5px solid var(--brand);font-size:16px;padding:12px"><span aria-hidden="true">📷</span> Photo se scan karo</label>
+    <label class="btn scan" id="scanbtn" for="file"><span aria-hidden="true">📷</span> Camera se scan karo</label>
     <input id="file" class="pick" type="file" accept="image/*" capture="environment">
     <label class="gal" for="file2">ya gallery se photo chuno</label>
     <input id="file2" class="pick" type="file" accept="image/*">
@@ -155,38 +153,39 @@ $("imp").onclick=function(){
   save();$("csv").value="";renderAll();alert(c+" dawa import hui.");
 };
 
+var smp=null;
+function noscan(){smp=null}
+try{claude.use("sample").then(function(x){smp=x;if(!x)noscan()})}catch(e){noscan()}
 function shrink(f){return new Promise(function(ok,no){
   var u=URL.createObjectURL(f),im=new Image();
-  im.onload=function(){var k=Math.min(1,1000/Math.max(im.width,im.height)),c=document.createElement("canvas");
+  im.onload=function(){var k=Math.min(1,1400/Math.max(im.width,im.height)),c=document.createElement("canvas");
     c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext("2d").drawImage(im,0,0,c.width,c.height);
-    URL.revokeObjectURL(u);c.toBlob(function(b){b?ok(b):no(new Error("img"))},"image/jpeg",0.7)};
+    URL.revokeObjectURL(u);c.toBlob(function(b){b?ok(b):no(new Error("img"))},"image/jpeg",0.82)};
   im.onerror=function(){no(new Error("img"))};im.src=u})}
-function b64(blob){return new Promise(function(ok,no){var r=new FileReader();r.onload=function(){ok(String(r.result).split(",")[1])};r.onerror=no;r.readAsDataURL(blob)})}
 async function doScan(f){
-  var out=$("scanres"),t0=Date.now();$("res").innerHTML="";$("sug").innerHTML="";
-  out.innerHTML='<div class="empty">Scan ho raha hai…</div>';
+  var out=$("scanres");$("res").innerHTML="";$("sug").innerHTML="";
+  if(!smp){out.innerHTML='<div class="empty">Scan yahan available nahi hai. Link ko Claude app ya claude.ai me kholo, ya naam type karo.</div>';return}
+  out.innerHTML='<div class="empty">Padh raha hu… thoda ruko</div>';
   try{
-    var blob=await shrink(f),img=await b64(blob);
+    var blob=await shrink(f);
     var list=meds.map(function(d,i){return i+": "+d.n+" ("+d.s+")"}).join("\n");
-    var res=await fetch("/.netlify/functions/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,list:list})});
-    var j=await res.json().catch(function(){return{}});
-    if(!res.ok)throw new Error(j.error||"Scan nahi ho paya.");
-    var its=j.items||[],h="",tot=0,mrp=0,n=0;
-    its.forEach(function(it){
-      var d=(it.idx!=null&&meds[it.idx])?meds[it.idx]:null;
-      h+='<div class="result" style="margin:0 0 10px"><h2>'+esc(it.name)+'</h2><p class="salt">'+esc(it.salt)+'</p><div>'+esc(it.use)+'</div>';
-      if(d){n++;tot+=d.p;mrp+=d.m;h+='<div class="row" style="margin-top:10px"><span>Hamare yahan</span><span class="big">'+fm(d.p)+'</span></div><div class="row"><span>MRP</span><b>'+fm(d.m)+'</b></div>';}
-      else h+='<div class="un">Hamari rate list me nahi mili. Dukaan par puchho.</div>';
-      h+='</div>';
-    });
-    if(n>1)h+='<div class="sum"><span>Total (hamare yahan)</span><span>'+fm(tot)+'</span></div><p class="salt" style="margin:6px 2px">MRP total '+fm(mrp)+' · bachat '+fm(mrp-tot)+'</p>';
-    if(!its.length)h='<div class="empty">Dawa pehchani nahi gayi. Saaf photo lo ya naam type karo.</div>';
-    else h+='<p class="note">Scan me '+((Date.now()-t0)/1000).toFixed(1)+' second lage. Dawa dene se pehle pharmacist se confirm karo.</p>';
+    var r=await smp.json("Image me dawa ka strip/box ya doctor ki parchi hai (handwriting bhi ho sakti hai). Usme likhi saari dawaiyan padho aur neeche ki LIST se match karo (brand ya salt same ho to match). Sirf JSON do, aur kuch nahi: {\"matches\":[{\"idx\":<list number>}],\"unmatched\":[\"image me padhi gayi dawa jo list me nahi hai\"]}. Andaza mat lagao: pakka na ho to unmatched me daalo.\n\nLIST:\n"+list,{images:[blob]});
+    var seen={},ms=[];
+    (r.matches||[]).forEach(function(m){var i=+m.idx;if(meds[i]&&!seen[i]){seen[i]=1;ms.push(i)}});
+    var h="";
+    if(ms.length){
+      h+='<div class="list">'+ms.map(function(i){var d=meds[i];return '<button class="item" data-i="'+i+'"><span>'+esc(d.n)+'<small>'+esc(d.s)+' · MRP '+fm(d.m)+'</small></span><span class="price">'+fm(d.p)+'</span></button>'}).join("")+'</div>';
+      if(ms.length>1){var t=0,mm=0;ms.forEach(function(i){t+=meds[i].p;mm+=meds[i].m});
+        h+='<div class="sum"><span>Total (hamare yahan)</span><span>'+fm(t)+'</span></div><p class="salt" style="margin:6px 2px">MRP total '+fm(mm)+' · bachat '+fm(mm-t)+'</p>'}
+    }
+    var un=(r.unmatched||[]).filter(Boolean);
+    if(un.length)h+='<div class="un">List me nahi mili: '+un.map(esc).join(", ")+'. Dukaan par puchho.</div>';
+    if(!h)h='<div class="empty">Dawa pehchani nahi gayi. Saaf photo lo ya naam type karo.</div>';
     out.innerHTML=h;
   }catch(e){
-    out.innerHTML='<div class="empty">'+esc(e&&e.message?e.message:"Scan nahi ho paya.")+' Dobara try karo ya naam type karo.</div>';
+    out.innerHTML='<div class="empty">'+(e&&e.code==="not_granted"?"Scan ki permission nahi mili. Naam type karo.":"Scan nahi ho paya. Dobara try karo ya naam type karo.")+'</div>';
   }
-}
+};
 $("file").onchange=function(){var f=this.files[0];this.value="";if(f)doScan(f)};
 $("file2").onchange=function(){var f=this.files[0];this.value="";if(f)doScan(f)};
 $("scanres").onclick=function(e){var b=e.target.closest("button[data-i]");if(!b)return;sel=+b.dataset.i;$("q").value=meds[sel].n;show();$("res").scrollIntoView({behavior:"smooth"})};
