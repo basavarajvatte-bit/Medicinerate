@@ -49,6 +49,10 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
 .scan{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;font-size:19px;padding:16px;margin-bottom:12px;border-radius:14px}
 .sum{display:flex;justify-content:space-between;font-weight:800;padding:12px 14px;border-radius:12px;background:var(--goodbg);color:var(--good);margin-top:4px}
 .un{color:var(--bad);font-size:14px;margin-top:8px}
+.foot{text-align:center;margin:28px 0 8px;font-size:13px}
+.foot a{color:var(--mute);text-decoration:underline;cursor:pointer}
+.st{font-size:14px;font-weight:600;color:var(--good);margin:10px 2px 0;min-height:20px}
+.st.err{color:var(--bad)}
 </style>
 </head>
 <body>
@@ -60,7 +64,7 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
   <p class="sub">Doctor ne jo dawa likhi hai, uska hamare yahan ka rate turant dekho.</p>
   <div class="tabs" role="tablist">
     <button id="t1" class="on" role="tab">Compare</button>
-    <button id="t2" role="tab">Rate list (dukaan)</button>
+    <button id="t2" class="hide" role="tab">Rate list (dukaan)</button>
   </div>
 
   <section id="p1">
@@ -94,8 +98,11 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
       <p><button class="btn" id="imp">Import karo</button></p>
     </div>
     <div id="all" class="list"></div>
-    <p class="note">Yeh list sirf is phone/browser me save hoti hai. Sab customers ko same rate dikhane ke liye shared database lagana padega.</p>
+    <div id="st" class="st" role="status"></div>
+    <p class="note">Yahan jo bhi badlav karoge wo online save hoga aur sab customers ko dikhega.</p>
   </section>
+
+  <p class="foot"><a id="own">Dukaan malik login</a><a id="out" class="hide">Malik se bahar niklo</a></p>
 </div>
 <script>
 var DEF=[
@@ -110,13 +117,56 @@ var DEF=[
 var meds;
 try{meds=JSON.parse(localStorage.getItem("meds")||"null")}catch(e){meds=null}
 if(!Array.isArray(meds))meds=DEF.slice();
-function save(){try{localStorage.setItem("meds",JSON.stringify(meds))}catch(e){}}
+var API="/.netlify/functions/list";
+var pw="";
+try{pw=localStorage.getItem("opw")||""}catch(e){}
+function cache(){try{localStorage.setItem("meds",JSON.stringify(meds))}catch(e){}}
+function status(msg,err){var s=$("st");s.textContent=msg;s.className="st"+(err?" err":"")}
+async function loadRemote(){
+  try{
+    var r=await fetch(API,{cache:"no-store"});
+    if(!r.ok)return;
+    var j=await r.json();
+    if(j&&Array.isArray(j.meds)){meds=j.meds;cache();
+      if($("q").value.trim()&&sel===null)suggest();
+      if(!$("p2").classList.contains("hide"))renderAll()}
+  }catch(e){}
+}
+function save(){
+  cache();
+  status("Save ho raha hai…");
+  return fetch(API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({password:pw,meds:meds})})
+  .then(function(r){return r.json().catch(function(){return{}}).then(function(j){return{r:r,j:j}})})
+  .then(function(o){
+    if(o.r.status===401){logout();alert("Password galat hai. Dobara login karo.");return}
+    if(!o.r.ok){status(o.j.error||"Save nahi hua. Dobara try karo.",true);return}
+    status("Save ho gaya ✓ (sab customers ko dikhega)");
+  }).catch(function(){status("Internet nahi hai, save nahi hua.",true)});
+}
 function $(i){return document.getElementById(i)}
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function fm(x){return "₹"+(Math.round(x*100)/100).toString()}
 var sel=null;
 function tab(k){$("p1").classList.toggle("hide",k!==1);$("p2").classList.toggle("hide",k!==2);$("t1").classList.toggle("on",k===1);$("t2").classList.toggle("on",k===2);if(k===2)renderAll()}
 $("t1").onclick=function(){tab(1)};$("t2").onclick=function(){tab(2)};
+function ownerUI(on){
+  $("t2").classList.toggle("hide",!on);$("out").classList.toggle("hide",!on);$("own").classList.toggle("hide",on);
+  if(!on)tab(1);
+}
+function logout(){pw="";try{localStorage.removeItem("opw")}catch(e){}ownerUI(false)}
+$("out").onclick=logout;
+$("own").onclick=function(){
+  var x=prompt("Dukaan ka password daalo:");
+  if(!x)return;
+  fetch(API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({password:x})})
+  .then(function(r){return r.json().catch(function(){return{}}).then(function(j){return{r:r,j:j}})})
+  .then(function(o){
+    if(!o.r.ok){alert(o.j.error||"Login nahi hua.");return}
+    pw=x;try{localStorage.setItem("opw",x)}catch(e){}
+    ownerUI(true);tab(2);status("");
+  }).catch(function(){alert("Internet check karo.")});
+};
+if(pw)ownerUI(true);
 function suggest(){
   var v=$("q").value.trim().toLowerCase();
   if(!v){$("sug").innerHTML="";return}
@@ -146,12 +196,12 @@ function show(){
 function renderAll(){
   $("all").innerHTML=meds.length?meds.map(function(d,i){return '<div class="item" style="cursor:default"><span>'+esc(d.n)+'<small>'+esc(d.s)+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+'</span> <button class="btn ghost" data-del="'+i+'">Hatao</button></span></div>'}).join(""):'<div class="empty">Abhi koi dawa nahi hai. Upar se jodo.</div>';
 }
-$("all").onclick=function(e){var b=e.target.closest("[data-del]");if(!b)return;meds.splice(+b.dataset.del,1);save();renderAll()};
+$("all").onclick=function(e){var b=e.target.closest("[data-del]");if(!b)return;meds.splice(+b.dataset.del,1);renderAll();save()};
 $("add").onclick=function(){
   var n=$("n").value.trim(),m=parseFloat($("m").value),p=parseFloat($("p").value);
   if(!n||isNaN(m)||isNaN(p)){alert("Naam, MRP aur hamara rate teeno bharo.");return}
-  meds.push({n:n,s:$("s").value.trim(),m:m,p:p});save();
-  ["n","s","m","p"].forEach(function(i){$(i).value=""});renderAll();
+  meds.push({n:n,s:$("s").value.trim(),m:m,p:p});
+  ["n","s","m","p"].forEach(function(i){$(i).value=""});renderAll();save();
 };
 $("imp").onclick=function(){
   var c=0;$("csv").value.split("\n").forEach(function(l){
@@ -159,7 +209,7 @@ $("imp").onclick=function(){
     var m=parseFloat(a[2]),p=parseFloat(a[3]);
     if(a[0]&&!isNaN(m)&&!isNaN(p)){meds.push({n:a[0],s:a[1]||"",m:m,p:p});c++}
   });
-  save();$("csv").value="";renderAll();alert(c+" dawa import hui.");
+  $("csv").value="";renderAll();save();alert(c+" dawa import hui.");
 };
 
 function shrink(f){return new Promise(function(ok,no){
@@ -197,6 +247,7 @@ async function doScan(f){
 $("file").onchange=function(){var f=this.files[0];this.value="";if(f)doScan(f)};
 $("file2").onchange=function(){var f=this.files[0];this.value="";if(f)doScan(f)};
 $("scanres").onclick=function(e){var b=e.target.closest("button[data-i]");if(!b)return;sel=+b.dataset.i;$("q").value=meds[sel].n;show();$("res").scrollIntoView({behavior:"smooth"})};
+loadRemote();
 </script>
 </body>
 </html>
