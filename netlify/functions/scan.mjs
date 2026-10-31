@@ -67,4 +67,4 @@ export default async (req) => {
   let items = [];
   try { items = JSON.parse(text).items || []; } catch {}
   return Response.json({ items });
-}; 
+};
