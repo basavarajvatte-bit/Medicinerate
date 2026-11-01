@@ -54,6 +54,9 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
 .scan{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;font-size:19px;padding:16px;margin-bottom:12px;border-radius:14px}
 .sum{display:flex;justify-content:space-between;font-weight:800;padding:12px 14px;border-radius:12px;background:var(--goodbg);color:var(--good);margin-top:4px}
 .un{color:var(--bad);font-size:14px;margin-top:8px}
+.use{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--bg);border-left:4px solid var(--brand);font-weight:600}
+.use small{display:block;color:var(--mute);font-weight:400;font-size:12px}
+.tot{border:2px solid var(--brand)}
 .foot{text-align:center;margin:28px 0 8px;font-size:13px}
 .foot a{color:var(--mute);text-decoration:underline;cursor:pointer}
 .st{font-size:14px;font-weight:600;color:var(--good);margin:10px 2px 0;min-height:20px}
@@ -222,7 +225,7 @@ $("imp").onclick=function(){
 
 function shrink(f){return new Promise(function(ok,no){
   var u=URL.createObjectURL(f),im=new Image();
-  im.onload=function(){var k=Math.min(1,1000/Math.max(im.width,im.height)),c=document.createElement("canvas");
+  im.onload=function(){var k=Math.min(1,1200/Math.max(im.width,im.height)),c=document.createElement("canvas");
     c.width=Math.round(im.width*k);c.height=Math.round(im.height*k);c.getContext("2d").drawImage(im,0,0,c.width,c.height);
     URL.revokeObjectURL(u);c.toBlob(function(b){b?ok(b):no(new Error("img"))},"image/jpeg",0.7)};
   im.onerror=function(){no(new Error("img"))};im.src=u})}
@@ -236,15 +239,24 @@ async function doScan(f){
     var res=await fetch("/api/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,list:list})});
     var j=await res.json().catch(function(){return{}});
     if(!res.ok)throw new Error(j.error||"स्कॅन झाले नाही.");
-    var its=j.items||[],h="",tot=0,mrp=0,n=0;
-    its.forEach(function(it){
+    var its=j.items||[],h="",tot=0,mrp=0,n=0,miss=0;
+    its.forEach(function(it,k){
       var d=(it.idx!=null&&meds[it.idx])?meds[it.idx]:null;
-      h+='<div class="result" style="margin:0 0 10px"><h2>'+esc(it.name)+'</h2><p class="salt">'+esc(it.salt)+'</p><div>'+esc(it.use)+'</div>';
-      if(d){n++;tot+=d.p;mrp+=d.m;h+='<div class="row" style="margin-top:10px"><span>आमच्याकडे</span><span class="big">'+fm(d.p)+'</span></div><div class="row"><span>MRP</span><b>'+fm(d.m)+'</b></div>';}
-      else h+='<div class="un">आमच्या दरयादीत सापडले नाही. दुकानात विचारा.</div>';
-      h+='</div>';
+      h+='<div class="result" style="margin:0 0 10px"><h2>'+(k+1)+'. '+esc(it.name)+'</h2><p class="salt">'+esc(it.salt)+'</p>';
+      if(d){n++;tot+=d.p;mrp+=d.m;
+        h+='<div class="row"><span>MRP</span><b>'+fm(d.m)+'</b></div>'+
+           '<div class="row"><span>आमच्याकडे</span><span class="big">'+fm(d.p)+'</span></div>';
+      }else{miss++;h+='<div class="un">आमच्या दरयादीत सापडले नाही. दुकानात विचारा.</div>'}
+      h+='<div class="use"><small>उपयोग</small>'+esc(it.use)+'</div></div>';
     });
-    if(n>1)h+='<div class="sum"><span>एकूण (आमच्याकडे)</span><span>'+fm(tot)+'</span></div><p class="salt" style="margin:6px 2px">MRP एकूण '+fm(mrp)+' · बचत '+fm(mrp-tot)+'</p>';
+    if(n>=1){
+      var sv=mrp-tot,pc=mrp>0?Math.round(sv/mrp*100):0;
+      h+='<div class="result tot"><h2>एकूण ('+n+' औषधे)</h2>'+
+        '<div class="row"><span>एकूण MRP</span><b>'+fm(mrp)+'</b></div>'+
+        '<div class="row"><span>आमच्याकडे एकूण</span><span class="big">'+fm(tot)+'</span></div>'+
+        '<div class="row"><span>तुमची एकूण बचत</span><b style="color:var(--good)">'+fm(sv)+' ('+pc+'% सूट)</b></div>'+
+        (miss?'<p class="note">'+miss+' औषधे आमच्या यादीत नाहीत, त्यांची किंमत एकूणमध्ये धरलेली नाही.</p>':'')+'</div>';
+    }
     if(!its.length)h='<div class="empty">औषध ओळखता आले नाही. स्पष्ट फोटो काढा किंवा नाव टाइप करा.</div>';
     else h+='<p class="note">स्कॅनला '+((Date.now()-t0)/1000).toFixed(1)+' सेकंद लागले. औषध घेण्यापूर्वी फार्मासिस्टकडून खात्री करा.</p>';
     out.innerHTML=h;
