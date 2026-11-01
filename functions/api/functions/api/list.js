@@ -1,6 +1,3 @@
-// Cloudflare Pages Function: sab customers list padh sakte hain, sirf owner save kar sakta hai.
-// KV binding ka naam: MEDS
-
 const json = (obj, status = 200) =>
   Response.json(obj, { status, headers: { "Cache-Control": "no-store" } });
 
@@ -39,7 +36,6 @@ export async function onRequestPost({ request, env }) {
   if (typeof body.password !== "string" || body.password !== secret) {
     return json({ error: "पासवर्ड चुकीचा आहे." }, 401);
   }
-  // Sirf password check karna ho (login)
   if (body.meds === undefined) return json({ ok: true });
 
   if (!env.MEDS) return json({ error: "KV (MEDS) जोडलेले नाही." }, 500);
