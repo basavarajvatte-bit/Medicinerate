@@ -19,6 +19,11 @@ body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 Mukta,syst
 .logo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 h1{font-size:25px;line-height:1.15;font-weight:800;margin:0}
 .tag{font-size:13px;opacity:.85;margin-top:2px}
+.hd{min-width:0}
+.call{display:inline-flex;align-items:center;gap:6px;margin-top:8px;background:var(--brand-ink);color:var(--brand);font-weight:800;font-size:18px;padding:7px 15px;border-radius:999px;text-decoration:none}
+.call:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.addr{display:block;font-size:13px;margin-top:7px;line-height:1.35;color:inherit;text-decoration:none}
+.addr:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
 .sub{color:var(--mute);margin:0 0 14px}
 .tabs{display:flex;gap:6px;background:var(--line);padding:4px;border-radius:12px;margin-bottom:14px}
 .tabs button{flex:1;border:0;background:transparent;color:var(--ink);font:600 15px Mukta,sans-serif;padding:9px;border-radius:9px;cursor:pointer}
@@ -59,7 +64,12 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
 <div class="wrap">
   <header class="brand">
     <span class="logo"><span aria-hidden="true">🙏</span><img src="devi.jpg" alt="श्री तुळजाभवानी" onerror="this.remove()"></span>
-    <div><h1>तुळजाभवानी मेडिकल</h1><div class="tag">औषधांचे दर तपासा</div></div>
+    <div class="hd">
+      <h1>तुळजाभवानी मेडिकल</h1>
+      <div class="tag">औषधांचे दर तपासा</div>
+      <a class="call" href="tel:+919673643799" aria-label="दुकानात फोन करा: 9673643799"><span aria-hidden="true">📞</span> 9673643799</a>
+      <a class="addr" href="https://maps.app.goo.gl/2RYXmwhYXtcY8PG6A" target="_blank" rel="noopener" aria-label="Google Maps मध्ये दुकानाचे ठिकाण उघडा"><span aria-hidden="true">📍</span> नवीन बसस्टँड समोर, तुळजापूर</a>
+    </div>
   </header>
   <p class="sub">डॉक्टरांनी लिहून दिलेल्या औषधाचा आमच्याकडील दर लगेच पहा.</p>
   <div class="tabs" role="tablist">
