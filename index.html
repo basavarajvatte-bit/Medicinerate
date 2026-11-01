@@ -61,6 +61,11 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
 .foot a{color:var(--mute);text-decoration:underline;cursor:pointer}
 .st{font-size:14px;font-weight:600;color:var(--good);margin:10px 2px 0;min-height:20px}
 .st.err{color:var(--bad)}
+.spin{display:flex;flex-direction:column;align-items:center;gap:14px;padding:28px 10px;text-align:center}
+.ring{width:58px;height:58px;border-radius:50%;border:6px solid var(--line);border-top-color:var(--brand);animation:spin .9s linear infinite}
+.spm{font-weight:600;font-size:17px;color:var(--ink);min-height:26px}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.ring{animation-duration:2.6s}}
 </style>
 </head>
 <body>
@@ -232,7 +237,9 @@ function shrink(f){return new Promise(function(ok,no){
 function b64(blob){return new Promise(function(ok,no){var r=new FileReader();r.onload=function(){ok(String(r.result).split(",")[1])};r.onerror=no;r.readAsDataURL(blob)})}
 async function doScan(f){
   var out=$("scanres"),t0=Date.now();$("res").innerHTML="";$("sug").innerHTML="";
-  out.innerHTML='<div class="empty">स्कॅन होत आहे…</div>';
+  var msgs=["फोटो वाचत आहे…","औषधाचे नाव ओळखत आहे…","माहिती तपासत आहे…","आमचा दर शोधत आहे…"],mi=0;
+  out.innerHTML='<div class="spin" role="status"><div class="ring"></div><div class="spm" id="spm">'+msgs[0]+'</div></div>';
+  var tm=setInterval(function(){var e=$("spm");if(!e){clearInterval(tm);return}mi=(mi+1)%msgs.length;e.textContent=msgs[mi]},1500);
   try{
     var blob=await shrink(f),img=await b64(blob);
     var list=meds.map(function(d,i){return i+": "+d.n+" ("+d.s+")"}).join("\n");
@@ -259,8 +266,10 @@ async function doScan(f){
     }
     if(!its.length)h='<div class="empty">औषध ओळखता आले नाही. स्पष्ट फोटो काढा किंवा नाव टाइप करा.</div>';
     else h+='<p class="note">स्कॅनला '+((Date.now()-t0)/1000).toFixed(1)+' सेकंद लागले. औषध घेण्यापूर्वी फार्मासिस्टकडून खात्री करा.</p>';
+    clearInterval(tm);
     out.innerHTML=h;
   }catch(e){
+    clearInterval(tm);
     out.innerHTML='<div class="empty">'+esc(e&&e.message?e.message:"स्कॅन झाले नाही.")+' पुन्हा प्रयत्न करा किंवा नाव टाइप करा.</div>';
   }
 }
