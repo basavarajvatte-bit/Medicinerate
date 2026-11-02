@@ -185,7 +185,8 @@ $("own").onclick=function(){
     if(!o.r.ok){alert(o.j.error||"लॉगिन झाले नाही.");return}
     pw=x;try{localStorage.setItem("opw",x)}catch(e){}
     ownerUI(true);tab(2);status("");
-  }).catch(function(){alert("इंटरनेट तपासा.")});};
+  }).catch(function(){alert("इंटरनेट तपासा.")});
+};
 if(pw)ownerUI(true);
 function suggest(){
   var v=$("q").value.trim().toLowerCase();
