@@ -64,6 +64,8 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
 .spin{display:flex;flex-direction:column;align-items:center;gap:14px;padding:28px 10px;text-align:center}
 .ring{width:58px;height:58px;border-radius:50%;border:6px solid var(--line);border-top-color:var(--brand);animation:spin .9s linear infinite}
 .spm{font-weight:600;font-size:17px;color:var(--ink);min-height:26px}
+.nspin{display:flex;align-items:center;justify-content:center;gap:14px;padding:18px 10px;background:var(--card);border:1px solid var(--line);border-radius:14px;font-weight:600;font-size:17px;color:var(--ink);margin:6px 0}
+.nspin .ring{width:36px;height:36px;border-width:5px;flex:none}
 @keyframes spin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion:reduce){.ring{animation-duration:2.6s}}
 </style>
@@ -217,6 +219,20 @@ function renderAll(){
   $("all").innerHTML=meds.length?meds.map(function(d,i){return '<div class="item" style="cursor:default"><span>'+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+'</span> <button class="btn ghost" data-del="'+i+'">काढा</button></span></div>'}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>';
 }
 $("all").onclick=function(e){var b=e.target.closest("[data-del]");if(!b)return;meds.splice(+b.dataset.del,1);renderAll();save()};
+
+var ntm=null;
+function nLoader(msgs){
+  var st=$("nst"),i=0;
+  if(ntm)clearInterval(ntm);
+  st.className="st";
+  st.innerHTML='<div class="nspin" role="status"><div class="ring"></div><span id="nsm">'+msgs[0]+'</span></div>';
+  ntm=setInterval(function(){var e=$("nsm");if(!e){clearInterval(ntm);ntm=null;return}i=(i+1)%msgs.length;e.textContent=msgs[i]},1400);
+}
+function nDone(msg,err){
+  if(ntm){clearInterval(ntm);ntm=null}
+  var st=$("nst");st.className="st"+(err?" err":"");st.textContent=msg;
+}
+
 $("add").onclick=function(){
   var n=$("n").value.trim(),m=parseFloat($("m").value),p=parseFloat($("p").value);
   if(!n||isNaN(m)||isNaN(p)){alert("नाव, MRP आणि आमचा दर तिन्ही भरा.");return}
@@ -224,7 +240,16 @@ $("add").onclick=function(){
   var c=$("c").value.trim();if(c)d.c=c;
   meds.push(d);
   ["n","c","s","m","p"].forEach(function(i){$(i).value=""});
-  $("nst").textContent="";renderAll();save();
+  renderAll();
+  nLoader(["औषध यादीत जोडत आहे…","ऑनलाइन सेव्ह करत आहे…","सर्व ग्राहकांसाठी तयार करत आहे…"]);
+  var t0=Date.now();
+  save().then(function(){
+    var wait=Math.max(0,1500-(Date.now()-t0));
+    setTimeout(function(){
+      var s=$("st");
+      nDone(s.textContent||"सेव्ह झाले ✓",s.classList.contains("err"));
+    },wait);
+  });
 };
 $("imp").onclick=function(){
   var c=0;$("csv").value.split("\n").forEach(function(l){
@@ -243,18 +268,18 @@ function shrink(f){return new Promise(function(ok,no){
   im.onerror=function(){no(new Error("img"))};im.src=u})}
 function b64(blob){return new Promise(function(ok,no){var r=new FileReader();r.onload=function(){ok(String(r.result).split(",")[1])};r.onerror=no;r.readAsDataURL(blob)})}
 async function identify(f){
-  var st=$("nst");st.className="st";st.textContent="फोटो वाचत आहे…";
+  nLoader(["फोटो वाचत आहे…","औषधाचे नाव ओळखत आहे…","कंपनी शोधत आहे…","सॉल्ट तपासत आहे…"]);
   try{
     var blob=await shrink(f),img=await b64(blob);
     var res=await fetch("/api/identify",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img})});
     var j=await res.json().catch(function(){return{}});
     if(!res.ok)throw new Error(j.error||"स्कॅन झाले नाही.");
-    if(!j.name&&!j.salt){st.className="st err";st.textContent="औषध ओळखता आले नाही. स्पष्ट फोटो काढा.";return}
+    if(!j.name&&!j.salt){nDone("औषध ओळखता आले नाही. स्पष्ट फोटो काढा.",true);return}
     $("n").value=j.name||"";$("c").value=j.company||"";$("s").value=j.salt||"";
-    st.textContent="माहिती भरली ✓ आता MRP आणि आमचा दर भरा, मग सेव्ह करा.";
+    nDone("माहिती भरली ✓ आता MRP आणि आमचा दर भरा, मग सेव्ह करा.");
     $("m").focus();
   }catch(e){
-    st.className="st err";st.textContent=(e&&e.message?e.message:"स्कॅन झाले नाही.")+" पुन्हा प्रयत्न करा.";
+    nDone((e&&e.message?e.message:"स्कॅन झाले नाही.")+" पुन्हा प्रयत्न करा.",true);
   }
 }
 $("nfile").onchange=function(){var f=this.files[0];this.value="";if(f)identify(f)};
@@ -288,18 +313,3 @@ async function doScan(f){
         (miss?'<p class="note">'+miss+' औषधे आमच्या यादीत नाहीत, त्यांची किंमत एकूणमध्ये धरलेली नाही.</p>':'')+'</div>';
     }
     if(!its.length)h='<div class="empty">औषध ओळखता आले नाही. स्पष्ट फोटो काढा किंवा नाव टाइप करा.</div>';
-    else h+='<p class="note">स्कॅनला '+((Date.now()-t0)/1000).toFixed(1)+' सेकंद लागले. औषध घेण्यापूर्वी फार्मासिस्टकडून खात्री करा.</p>';
-    clearInterval(tm);
-    out.innerHTML=h;
-  }catch(e){
-    clearInterval(tm);
-    out.innerHTML='<div class="empty">'+esc(e&&e.message?e.message:"स्कॅन झाले नाही.")+' पुन्हा प्रयत्न करा किंवा नाव टाइप करा.</div>';
-  }
-}
-$("file").onchange=function(){var f=this.files[0];this.value="";if(f)doScan(f)};
-$("file2").onchange=function(){var f=this.files[0];this.value="";if(f)doScan(f)};
-$("scanres").onclick=function(e){var b=e.target.closest("button[data-i]");if(!b)return;sel=+b.dataset.i;$("q").value=meds[sel].n;show();$("res").scrollIntoView({behavior:"smooth"})};
-loadRemote();
-</script>
-</body>
-</html>
