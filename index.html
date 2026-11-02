@@ -301,5 +301,6 @@ $("file2").onchange=function(){var f=this.files[0];this.value="";if(f)doScan(f)}
 $("scanres").onclick=function(e){var b=e.target.closest("button[data-i]");if(!b)return;sel=+b.dataset.i;$("q").value=meds[sel].n;show();$("res").scrollIntoView({behavior:"smooth"})};
 loadRemote();
 </script>
+<script src="/order.js"></script>
 </body>
 </html>
