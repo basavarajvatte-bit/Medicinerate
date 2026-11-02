@@ -52,7 +52,6 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
 .pick{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
 .gal{display:block;text-align:center;color:var(--brand);font-weight:600;text-decoration:underline;margin:-2px 0 10px;cursor:pointer}
 .scan{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;font-size:19px;padding:16px;margin-bottom:12px;border-radius:14px}
-.sum{display:flex;justify-content:space-between;font-weight:800;padding:12px 14px;border-radius:12px;background:var(--goodbg);color:var(--good);margin-top:4px}
 .un{color:var(--bad);font-size:14px;margin-top:8px}
 .use{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--bg);border-left:4px solid var(--brand);font-weight:600}
 .use small{display:block;color:var(--mute);font-weight:400;font-size:12px}
@@ -143,7 +142,9 @@ var API="/api/list";
 var pw="";
 try{pw=localStorage.getItem("opw")||""}catch(e){}
 function cache(){try{localStorage.setItem("meds",JSON.stringify(meds))}catch(e){}}
+function $(i){return document.getElementById(i)}
 function status(msg,err){var s=$("st");s.textContent=msg;s.className="st"+(err?" err":"")}
+var sel=null;
 async function loadRemote(){
   try{
     var r=await fetch(API,{cache:"no-store"});
@@ -165,10 +166,8 @@ function save(){
     status("सेव्ह झाले ✓ (सर्व ग्राहकांना दिसेल)");
   }).catch(function(){status("इंटरनेट नाही, सेव्ह झाले नाही.",true)});
 }
-function $(i){return document.getElementById(i)}
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function fm(x){return "₹"+(Math.round(x*100)/100).toString()}
-var sel=null;
 function tab(k){$("p1").classList.toggle("hide",k!==1);$("p2").classList.toggle("hide",k!==2);$("t1").classList.toggle("on",k===1);$("t2").classList.toggle("on",k===2);if(k===2)renderAll()}
 $("t1").onclick=function(){tab(1)};$("t2").onclick=function(){tab(2)};
 function ownerUI(on){
@@ -313,3 +312,5 @@ async function doScan(f){
         (miss?'<p class="note">'+miss+' औषधे आमच्या यादीत नाहीत, त्यांची किंमत एकूणमध्ये धरलेली नाही.</p>':'')+'</div>';
     }
     if(!its.length)h='<div class="empty">औषध ओळखता आले नाही. स्पष्ट फोटो काढा किंवा नाव टाइप करा.</div>';
+    else h+='<p class="note">स्कॅनला '+((Date.now()-t0)/1000).toFixed(1)+' सेकंद लागले. औषध घेण्यापूर्वी फार्मासिस्टकडून खात्री करा.</p>';
+    clearInterval(tm);
