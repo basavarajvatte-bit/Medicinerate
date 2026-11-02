@@ -98,14 +98,18 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
   </section>
 
   <section id="p2" class="hide">
+    <label class="btn scan" for="nfile"><span aria-hidden="true">📷</span> स्कॅन करून नवीन औषध जोडा</label>
+    <input id="nfile" class="pick" type="file" accept="image/*" capture="environment">
+    <div id="nst" class="st" role="status"></div>
     <div class="result" style="margin-top:0">
       <label for="n">औषधाचे नाव</label><input id="n" placeholder="उदा. Dolo 650">
+      <label for="c">कंपनी</label><input id="c" placeholder="उदा. Micro Labs">
       <label for="s">सॉल्ट / घटक</label><input id="s" placeholder="उदा. Paracetamol 650mg">
       <div class="grid2">
         <div><label for="m">MRP (₹)</label><input id="m" type="number" inputmode="decimal" min="0"></div>
         <div><label for="p">आमचा दर (₹)</label><input id="p" type="number" inputmode="decimal" min="0"></div>
       </div>
-      <p><button class="btn" id="add">औषध जोडा</button></p>
+      <p><button class="btn" id="add">सेव्ह करा</button></p>
     </div>
     <div class="result">
       <b>एकत्र आयात (CSV)</b>
@@ -210,14 +214,17 @@ function show(){
   };
 }
 function renderAll(){
-  $("all").innerHTML=meds.length?meds.map(function(d,i){return '<div class="item" style="cursor:default"><span>'+esc(d.n)+'<small>'+esc(d.s)+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+'</span> <button class="btn ghost" data-del="'+i+'">काढा</button></span></div>'}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>';
+  $("all").innerHTML=meds.length?meds.map(function(d,i){return '<div class="item" style="cursor:default"><span>'+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+'</span> <button class="btn ghost" data-del="'+i+'">काढा</button></span></div>'}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>';
 }
 $("all").onclick=function(e){var b=e.target.closest("[data-del]");if(!b)return;meds.splice(+b.dataset.del,1);renderAll();save()};
 $("add").onclick=function(){
   var n=$("n").value.trim(),m=parseFloat($("m").value),p=parseFloat($("p").value);
   if(!n||isNaN(m)||isNaN(p)){alert("नाव, MRP आणि आमचा दर तिन्ही भरा.");return}
-  meds.push({n:n,s:$("s").value.trim(),m:m,p:p});
-  ["n","s","m","p"].forEach(function(i){$(i).value=""});renderAll();save();
+  var d={n:n,s:$("s").value.trim(),m:m,p:p};
+  var c=$("c").value.trim();if(c)d.c=c;
+  meds.push(d);
+  ["n","c","s","m","p"].forEach(function(i){$(i).value=""});
+  $("nst").textContent="";renderAll();save();
 };
 $("imp").onclick=function(){
   var c=0;$("csv").value.split("\n").forEach(function(l){
@@ -235,6 +242,22 @@ function shrink(f){return new Promise(function(ok,no){
     URL.revokeObjectURL(u);c.toBlob(function(b){b?ok(b):no(new Error("img"))},"image/jpeg",0.7)};
   im.onerror=function(){no(new Error("img"))};im.src=u})}
 function b64(blob){return new Promise(function(ok,no){var r=new FileReader();r.onload=function(){ok(String(r.result).split(",")[1])};r.onerror=no;r.readAsDataURL(blob)})}
+async function identify(f){
+  var st=$("nst");st.className="st";st.textContent="फोटो वाचत आहे…";
+  try{
+    var blob=await shrink(f),img=await b64(blob);
+    var res=await fetch("/api/identify",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img})});
+    var j=await res.json().catch(function(){return{}});
+    if(!res.ok)throw new Error(j.error||"स्कॅन झाले नाही.");
+    if(!j.name&&!j.salt){st.className="st err";st.textContent="औषध ओळखता आले नाही. स्पष्ट फोटो काढा.";return}
+    $("n").value=j.name||"";$("c").value=j.company||"";$("s").value=j.salt||"";
+    st.textContent="माहिती भरली ✓ आता MRP आणि आमचा दर भरा, मग सेव्ह करा.";
+    $("m").focus();
+  }catch(e){
+    st.className="st err";st.textContent=(e&&e.message?e.message:"स्कॅन झाले नाही.")+" पुन्हा प्रयत्न करा.";
+  }
+}
+$("nfile").onchange=function(){var f=this.files[0];this.value="";if(f)identify(f)};
 async function doScan(f){
   var out=$("scanres"),t0=Date.now();$("res").innerHTML="";$("sug").innerHTML="";
   var msgs=["फोटो वाचत आहे…","औषधाचे नाव ओळखत आहे…","माहिती तपासत आहे…","आमचा दर शोधत आहे…"],mi=0;
