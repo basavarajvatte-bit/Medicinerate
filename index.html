@@ -246,7 +246,7 @@ async function identify(f){
   var st=$("nst");st.className="st";st.textContent="फोटो वाचत आहे…";
   try{
     var blob=await shrink(f),img=await b64(blob);
-    var res=await fetch("/api/identify",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img})});
+    var res=await fetch("/api/identify",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,password:pw})});
     var j=await res.json().catch(function(){return{}});
     if(!res.ok)throw new Error(j.error||"स्कॅन झाले नाही.");
     if(!j.name&&!j.salt){st.className="st err";st.textContent="औषध ओळखता आले नाही. स्पष्ट फोटो काढा.";return}
