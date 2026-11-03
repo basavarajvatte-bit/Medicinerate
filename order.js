@@ -19,7 +19,8 @@
       ".opt .onm{flex:1;min-width:0;font-weight:600}"+
       ".opt small{display:block;font-weight:400;color:var(--mute);font-size:12px}"+
       ".bdg{display:inline-block;font-size:11px;font-weight:800;padding:1px 7px;border-radius:999px;margin-left:6px;background:var(--brand);color:var(--brand-ink)}"+
-      ".bdg.b2{background:var(--accent);color:#14281d}";
+      ".bdg.b2{background:var(--accent);color:#14281d}"+
+      ".ask{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--bg);border-left:4px solid var(--accent);color:var(--ink);font-weight:600;font-size:15px}";
     document.head.appendChild(st);
   }
 
@@ -38,7 +39,7 @@
     var meds=M();
     var h='<div class="result sc"><h2>'+(k+1)+'. '+E(c.n)+'</h2><p class="salt">'+E(c.s)+'</p>';
     if(!c.alts.length){
-      h+='<div class="un">आमच्या यादीत हे औषध किंवा याच घटकाचे औषध नाही. दुकानात विचारा.</div>';
+      h+='<div class="ask">आमच्या यादीत हे औषध किंवा याच घटकाचे औषध नाही. दुकानात विचारा.</div>';
     }else{
       var any=c.alts.some(function(a){return a.st==="check"});
       h+='<div class="same">'+(c.ex!=null
