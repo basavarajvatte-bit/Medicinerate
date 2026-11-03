@@ -141,6 +141,8 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:15px;color:var(-
   <section id="p2" class="hide">
     <label class="scan" for="nfile"><svg class="i"><use href="#i-cam"/></svg>स्कॅन करून नवीन औषध जोडा</label>
     <input id="nfile" class="pick" type="file" accept="image/*" capture="environment">
+    <label class="gal" for="nfile2">किंवा गॅलरीतून फोटो निवडा</label>
+    <input id="nfile2" class="pick" type="file" accept="image/*">
     <div id="nst" class="st" role="status"></div>
     <div class="result" style="margin-top:0">
       <label for="n">औषधाचे नाव</label><input id="n" placeholder="उदा. Dolo 650">
@@ -264,8 +266,11 @@ function show(){
     else v.innerHTML='<div class="verdict good">दोन्ही ठिकाणी दर सारखाच आहे.</div>';
   };
 }
+function saltKey(t){return (String(t||"").toLowerCase().match(/[a-z]{4,}/g)||[]).sort().join(" ")}
 function renderAll(){
-  $("all").innerHTML=meds.length?meds.map(function(d,i){return '<div class="item" style="cursor:default"><span>'+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span><span class="edbtns"><button class="btn ghost ed" data-ed="'+i+'">बदला</button><button class="btn ghost" data-del="'+i+'">काढा</button></span></span></div>'}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>';
+  var first={},view=meds.map(function(d,i){var k=saltKey(d.s)||("~"+i);if(!(k in first))first[k]=i;return{d:d,i:i,o:first[k]}});
+  view.sort(function(a,b){return (a.o-b.o)||(a.i-b.i)});
+  $("all").innerHTML=view.length?view.map(function(v){var d=v.d,i=v.i;return '<div class="item" style="cursor:default"><span>'+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span><span class="edbtns"><button class="btn ghost ed" data-ed="'+i+'">बदला</button><button class="btn ghost" data-del="'+i+'">काढा</button></span></span></div>'}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>';
 }
 function clearForm(){
   edit=null;
@@ -297,8 +302,11 @@ $("add").onclick=function(){
   var d={n:n,s:$("s").value.trim(),m:m,p:p};
   var c=$("c").value.trim();if(c)d.c=c;
   var t=parseInt($("pack").value,10);if(t)d.t=t;
-  if(edit!==null&&meds[edit])meds[edit]=d;else meds.push(d);
+  var isNew=edit===null||!meds[edit],key=saltKey(d.s);
+  var same=isNew&&key?meds.filter(function(o){return saltKey(o.s)===key}).length:0;
+  if(!isNew)meds[edit]=d;else meds.push(d);
   clearForm();renderAll();save();
+  if(same){$("nst").className="st";$("nst").textContent="याच घटकाची "+same+" औषधे आधीपासून यादीत आहेत. नवीन औषध त्यांच्याखाली दिसेल."}
 };
 $("imp").onclick=function(){
   if(!canSave())return;
@@ -332,7 +340,7 @@ async function identify(f){
     st.className="st err";st.textContent=(e&&e.message?e.message:"स्कॅन झाले नाही.")+" पुन्हा प्रयत्न करा.";
   }
 }
-$("nfile").onchange=function(){var f=this.files[0];this.value="";if(f)identify(f)};
+$("nfile").onchange=$("nfile2").onchange=function(){var f=this.files[0];this.value="";if(f)identify(f)};
 async function doScan(f){
   var out=$("scanres"),t0=Date.now();$("res").innerHTML="";$("sug").innerHTML="";
   var msgs=["फोटो वाचत आहे…","औषधाचे नाव ओळखत आहे…","माहिती तपासत आहे…","आमचा दर शोधत आहे…"],mi=0;
