@@ -181,7 +181,7 @@
     var add=!!W.__adding&&(W.__cards||[]).length>0;
     W.__adding=false;
     g("res").innerHTML="";g("sug").innerHTML="";
-    var msgs=["फोटो वाचत आहे…","औषधाचे नाव ओळखत आहे…","माहिती तपासत आहे…","आमचा दर शोधत आहे…"],mi=0;
+    var msgs=["फोटो वाचत आहे…","भरपूर पाणी प्या 💧","औषधाचे नाव ओळखत आहे…","रोज थोडा व्यायाम करा 🚶","माहिती तपासत आहे…","पुरेशी झोप घ्या 😴","आमचा दर शोधत आहे…","औषधे वेळेवर घ्या 💊"],mi=0;
     var pic=URL.createObjectURL(f);
     W.__last=f;
     var wait='<div class="scanview"><img src="'+pic+'" alt=""><i class="sweep"></i></div><div class="spm" id="spm" role="status">'+msgs[0]+'</div>';
