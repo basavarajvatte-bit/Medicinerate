@@ -8,6 +8,7 @@
   function M(){return W.meds||[]}
   function I(n){return '<svg class="i" aria-hidden="true"><use href="#i-'+n+'"/></svg>'}
   function P(d){return d.t?" / "+d.t+" गोळ्या":""}
+  function K(t){return (String(t||"").toLowerCase().match(/[a-z]{4,}/g)||[]).sort().join(" ")}
 
   /* ---------- स्टाईल ---------- */
   if(typeof document!=="undefined"&&document.head){
@@ -25,6 +26,11 @@
       ".opt .price small{font:400 13px Mukta,sans-serif}"+
       ".bdg{display:inline-block;font:800 12px/1.5 Mukta,sans-serif;padding:0 7px;border-radius:999px;margin:2px 4px 2px 0;background:var(--brand);color:var(--brand-ink)}"+
       ".bdg.b2{background:var(--accent);color:var(--accent-ink)}"+
+      ".addrow{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:center;margin-top:14px}"+
+      ".addbtn{width:100%;background:var(--card);color:var(--brand);border:2px dashed var(--brand);font:800 17px Mukta,sans-serif;padding:13px;border-radius:14px;cursor:pointer}"+
+      ".addgal{border:0;background:none;color:var(--brand);font:700 15px Mukta,sans-serif;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:2px}"+
+      ".sc.grp{margin-top:6px;border-top-left-radius:6px;border-top-right-radius:6px;border-left:4px solid var(--accent)}"+
+      ".grpnote{font-size:14px;font-weight:700;color:var(--mute);margin:0 0 6px}"+
       ".ask{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--bg);border-left:4px solid var(--accent);font-weight:600;font-size:16px}";
     document.head.appendChild(st);
   }
@@ -42,7 +48,8 @@
   }
   function cardHtml(c,k){
     var meds=M();
-    var h='<div class="result sc"><h2>'+(k+1)+'. '+E(c.n)+'</h2><p class="salt">'+E(c.s)+'</p>';
+    var pv=(W.__cards||[])[k-1],grp=pv&&K(c.s)&&K(pv.s)===K(c.s);
+    var h='<div class="result sc'+(grp?' grp':'')+'">'+(grp?'<p class="grpnote">वरच्या औषधाचाच घटक</p>':'')+'<h2>'+(k+1)+'. '+E(c.n)+'</h2><p class="salt">'+E(c.s)+'</p>';
     if(!c.alts.length){
       h+='<div class="ask">आमच्या यादीत हे औषध किंवा याच घटकाचे औषध नाही. दुकानात विचारा.</div>';
     }else{
@@ -150,13 +157,36 @@
       refreshTot();
     });
   }
+  /* सर्व स्कॅन केलेली औषधे एकत्र दाखवणे */
+  function resultsHtml(secs,slot){
+    var h=(W.__cards||[]).map(cardHtml).join("");
+    h+=slot||'<div class="addrow"><button class="addbtn" id="addcam">➕ आणखी औषध जोडा</button><button class="addgal" id="addgal">गॅलरीतून जोडा</button></div>';
+    h+='<div class="result tot" id="totbox"></div>';
+    h+='<p class="note">'+(secs?'स्कॅनला '+secs+' सेकंद लागले. ':'')+'औषध घेण्यापूर्वी फार्मासिस्टकडून खात्री करा. दुसऱ्या कंपनीचे औषध घेताना घटक आणि ताकद (mg) सारखी आहे का ते फार्मासिस्टला विचारा.</p>';
+    h+='<div class="ordbar" id="ordbar"></div>';
+    return h;
+  }
+  function wireAdd(){
+    var c=g("addcam"),v=g("addgal");
+    if(c)c.onclick=function(){W.__adding=true;g("file").click()};
+    if(v)v.onclick=function(){W.__adding=true;g("file2").click()};
+  }
+  function clearAdding(){W.__adding=false}
+  if(typeof document!=="undefined"){
+    ["scanbtn"].forEach(function(id){var e=g(id);if(e)e.addEventListener("click",clearAdding)});
+    var gl=document.querySelector('label[for="file2"]');if(gl)gl.addEventListener("click",clearAdding);
+  }
   W.doScan=async function(f){
     var out=g("scanres"),t0=Date.now();
+    var add=!!W.__adding&&(W.__cards||[]).length>0;
+    W.__adding=false;
     g("res").innerHTML="";g("sug").innerHTML="";
     var msgs=["फोटो वाचत आहे…","औषधाचे नाव ओळखत आहे…","माहिती तपासत आहे…","आमचा दर शोधत आहे…"],mi=0;
     var pic=URL.createObjectURL(f);
     W.__last=f;
-    out.innerHTML='<div class="scanview"><img src="'+pic+'" alt=""><i class="sweep"></i></div><div class="spm" id="spm" role="status">'+msgs[0]+'</div>';
+    var wait='<div class="scanview"><img src="'+pic+'" alt=""><i class="sweep"></i></div><div class="spm" id="spm" role="status">'+msgs[0]+'</div>';
+    if(add){out.innerHTML=resultsHtml("",wait);bind(out);refreshTot();g("spm").scrollIntoView({behavior:"smooth",block:"center"})}
+    else{W.__cards=[];out.innerHTML=wait}
     var tm=setInterval(function(){var e=g("spm");if(!e){clearInterval(tm);return}mi=(mi+1)%msgs.length;e.textContent=msgs[mi]},1500);
     try{
       var blob=await W.shrink(f),img=await W.b64(blob);
@@ -166,26 +196,32 @@
       if(!res.ok)throw new Error(j.error||"स्कॅन झाले नाही.");
       clearInterval(tm);URL.revokeObjectURL(pic);
       var cards=cardsFrom(j.items||[]);
-      W.__cards=cards;
-      if(!cards.length){
+      var old=W.__cards||[];
+      cards=cards.filter(function(c){return !old.some(function(o){return o.n.toLowerCase()===c.n.toLowerCase()})});
+      cards.forEach(function(c){
+        var key=K(c.s),at=-1;
+        if(key)old.forEach(function(o,i){if(K(o.s)===key)at=i});
+        if(at>=0)old.splice(at+1,0,c);else old.push(c);
+      });
+      W.__cards=old;
+      if(!W.__cards.length){
         out.innerHTML='<div class="empty">औषध ओळखता आले नाही. स्पष्ट फोटो काढा किंवा नाव टाइप करा.</div>';
         return;
       }
-      var h=cards.map(cardHtml).join("");
-      h+='<div class="result tot" id="totbox"></div>';
-      h+='<p class="note">स्कॅनला '+((Date.now()-t0)/1000).toFixed(1)+' सेकंद लागले. औषध घेण्यापूर्वी फार्मासिस्टकडून खात्री करा. दुसऱ्या कंपनीचे औषध घेताना घटक आणि ताकद (mg) सारखी आहे का ते फार्मासिस्टला विचारा.</p>';
-      h+='<div class="ordbar" id="ordbar"></div>';
-      out.innerHTML=h;
+      out.innerHTML=resultsHtml(((Date.now()-t0)/1000).toFixed(1));
       bind(out);
       refreshTot();
-      logScan(cards);
+      wireAdd();
+      if(cards.length)logScan(cards);
     }catch(e){
       clearInterval(tm);URL.revokeObjectURL(pic);
       var m=String(e&&e.message||"");
       if(!m||/fetch|network|load failed/i.test(m))m="इंटरनेट जोडणी मिळाली नाही.";
       else m=m.split("(")[0].trim();
-      out.innerHTML='<div class="fail">'+E(m)+'<p>पुन्हा स्कॅन करा किंवा खाली औषधाचे नाव टाइप करा.</p><button class="btn" id="retry">पुन्हा स्कॅन करा</button></div>';
-      g("retry").onclick=function(){W.doScan(W.__last)};
+      var fail='<div class="fail">'+E(m)+'<p>पुन्हा स्कॅन करा किंवा खाली औषधाचे नाव टाइप करा.</p><button class="btn" id="retry">पुन्हा स्कॅन करा</button></div>';
+      if(add){out.innerHTML=resultsHtml("",fail);bind(out);refreshTot()}
+      else out.innerHTML=fail;
+      g("retry").onclick=function(){W.__adding=add;W.doScan(W.__last)};
     }
   };
   W.__tulja={cardsFrom:cardsFrom,cardHtml:cardHtml,totHtml:totHtml,build:build};
