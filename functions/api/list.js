@@ -12,7 +12,12 @@ function clean(arr) {
     const p = Number(d.p);
     if (!n || !Number.isFinite(m) || !Number.isFinite(p)) return null;
     if (m < 0 || p < 0 || m > 1000000 || p > 1000000) return null;
-    out.push({ n, s, m, p });
+    const o = { n, s, m, p };
+    const c = String(d.c ?? "").trim().slice(0, 120);
+    if (c) o.c = c;                                // कंपनी
+    const t = Number(d.t);
+    if (Number.isInteger(t) && t >= 1 && t <= 20) o.t = t;  // पॅकेटमधील गोळ्या
+    out.push(o);
   }
   return out;
 }
