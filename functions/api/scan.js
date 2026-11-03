@@ -38,6 +38,27 @@ function jacc(a, b) {
   return i / (a.size + b.size - i);
 }
 
+// औषधाचा प्रकार: गोळी/कॅप्सूल "" मानतो. प्रकार वेगळा असेल तर पर्याय दाखवायचा नाही.
+function formOf(t) {
+  const x = " " + norm(t) + " ";
+  if (/ (inj|injection|vial|amp|ampoule) /.test(x)) return "inj";
+  if (/ (syp|syr|syrup|susp|suspension|liquid) /.test(x)) return "liq";
+  if (/ (drop|drops) /.test(x)) return "drop";
+  if (/ (cream|oint|ointment|gel|lotion) /.test(x)) return "top";
+  return "";
+}
+// नाव तुलना करताना Tab, Inj असे शब्द काढायचे
+const brandOf = (t) => norm(t).replace(/\b(tab|tabs|tablet|tablets|cap|caps|capsule|capsules|inj|injection|syp|syrup)\b/g, " ");
+const fixMr = (t) => String(t || "").replace(/अ\u200d?ॅ/g, "ॲ");
+function saltText(salt, str, printed) {
+  const s = String(salt || "").trim(), t = String(str || "").trim();
+  if (!s) return "घटक फोटोत दिसले नाहीत. दुकानात विचारा.";
+  const need = [...nums(t)];
+  const have = nums(s);
+  const full = !t ? s + " (ताकद दिसली नाही)" : need.length && need.every((n) => have.has(n)) ? s : s + " " + t;
+  return printed === false ? full + " (अंदाजे, दुकानात खात्री करा)" : full;
+}
+
 function parseList(text) {
   const out = [];
   for (const line of String(text || "").split("\n")) {
@@ -49,23 +70,27 @@ function parseList(text) {
     const o = rest.lastIndexOf("("), c = rest.lastIndexOf(")");
     const n = o > 0 ? rest.slice(0, o).trim() : rest.trim();
     const s = o > 0 && c > o ? rest.slice(o + 1, c).trim() : "";
-    out.push({ idx, n, s, nn: nums(n + " " + s), sw: words(s) });
+    out.push({ idx, n, s, nn: nums(n + " " + s), sw: words(s), f: formOf(n + " " + s) });
   }
   return out;
 }
 
 function bestMatch(it, meds) {
-  const itNums = nums(it.name + " " + it.salt);
+  const itNums = nums(it.name + " " + it.salt + " " + it.strength);
+  const itForm = formOf(it.name + " " + it.form);
+  const unknown = /unknown/i.test(String(it.form || "")) && !itForm;  // परचीवर प्रकार लिहिलेला नाही
   const itWords = words(it.salt);
   let best = null, bestScore = 0, by = "name";
   for (const d of meds) {
+    if (!unknown && d.f !== itForm) continue;             // इंजेक्शन ≠ गोळी
+    const nameSim = dice(brandOf(it.name), brandOf(d.n)) - (unknown && d.f ? 0.01 : 0);
     if (!numsCompatible(itNums, d.nn)) continue;          // Dolo 650 ≠ Dolo 500
-    const nameSim = dice(it.name, d.n);
-    const saltSim = jacc(itWords, d.sw);
+    // घटक फोटोत छापलेला नसेल तर त्यावरून पर्याय दाखवायचा नाही
+    const saltSim = it.saltPrinted === false || (unknown && d.f) ? 0 : jacc(itWords, d.sw);
     const score = Math.max(nameSim, saltSim * 0.95);
     if (score > bestScore) { bestScore = score; best = d; by = nameSim >= saltSim * 0.95 ? "name" : "salt"; }
   }
-  return best && bestScore >= 0.72 ? { idx: best.idx, by } : { idx: null, by: "" };
+  return best && bestScore >= 0.72 ? { idx: best.idx, by, d: best } : { idx: null, by: "", d: null };
 }
 
 // ---------- AI : फक्त फोटो वाचतो ----------
@@ -73,11 +98,18 @@ const PROMPT =
   "The image shows a medicine strip/box or a doctor's prescription. Read every medicine in it.\n" +
   "For each medicine return:\n" +
   "- name: the medicine name exactly as written (keep English letters).\n" +
-  "- salt: the composition/salt (keep English letters).\n" +
+  "- salt: the complete composition with every ingredient, names only (keep English letters). " +
+  "Combination medicines have many ingredients: list all of them. If the composition is not printed in the image, " +
+  "write it only if you are sure of every ingredient of this exact brand, otherwise return an empty string.\n" +
+  "- saltPrinted: true if the composition or generic name is printed or written in the image, false if it came from your own knowledge.\n" +
+  "- strength: the strength of every ingredient exactly as printed, e.g. '40mg', '500mg + 125mg', '4mg/2ml'. " +
+  "Look carefully on the whole strip, box or prescription. A number that is part of the medicine name, like 'PSAM 40', counts as printed: " +
+  "return it with its unit if the unit is visible, otherwise return only the number. If no strength is printed anywhere, return an empty string. Never guess.\n" +
+  "- form: one of tablet, capsule, injection, syrup, drops, ointment, other, unknown. Use only what the image shows; if it does not show the form, use unknown.\n" +
   "- use: what it is used for, in simple MARATHI (Devanagari), everyday words of ordinary village and town people, " +
   "NOT medical terms. Maximum 8 words. Examples: diabetes -> 'शुगरची गोळी'; blood pressure -> 'बीपीची गोळी'; " +
-  "paracetamol -> 'ताप आणि अंगदुखीची गोळी'; pantoprazole -> 'अॅसिडिटी, पोटातील जळजळीची गोळी'; " +
-  "cetirizine -> 'सर्दी, अॅलर्जीची गोळी'; antibiotic -> 'जंतूंचा संसर्ग घालवणारी गोळी (अँटिबायोटिक)'; " +
+  "paracetamol -> 'ताप आणि अंगदुखीची गोळी'; pantoprazole -> 'ॲसिडिटी, पोटातील जळजळीची गोळी'; " +
+  "cetirizine -> 'सर्दी, ॲलर्जीची गोळी'; antibiotic -> 'जंतूंचा संसर्ग घालवणारी गोळी (अँटिबायोटिक)'; " +
   "calcium -> 'हाडांसाठी कॅल्शियमची गोळी'. Never use words like hypertension, analgesic, antacid, antihistamine. " +
   "If it is a syrup, ointment, drops or injection, say so (सिरप, मलम, थेंब, इंजेक्शन) instead of 'गोळी'.\n" +
   "If you cannot read a medicine with certainty, skip it. Do not guess.";
@@ -92,9 +124,12 @@ const SCHEMA = {
         properties: {
           name: { type: "STRING" },
           salt: { type: "STRING" },
+          saltPrinted: { type: "BOOLEAN" },
+          strength: { type: "STRING" },
+          form: { type: "STRING" },
           use: { type: "STRING", description: "Simple everyday MARATHI in Devanagari, max 8 words. Never English or Hindi." },
         },
-        required: ["name", "salt", "use"],
+        required: ["name", "salt", "saltPrinted", "strength", "form", "use"],
       },
     },
   },
@@ -202,7 +237,12 @@ export async function onRequestPost({ request, env }) {
 
   const items = res.items.map((it) => {
     const m = bestMatch(it, meds);
-    return { name: String(it.name || ""), salt: String(it.salt || ""), use: String(it.use || ""), idx: m.idx, by: m.by };
+    const known = m.by === "name" && m.d;   // नावाने जुळले: आपल्या यादीतील नाव आणि घटक खरे मानायचे
+    return {
+      name: known ? m.d.n : String(it.name || ""),
+      salt: known && m.d.s ? m.d.s : saltText(it.salt, it.strength, it.saltPrinted),
+      use: fixMr(it.use), idx: m.idx, by: m.by,
+    };
   });
   return json({
     items,
