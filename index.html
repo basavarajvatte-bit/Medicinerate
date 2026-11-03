@@ -28,8 +28,8 @@ h1{font-size:25px;line-height:1.15;font-weight:800;margin:0}
 .tabs{display:flex;gap:6px;background:var(--line);padding:4px;border-radius:12px;margin-bottom:14px}
 .tabs button{flex:1;border:0;background:transparent;color:var(--ink);font:600 15px Mukta,sans-serif;padding:9px;border-radius:9px;cursor:pointer}
 .tabs button.on{background:var(--card);box-shadow:0 1px 3px rgba(0,0,0,.15)}
-input,textarea{width:100%;font:400 17px Mukta,sans-serif;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
-input:focus,textarea:focus,button:focus-visible{outline:3px solid var(--accent);outline-offset:1px}
+input,textarea,select{width:100%;font:400 17px Mukta,sans-serif;padding:12px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink)}
+input:focus,textarea:focus,select:focus,button:focus-visible{outline:3px solid var(--accent);outline-offset:1px}
 label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(--mute)}
 .list{margin-top:10px;display:grid;gap:8px}
 .item{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 14px;cursor:pointer;text-align:left;width:100%;color:var(--ink);font:inherit}
@@ -109,12 +109,13 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:14px;color:var(-
         <div><label for="m">MRP (₹)</label><input id="m" type="number" inputmode="decimal" min="0"></div>
         <div><label for="p">आमचा दर (₹)</label><input id="p" type="number" inputmode="decimal" min="0"></div>
       </div>
+      <label for="pack">एका पॅकेटमध्ये किती गोळ्या?</label><select id="pack"></select>
       <p><button class="btn" id="add">सेव्ह करा</button></p>
     </div>
     <div class="result">
       <b>एकत्र आयात (CSV)</b>
-      <p class="salt">प्रत्येक ओळ: नाव, सॉल्ट, MRP, आमचा दर</p>
-      <textarea id="csv" rows="4" placeholder="Dolo 650, Paracetamol 650mg, 30, 25"></textarea>
+      <p class="salt">प्रत्येक ओळ: नाव, सॉल्ट, MRP, आमचा दर, पॅकेटमधील गोळ्या</p>
+      <textarea id="csv" rows="4" placeholder="Dolo 650, Paracetamol 650mg, 30, 25, 15"></textarea>
       <p><button class="btn" id="imp">आयात करा</button></p>
     </div>
     <div id="all" class="list"></div>
@@ -166,6 +167,8 @@ function save(){
 function $(i){return document.getElementById(i)}
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function fm(x){return "₹"+(Math.round(x*100)/100).toString()}
+function pk(d){return d.t?" / "+d.t+" गोळ्या":""}
+(function(){var h='<option value="">निवडा</option>';for(var i=1;i<=20;i++)h+='<option value="'+i+'">'+i+'</option>';$("pack").innerHTML=h})();
 var sel=null;
 function tab(k){$("p1").classList.toggle("hide",k!==1);$("p2").classList.toggle("hide",k!==2);$("t1").classList.toggle("on",k===1);$("t2").classList.toggle("on",k===2);if(k===2)renderAll()}
 $("t1").onclick=function(){tab(1)};$("t2").onclick=function(){tab(2)};
@@ -191,7 +194,7 @@ function suggest(){
   var v=$("q").value.trim().toLowerCase();
   if(!v){$("sug").innerHTML="";return}
   var f=meds.map(function(d,i){return{d:d,i:i}}).filter(function(o){return (o.d.n+" "+o.d.s).toLowerCase().indexOf(v)>-1}).slice(0,6);
-  $("sug").innerHTML=f.length?f.map(function(o){return '<button class="item" data-i="'+o.i+'"><span>'+esc(o.d.n)+'<small>'+esc(o.d.s)+'</small></span><span class="price">'+fm(o.d.p)+'</span></button>'}).join(""):'<div class="empty">हे औषध यादीत नाही. दुकानात विचारा.</div>';
+  $("sug").innerHTML=f.length?f.map(function(o){return '<button class="item" data-i="'+o.i+'"><span>'+esc(o.d.n)+'<small>'+esc(o.d.s)+'</small></span><span class="price">'+fm(o.d.p)+pk(o.d)+'</span></button>'}).join(""):'<div class="empty">हे औषध यादीत नाही. दुकानात विचारा.</div>';
 }
 $("q").oninput=function(){sel=null;$("res").innerHTML="";suggest()};
 $("sug").onclick=function(e){var b=e.target.closest("button");if(!b)return;sel=+b.dataset.i;$("sug").innerHTML="";$("q").value=meds[sel].n;show()};
@@ -199,8 +202,8 @@ function show(){
   var d=meds[sel];if(!d)return;
   var off=Math.round((1-d.p/d.m)*100);
   $("res").innerHTML='<div class="result"><h2>'+esc(d.n)+'</h2><p class="salt">'+esc(d.s)+'</p>'+
-  '<div class="row"><span>MRP</span><b>'+fm(d.m)+'</b></div>'+
-  '<div class="row"><span>आमच्याकडे</span><span class="big">'+fm(d.p)+'</span></div>'+
+  '<div class="row"><span>MRP</span><b>'+fm(d.m)+pk(d)+'</b></div>'+
+  '<div class="row"><span>आमच्याकडे</span><span><span class="big">'+fm(d.p)+'</span><b>'+pk(d)+'</b></span></div>'+
   '<div class="row"><span>MRP पेक्षा बचत</span><b>'+fm(d.m-d.p)+' ('+off+'% सूट)</b></div>'+
   '<label for="o">तुम्हाला दुसरीकडे किती रुपयांना मिळाले? (₹)</label><input id="o" type="number" inputmode="decimal" min="0" placeholder="उदा. '+Math.round(d.m)+'">'+
   '<div id="vd"></div></div>';
@@ -214,7 +217,7 @@ function show(){
   };
 }
 function renderAll(){
-  $("all").innerHTML=meds.length?meds.map(function(d,i){return '<div class="item" style="cursor:default"><span>'+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+'</span> <button class="btn ghost" data-del="'+i+'">काढा</button></span></div>'}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>';
+  $("all").innerHTML=meds.length?meds.map(function(d,i){return '<div class="item" style="cursor:default"><span>'+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span> <button class="btn ghost" data-del="'+i+'">काढा</button></span></div>'}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>';
 }
 $("all").onclick=function(e){var b=e.target.closest("[data-del]");if(!b)return;meds.splice(+b.dataset.del,1);renderAll();save()};
 $("add").onclick=function(){
@@ -222,15 +225,16 @@ $("add").onclick=function(){
   if(!n||isNaN(m)||isNaN(p)){alert("नाव, MRP आणि आमचा दर तिन्ही भरा.");return}
   var d={n:n,s:$("s").value.trim(),m:m,p:p};
   var c=$("c").value.trim();if(c)d.c=c;
+  var t=parseInt($("pack").value,10);if(t)d.t=t;
   meds.push(d);
-  ["n","c","s","m","p"].forEach(function(i){$(i).value=""});
+  ["n","c","s","m","p","pack"].forEach(function(i){$(i).value=""});
   $("nst").textContent="";renderAll();save();
 };
 $("imp").onclick=function(){
   var c=0;$("csv").value.split("\n").forEach(function(l){
     var a=l.split(",").map(function(x){return x.trim()});
     var m=parseFloat(a[2]),p=parseFloat(a[3]);
-    if(a[0]&&!isNaN(m)&&!isNaN(p)){meds.push({n:a[0],s:a[1]||"",m:m,p:p});c++}
+    if(a[0]&&!isNaN(m)&&!isNaN(p)){var d={n:a[0],s:a[1]||"",m:m,p:p},t=parseInt(a[4],10);if(t>=1&&t<=20)d.t=t;meds.push(d);c++}
   });
   $("csv").value="";renderAll();save();alert(c+" औषधे आयात झाली.");
 };
