@@ -218,7 +218,7 @@ function $(i){return document.getElementById(i)}
 function esc(t){return String(t).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
 function fm(x){return "₹"+(Math.round(x*100)/100).toString()}
 function pk(d){return d.t?" / "+d.t+" गोळ्या":""}
-(function(){var h='<option value="">निवडा</option>';for(var i=1;i<=20;i++)h+='<option value="'+i+'">'+i+'</option>';$("pack").innerHTML=h})();
+(function(){var h='<option value="">निवडा</option>';for(var i=1;i<=20;i++)h+='<option value="'+i+'">'+i+'</option>';[30,60,90].forEach(function(i){h+="<option value=\""+i+"\">"+i+"</option>"});$("pack").innerHTML=h})();
 var sel=null;
 function tab(k){$("p1").classList.toggle("hide",k!==1);$("p2").classList.toggle("hide",k!==2);$("t1").classList.toggle("on",k===1);$("t2").classList.toggle("on",k===2);if(k===2)renderAll()}
 $("t1").onclick=function(){tab(1)};$("t2").onclick=function(){tab(2)};
@@ -313,7 +313,7 @@ $("imp").onclick=function(){
   var c=0;$("csv").value.split("\n").forEach(function(l){
     var a=l.split(",").map(function(x){return x.trim()});
     var m=parseFloat(a[2]),p=parseFloat(a[3]);
-    if(a[0]&&!isNaN(m)&&!isNaN(p)){var d={n:a[0],s:a[1]||"",m:m,p:p},t=parseInt(a[4],10);if(t>=1&&t<=20)d.t=t;meds.push(d);c++}
+    if(a[0]&&!isNaN(m)&&!isNaN(p)){var d={n:a[0],s:a[1]||"",m:m,p:p},t=parseInt(a[4],10);if(t>=1&&t<=200)d.t=t;meds.push(d);c++}
   });
   $("csv").value="";renderAll();save();alert(c+" औषधे आयात झाली.");
 };

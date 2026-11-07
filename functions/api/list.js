@@ -1,31 +1,88 @@
 const json = (obj, status = 200) =>
   Response.json(obj, { status, headers: { "Cache-Control": "no-store" } });
 
+function one(d) {
+  if (!d || typeof d !== "object") return null;
+  const n = String(d.n ?? "").trim().slice(0, 120);
+  const s = String(d.s ?? "").trim().slice(0, 200);
+  const m = Number(d.m);
+  const p = Number(d.p);
+  if (!n || !Number.isFinite(m) || !Number.isFinite(p)) return null;
+  if (m < 0 || p < 0 || m > 1000000 || p > 1000000) return null;
+  const o = { n, s, m, p };
+  const c = String(d.c ?? "").trim().slice(0, 120);
+  if (c) o.c = c;                                   // कंपनी
+  const t = Number(d.t);
+  if (Number.isInteger(t) && t >= 1 && t <= 200) o.t = t;  // पॅकेटमधील गोळ्या
+  return o;
+}
+
 function clean(arr) {
   if (!Array.isArray(arr) || arr.length > 3000) return null;
   const out = [];
   for (const d of arr) {
-    if (!d || typeof d !== "object") return null;
-    const n = String(d.n ?? "").trim().slice(0, 120);
-    const s = String(d.s ?? "").trim().slice(0, 200);
-    const m = Number(d.m);
-    const p = Number(d.p);
-    if (!n || !Number.isFinite(m) || !Number.isFinite(p)) return null;
-    if (m < 0 || p < 0 || m > 1000000 || p > 1000000) return null;
-    const o = { n, s, m, p };
-    const c = String(d.c ?? "").trim().slice(0, 120);
-    if (c) o.c = c;                                // कंपनी
-    const t = Number(d.t);
-    if (Number.isInteger(t) && t >= 1 && t <= 20) o.t = t;  // पॅकेटमधील गोळ्या
+    const o = one(d);
+    if (!o) return null;
     out.push(o);
   }
   return out;
 }
 
-export async function onRequestGet({ env }) {
+// ---------- updates.json मधील नवीन औषधे आपोआप यादीत जोडणे ----------
+// Claude GitHub वर updates.json मध्ये नवीन "batch" टाकतो. साइट उघडल्यावर
+// न लावलेला batch एकदाच यादीत मिसळला जातो (पासवर्डची गरज नाही).
+const low = (s) => String(s || "").toLowerCase().replace(/\s+/g, " ").trim();
+
+function upsert(list, d) {
+  const n = low(d.n);
+  let i = list.findIndex((o) => low(o.n) === n && (o.t || 0) === (d.t || 0));
+  if (i < 0) {
+    const same = list.map((o, k) => [o, k]).filter(([o]) => low(o.n) === n);
+    if (same.length === 1 && !same[0][0].t) i = same[0][1];   // जुने, पॅक नसलेले
+  }
+  if (i >= 0) list[i] = d; else list.push(d);
+}
+
+async function loadUpdates(request, env) {
+  try {
+    const u = new URL("/updates.json", request.url);
+    const r = env.ASSETS ? await env.ASSETS.fetch(u) : await fetch(u);
+    if (!r.ok) return [];
+    const j = await r.json();
+    return Array.isArray(j.batches) ? j.batches : [];
+  } catch {
+    return [];
+  }
+}
+
+async function applyUpdates(request, env, list) {
+  const batches = await loadUpdates(request, env);
+  if (!batches.length) return list;
+  let applied = [];
+  try { applied = (await env.MEDS.get("applied", { type: "json" })) || []; } catch {}
+  const todo = batches.filter((b) => b && b.id && !applied.includes(b.id));
+  if (!todo.length) return list;
+  const out = Array.isArray(list) ? list.slice() : [];
+  for (const b of todo) {
+    const rm = (Array.isArray(b.remove) ? b.remove : []).map(low);
+    for (let k = out.length - 1; k >= 0; k--) if (rm.includes(low(out[k].n))) out.splice(k, 1);
+    for (const d of Array.isArray(b.meds) ? b.meds : []) {
+      const o = one(d);
+      if (o) upsert(out, o);
+    }
+    applied.push(b.id);
+  }
+  if (out.length > 3000) return list;
+  await env.MEDS.put("list", JSON.stringify(out));
+  await env.MEDS.put("applied", JSON.stringify(applied));
+  return out;
+}
+
+export async function onRequestGet({ request, env }) {
   if (!env.MEDS) return json({ meds: null });
   try {
-    const v = await env.MEDS.get("list", { type: "json" });
+    let v = await env.MEDS.get("list", { type: "json" });
+    try { v = await applyUpdates(request, env, v); } catch {}
     return json({ meds: v ?? null });
   } catch {
     return json({ meds: null });

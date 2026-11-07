@@ -1,0 +1,343 @@
+{
+ "_note": "Claude ithe navin aushadhe takto. Pratyek batch sitevar ekdach lagto.",
+ "batches": [
+  {
+   "id": "2026-11-07-bp",
+   "meds": [
+    {
+     "n": "Telma 20",
+     "s": "Telmisartan 20mg",
+     "c": "Glenmark",
+     "m": 60.74,
+     "p": 57.8,
+     "t": 15
+    },
+    {
+     "n": "Telma 20",
+     "s": "Telmisartan 20mg",
+     "c": "Glenmark",
+     "m": 123.6,
+     "p": 111.0,
+     "t": 30
+    },
+    {
+     "n": "Telma 40",
+     "s": "Telmisartan 40mg",
+     "c": "Glenmark",
+     "m": 70.98,
+     "p": 63.9,
+     "t": 10
+    },
+    {
+     "n": "Telma 40",
+     "s": "Telmisartan 40mg",
+     "c": "Glenmark",
+     "m": 216.72,
+     "p": 199.0,
+     "t": 30
+    },
+    {
+     "n": "Telma H",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "Glenmark",
+     "m": 376.88,
+     "p": 294.0,
+     "t": 15
+    },
+    {
+     "n": "Telma 80-AM",
+     "s": "Telmisartan 80mg + Amlodipine 5mg",
+     "c": "Glenmark",
+     "m": 505.79,
+     "p": 455.0,
+     "t": 15
+    },
+    {
+     "n": "Telmikind 40",
+     "s": "Telmisartan 40mg",
+     "c": "Mankind Pharma",
+     "m": 61.87,
+     "p": 56.9,
+     "t": 15
+    },
+    {
+     "n": "Telmikind-H",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "Mankind Pharma",
+     "m": 102.3,
+     "p": 79.8,
+     "t": 10
+    },
+    {
+     "n": "Telmikind-CT 40",
+     "s": "Telmisartan 40mg + Chlorthalidone 12.5mg",
+     "c": "Mankind Pharma",
+     "m": 156.07,
+     "p": 140.0,
+     "t": 15
+    },
+    {
+     "n": "Telvilite AM 80/5",
+     "s": "Telmisartan 80mg + Amlodipine 5mg",
+     "c": "Leeford Healthcare",
+     "m": 103.1,
+     "p": 89.7,
+     "t": 10
+    },
+    {
+     "n": "Amlong 5",
+     "s": "Amlodipine 5mg",
+     "c": "Micro Labs",
+     "m": 80.01,
+     "p": 72.3,
+     "t": 30
+    },
+    {
+     "n": "Amlip 5",
+     "s": "Amlodipine 5mg",
+     "c": "Cipla",
+     "m": 26.66,
+     "p": 15.0,
+     "t": 10
+    },
+    {
+     "n": "Amlip AT",
+     "s": "Amlodipine 5mg + Atenolol 50mg",
+     "c": "Cipla",
+     "m": 90.58,
+     "p": 53.6,
+     "t": 10
+    },
+    {
+     "n": "Amloz AT",
+     "s": "Amlodipine 5mg + Atenolol 50mg",
+     "c": "Shreya Life Sciences",
+     "m": 182.3,
+     "p": 182.0,
+     "t": 14
+    },
+    {
+     "n": "Losar 50",
+     "s": "Losartan 50mg",
+     "c": "Torrent",
+     "m": 178.31,
+     "p": 157.0,
+     "t": 15
+    },
+    {
+     "n": "Losar 50",
+     "s": "Losartan 50mg",
+     "c": "Torrent",
+     "m": 121.88,
+     "p": 97.6,
+     "t": 10
+    },
+    {
+     "n": "Olmezest 20",
+     "s": "Olmesartan 20mg",
+     "c": "Sun Pharma",
+     "m": 164.0,
+     "p": 148.0,
+     "t": 10
+    },
+    {
+     "n": "Concor 5",
+     "s": "Bisoprolol 5mg",
+     "c": "Merck",
+     "m": 145.39,
+     "p": 134.0,
+     "t": 10
+    },
+    {
+     "n": "Prolomet XL 50",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Sun Pharma",
+     "m": 98.1,
+     "p": 94.0,
+     "t": 15
+    },
+    {
+     "n": "Supermet XL 50",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Abbott",
+     "m": 97.77,
+     "p": 95.0,
+     "t": 15
+    },
+    {
+     "n": "Cardace 5",
+     "s": "Ramipril 5mg",
+     "c": "Sanofi",
+     "m": 131.04,
+     "p": 116.0,
+     "t": 15
+    },
+    {
+     "n": "Rami Race 5",
+     "s": "Ramipril 5mg",
+     "c": "Knoll Pharma",
+     "m": 85.69,
+     "p": 67.1,
+     "t": 10
+    },
+    {
+     "n": "Cilacar-M 10/50",
+     "s": "Cilnidipine 10mg + Metoprolol succinate 50mg ER",
+     "c": "J B Chemicals",
+     "m": 183.5,
+     "p": 165.0,
+     "t": 10
+    }
+   ],
+   "remove": [
+    "Telma 20 30 tab",
+    "Telma 40 30 tab",
+    "Amlong 5 30 tab",
+    "Neurobion Forte 30 tab",
+    "Calcimax 500 30 tab",
+    "Calcimax 250 30 tab"
+   ]
+  },
+  {
+   "id": "2026-11-07-ortho",
+   "meds": [
+    {
+     "n": "Zerodol-SP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Ipca",
+     "m": 139.6,
+     "p": 126.0,
+     "t": 10
+    },
+    {
+     "n": "Zerodol P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Ipca",
+     "m": 75.94,
+     "p": 68.7,
+     "t": 10
+    },
+    {
+     "n": "Hifenac P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Intas",
+     "m": 117.5,
+     "p": 105.0,
+     "t": 15
+    },
+    {
+     "n": "Hifenac",
+     "s": "Aceclofenac 100mg",
+     "c": "Intas",
+     "m": 64.22,
+     "p": 57.8,
+     "t": 10
+    },
+    {
+     "n": "Movexx Plus",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Cipla",
+     "m": 69.76,
+     "p": 33.7,
+     "t": 10
+    },
+    {
+     "n": "Nucoxia 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Zydus",
+     "m": 349.28,
+     "p": 335.0,
+     "t": 15
+    },
+    {
+     "n": "Nucoxia P",
+     "s": "Etoricoxib 60mg + Paracetamol 325mg",
+     "c": "Zydus",
+     "m": 268.29,
+     "p": 255.0,
+     "t": 15
+    },
+    {
+     "n": "Intacoxia 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Intas",
+     "m": 183.7,
+     "p": 124.0,
+     "t": 15
+    },
+    {
+     "n": "Etozox 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Cipla",
+     "m": 182.54,
+     "p": 112.0,
+     "t": 10
+    },
+    {
+     "n": "Voveran SR 100",
+     "s": "Diclofenac 100mg SR",
+     "c": "Dr Reddy's",
+     "m": 245.16,
+     "p": 222.0,
+     "t": 15
+    },
+    {
+     "n": "Reactin 100 SR",
+     "s": "Diclofenac 100mg SR",
+     "c": "Cipla",
+     "m": 114.57,
+     "p": 70.2,
+     "t": 15
+    },
+    {
+     "n": "Pregeb M 75",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg",
+     "c": "Torrent",
+     "m": 204.35,
+     "p": 186.0,
+     "t": 10
+    },
+    {
+     "n": "Neurobion Forte",
+     "s": "Vitamin B1 B2 B3 B5 B6 B12",
+     "c": "P&G Health",
+     "m": 47.53,
+     "p": 45.8,
+     "t": 30
+    },
+    {
+     "n": "Shelcal 500",
+     "s": "Calcium 500mg + Vitamin D3 250 IU",
+     "c": "Torrent",
+     "m": 163.45,
+     "p": 156.0,
+     "t": 15
+    },
+    {
+     "n": "Calcimax 500",
+     "s": "Calcium 500mg + Magnesium + Zinc + Vitamin D3",
+     "c": "Meyer Organics",
+     "m": 379.0,
+     "p": 313.0,
+     "t": 30
+    },
+    {
+     "n": "Calcimax 250",
+     "s": "Calcium + Magnesium + Zinc + Vitamin D3",
+     "c": "Meyer Organics",
+     "m": 178.0,
+     "p": 150.0,
+     "t": 30
+    },
+    {
+     "n": "Calcimax P",
+     "s": "Calcium 400mg + Phosphorus 206mg + Vitamin D3 + Magnesium + Zinc",
+     "c": "Meyer Organics",
+     "m": 200.0,
+     "p": 173.0,
+     "t": 15
+    }
+   ]
+  }
+ ]
+}
