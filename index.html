@@ -267,10 +267,16 @@ function show(){
   };
 }
 function saltKey(t){return (String(t||"").toLowerCase().match(/[a-z]{4,}/g)||[]).sort().join(" ")}
+function dKey(d){return String(d.n||"").toLowerCase().replace(/[^a-z0-9]/g,"")+"|"+(d.t||0)}
+function dupIdx(d,skip){for(var i=0;i<meds.length;i++){if(i!==skip&&dKey(meds[i])===dKey(d))return i}return -1}
+function dupGroups(){var g={};meds.forEach(function(d,i){var k=dKey(d);(g[k]=g[k]||[]).push(i)});return Object.keys(g).map(function(k){return g[k]}).filter(function(a){return a.length>1})}
 function renderAll(){
+  var dg=dupGroups(),dset={};dg.forEach(function(a){a.forEach(function(i){dset[i]=1})});
   var first={},view=meds.map(function(d,i){var k=saltKey(d.s)||("~"+i);if(!(k in first))first[k]=i;return{d:d,i:i,o:first[k]}});
   view.sort(function(a,b){return (a.o-b.o)||(a.i-b.i)});
-  $("all").innerHTML=view.length?view.map(function(v){var d=v.d,i=v.i;return '<div class="item" style="cursor:default"><span>'+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span><span class="edbtns"><button class="btn ghost ed" data-ed="'+i+'">बदला</button><button class="btn ghost" data-del="'+i+'">काढा</button></span></span></div>'}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>';
+  var row=function(d,i){return '<div class="item" style="cursor:default'+(dset[i]?';border:2px solid var(--bad)':'')+'"><span>'+(dset[i]?'<b style="color:var(--bad)">⚠️ दोनदा · </b>':'')+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span><span class="edbtns"><button class="btn ghost ed" data-ed="'+i+'">बदला</button><button class="btn ghost" data-del="'+i+'">काढा</button></span></span></div>'};
+  var warn=dg.length?'<div class="result" style="border:2px solid var(--bad)"><b style="color:var(--bad)">⚠️ '+dg.length+' औषधे यादीत दोनदा आहेत</b><p class="salt">एकाच कंपनीचे, एकाच पॅकचे औषध दोनदा आहे. जुने "काढा" किंवा योग्य दर "बदला".</p>'+dg.map(function(a){return a.map(function(i){return row(meds[i],i)}).join("")}).join('<hr style="border:0;border-top:1px dashed var(--line);margin:8px 0">')+'</div>':'';
+  $("all").innerHTML=warn+(view.length?view.map(function(v){return row(v.d,v.i)}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>');
 }
 function clearForm(){
   edit=null;
@@ -303,6 +309,12 @@ $("add").onclick=function(){
   var c=$("c").value.trim();if(c)d.c=c;
   var t=parseInt($("pack").value,10);if(t)d.t=t;
   var isNew=edit===null||!meds[edit],key=saltKey(d.s);
+  var dj=dupIdx(d,isNew?-1:edit);
+  if(dj>-1){
+    if(!confirm(d.n+pk(d)+" हे औषध आधीच यादीत आहे (दर "+fm(meds[dj].p)+"). जुन्याच्या जागी हा नवीन दर लावायचा का?"))return;
+    if(!isNew)meds.splice(edit,1),dj=dupIdx(d,-1);
+    edit=dj;isNew=false;
+  }
   var same=isNew&&key?meds.filter(function(o){return saltKey(o.s)===key}).length:0;
   if(!isNew)meds[edit]=d;else meds.push(d);
   clearForm();renderAll();save();
@@ -313,7 +325,7 @@ $("imp").onclick=function(){
   var c=0;$("csv").value.split("\n").forEach(function(l){
     var a=l.split(",").map(function(x){return x.trim()});
     var m=parseFloat(a[2]),p=parseFloat(a[3]);
-    if(a[0]&&!isNaN(m)&&!isNaN(p)){var d={n:a[0],s:a[1]||"",m:m,p:p},t=parseInt(a[4],10);if(t>=1&&t<=200)d.t=t;meds.push(d);c++}
+    if(a[0]&&!isNaN(m)&&!isNaN(p)){var d={n:a[0],s:a[1]||"",m:m,p:p},t=parseInt(a[4],10);if(t>=1&&t<=200)d.t=t;var j=dupIdx(d,-1);if(j>-1){if(meds[j].c&&!d.c)d.c=meds[j].c;meds[j]=d}else meds.push(d);c++}
   });
   $("csv").value="";renderAll();save();alert(c+" औषधे आयात झाली.");
 };
