@@ -34179,6 +34179,803 @@
      "p": 275.0
     }
    ]
+  },
+  {
+   "id": "2026-11-08-painkiller",
+   "meds": [
+    {
+     "n": "Algina",
+     "s": "Paracetamol 650mg",
+     "c": "Geno",
+     "m": 1.02,
+     "p": 1.02,
+     "t": 1
+    },
+    {
+     "n": "Leemol",
+     "s": "Paracetamol 650mg",
+     "c": "Leeford",
+     "m": 1.49,
+     "p": 1.49,
+     "t": 1
+    },
+    {
+     "n": "Talmin",
+     "s": "Paracetamol 650mg",
+     "c": "Unimarck",
+     "m": 1.6,
+     "p": 1.6,
+     "t": 1
+    },
+    {
+     "n": "Welset",
+     "s": "Paracetamol 650mg",
+     "c": "Sun",
+     "m": 1.61,
+     "p": 1.61,
+     "t": 1
+    },
+    {
+     "n": "ParaCIP",
+     "s": "Paracetamol 650mg",
+     "c": "Cipla",
+     "m": 1.64,
+     "p": 1.64,
+     "t": 1
+    },
+    {
+     "n": "Paracyclo",
+     "s": "Paracetamol 650mg",
+     "c": "Encyclo",
+     "m": 1.79,
+     "p": 1.79,
+     "t": 1
+    },
+    {
+     "n": "Captol",
+     "s": "Paracetamol 650mg",
+     "c": "Seagull",
+     "m": 1.8,
+     "p": 1.8,
+     "t": 1
+    },
+    {
+     "n": "Optimol",
+     "s": "Paracetamol 650mg",
+     "c": "Mac Millon",
+     "m": 1.8,
+     "p": 1.8,
+     "t": 1
+    },
+    {
+     "n": "Dolopar",
+     "s": "Paracetamol 650mg",
+     "c": "Micro Labs",
+     "m": 1.9,
+     "p": 1.9,
+     "t": 1
+    },
+    {
+     "n": "Glenpar",
+     "s": "Paracetamol 650mg",
+     "c": "Glenmark",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Paragreat",
+     "s": "Paracetamol 650mg",
+     "c": "Mankind",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Loremdolo",
+     "s": "Paracetamol 650mg",
+     "c": "Loremchem",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Macfast",
+     "s": "Paracetamol 650mg",
+     "c": "Macleods",
+     "m": 2.06,
+     "p": 2.06,
+     "t": 1
+    },
+    {
+     "n": "Calpol 650",
+     "s": "Paracetamol 650mg",
+     "c": "GSK",
+     "m": 2.1,
+     "p": 2.1,
+     "t": 1
+    },
+    {
+     "n": "Paratas",
+     "s": "Paracetamol 650mg",
+     "c": "Intas",
+     "m": 2.1,
+     "p": 2.1,
+     "t": 1
+    },
+    {
+     "n": "Parafast",
+     "s": "Paracetamol 650mg",
+     "c": "HSN Biotech",
+     "m": 2.14,
+     "p": 2.14,
+     "t": 1
+    },
+    {
+     "n": "Fego",
+     "s": "Paracetamol 650mg",
+     "c": "Unicure",
+     "m": 2.2,
+     "p": 2.2,
+     "t": 1
+    },
+    {
+     "n": "Xykaa Rapid",
+     "s": "Paracetamol 650mg",
+     "c": "Troikaa",
+     "m": 2.23,
+     "p": 2.23,
+     "t": 1
+    },
+    {
+     "n": "Dolomed",
+     "s": "Paracetamol 650mg",
+     "c": "Comed",
+     "m": 2.23,
+     "p": 2.23,
+     "t": 1
+    },
+    {
+     "n": "XTPara",
+     "s": "Paracetamol 650mg",
+     "c": "Torrent",
+     "m": 2.25,
+     "p": 2.25,
+     "t": 1
+    },
+    {
+     "n": "Flexon 650",
+     "s": "Paracetamol 650mg",
+     "c": "Aristo",
+     "m": 2.25,
+     "p": 2.25,
+     "t": 1
+    },
+    {
+     "n": "Akilos",
+     "s": "Aceclofenac 100mg",
+     "c": "Unison",
+     "m": 1.38,
+     "p": 1.38,
+     "t": 1
+    },
+    {
+     "n": "Acebid",
+     "s": "Aceclofenac 100mg",
+     "c": "Shield",
+     "m": 2.4,
+     "p": 2.4,
+     "t": 1
+    },
+    {
+     "n": "Topflam",
+     "s": "Aceclofenac 100mg",
+     "c": "Acme",
+     "m": 2.42,
+     "p": 2.42,
+     "t": 1
+    },
+    {
+     "n": "Acenext",
+     "s": "Aceclofenac 100mg",
+     "c": "Cadila",
+     "m": 2.45,
+     "p": 2.45,
+     "t": 1
+    },
+    {
+     "n": "Topnac",
+     "s": "Aceclofenac 100mg",
+     "c": "Systopic",
+     "m": 2.5,
+     "p": 2.5,
+     "t": 1
+    },
+    {
+     "n": "Dolostat",
+     "s": "Aceclofenac 100mg",
+     "c": "Blue Cross",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Dolokind",
+     "s": "Aceclofenac 100mg",
+     "c": "Mankind",
+     "m": 3.88,
+     "p": 3.88,
+     "t": 1
+    },
+    {
+     "n": "Lekace",
+     "s": "Aceclofenac 100mg",
+     "c": "JB Chemicals",
+     "m": 3.95,
+     "p": 3.95,
+     "t": 1
+    },
+    {
+     "n": "AC",
+     "s": "Aceclofenac 100mg",
+     "c": "MMC Healthcare",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Movon",
+     "s": "Aceclofenac 100mg",
+     "c": "Ipca",
+     "m": 4.11,
+     "p": 4.11,
+     "t": 1
+    },
+    {
+     "n": "Xtra",
+     "s": "Aceclofenac 100mg",
+     "c": "Alpic",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Arcekay",
+     "s": "Aceclofenac 100mg",
+     "c": "Lesanto",
+     "m": 6.05,
+     "p": 6.05,
+     "t": 1
+    },
+    {
+     "n": "Adenate",
+     "s": "Aceclofenac 100mg",
+     "c": "Chicky Pharma",
+     "m": 6.14,
+     "p": 6.14,
+     "t": 1
+    },
+    {
+     "n": "Zix",
+     "s": "Aceclofenac 100mg",
+     "c": "Jenburkt",
+     "m": 6.18,
+     "p": 6.18,
+     "t": 1
+    },
+    {
+     "n": "Equidol",
+     "s": "Aceclofenac 100mg",
+     "c": "Akumentis",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Acemiz",
+     "s": "Aceclofenac 100mg",
+     "c": "Lupin",
+     "m": 8.1,
+     "p": 8.1,
+     "t": 1
+    },
+    {
+     "n": "Fortafen",
+     "s": "Aceclofenac 100mg",
+     "c": "Alembic",
+     "m": 8.98,
+     "p": 8.98,
+     "t": 1
+    },
+    {
+     "n": "Arden-A",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Adonis",
+     "m": 5.32,
+     "p": 5.32,
+     "t": 1
+    },
+    {
+     "n": "Acendol-P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Serum Institute",
+     "m": 6.5,
+     "p": 6.5,
+     "t": 1
+    },
+    {
+     "n": "Acenext P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Cadila",
+     "m": 6.55,
+     "p": 6.55,
+     "t": 1
+    },
+    {
+     "n": "Aceloflam Plus",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Alkem",
+     "m": 7.33,
+     "p": 7.33,
+     "t": 1
+    },
+    {
+     "n": "Zerodol-P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Ipca",
+     "m": 7.59,
+     "p": 7.59,
+     "t": 1
+    },
+    {
+     "n": "Dolowin-Plus",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Micro Labs",
+     "m": 8.2,
+     "p": 8.2,
+     "t": 1
+    },
+    {
+     "n": "Dan",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Unison",
+     "m": 0.69,
+     "p": 0.69,
+     "t": 1
+    },
+    {
+     "n": "Vivian",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Lincoln",
+     "m": 0.91,
+     "p": 0.91,
+     "t": 1
+    },
+    {
+     "n": "Vovo",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "",
+     "m": 0.94,
+     "p": 0.94,
+     "t": 1
+    },
+    {
+     "n": "Jonac",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Zydus",
+     "m": 1.51,
+     "p": 1.51,
+     "t": 1
+    },
+    {
+     "n": "Dicloflam",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Intas",
+     "m": 1.58,
+     "p": 1.58,
+     "t": 1
+    },
+    {
+     "n": "Dilona Forte",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Mapra",
+     "m": 1.62,
+     "p": 1.62,
+     "t": 1
+    },
+    {
+     "n": "Diclofen",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Biochem",
+     "m": 1.66,
+     "p": 1.66,
+     "t": 1
+    },
+    {
+     "n": "Dynapar EC",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Troikaa",
+     "m": 2.12,
+     "p": 2.12,
+     "t": 1
+    },
+    {
+     "n": "Dicloran",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Lekar",
+     "m": 2.13,
+     "p": 2.13,
+     "t": 1
+    },
+    {
+     "n": "Eldofen",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "",
+     "m": 2.24,
+     "p": 2.24,
+     "t": 1
+    },
+    {
+     "n": "Dilofen",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "P & B",
+     "m": 2.25,
+     "p": 2.25,
+     "t": 1
+    },
+    {
+     "n": "Clofen",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Indchemie",
+     "m": 2.54,
+     "p": 2.54,
+     "t": 1
+    },
+    {
+     "n": "Maxxilet",
+     "s": "Diclofenac Sodium 50mg",
+     "c": "Maxzimaa",
+     "m": 4.93,
+     "p": 4.93,
+     "t": 1
+    },
+    {
+     "n": "Midoxib",
+     "s": "Etoricoxib 90mg",
+     "c": "Medmidas",
+     "m": 7.7,
+     "p": 7.7,
+     "t": 1
+    },
+    {
+     "n": "Etod",
+     "s": "Etoricoxib 90mg",
+     "c": "Daksh Pharma",
+     "m": 7.8,
+     "p": 7.8,
+     "t": 1
+    },
+    {
+     "n": "Etowox",
+     "s": "Etoricoxib 90mg",
+     "c": "Wockhardt",
+     "m": 8.47,
+     "p": 8.47,
+     "t": 1
+    },
+    {
+     "n": "Coxstar",
+     "s": "Etoricoxib 90mg",
+     "c": "Metamorf",
+     "m": 8.9,
+     "p": 8.9,
+     "t": 1
+    },
+    {
+     "n": "Etorjeev",
+     "s": "Etoricoxib 90mg",
+     "c": "Jeevecam",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Etojet",
+     "s": "Etoricoxib 90mg",
+     "c": "Themis",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Intacoxia",
+     "s": "Etoricoxib 90mg",
+     "c": "Intas",
+     "m": 9.1,
+     "p": 9.1,
+     "t": 1
+    },
+    {
+     "n": "Docru",
+     "s": "Etoricoxib 90mg",
+     "c": "Arlak",
+     "m": 9.2,
+     "p": 9.2,
+     "t": 1
+    },
+    {
+     "n": "ETO",
+     "s": "Etoricoxib 90mg",
+     "c": "Agnes",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Xibnus",
+     "s": "Etoricoxib 90mg",
+     "c": "Cronus",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Coxnuro",
+     "s": "Etoricoxib 90mg",
+     "c": "Emenox",
+     "m": 9.6,
+     "p": 9.6,
+     "t": 1
+    },
+    {
+     "n": "Qtiroxib",
+     "s": "Etoricoxib 90mg",
+     "c": "Secure Life",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Etroxy",
+     "s": "Etoricoxib 90mg",
+     "c": "USR Remedies",
+     "m": 10.5,
+     "p": 10.5,
+     "t": 1
+    },
+    {
+     "n": "Etonow",
+     "s": "Etoricoxib 90mg",
+     "c": "Grandcure",
+     "m": 10.6,
+     "p": 10.6,
+     "t": 1
+    },
+    {
+     "n": "Witori",
+     "s": "Etoricoxib 90mg",
+     "c": "Delcure",
+     "m": 12.9,
+     "p": 12.9,
+     "t": 1
+    },
+    {
+     "n": "Nucoxia",
+     "s": "Etoricoxib 90mg",
+     "c": "Zydus",
+     "m": 13.11,
+     "p": 13.11,
+     "t": 1
+    },
+    {
+     "n": "Brutaflam",
+     "s": "Etoricoxib 90mg",
+     "c": "Mankind",
+     "m": 13.2,
+     "p": 13.2,
+     "t": 1
+    },
+    {
+     "n": "Etozox",
+     "s": "Etoricoxib 90mg",
+     "c": "Cipla",
+     "m": 13.3,
+     "p": 13.3,
+     "t": 1
+    },
+    {
+     "n": "Retoz",
+     "s": "Etoricoxib 90mg",
+     "c": "Dr Reddy's",
+     "m": 13.98,
+     "p": 13.98,
+     "t": 1
+    },
+    {
+     "n": "Etrobax",
+     "s": "Etoricoxib 90mg",
+     "c": "Sun",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Etoshine",
+     "s": "Etoricoxib 90mg",
+     "c": "Sun",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Etorvel",
+     "s": "Etoricoxib 90mg",
+     "c": "Kinedex",
+     "m": 18.49,
+     "p": 18.49,
+     "t": 1
+    },
+    {
+     "n": "Etoxib",
+     "s": "Etoricoxib 90mg",
+     "c": "Torrent",
+     "m": 20.05,
+     "p": 20.05,
+     "t": 1
+    },
+    {
+     "n": "Etody",
+     "s": "Etoricoxib 90mg",
+     "c": "Abbott",
+     "m": 21.59,
+     "p": 21.59,
+     "t": 1
+    },
+    {
+     "n": "Emsulide",
+     "s": "Nimesulide 100mg",
+     "c": "Emcure",
+     "m": 2.11,
+     "p": 2.11,
+     "t": 1
+    },
+    {
+     "n": "New Nicip",
+     "s": "Nimesulide 100mg",
+     "c": "Cipla",
+     "m": 2.9,
+     "p": 2.9,
+     "t": 1
+    },
+    {
+     "n": "Nalgis",
+     "s": "Nimesulide 100mg",
+     "c": "Veritaz",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Nimcet Juicy",
+     "s": "Nimesulide 100mg",
+     "c": "Maneesh",
+     "m": 3.66,
+     "p": 3.66,
+     "t": 1
+    },
+    {
+     "n": "Nimtech",
+     "s": "Nimesulide 100mg",
+     "c": "Macleods",
+     "m": 3.98,
+     "p": 3.98,
+     "t": 1
+    },
+    {
+     "n": "Pronim",
+     "s": "Nimesulide 100mg",
+     "c": "Torrent",
+     "m": 4.07,
+     "p": 4.07,
+     "t": 1
+    },
+    {
+     "n": "Nimdis",
+     "s": "Nimesulide 100mg",
+     "c": "Bio Vitamins",
+     "m": 4.2,
+     "p": 4.2,
+     "t": 1
+    },
+    {
+     "n": "Novogesic",
+     "s": "Nimesulide 100mg",
+     "c": "Glenmark",
+     "m": 4.28,
+     "p": 4.28,
+     "t": 1
+    },
+    {
+     "n": "Myonal",
+     "s": "Nimesulide 100mg",
+     "c": "Sanzyme",
+     "m": 4.55,
+     "p": 4.55,
+     "t": 1
+    },
+    {
+     "n": "Novolid",
+     "s": "Nimesulide 100mg",
+     "c": "Micro Labs",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Zydol",
+     "s": "Nimesulide 100mg",
+     "c": "Jenburkt",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Nimulid",
+     "s": "Nimesulide 100mg",
+     "c": "Panacea",
+     "m": 5.14,
+     "p": 5.14,
+     "t": 1
+    },
+    {
+     "n": "Nimodol",
+     "s": "Nimesulide 100mg",
+     "c": "Aristo",
+     "m": 5.72,
+     "p": 5.72,
+     "t": 1
+    },
+    {
+     "n": "Nimutab",
+     "s": "Nimesulide 100mg",
+     "c": "Centaur",
+     "m": 7.46,
+     "p": 7.46,
+     "t": 1
+    },
+    {
+     "n": "Nimi Rapi",
+     "s": "Nimesulide 100mg",
+     "c": "Shreya",
+     "m": 8.36,
+     "p": 8.36,
+     "t": 1
+    },
+    {
+     "n": "Nimek",
+     "s": "Nimesulide 100mg",
+     "c": "JB Chemicals",
+     "m": 8.48,
+     "p": 8.48,
+     "t": 1
+    },
+    {
+     "n": "Nise",
+     "s": "Nimesulide 100mg",
+     "c": "Dr Reddy's",
+     "m": 8.7,
+     "p": 8.7,
+     "t": 1
+    },
+    {
+     "n": "Misogesic",
+     "s": "Nimesulide 100mg",
+     "c": "Icarus",
+     "m": 11.99,
+     "p": 11.99,
+     "t": 1
+    }
+   ]
   }
  ]
 }
