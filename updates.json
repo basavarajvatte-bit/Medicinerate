@@ -29517,6 +29517,888 @@
      "p": 2.84
     }
    ]
+  },
+  {
+   "id": "2026-11-08-prostate-cancer",
+   "meds": [
+    {
+     "n": "Ablu 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Neon",
+     "m": 19.76,
+     "p": 19.76,
+     "t": 1
+    },
+    {
+     "n": "Bical 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Intas",
+     "m": 32.7,
+     "p": 32.7,
+     "t": 1
+    },
+    {
+     "n": "Calured 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Redmed",
+     "m": 35.0,
+     "p": 35.0,
+     "t": 1
+    },
+    {
+     "n": "Lutarun 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Barter & Marcin",
+     "m": 36.0,
+     "p": 36.0,
+     "t": 1
+    },
+    {
+     "n": "Cassotide 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Cipla",
+     "m": 37.5,
+     "p": 37.5,
+     "t": 1
+    },
+    {
+     "n": "Cosalon 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Celon",
+     "m": 39.0,
+     "p": 39.0,
+     "t": 1
+    },
+    {
+     "n": "Macabi 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Miracalus",
+     "m": 40.0,
+     "p": 40.0,
+     "t": 1
+    },
+    {
+     "n": "Bicalumutide 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Steris",
+     "m": 42.1,
+     "p": 42.1,
+     "t": 1
+    },
+    {
+     "n": "Androblok 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Sun",
+     "m": 42.2,
+     "p": 42.2,
+     "t": 1
+    },
+    {
+     "n": "Zyluta 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Zydus",
+     "m": 42.29,
+     "p": 42.29,
+     "t": 1
+    },
+    {
+     "n": "Biprostiva 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Alkem",
+     "m": 42.7,
+     "p": 42.7,
+     "t": 1
+    },
+    {
+     "n": "Bishrink",
+     "s": "Bicalutamide 50mg",
+     "c": "Ytiliga",
+     "m": 43.2,
+     "p": 43.2,
+     "t": 1
+    },
+    {
+     "n": "Caludec 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Samarth",
+     "m": 43.25,
+     "p": 43.25,
+     "t": 1
+    },
+    {
+     "n": "Biprosta",
+     "s": "Bicalutamide 50mg",
+     "c": "Alkem",
+     "m": 43.54,
+     "p": 43.54,
+     "t": 1
+    },
+    {
+     "n": "Bicalpro 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Emcure",
+     "m": 44.0,
+     "p": 44.0,
+     "t": 1
+    },
+    {
+     "n": "Guncef 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Oster",
+     "m": 44.0,
+     "p": 44.0,
+     "t": 1
+    },
+    {
+     "n": "Bicatero 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Hetero",
+     "m": 44.55,
+     "p": 44.55,
+     "t": 1
+    },
+    {
+     "n": "Caluran 50 CP (30)",
+     "s": "Bicalutamide 50mg",
+     "c": "Sun",
+     "m": 46.23,
+     "p": 46.23,
+     "t": 1
+    },
+    {
+     "n": "Castramid",
+     "s": "Bicalutamide 50mg",
+     "c": "Ipca",
+     "m": 46.41,
+     "p": 46.41,
+     "t": 1
+    },
+    {
+     "n": "Calmac 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Admac",
+     "m": 48.4,
+     "p": 48.4,
+     "t": 1
+    },
+    {
+     "n": "Casodex 50 (14)",
+     "s": "Bicalutamide 50mg",
+     "c": "AstraZeneca",
+     "m": 48.43,
+     "p": 48.43,
+     "t": 1
+    },
+    {
+     "n": "Tabi (30)",
+     "s": "Bicalutamide 50mg",
+     "c": "Dr Reddy's",
+     "m": 48.49,
+     "p": 48.49,
+     "t": 1
+    },
+    {
+     "n": "Calutide 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Cipla",
+     "m": 48.5,
+     "p": 48.5,
+     "t": 1
+    },
+    {
+     "n": "Utamide",
+     "s": "Bicalutamide 50mg",
+     "c": "Intas",
+     "m": 48.5,
+     "p": 48.5,
+     "t": 1
+    },
+    {
+     "n": "Caluran 50",
+     "s": "Bicalutamide 50mg",
+     "c": "Sun",
+     "m": 59.02,
+     "p": 59.02,
+     "t": 1
+    },
+    {
+     "n": "Flutamide 250",
+     "s": "Flutamide 250mg",
+     "c": "",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Flutatec 250",
+     "s": "Flutamide 250mg",
+     "c": "",
+     "m": 9.75,
+     "p": 9.75,
+     "t": 1
+    },
+    {
+     "n": "Cytomid 250",
+     "s": "Flutamide 250mg",
+     "c": "Cipla",
+     "m": 9.99,
+     "p": 9.99,
+     "t": 1
+    },
+    {
+     "n": "Ticum 250",
+     "s": "Flutamide 250mg",
+     "c": "Neon",
+     "m": 10.8,
+     "p": 10.8,
+     "t": 1
+    },
+    {
+     "n": "Prostamid",
+     "s": "Flutamide 250mg",
+     "c": "BDH",
+     "m": 11.58,
+     "p": 11.58,
+     "t": 1
+    },
+    {
+     "n": "Flutide 250",
+     "s": "Flutamide 250mg",
+     "c": "Samarth",
+     "m": 11.8,
+     "p": 11.8,
+     "t": 1
+    },
+    {
+     "n": "Zelgor 250 (₹13,000)",
+     "s": "Abiraterone 250mg",
+     "c": "Sun",
+     "m": 108.33,
+     "p": 108.33,
+     "t": 1
+    },
+    {
+     "n": "Mytera 250 (₹17,990)",
+     "s": "Abiraterone 250mg",
+     "c": "Mylan/Viatris",
+     "m": 149.92,
+     "p": 149.92,
+     "t": 1
+    },
+    {
+     "n": "Zecyte 250 (₹19,500)",
+     "s": "Abiraterone 250mg",
+     "c": "Cipla",
+     "m": 162.5,
+     "p": 162.5,
+     "t": 1
+    },
+    {
+     "n": "Zybiraa 250 (₹21,990)",
+     "s": "Abiraterone 250mg",
+     "c": "",
+     "m": 183.25,
+     "p": 183.25,
+     "t": 1
+    },
+    {
+     "n": "Abirapro 250 (₹28,000)",
+     "s": "Abiraterone 250mg",
+     "c": "",
+     "m": 233.33,
+     "p": 233.33,
+     "t": 1
+    },
+    {
+     "n": "Abirat (₹29,000)",
+     "s": "Abiraterone 250mg",
+     "c": "Khandelwal",
+     "m": 241.67,
+     "p": 241.67,
+     "t": 1
+    },
+    {
+     "n": "Ahabir (₹30,000)",
+     "s": "Abiraterone 250mg",
+     "c": "Hetero",
+     "m": 250.0,
+     "p": 250.0,
+     "t": 1
+    },
+    {
+     "n": "Krypton Abiraterone (₹30,000)",
+     "s": "Abiraterone 250mg",
+     "c": "Krypton",
+     "m": 250.0,
+     "p": 250.0,
+     "t": 1
+    },
+    {
+     "n": "Ariterone 250 (₹30,000)",
+     "s": "Abiraterone 250mg",
+     "c": "UTH",
+     "m": 250.0,
+     "p": 250.0,
+     "t": 1
+    },
+    {
+     "n": "Abiracure (₹31,175)",
+     "s": "Abiraterone 250mg",
+     "c": "Emcure",
+     "m": 259.79,
+     "p": 259.79,
+     "t": 1
+    },
+    {
+     "n": "Abitate U (₹42,656)",
+     "s": "Abiraterone 250mg",
+     "c": "RPG",
+     "m": 355.46,
+     "p": 355.46,
+     "t": 1
+    },
+    {
+     "n": "Zytiga 250 (₹1,50,000)",
+     "s": "Abiraterone 250mg",
+     "c": "J&J (original)",
+     "m": 1250.0,
+     "p": 1250.0,
+     "t": 1
+    },
+    {
+     "n": "Enza 40 (28 ₹5,310)",
+     "s": "Enzalutamide 40mg",
+     "c": "Aegis",
+     "m": 189.64,
+     "p": 189.64,
+     "t": 1
+    },
+    {
+     "n": "Enzamed 40 (28 ₹5,652)",
+     "s": "Enzalutamide 40mg",
+     "c": "",
+     "m": 201.86,
+     "p": 201.86,
+     "t": 1
+    },
+    {
+     "n": "Capmide 40 (4 ₹920)",
+     "s": "Enzalutamide 40mg",
+     "c": "Cipla",
+     "m": 230.0,
+     "p": 230.0,
+     "t": 1
+    },
+    {
+     "n": "Encrpc 40 (28 ₹11,500)",
+     "s": "Enzalutamide 40mg",
+     "c": "Intas",
+     "m": 410.71,
+     "p": 410.71,
+     "t": 1
+    },
+    {
+     "n": "Bdenza 40 (28 ₹17,984)",
+     "s": "Enzalutamide 40mg",
+     "c": "BDR",
+     "m": 642.28,
+     "p": 642.28,
+     "t": 1
+    },
+    {
+     "n": "Glenza 40",
+     "s": "Enzalutamide 40mg",
+     "c": "Glenmark",
+     "m": 717.86,
+     "p": 717.86,
+     "t": 1
+    },
+    {
+     "n": "Enzamide 40 (28 ₹20,298)",
+     "s": "Enzalutamide 40mg",
+     "c": "",
+     "m": 724.93,
+     "p": 724.93,
+     "t": 1
+    },
+    {
+     "n": "Xtandi 40",
+     "s": "Enzalutamide 40mg",
+     "c": "Astellas (original)",
+     "m": 2996.73,
+     "p": 2996.73,
+     "t": 1
+    },
+    {
+     "n": "Bdenza 80 (14 ₹6,120)",
+     "s": "Enzalutamide 80mg",
+     "c": "BDR",
+     "m": 437.14,
+     "p": 437.14,
+     "t": 1
+    },
+    {
+     "n": "Bdenza 160 (7 ₹6,300)",
+     "s": "Enzalutamide 160mg",
+     "c": "BDR",
+     "m": 900.0,
+     "p": 900.0,
+     "t": 1
+    },
+    {
+     "n": "Apnat 60 (120 ₹35,000)",
+     "s": "Apalutamide 60mg",
+     "c": "Natco",
+     "m": 291.67,
+     "p": 291.67,
+     "t": 1
+    },
+    {
+     "n": "Proapaci 60 (120 ₹36,014)",
+     "s": "Apalutamide 60mg",
+     "c": "Cipla",
+     "m": 300.12,
+     "p": 300.12,
+     "t": 1
+    },
+    {
+     "n": "Apaluside 60 (120 ₹40,000)",
+     "s": "Apalutamide 60mg",
+     "c": "",
+     "m": 333.33,
+     "p": 333.33,
+     "t": 1
+    },
+    {
+     "n": "Pryor 60 (60 ₹22,499)",
+     "s": "Apalutamide 60mg",
+     "c": "Zydus",
+     "m": 374.98,
+     "p": 374.98,
+     "t": 1
+    },
+    {
+     "n": "Nubeqa 300 (112 ₹3,22,547)",
+     "s": "Darolutamide 300mg",
+     "c": "Bayer",
+     "m": 2879.88,
+     "p": 2879.88,
+     "t": 1
+    },
+    {
+     "n": "Bdsure 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "BDR",
+     "m": 7182.65,
+     "p": 7182.65
+    },
+    {
+     "n": "Leurotime 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "",
+     "m": 8037.0,
+     "p": 8037.0
+    },
+    {
+     "n": "Leuprosun 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Sunlight",
+     "m": 8625.0,
+     "p": 8625.0
+    },
+    {
+     "n": "Luprohal 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Halsted",
+     "m": 8702.81,
+     "p": 8702.81
+    },
+    {
+     "n": "Leuprosta Depot 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Alkem",
+     "m": 9150.0,
+     "p": 9150.0
+    },
+    {
+     "n": "Leugard 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Zydus",
+     "m": 9235.31,
+     "p": 9235.31
+    },
+    {
+     "n": "Prolide 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Celon",
+     "m": 9272.0,
+     "p": 9272.0
+    },
+    {
+     "n": "Lupact Depot 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Celon",
+     "m": 9272.0,
+     "p": 9272.0
+    },
+    {
+     "n": "Luprotas 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Intas",
+     "m": 9283.87,
+     "p": 9283.87
+    },
+    {
+     "n": "Prolemax 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "GLS",
+     "m": 9633.0,
+     "p": 9633.0
+    },
+    {
+     "n": "Trudepot 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Metta",
+     "m": 9750.0,
+     "p": 9750.0
+    },
+    {
+     "n": "Leupo 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Intas",
+     "m": 9758.66,
+     "p": 9758.66
+    },
+    {
+     "n": "Lupride Depot 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Sun",
+     "m": 10409.23,
+     "p": 10409.23
+    },
+    {
+     "n": "Luprodex 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Bharat Serums",
+     "m": 10409.23,
+     "p": 10409.23
+    },
+    {
+     "n": "Lorisk Depot 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Eris",
+     "m": 10781.25,
+     "p": 10781.25
+    },
+    {
+     "n": "Luprova 11.25",
+     "s": "Leuprolide 11.25mg depot injection",
+     "c": "Celon",
+     "m": 10800.0,
+     "p": 10800.0
+    },
+    {
+     "n": "Goselin 3.6",
+     "s": "Goserelin 3.6mg implant",
+     "c": "",
+     "m": 8035.71,
+     "p": 8035.71
+    },
+    {
+     "n": "Zoladex 3.6",
+     "s": "Goserelin 3.6mg implant",
+     "c": "AstraZeneca",
+     "m": 9754.0,
+     "p": 9754.0
+    },
+    {
+     "n": "Zoladex LA 10.8",
+     "s": "Goserelin 10.8mg implant",
+     "c": "AstraZeneca",
+     "m": 28890.0,
+     "p": 28890.0
+    },
+    {
+     "n": "Degarel 80",
+     "s": "Degarelix 80mg injection",
+     "c": "",
+     "m": 12604.0,
+     "p": 12604.0
+    },
+    {
+     "n": "Testoject 80",
+     "s": "Degarelix 80mg injection",
+     "c": "Bharat Serums",
+     "m": 12656.25,
+     "p": 12656.25
+    },
+    {
+     "n": "Degatide 80",
+     "s": "Degarelix 80mg injection",
+     "c": "Cipla",
+     "m": 14000.0,
+     "p": 14000.0
+    },
+    {
+     "n": "Degapride 80",
+     "s": "Degarelix 80mg injection",
+     "c": "Sun",
+     "m": 14000.0,
+     "p": 14000.0
+    },
+    {
+     "n": "Deghor 80",
+     "s": "Degarelix 80mg injection",
+     "c": "Glenmark",
+     "m": 14344.5,
+     "p": 14344.5
+    },
+    {
+     "n": "Degalix 80",
+     "s": "Degarelix 80mg injection",
+     "c": "BDR",
+     "m": 14850.0,
+     "p": 14850.0
+    },
+    {
+     "n": "Firmagon 80",
+     "s": "Degarelix 80mg injection",
+     "c": "Ferring (original)",
+     "m": 16499.0,
+     "p": 16499.0
+    },
+    {
+     "n": "Degalix 120",
+     "s": "Degarelix 120mg injection",
+     "c": "BDR",
+     "m": 16031.25,
+     "p": 16031.25
+    },
+    {
+     "n": "Testoject 120",
+     "s": "Degarelix 120mg injection",
+     "c": "Bharat Serums",
+     "m": 16406.25,
+     "p": 16406.25
+    },
+    {
+     "n": "Deghor 120",
+     "s": "Degarelix 120mg injection",
+     "c": "Glenmark",
+     "m": 17100.0,
+     "p": 17100.0
+    },
+    {
+     "n": "Degatide 120",
+     "s": "Degarelix 120mg injection",
+     "c": "Cipla",
+     "m": 18000.0,
+     "p": 18000.0
+    },
+    {
+     "n": "Degapride 120",
+     "s": "Degarelix 120mg injection",
+     "c": "Sun",
+     "m": 18375.0,
+     "p": 18375.0
+    },
+    {
+     "n": "Firmagon 120",
+     "s": "Degarelix 120mg injection",
+     "c": "Ferring",
+     "m": 33750.0,
+     "p": 33750.0
+    },
+    {
+     "n": "Degarel 120",
+     "s": "Degarelix 120mg injection",
+     "c": "",
+     "m": 33750.0,
+     "p": 33750.0
+    },
+    {
+     "n": "Docax 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Neon",
+     "m": 1290.0,
+     "p": 1290.0
+    },
+    {
+     "n": "DC Fill 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Fourrts",
+     "m": 2350.0,
+     "p": 2350.0
+    },
+    {
+     "n": "Chemodoc 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Lupin",
+     "m": 4597.16,
+     "p": 4597.16
+    },
+    {
+     "n": "Docetax 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Cipla",
+     "m": 5000.0,
+     "p": 5000.0
+    },
+    {
+     "n": "Zenotere 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Sun",
+     "m": 5400.0,
+     "p": 5400.0
+    },
+    {
+     "n": "Doxel 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Shantha",
+     "m": 7500.0,
+     "p": 7500.0
+    },
+    {
+     "n": "Wintaxel 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "BPRL",
+     "m": 7515.0,
+     "p": 7515.0
+    },
+    {
+     "n": "Zytax 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Zydus",
+     "m": 9700.0,
+     "p": 9700.0
+    },
+    {
+     "n": "Apidry 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Taj Pharma",
+     "m": 9922.0,
+     "p": 9922.0
+    },
+    {
+     "n": "Celtere 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Celon",
+     "m": 9991.0,
+     "p": 9991.0
+    },
+    {
+     "n": "Docitin 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Ind Swift",
+     "m": 10000.0,
+     "p": 10000.0
+    },
+    {
+     "n": "Docetero 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Hetero",
+     "m": 10000.0,
+     "p": 10000.0
+    },
+    {
+     "n": "Dtaxane 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Torrent",
+     "m": 10500.0,
+     "p": 10500.0
+    },
+    {
+     "n": "Docital 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Aaltramed",
+     "m": 10500.0,
+     "p": 10500.0
+    },
+    {
+     "n": "Tubitere 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Alkem",
+     "m": 10542.0,
+     "p": 10542.0
+    },
+    {
+     "n": "Tubitere Novo 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Alkem",
+     "m": 10640.21,
+     "p": 10640.21
+    },
+    {
+     "n": "Docepar 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "PDIL",
+     "m": 10700.0,
+     "p": 10700.0
+    },
+    {
+     "n": "Chemotere 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Cytogen",
+     "m": 10925.0,
+     "p": 10925.0
+    },
+    {
+     "n": "Daxotel 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Fresenius Kabi",
+     "m": 11513.12,
+     "p": 11513.12
+    },
+    {
+     "n": "Taxocare 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Intas",
+     "m": 11566.17,
+     "p": 11566.17
+    },
+    {
+     "n": "Docetere 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Dr Reddy's",
+     "m": 11760.8,
+     "p": 11760.8
+    },
+    {
+     "n": "Docezap 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Zuventus",
+     "m": 11817.1,
+     "p": 11817.1
+    },
+    {
+     "n": "Docetrust 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Panacea",
+     "m": 11900.0,
+     "p": 11900.0
+    },
+    {
+     "n": "Docel 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "RPG",
+     "m": 12000.0,
+     "p": 12000.0
+    },
+    {
+     "n": "Docecad 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Cadila",
+     "m": 13541.7,
+     "p": 13541.7
+    },
+    {
+     "n": "Taxotere 80",
+     "s": "Docetaxel 80mg injection (per vial)",
+     "c": "Emcure/Sanofi",
+     "m": 21111.0,
+     "p": 21111.0
+    }
+   ]
   }
  ]
 }
