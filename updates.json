@@ -10656,6 +10656,787 @@
      "c": "Reckitt"
     }
    ]
+  },
+  {
+   "id": "2026-11-08-udca-silymarin-lola-rifaximin",
+   "meds": [
+    {
+     "n": "Livokind 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Mankind",
+     "m": 7.7,
+     "p": 7.7,
+     "t": 1
+    },
+    {
+     "n": "Ursobid 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Jarun",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Uditec 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Leeford",
+     "m": 12.4,
+     "p": 12.4,
+     "t": 1
+    },
+    {
+     "n": "Ursolid 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Leeford",
+     "m": 13.1,
+     "p": 13.1,
+     "t": 1
+    },
+    {
+     "n": "Livetone UD 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Cipla",
+     "m": 13.4,
+     "p": 13.4,
+     "t": 1
+    },
+    {
+     "n": "Ursomax 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Zuventus",
+     "m": 14.99,
+     "p": 14.99,
+     "t": 1
+    },
+    {
+     "n": "Fortibile 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Deys Medical",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Urdohep 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Macleods",
+     "m": 15.3,
+     "p": 15.3,
+     "t": 1
+    },
+    {
+     "n": "Sorbidiol 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Franco-Indian",
+     "m": 17.2,
+     "p": 17.2,
+     "t": 1
+    },
+    {
+     "n": "Udiceft 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Hilbert",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Estuchol 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Lupin",
+     "m": 19.79,
+     "p": 19.79,
+     "t": 1
+    },
+    {
+     "n": "HEPAkind 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Mankind",
+     "m": 21.8,
+     "p": 21.8,
+     "t": 1
+    },
+    {
+     "n": "Ursetor 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Torrent",
+     "m": 22.65,
+     "p": 22.65,
+     "t": 1
+    },
+    {
+     "n": "Ursocol 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Sun Pharma",
+     "m": 22.67,
+     "p": 22.67,
+     "t": 1
+    },
+    {
+     "n": "Actibile 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Zydus",
+     "m": 24.4,
+     "p": 24.4,
+     "t": 1
+    },
+    {
+     "n": "Ursokem 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Alkem",
+     "m": 24.9,
+     "p": 24.9,
+     "t": 1
+    },
+    {
+     "n": "Udinol 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Knoll",
+     "m": 29.55,
+     "p": 29.55,
+     "t": 1
+    },
+    {
+     "n": "Udiliv 150",
+     "s": "Ursodeoxycholic Acid 150mg",
+     "c": "Abbott",
+     "m": 30.0,
+     "p": 30.0,
+     "t": 1
+    },
+    {
+     "n": "Levalon 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Micro Labs",
+     "m": 18.05,
+     "p": 18.05,
+     "t": 1
+    },
+    {
+     "n": "Livcholic 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Zeelab",
+     "m": 20.0,
+     "p": 20.0,
+     "t": 1
+    },
+    {
+     "n": "Uricure 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Emcure",
+     "m": 22.35,
+     "p": 22.35,
+     "t": 1
+    },
+    {
+     "n": "Ursocol 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Sun Pharma",
+     "m": 26.3,
+     "p": 26.3,
+     "t": 1
+    },
+    {
+     "n": "Ursobid 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Jarun",
+     "m": 26.5,
+     "p": 26.5,
+     "t": 1
+    },
+    {
+     "n": "Hepexa 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Eris",
+     "m": 30.11,
+     "p": 30.11,
+     "t": 1
+    },
+    {
+     "n": "Urdiogem 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Alembic",
+     "m": 31.66,
+     "p": 31.66,
+     "t": 1
+    },
+    {
+     "n": "Udiwok 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Wockhardt",
+     "m": 31.95,
+     "p": 31.95,
+     "t": 1
+    },
+    {
+     "n": "Udigold 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Pharmed",
+     "m": 32.5,
+     "p": 32.5,
+     "t": 1
+    },
+    {
+     "n": "Ursolid 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Leeford",
+     "m": 32.6,
+     "p": 32.6,
+     "t": 1
+    },
+    {
+     "n": "Spectliv 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Biochem",
+     "m": 32.67,
+     "p": 32.67,
+     "t": 1
+    },
+    {
+     "n": "Livetone UD 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Cipla",
+     "m": 33.0,
+     "p": 33.0,
+     "t": 1
+    },
+    {
+     "n": "Ursoden SL 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Daniyal",
+     "m": 34.5,
+     "p": 34.5,
+     "t": 1
+    },
+    {
+     "n": "Ulyses 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Lupin",
+     "m": 34.63,
+     "p": 34.63,
+     "t": 1
+    },
+    {
+     "n": "Estuchol 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Lupin",
+     "m": 34.7,
+     "p": 34.7,
+     "t": 1
+    },
+    {
+     "n": "Udigal 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Galpha",
+     "m": 35.9,
+     "p": 35.9,
+     "t": 1
+    },
+    {
+     "n": "Sedogest 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "",
+     "m": 36.33,
+     "p": 36.33,
+     "t": 1
+    },
+    {
+     "n": "Udiron 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Kamron",
+     "m": 37.8,
+     "p": 37.8,
+     "t": 1
+    },
+    {
+     "n": "Hepakind 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Mankind",
+     "m": 38.5,
+     "p": 38.5,
+     "t": 1
+    },
+    {
+     "n": "Ursomax 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Zuventus",
+     "m": 39.37,
+     "p": 39.37,
+     "t": 1
+    },
+    {
+     "n": "Ursodil 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Zydus",
+     "m": 41.94,
+     "p": 41.94,
+     "t": 1
+    },
+    {
+     "n": "Udihep Forte",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Win-Medicare",
+     "m": 42.0,
+     "p": 42.0,
+     "t": 1
+    },
+    {
+     "n": "GB Liv 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Akumentis",
+     "m": 42.13,
+     "p": 42.13,
+     "t": 1
+    },
+    {
+     "n": "Bilefix 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Dr Reddy's",
+     "m": 42.52,
+     "p": 42.52,
+     "t": 1
+    },
+    {
+     "n": "Udinol 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Knoll",
+     "m": 44.2,
+     "p": 44.2,
+     "t": 1
+    },
+    {
+     "n": "Actibile 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Zydus",
+     "m": 45.1,
+     "p": 45.1,
+     "t": 1
+    },
+    {
+     "n": "Otraliv 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Radicool",
+     "m": 45.5,
+     "p": 45.5,
+     "t": 1
+    },
+    {
+     "n": "Udimarin 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Fourrts",
+     "m": 49.6,
+     "p": 49.6,
+     "t": 1
+    },
+    {
+     "n": "Udigen 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Nexacare",
+     "m": 49.9,
+     "p": 49.9,
+     "t": 1
+    },
+    {
+     "n": "Udiliv 300",
+     "s": "Ursodeoxycholic Acid 300mg",
+     "c": "Abbott",
+     "m": 56.0,
+     "p": 56.0,
+     "t": 1
+    },
+    {
+     "n": "Ursocol SR 450",
+     "s": "Ursodeoxycholic Acid 450mg SR",
+     "c": "Sun Pharma",
+     "m": 32.9,
+     "p": 32.9,
+     "t": 1
+    },
+    {
+     "n": "Ursetor SR 450",
+     "s": "Ursodeoxycholic Acid 450mg SR",
+     "c": "Torrent",
+     "m": 39.67,
+     "p": 39.67,
+     "t": 1
+    },
+    {
+     "n": "Uda 450 SR",
+     "s": "Ursodeoxycholic Acid 450mg SR",
+     "c": "Tas Med",
+     "m": 41.75,
+     "p": 41.75,
+     "t": 1
+    },
+    {
+     "n": "Udimarin Forte SR",
+     "s": "Ursodeoxycholic Acid 450mg SR",
+     "c": "Fourrts",
+     "m": 55.1,
+     "p": 55.1,
+     "t": 1
+    },
+    {
+     "n": "Golbi SR 450",
+     "s": "Ursodeoxycholic Acid 450mg SR",
+     "c": "Intas",
+     "m": 65.0,
+     "p": 65.0,
+     "t": 1
+    },
+    {
+     "n": "Udiliv 450",
+     "s": "Ursodeoxycholic Acid 450mg SR",
+     "c": "Abbott",
+     "m": 67.5,
+     "p": 67.5,
+     "t": 1
+    },
+    {
+     "n": "Osilma 140",
+     "s": "Silymarin 140mg",
+     "c": "Osho",
+     "m": 5.5,
+     "p": 5.5,
+     "t": 1
+    },
+    {
+     "n": "Chimarin 140",
+     "s": "Silymarin 140mg",
+     "c": "Ultra Chiron",
+     "m": 5.57,
+     "p": 5.57,
+     "t": 1
+    },
+    {
+     "n": "Siliv 140",
+     "s": "Silymarin 140mg",
+     "c": "Finecure",
+     "m": 5.62,
+     "p": 5.62,
+     "t": 1
+    },
+    {
+     "n": "Hepox 140",
+     "s": "Silymarin 140mg",
+     "c": "Apex",
+     "m": 5.72,
+     "p": 5.72,
+     "t": 1
+    },
+    {
+     "n": "Hepatoz 140",
+     "s": "Silymarin 140mg",
+     "c": "Klintoz",
+     "m": 6.41,
+     "p": 6.41,
+     "t": 1
+    },
+    {
+     "n": "Shamliv 140",
+     "s": "Silymarin 140mg",
+     "c": "Shamsri",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Silvia 140",
+     "s": "Silymarin 140mg",
+     "c": "Fem Care",
+     "m": 8.1,
+     "p": 8.1,
+     "t": 1
+    },
+    {
+     "n": "Syloliv 140",
+     "s": "Silymarin 140mg",
+     "c": "Mapra",
+     "m": 8.26,
+     "p": 8.26,
+     "t": 1
+    },
+    {
+     "n": "Livtec 140",
+     "s": "Silymarin 140mg",
+     "c": "Ampus",
+     "m": 8.5,
+     "p": 8.5,
+     "t": 1
+    },
+    {
+     "n": "Syrial 140",
+     "s": "Silymarin 140mg",
+     "c": "Olcare",
+     "m": 8.75,
+     "p": 8.75,
+     "t": 1
+    },
+    {
+     "n": "Mysil 140",
+     "s": "Silymarin 140mg",
+     "c": "Ambrons",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Rejuliv 140",
+     "s": "Silymarin 140mg",
+     "c": "Shrinivas Gujarat",
+     "m": 10.5,
+     "p": 10.5,
+     "t": 1
+    },
+    {
+     "n": "Hepasil 140",
+     "s": "Silymarin 140mg",
+     "c": "Signova",
+     "m": 11.7,
+     "p": 11.7,
+     "t": 1
+    },
+    {
+     "n": "Silimar 140",
+     "s": "Silymarin 140mg",
+     "c": "German Remedies",
+     "m": 11.7,
+     "p": 11.7,
+     "t": 1
+    },
+    {
+     "n": "Silarin 140",
+     "s": "Silymarin 140mg",
+     "c": "Orion",
+     "m": 13.5,
+     "p": 13.5,
+     "t": 1
+    },
+    {
+     "n": "Amirin 140",
+     "s": "Silymarin 140mg",
+     "c": "Arvincare",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Silybon 140",
+     "s": "Silymarin 140mg",
+     "c": "Micro Labs",
+     "m": 18.1,
+     "p": 18.1,
+     "t": 1
+    },
+    {
+     "n": "Samlol",
+     "s": "L-Ornithine L-Aspartate",
+     "c": "",
+     "m": 135.0,
+     "p": 135.0
+    },
+    {
+     "n": "Hepavest 5gm",
+     "s": "L-Ornithine L-Aspartate",
+     "c": "",
+     "m": 150.0,
+     "p": 150.0
+    },
+    {
+     "n": "Hepatreat",
+     "s": "L-Ornithine L-Aspartate",
+     "c": "",
+     "m": 157.0,
+     "p": 157.0
+    },
+    {
+     "n": "Hepmend",
+     "s": "L-Ornithine L-Aspartate",
+     "c": "Emcure",
+     "m": 170.0,
+     "p": 170.0
+    },
+    {
+     "n": "Hepagard",
+     "s": "L-Ornithine L-Aspartate",
+     "c": "United Biotech",
+     "m": 172.0,
+     "p": 172.0
+    },
+    {
+     "n": "Lornit",
+     "s": "L-Ornithine L-Aspartate",
+     "c": "Zuventus",
+     "m": 193.55,
+     "p": 193.55
+    },
+    {
+     "n": "Hepamerz",
+     "s": "L-Ornithine L-Aspartate",
+     "c": "Win-Medicare",
+     "m": 262.0,
+     "p": 262.0
+    },
+    {
+     "n": "Hepa Merz OA (100ml)",
+     "s": "L-Ornithine L-Aspartate syrup",
+     "c": "Win-Medicare",
+     "m": 369.0,
+     "p": 369.0
+    },
+    {
+     "n": "Rifabet 550",
+     "s": "Rifaximin 550mg",
+     "c": "FDC",
+     "m": 28.5,
+     "p": 28.5,
+     "t": 1
+    },
+    {
+     "n": "Gutwin 550",
+     "s": "Rifaximin 550mg",
+     "c": "Win-Medicare",
+     "m": 31.5,
+     "p": 31.5,
+     "t": 1
+    },
+    {
+     "n": "Rifnim 550",
+     "s": "Rifaximin 550mg",
+     "c": "Dr Reddy's",
+     "m": 36.95,
+     "p": 36.95,
+     "t": 1
+    },
+    {
+     "n": "Dufaximin 550",
+     "s": "Rifaximin 550mg",
+     "c": "Abbott",
+     "m": 37.82,
+     "p": 37.82,
+     "t": 1
+    },
+    {
+     "n": "Gifaxin 550",
+     "s": "Rifaximin 550mg",
+     "c": "Aristo",
+     "m": 40.22,
+     "p": 40.22,
+     "t": 1
+    },
+    {
+     "n": "Rifaximax 550",
+     "s": "Rifaximin 550mg",
+     "c": "Zuventus",
+     "m": 40.37,
+     "p": 40.37,
+     "t": 1
+    },
+    {
+     "n": "Torfix 550",
+     "s": "Rifaximin 550mg",
+     "c": "Torrent",
+     "m": 41.54,
+     "p": 41.54,
+     "t": 1
+    },
+    {
+     "n": "Nordys 550",
+     "s": "Rifaximin 550mg",
+     "c": "Micro Labs",
+     "m": 43.0,
+     "p": 43.0,
+     "t": 1
+    },
+    {
+     "n": "Rifakem 550",
+     "s": "Rifaximin 550mg",
+     "c": "Alkem",
+     "m": 43.8,
+     "p": 43.8,
+     "t": 1
+    },
+    {
+     "n": "Zimigut 550",
+     "s": "Rifaximin 550mg",
+     "c": "Intas",
+     "m": 43.8,
+     "p": 43.8,
+     "t": 1
+    },
+    {
+     "n": "Rifagut 550",
+     "s": "Rifaximin 550mg",
+     "c": "Sun Pharma",
+     "m": 46.9,
+     "p": 46.9,
+     "t": 1
+    },
+    {
+     "n": "Rafle 550",
+     "s": "Rifaximin 550mg",
+     "c": "Alembic",
+     "m": 47.85,
+     "p": 47.85,
+     "t": 1
+    },
+    {
+     "n": "Rixmin 550",
+     "s": "Rifaximin 550mg",
+     "c": "Cipla",
+     "m": 51.43,
+     "p": 51.43,
+     "t": 1
+    },
+    {
+     "n": "Ciboz 550",
+     "s": "Rifaximin 550mg",
+     "c": "Zydus",
+     "m": 52.46,
+     "p": 52.46,
+     "t": 1
+    },
+    {
+     "n": "Rcifax 550",
+     "s": "Rifaximin 550mg",
+     "c": "Lupin",
+     "m": 53.31,
+     "p": 53.31,
+     "t": 1
+    },
+    {
+     "n": "Sibofix 550",
+     "s": "Rifaximin 550mg",
+     "c": "Dr Reddy's",
+     "m": 54.75,
+     "p": 54.75,
+     "t": 1
+    },
+    {
+     "n": "Hepadem 400",
+     "s": "Ademetionine 400mg",
+     "c": "Zeelab",
+     "m": 29.9,
+     "p": 29.9,
+     "t": 1
+    },
+    {
+     "n": "Admetral 400",
+     "s": "Ademetionine 400mg",
+     "c": "",
+     "m": 89.53,
+     "p": 89.53,
+     "t": 1
+    },
+    {
+     "n": "Heptral 400",
+     "s": "Ademetionine 400mg",
+     "c": "Abbott",
+     "m": 139.6,
+     "p": 139.6,
+     "t": 1
+    }
+   ]
   }
  ]
 }
