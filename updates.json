@@ -779,6 +779,459 @@
      "t": 10
     }
    ]
+  },
+  {
+   "id": "2026-11-08-bp-per-tablet",
+   "meds": [
+    {
+     "n": "Amlokind 5",
+     "s": "Amlodipine 5mg",
+     "c": "Mankind",
+     "m": 1.43,
+     "p": 1.43,
+     "t": 1
+    },
+    {
+     "n": "Amlodac 5",
+     "s": "Amlodipine 5mg",
+     "c": "Zydus Cadila",
+     "m": 2.41,
+     "p": 2.41,
+     "t": 1
+    },
+    {
+     "n": "Stamlo 5",
+     "s": "Amlodipine 5mg",
+     "c": "Dr Reddy's",
+     "m": 2.41,
+     "p": 2.41,
+     "t": 1
+    },
+    {
+     "n": "Amlovas 5",
+     "s": "Amlodipine 5mg",
+     "c": "Macleods",
+     "m": 2.41,
+     "p": 2.41,
+     "t": 1
+    },
+    {
+     "n": "Amlopin 5",
+     "s": "Amlodipine 5mg",
+     "c": "USV",
+     "m": 2.46,
+     "p": 2.46,
+     "t": 1
+    },
+    {
+     "n": "Amlosafe 5",
+     "s": "Amlodipine 5mg",
+     "c": "Aristo",
+     "m": 2.46,
+     "p": 2.46,
+     "t": 1
+    },
+    {
+     "n": "Amlogard 5",
+     "s": "Amlodipine 5mg",
+     "c": "Mylan",
+     "m": 2.51,
+     "p": 2.51,
+     "t": 1
+    },
+    {
+     "n": "Macsart 40",
+     "s": "Telmisartan 40mg",
+     "c": "Macleods",
+     "m": 3.15,
+     "p": 3.15,
+     "t": 1
+    },
+    {
+     "n": "TelViLite 40",
+     "s": "Telmisartan 40mg",
+     "c": "Leeford",
+     "m": 3.24,
+     "p": 3.24,
+     "t": 1
+    },
+    {
+     "n": "Telgard 40",
+     "s": "Telmisartan 40mg",
+     "c": "Cipla",
+     "m": 3.27,
+     "p": 3.27,
+     "t": 1
+    },
+    {
+     "n": "Telvas 40",
+     "s": "Telmisartan 40mg",
+     "c": "Aristo",
+     "m": 5.69,
+     "p": 5.69,
+     "t": 1
+    },
+    {
+     "n": "Tazloc 40",
+     "s": "Telmisartan 40mg",
+     "c": "USV",
+     "m": 5.81,
+     "p": 5.81,
+     "t": 1
+    },
+    {
+     "n": "Telista 40",
+     "s": "Telmisartan 40mg",
+     "c": "Lupin",
+     "m": 6.52,
+     "p": 6.52,
+     "t": 1
+    },
+    {
+     "n": "Telsar 40",
+     "s": "Telmisartan 40mg",
+     "c": "Torrent",
+     "m": 6.52,
+     "p": 6.52,
+     "t": 1
+    },
+    {
+     "n": "Eritel 40",
+     "s": "Telmisartan 40mg",
+     "c": "Eris",
+     "m": 6.52,
+     "p": 6.52,
+     "t": 1
+    },
+    {
+     "n": "Sartel 40",
+     "s": "Telmisartan 40mg",
+     "c": "Intas",
+     "m": 6.52,
+     "p": 6.52,
+     "t": 1
+    },
+    {
+     "n": "Newtel-H 40",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "Systopic",
+     "m": 4.41,
+     "p": 4.41,
+     "t": 1
+    },
+    {
+     "n": "Telkonol H",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "Knoll",
+     "m": 6.93,
+     "p": 6.93,
+     "t": 1
+    },
+    {
+     "n": "Venpres-H",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "Leeford",
+     "m": 7.23,
+     "p": 7.23,
+     "t": 1
+    },
+    {
+     "n": "Temsan-H",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "Emcure",
+     "m": 8.0,
+     "p": 8.0,
+     "t": 1
+    },
+    {
+     "n": "Telvas H",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "Aristo",
+     "m": 8.38,
+     "p": 8.38,
+     "t": 1
+    },
+    {
+     "n": "Telgard H",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "Cipla",
+     "m": 10.3,
+     "p": 10.3,
+     "t": 1
+    },
+    {
+     "n": "Tazloc-H",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "USV",
+     "m": 15.4,
+     "p": 15.4,
+     "t": 1
+    },
+    {
+     "n": "Telista-H",
+     "s": "Telmisartan 40mg + Hydrochlorothiazide 12.5mg",
+     "c": "Lupin",
+     "m": 18.67,
+     "p": 18.67,
+     "t": 1
+    },
+    {
+     "n": "Newtel-AM",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Systopic",
+     "m": 4.88,
+     "p": 4.88,
+     "t": 1
+    },
+    {
+     "n": "Venpres 40 AM",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Leeford",
+     "m": 7.6,
+     "p": 7.6,
+     "t": 1
+    },
+    {
+     "n": "Telmikind-AM",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Mankind",
+     "m": 8.44,
+     "p": 8.44,
+     "t": 1
+    },
+    {
+     "n": "Telvas-AM",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Aristo",
+     "m": 9.53,
+     "p": 9.53,
+     "t": 1
+    },
+    {
+     "n": "Cresar AM",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Cipla",
+     "m": 9.93,
+     "p": 9.93,
+     "t": 1
+    },
+    {
+     "n": "Telmevas-AM",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Biochem",
+     "m": 11.3,
+     "p": 11.3,
+     "t": 1
+    },
+    {
+     "n": "Tazloc-AM",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "USV",
+     "m": 14.7,
+     "p": 14.7,
+     "t": 1
+    },
+    {
+     "n": "Telma-AM",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Glenmark",
+     "m": 20.6,
+     "p": 20.6,
+     "t": 1
+    },
+    {
+     "n": "Telista-AM",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Lupin",
+     "m": 20.87,
+     "p": 20.87,
+     "t": 1
+    },
+    {
+     "n": "Stamlo-T",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Dr Reddy's",
+     "m": 21.0,
+     "p": 21.0,
+     "t": 1
+    },
+    {
+     "n": "Neopress 50",
+     "s": "Losartan 50mg",
+     "c": "Leeford",
+     "m": 2.96,
+     "p": 2.96,
+     "t": 1
+    },
+    {
+     "n": "Zilos 50",
+     "s": "Losartan 50mg",
+     "c": "FDC",
+     "m": 4.54,
+     "p": 4.54,
+     "t": 1
+    },
+    {
+     "n": "Cosart 50",
+     "s": "Losartan 50mg",
+     "c": "Cipla",
+     "m": 4.98,
+     "p": 4.98,
+     "t": 1
+    },
+    {
+     "n": "Losakind 50",
+     "s": "Losartan 50mg",
+     "c": "Mankind",
+     "m": 5.77,
+     "p": 5.77,
+     "t": 1
+    },
+    {
+     "n": "Losanorm 50",
+     "s": "Losartan 50mg",
+     "c": "Ipca",
+     "m": 8.68,
+     "p": 8.68,
+     "t": 1
+    },
+    {
+     "n": "Tozaar 50",
+     "s": "Losartan 50mg",
+     "c": "Torrent",
+     "m": 9.46,
+     "p": 9.46,
+     "t": 1
+    },
+    {
+     "n": "Repace 50",
+     "s": "Losartan 50mg",
+     "c": "Sun Pharma",
+     "m": 9.47,
+     "p": 9.47,
+     "t": 1
+    },
+    {
+     "n": "Covance 50",
+     "s": "Losartan 50mg",
+     "c": "Sun Pharma",
+     "m": 9.66,
+     "p": 9.66,
+     "t": 1
+    },
+    {
+     "n": "Losacar 50",
+     "s": "Losartan 50mg",
+     "c": "Zydus Cadila",
+     "m": 10.7,
+     "p": 10.7,
+     "t": 1
+    },
+    {
+     "n": "C UDP 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Unison",
+     "m": 2.85,
+     "p": 2.85,
+     "t": 1
+    },
+    {
+     "n": "Cilnidipine 10 Generic",
+     "s": "Cilnidipine 10mg",
+     "c": "Cipla",
+     "m": 6.68,
+     "p": 6.68,
+     "t": 1
+    },
+    {
+     "n": "Cilogard 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Cipla",
+     "m": 8.23,
+     "p": 8.23,
+     "t": 1
+    },
+    {
+     "n": "Neual 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Emcure",
+     "m": 8.31,
+     "p": 8.31,
+     "t": 1
+    },
+    {
+     "n": "Lnbloc 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Eris",
+     "m": 9.08,
+     "p": 9.08,
+     "t": 1
+    },
+    {
+     "n": "Nulong 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Micro Labs",
+     "m": 9.7,
+     "p": 9.7,
+     "t": 1
+    },
+    {
+     "n": "Nexovas 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Macleods",
+     "m": 10.34,
+     "p": 10.34,
+     "t": 1
+    },
+    {
+     "n": "Torcilin 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Torrent",
+     "m": 11.06,
+     "p": 11.06,
+     "t": 1
+    },
+    {
+     "n": "Cildip 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Medley",
+     "m": 11.15,
+     "p": 11.15,
+     "t": 1
+    },
+    {
+     "n": "Dilnip 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Lupin",
+     "m": 11.46,
+     "p": 11.46,
+     "t": 1
+    },
+    {
+     "n": "Rancil 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Sun Pharma",
+     "m": 11.9,
+     "p": 11.9,
+     "t": 1
+    },
+    {
+     "n": "Ciladuo 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Abbott",
+     "m": 12.26,
+     "p": 12.26,
+     "t": 1
+    },
+    {
+     "n": "Twincal 10",
+     "s": "Cilnidipine 10mg",
+     "c": "Zydus Cadila",
+     "m": 15.14,
+     "p": 15.14,
+     "t": 1
+    }
+   ]
   }
  ]
 }
