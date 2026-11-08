@@ -718,6 +718,67 @@
      "t": 20
     }
    ]
+  },
+  {
+   "id": "2026-11-08-cholera-typhoid-parasite",
+   "meds": [
+    {
+     "n": "Doxt-SL",
+     "s": "Doxycycline 100mg + Lactobacillus",
+     "c": "Dr Reddy's",
+     "m": 137.11,
+     "p": 126.0,
+     "t": 10
+    },
+    {
+     "n": "Zanocin 200",
+     "s": "Ofloxacin 200mg",
+     "c": "Sun Pharma",
+     "m": 102.19,
+     "p": 92.0,
+     "t": 10
+    },
+    {
+     "n": "Zentel 400",
+     "s": "Albendazole 400mg",
+     "c": "GSK",
+     "m": 14.9,
+     "p": 13.9,
+     "t": 10
+    },
+    {
+     "n": "Bandy-Plus",
+     "s": "Ivermectin 6mg + Albendazole 400mg",
+     "c": "Mankind",
+     "m": 34.89,
+     "p": 32.1,
+     "t": 1
+    },
+    {
+     "n": "Ivecop 12",
+     "s": "Ivermectin 12mg",
+     "c": "Menarini",
+     "m": 29.06,
+     "p": 26.7,
+     "t": 1
+    },
+    {
+     "n": "Nizonide 500",
+     "s": "Nitazoxanide 500mg",
+     "c": "Lupin",
+     "m": 148.55,
+     "p": 137.0,
+     "t": 6
+    },
+    {
+     "n": "Tiniba 500",
+     "s": "Tinidazole 500mg",
+     "c": "Zydus Cadila",
+     "m": 162.19,
+     "p": 149.0,
+     "t": 10
+    }
+   ]
   }
  ]
 }
