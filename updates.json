@@ -23604,6 +23604,1073 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-migraine",
+   "meds": [
+    {
+     "n": "Arrow Sumatriptan",
+     "s": "Sumatriptan 50mg",
+     "c": "Arrow Pharma",
+     "m": 26.75,
+     "p": 26.75,
+     "t": 1
+    },
+    {
+     "n": "Sumitrex 50",
+     "s": "Sumatriptan 50mg",
+     "c": "Sun",
+     "m": 37.1,
+     "p": 37.1,
+     "t": 1
+    },
+    {
+     "n": "Sumitop 50",
+     "s": "Sumatriptan 50mg",
+     "c": "Healing Pharma",
+     "m": 40.0,
+     "p": 40.0,
+     "t": 1
+    },
+    {
+     "n": "Sumagren 50",
+     "s": "Sumatriptan 50mg",
+     "c": "Prevego",
+     "m": 53.6,
+     "p": 53.6,
+     "t": 1
+    },
+    {
+     "n": "Sumatan 50",
+     "s": "Sumatriptan 50mg",
+     "c": "CMG Biotech",
+     "m": 56.4,
+     "p": 56.4,
+     "t": 1
+    },
+    {
+     "n": "Suminat 50 (1 tab)",
+     "s": "Sumatriptan 50mg",
+     "c": "Sun",
+     "m": 61.0,
+     "p": 61.0,
+     "t": 1
+    },
+    {
+     "n": "Suminat 25 (1 tab)",
+     "s": "Sumatriptan 25mg",
+     "c": "Sun",
+     "m": 34.2,
+     "p": 34.2,
+     "t": 1
+    },
+    {
+     "n": "Suminat Inj",
+     "s": "Sumatriptan 6mg injection",
+     "c": "Sun",
+     "m": 39.9,
+     "p": 39.9
+    },
+    {
+     "n": "Suminat Nasal Spray (1ml)",
+     "s": "Sumatriptan 20mg nasal spray",
+     "c": "Sun",
+     "m": 293.48,
+     "p": 293.48
+    },
+    {
+     "n": "Snapit (2)",
+     "s": "Sumatriptan 85mg + Naproxen 500mg",
+     "c": "",
+     "m": 39.5,
+     "p": 39.5,
+     "t": 1
+    },
+    {
+     "n": "Suminat Forte",
+     "s": "Sumatriptan 50mg + Naproxen 550mg",
+     "c": "Sun",
+     "m": 59.0,
+     "p": 59.0,
+     "t": 1
+    },
+    {
+     "n": "Migsun 10 (4)",
+     "s": "Rizatriptan 10mg",
+     "c": "Sunrise",
+     "m": 14.5,
+     "p": 14.5,
+     "t": 1
+    },
+    {
+     "n": "Rizatan 10",
+     "s": "Rizatriptan 10mg",
+     "c": "Torrent",
+     "m": 18.05,
+     "p": 18.05,
+     "t": 1
+    },
+    {
+     "n": "Rizatrax 10",
+     "s": "Rizatriptan 10mg",
+     "c": "",
+     "m": 19.5,
+     "p": 19.5,
+     "t": 1
+    },
+    {
+     "n": "Maxtan 10",
+     "s": "Rizatriptan 10mg",
+     "c": "Consern",
+     "m": 21.5,
+     "p": 21.5,
+     "t": 1
+    },
+    {
+     "n": "Maxalt RPD 10",
+     "s": "Rizatriptan 10mg",
+     "c": "MSD",
+     "m": 23.17,
+     "p": 23.17,
+     "t": 1
+    },
+    {
+     "n": "Jan Aushadhi Rizatriptan",
+     "s": "Rizatriptan 10mg",
+     "c": "Jan Aushadhi",
+     "m": 30.6,
+     "p": 30.6,
+     "t": 1
+    },
+    {
+     "n": "Rizatrip 10 (6)",
+     "s": "Rizatriptan 10mg",
+     "c": "Geno",
+     "m": 40.29,
+     "p": 40.29,
+     "t": 1
+    },
+    {
+     "n": "Rizatop 10",
+     "s": "Rizatriptan 10mg",
+     "c": "Healing Pharma",
+     "m": 45.0,
+     "p": 45.0,
+     "t": 1
+    },
+    {
+     "n": "Rizaxus 10 (4)",
+     "s": "Rizatriptan 10mg",
+     "c": "Galaxus",
+     "m": 45.0,
+     "p": 45.0,
+     "t": 1
+    },
+    {
+     "n": "Riztran 10",
+     "s": "Rizatriptan 10mg",
+     "c": "Vanprom",
+     "m": 49.8,
+     "p": 49.8,
+     "t": 1
+    },
+    {
+     "n": "Rizanet 10 strip (1)",
+     "s": "Rizatriptan 10mg",
+     "c": "Cipla",
+     "m": 69.0,
+     "p": 69.0,
+     "t": 1
+    },
+    {
+     "n": "Rizora 10 (4)",
+     "s": "Rizatriptan 10mg",
+     "c": "Intas",
+     "m": 93.0,
+     "p": 93.0,
+     "t": 1
+    },
+    {
+     "n": "Rizact 10 (4)",
+     "s": "Rizatriptan 10mg",
+     "c": "Cipla",
+     "m": 105.05,
+     "p": 105.05,
+     "t": 1
+    },
+    {
+     "n": "Naratrex 2.5 (2)",
+     "s": "Naratriptan 2.5mg",
+     "c": "",
+     "m": 20.0,
+     "p": 20.0,
+     "t": 1
+    },
+    {
+     "n": "Jan Aushadhi Naratriptan (2)",
+     "s": "Naratriptan 2.5mg",
+     "c": "Jan Aushadhi",
+     "m": 37.5,
+     "p": 37.5,
+     "t": 1
+    },
+    {
+     "n": "Minado 500",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Tas Med",
+     "m": 6.84,
+     "p": 6.84,
+     "t": 1
+    },
+    {
+     "n": "Aflaxen",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Cynak",
+     "m": 6.9,
+     "p": 6.9,
+     "t": 1
+    },
+    {
+     "n": "Naprodom 500",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Crescent",
+     "m": 6.99,
+     "p": 6.99,
+     "t": 1
+    },
+    {
+     "n": "Pandex",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Mission Research",
+     "m": 7.4,
+     "p": 7.4,
+     "t": 1
+    },
+    {
+     "n": "Comig 500",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Seagull",
+     "m": 7.7,
+     "p": 7.7,
+     "t": 1
+    },
+    {
+     "n": "Naxdom 500",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Sun",
+     "m": 8.65,
+     "p": 8.65,
+     "t": 1
+    },
+    {
+     "n": "Macprox DP 500",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Macleods",
+     "m": 8.8,
+     "p": 8.8,
+     "t": 1
+    },
+    {
+     "n": "Napra D 500",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Intas",
+     "m": 8.95,
+     "p": 8.95,
+     "t": 1
+    },
+    {
+     "n": "Xenadom 500",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Icon Life",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Naprexa D",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Nexa",
+     "m": 9.3,
+     "p": 9.3,
+     "t": 1
+    },
+    {
+     "n": "Domproxin",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Salas",
+     "m": 9.4,
+     "p": 9.4,
+     "t": 1
+    },
+    {
+     "n": "Norman D",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Veasley",
+     "m": 10.1,
+     "p": 10.1,
+     "t": 1
+    },
+    {
+     "n": "Napodrix",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Shinto",
+     "m": 10.7,
+     "p": 10.7,
+     "t": 1
+    },
+    {
+     "n": "Napsure Plus",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Brainwave",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Naprest D",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Wander",
+     "m": 11.9,
+     "p": 11.9,
+     "t": 1
+    },
+    {
+     "n": "Nippo D",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Skvamps",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Naproyou Forte",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Maksun",
+     "m": 13.0,
+     "p": 13.0,
+     "t": 1
+    },
+    {
+     "n": "Doctonox",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Iretus",
+     "m": 15.99,
+     "p": 15.99,
+     "t": 1
+    },
+    {
+     "n": "Noridom",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Sigma Softgel",
+     "m": 16.5,
+     "p": 16.5,
+     "t": 1
+    },
+    {
+     "n": "Naproxil 500 D",
+     "s": "Naproxen 500mg + Domperidone 10mg",
+     "c": "Systemic",
+     "m": 18.9,
+     "p": 18.9,
+     "t": 1
+    },
+    {
+     "n": "Napra D 250",
+     "s": "Naproxen 250mg + Domperidone 10mg",
+     "c": "Intas",
+     "m": 7.7,
+     "p": 7.7,
+     "t": 1
+    },
+    {
+     "n": "NT Grain",
+     "s": "Ergotamine 1mg + Caffeine 100mg + Paracetamol 250mg + Prochlorperazine 2.5mg",
+     "c": "Intas",
+     "m": 3.8,
+     "p": 3.8,
+     "t": 1
+    },
+    {
+     "n": "Mygrain",
+     "s": "Ergotamine 1mg + Caffeine 100mg + Paracetamol 250mg + Prochlorperazine 2.5mg",
+     "c": "",
+     "m": 6.56,
+     "p": 6.56,
+     "t": 1
+    },
+    {
+     "n": "Maygrain",
+     "s": "Ergotamine 1mg + Caffeine 100mg + Paracetamol 250mg + Prochlorperazine 2.5mg",
+     "c": "",
+     "m": 7.41,
+     "p": 7.41,
+     "t": 1
+    },
+    {
+     "n": "Vasograin (14)",
+     "s": "Ergotamine 1mg + Caffeine 100mg + Paracetamol 250mg + Prochlorperazine 2.5mg",
+     "c": "Cadila",
+     "m": 9.05,
+     "p": 9.05,
+     "t": 1
+    },
+    {
+     "n": "Vasograin EC",
+     "s": "Ergotamine + Caffeine (salt strip pe check baki)",
+     "c": "Cadila",
+     "m": 9.8,
+     "p": 9.8,
+     "t": 1
+    },
+    {
+     "n": "Migrafen",
+     "s": "Ergotamine + Caffeine (salt strip pe check baki)",
+     "c": "Leeford",
+     "m": 10.8,
+     "p": 10.8,
+     "t": 1
+    },
+    {
+     "n": "Betabloc Forte 40",
+     "s": "Propranolol 40mg",
+     "c": "USV",
+     "m": 0.94,
+     "p": 0.94,
+     "t": 1
+    },
+    {
+     "n": "Arkaprop 40",
+     "s": "Propranolol 40mg",
+     "c": "RKG Pharma",
+     "m": 1.85,
+     "p": 1.85,
+     "t": 1
+    },
+    {
+     "n": "Propal 40",
+     "s": "Propranolol 40mg",
+     "c": "Maneesh",
+     "m": 2.22,
+     "p": 2.22,
+     "t": 1
+    },
+    {
+     "n": "Pilol 40",
+     "s": "Propranolol 40mg",
+     "c": "A N Pharmacia",
+     "m": 2.47,
+     "p": 2.47,
+     "t": 1
+    },
+    {
+     "n": "Norten 40",
+     "s": "Propranolol 40mg",
+     "c": "Baroda",
+     "m": 2.8,
+     "p": 2.8,
+     "t": 1
+    },
+    {
+     "n": "Ponol 40",
+     "s": "Propranolol 40mg",
+     "c": "Shine",
+     "m": 2.96,
+     "p": 2.96,
+     "t": 1
+    },
+    {
+     "n": "Betapro 40",
+     "s": "Propranolol 40mg",
+     "c": "Consern",
+     "m": 3.01,
+     "p": 3.01,
+     "t": 1
+    },
+    {
+     "n": "Migrales 40",
+     "s": "Propranolol 40mg",
+     "c": "Dycine",
+     "m": 3.02,
+     "p": 3.02,
+     "t": 1
+    },
+    {
+     "n": "Prop 40",
+     "s": "Propranolol 40mg",
+     "c": "DD Pharma",
+     "m": 3.08,
+     "p": 3.08,
+     "t": 1
+    },
+    {
+     "n": "Arminol 40",
+     "s": "Propranolol 40mg",
+     "c": "East West",
+     "m": 3.09,
+     "p": 3.09,
+     "t": 1
+    },
+    {
+     "n": "Inderal 40 (15)",
+     "s": "Propranolol 40mg",
+     "c": "Abbott",
+     "m": 3.11,
+     "p": 3.11,
+     "t": 1
+    },
+    {
+     "n": "Ciplar 40 (15)",
+     "s": "Propranolol 40mg",
+     "c": "Cipla",
+     "m": 3.17,
+     "p": 3.17,
+     "t": 1
+    },
+    {
+     "n": "Provanol 40",
+     "s": "Propranolol 40mg",
+     "c": "Intas",
+     "m": 3.17,
+     "p": 3.17,
+     "t": 1
+    },
+    {
+     "n": "Pronate 40",
+     "s": "Propranolol 40mg",
+     "c": "Linux",
+     "m": 3.2,
+     "p": 3.2,
+     "t": 1
+    },
+    {
+     "n": "Pronol 40 (15)",
+     "s": "Propranolol 40mg",
+     "c": "Knoll",
+     "m": 3.57,
+     "p": 3.57,
+     "t": 1
+    },
+    {
+     "n": "Prolol 40",
+     "s": "Propranolol 40mg",
+     "c": "Crescent",
+     "m": 3.6,
+     "p": 3.6,
+     "t": 1
+    },
+    {
+     "n": "Ciplar-LA 40 (15)",
+     "s": "Propranolol 40mg",
+     "c": "Cipla",
+     "m": 7.4,
+     "p": 7.4,
+     "t": 1
+    },
+    {
+     "n": "Migon Plus",
+     "s": "Propranolol 40mg + Flunarizine 10mg",
+     "c": "Cadila",
+     "m": 7.7,
+     "p": 7.7,
+     "t": 1
+    },
+    {
+     "n": "Provanol Plus 10",
+     "s": "Propranolol 40mg + Flunarizine 10mg",
+     "c": "Intas",
+     "m": 9.1,
+     "p": 9.1,
+     "t": 1
+    },
+    {
+     "n": "Pronate F",
+     "s": "Propranolol 40mg + Flunarizine 10mg",
+     "c": "Linux",
+     "m": 9.8,
+     "p": 9.8,
+     "t": 1
+    },
+    {
+     "n": "Ciplar Plus 10",
+     "s": "Propranolol 40mg + Flunarizine 10mg",
+     "c": "Cipla",
+     "m": 10.73,
+     "p": 10.73,
+     "t": 1
+    },
+    {
+     "n": "Jan Aushadhi",
+     "s": "Propranolol 40mg + Flunarizine 10mg",
+     "c": "Jan Aushadhi",
+     "m": 13.0,
+     "p": 13.0,
+     "t": 1
+    },
+    {
+     "n": "Migrabeta Plus",
+     "s": "Propranolol 40mg + Flunarizine 10mg",
+     "c": "",
+     "m": 14.4,
+     "p": 14.4,
+     "t": 1
+    },
+    {
+     "n": "Migprex",
+     "s": "Propranolol 40mg + Flunarizine 10mg",
+     "c": "",
+     "m": 15.08,
+     "p": 15.08,
+     "t": 1
+    },
+    {
+     "n": "Migiplex 5 SR",
+     "s": "Propranolol 40mg + Flunarizine 5mg",
+     "c": "",
+     "m": 7.3,
+     "p": 7.3,
+     "t": 1
+    },
+    {
+     "n": "Ciplar Plus 5",
+     "s": "Propranolol 40mg + Flunarizine 5mg",
+     "c": "Cipla",
+     "m": 7.87,
+     "p": 7.87,
+     "t": 1
+    },
+    {
+     "n": "Grain 5",
+     "s": "Flunarizine 5mg",
+     "c": "RKG Pharma",
+     "m": 1.5,
+     "p": 1.5,
+     "t": 1
+    },
+    {
+     "n": "Grenil-F 5",
+     "s": "Flunarizine 5mg",
+     "c": "KAPL",
+     "m": 1.77,
+     "p": 1.77,
+     "t": 1
+    },
+    {
+     "n": "Migarid 5",
+     "s": "Flunarizine 5mg",
+     "c": "Cipla",
+     "m": 1.9,
+     "p": 1.9,
+     "t": 1
+    },
+    {
+     "n": "Fluner 5",
+     "s": "Flunarizine 5mg",
+     "c": "Geno",
+     "m": 2.12,
+     "p": 2.12,
+     "t": 1
+    },
+    {
+     "n": "Fine 5",
+     "s": "Flunarizine 5mg",
+     "c": "Baroda",
+     "m": 2.17,
+     "p": 2.17,
+     "t": 1
+    },
+    {
+     "n": "Oxigran 5",
+     "s": "Flunarizine 5mg",
+     "c": "Oxford",
+     "m": 2.2,
+     "p": 2.2,
+     "t": 1
+    },
+    {
+     "n": "Flunarin 5",
+     "s": "Flunarizine 5mg",
+     "c": "FDC",
+     "m": 2.32,
+     "p": 2.32,
+     "t": 1
+    },
+    {
+     "n": "Luna 5",
+     "s": "Flunarizine 5mg",
+     "c": "Sigmund",
+     "m": 2.37,
+     "p": 2.37,
+     "t": 1
+    },
+    {
+     "n": "Migon 5",
+     "s": "Flunarizine 5mg",
+     "c": "Cadila",
+     "m": 2.39,
+     "p": 2.39,
+     "t": 1
+    },
+    {
+     "n": "Sibelium 5 (30)",
+     "s": "Flunarizine 5mg",
+     "c": "J&J",
+     "m": 2.73,
+     "p": 2.73,
+     "t": 1
+    },
+    {
+     "n": "Migrecure 5",
+     "s": "Flunarizine 5mg",
+     "c": "Surmuont",
+     "m": 2.8,
+     "p": 2.8,
+     "t": 1
+    },
+    {
+     "n": "Mgr 5",
+     "s": "Flunarizine 5mg",
+     "c": "Inga Labs",
+     "m": 2.89,
+     "p": 2.89,
+     "t": 1
+    },
+    {
+     "n": "Profigran 5",
+     "s": "Flunarizine 5mg",
+     "c": "Alkem",
+     "m": 2.9,
+     "p": 2.9,
+     "t": 1
+    },
+    {
+     "n": "Migravas 5",
+     "s": "Flunarizine 5mg",
+     "c": "A N Pharmacia",
+     "m": 2.9,
+     "p": 2.9,
+     "t": 1
+    },
+    {
+     "n": "Nomigan 5",
+     "s": "Flunarizine 5mg",
+     "c": "Kivi Labs",
+     "m": 2.9,
+     "p": 2.9,
+     "t": 1
+    },
+    {
+     "n": "Flunarest 5",
+     "s": "Flunarizine 5mg",
+     "c": "Senses",
+     "m": 3.0,
+     "p": 3.0,
+     "t": 1
+    },
+    {
+     "n": "Migranex 5",
+     "s": "Flunarizine 5mg",
+     "c": "Intas",
+     "m": 3.08,
+     "p": 3.08,
+     "t": 1
+    },
+    {
+     "n": "Flunipar 5",
+     "s": "Flunarizine 5mg",
+     "c": "",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Topsulant 25",
+     "s": "Topiramate 25mg",
+     "c": "Orchid",
+     "m": 2.3,
+     "p": 2.3,
+     "t": 1
+    },
+    {
+     "n": "Epimate 25",
+     "s": "Topiramate 25mg",
+     "c": "Psycormedies",
+     "m": 2.71,
+     "p": 2.71,
+     "t": 1
+    },
+    {
+     "n": "Tmatecad 25",
+     "s": "Topiramate 25mg",
+     "c": "Cadila",
+     "m": 2.86,
+     "p": 2.86,
+     "t": 1
+    },
+    {
+     "n": "Urate 25",
+     "s": "Topiramate 25mg",
+     "c": "USV",
+     "m": 3.46,
+     "p": 3.46,
+     "t": 1
+    },
+    {
+     "n": "Topirate 25 (15)",
+     "s": "Topiramate 25mg",
+     "c": "Pulse",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Toplep 25",
+     "s": "Topiramate 25mg",
+     "c": "Tripada",
+     "m": 3.8,
+     "p": 3.8,
+     "t": 1
+    },
+    {
+     "n": "Topamate 25",
+     "s": "Topiramate 25mg",
+     "c": "Cipla",
+     "m": 4.03,
+     "p": 4.03,
+     "t": 1
+    },
+    {
+     "n": "Leptomate 25",
+     "s": "Topiramate 25mg",
+     "c": "La Renon",
+     "m": 4.1,
+     "p": 4.1,
+     "t": 1
+    },
+    {
+     "n": "Topate 25",
+     "s": "Topiramate 25mg",
+     "c": "Tas Med",
+     "m": 4.25,
+     "p": 4.25,
+     "t": 1
+    },
+    {
+     "n": "T Mate 25",
+     "s": "Topiramate 25mg",
+     "c": "DD Pharma",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Monotop 25",
+     "s": "Topiramate 25mg",
+     "c": "Kivi Labs",
+     "m": 4.58,
+     "p": 4.58,
+     "t": 1
+    },
+    {
+     "n": "Topse 25",
+     "s": "Topiramate 25mg",
+     "c": "Crescent",
+     "m": 4.71,
+     "p": 4.71,
+     "t": 1
+    },
+    {
+     "n": "Topicon 25",
+     "s": "Topiramate 25mg",
+     "c": "Consern",
+     "m": 5.3,
+     "p": 5.3,
+     "t": 1
+    },
+    {
+     "n": "Topirain 25",
+     "s": "Topiramate 25mg",
+     "c": "Torrent",
+     "m": 5.55,
+     "p": 5.55,
+     "t": 1
+    },
+    {
+     "n": "Tormap 25",
+     "s": "Topiramate 25mg",
+     "c": "Arinna",
+     "m": 7.32,
+     "p": 7.32,
+     "t": 1
+    },
+    {
+     "n": "Nextop 25",
+     "s": "Topiramate 25mg",
+     "c": "Torrent",
+     "m": 7.35,
+     "p": 7.35,
+     "t": 1
+    },
+    {
+     "n": "Topirol 25",
+     "s": "Topiramate 25mg",
+     "c": "Sun",
+     "m": 8.7,
+     "p": 8.7,
+     "t": 1
+    },
+    {
+     "n": "Topamac 25",
+     "s": "Topiramate 25mg",
+     "c": "Janssen",
+     "m": 10.75,
+     "p": 10.75,
+     "t": 1
+    },
+    {
+     "n": "Diporex 250 ER (15)",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Torrent",
+     "m": 3.62,
+     "p": 3.62,
+     "t": 1
+    },
+    {
+     "n": "Proval 250 ER",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Psycormedies",
+     "m": 4.7,
+     "p": 4.7,
+     "t": 1
+    },
+    {
+     "n": "Tikoprex 250 ER",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "USV",
+     "m": 5.6,
+     "p": 5.6,
+     "t": 1
+    },
+    {
+     "n": "Valp 250 ER",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Orchid",
+     "m": 6.17,
+     "p": 6.17,
+     "t": 1
+    },
+    {
+     "n": "Divalgress ER 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "La Renon",
+     "m": 6.3,
+     "p": 6.3,
+     "t": 1
+    },
+    {
+     "n": "Valex 250 ER",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Sigmund",
+     "m": 6.41,
+     "p": 6.41,
+     "t": 1
+    },
+    {
+     "n": "Divacon ER 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Mayflower",
+     "m": 6.6,
+     "p": 6.6,
+     "t": 1
+    },
+    {
+     "n": "Diprate-OD 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Solvate",
+     "m": 6.71,
+     "p": 6.71,
+     "t": 1
+    },
+    {
+     "n": "Divalrate ER 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Ipca",
+     "m": 7.26,
+     "p": 7.26,
+     "t": 1
+    },
+    {
+     "n": "Divalcad 250 ER",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Cadila",
+     "m": 7.41,
+     "p": 7.41,
+     "t": 1
+    },
+    {
+     "n": "Divalid 250 ER",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Linux",
+     "m": 7.55,
+     "p": 7.55,
+     "t": 1
+    },
+    {
+     "n": "Desval ER 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Eris",
+     "m": 7.68,
+     "p": 7.68,
+     "t": 1
+    },
+    {
+     "n": "Diproex ER 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Torrent",
+     "m": 8.23,
+     "p": 8.23,
+     "t": 1
+    },
+    {
+     "n": "Diresta OD 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Arinna",
+     "m": 8.41,
+     "p": 8.41,
+     "t": 1
+    },
+    {
+     "n": "Divaa-OD 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Intas",
+     "m": 8.95,
+     "p": 8.95,
+     "t": 1
+    },
+    {
+     "n": "Dicorate ER 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Sun",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Depakote XR 250 (15)",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Sanofi",
+     "m": 9.81,
+     "p": 9.81,
+     "t": 1
+    },
+    {
+     "n": "Divacid-ER 250",
+     "s": "Divalproex Sodium 250mg ER",
+     "c": "Mova",
+     "m": 10.99,
+     "p": 10.99,
+     "t": 1
+    }
+   ]
   }
  ]
 }
