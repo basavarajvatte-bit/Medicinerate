@@ -7217,6 +7217,1587 @@
      "p": 165.52
     }
    ]
+  },
+  {
+   "id": "2026-11-08-gout-gastric",
+   "meds": [
+    {
+     "n": "Febuxot 40",
+     "s": "Febuxostat 40mg",
+     "c": "Zeelab",
+     "m": 2.4,
+     "p": 2.4,
+     "t": 1
+    },
+    {
+     "n": "Febzeal 40",
+     "s": "Febuxostat 40mg",
+     "c": "Systopic",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Febuvel 40",
+     "s": "Febuxostat 40mg",
+     "c": "Leeford",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Uriway 40",
+     "s": "Febuxostat 40mg",
+     "c": "Vintage",
+     "m": 10.4,
+     "p": 10.4,
+     "t": 1
+    },
+    {
+     "n": "Febuprez",
+     "s": "Febuxostat 40mg",
+     "c": "Rencord",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Febutec 40",
+     "s": "Febuxostat 40mg",
+     "c": "Cipla",
+     "m": 13.83,
+     "p": 13.83,
+     "t": 1
+    },
+    {
+     "n": "Febera",
+     "s": "Febuxostat 40mg",
+     "c": "Kayra",
+     "m": 14.3,
+     "p": 14.3,
+     "t": 1
+    },
+    {
+     "n": "Foxstat 40",
+     "s": "Febuxostat 40mg",
+     "c": "Franco-Indian",
+     "m": 14.8,
+     "p": 14.8,
+     "t": 1
+    },
+    {
+     "n": "Feburic 40",
+     "s": "Febuxostat 40mg",
+     "c": "Ajanta",
+     "m": 15.4,
+     "p": 15.4,
+     "t": 1
+    },
+    {
+     "n": "Febumac 40",
+     "s": "Febuxostat 40mg",
+     "c": "Macleods",
+     "m": 15.7,
+     "p": 15.7,
+     "t": 1
+    },
+    {
+     "n": "Zurig 40",
+     "s": "Febuxostat 40mg",
+     "c": "Zydus",
+     "m": 16.62,
+     "p": 16.62,
+     "t": 1
+    },
+    {
+     "n": "Furic 40",
+     "s": "Febuxostat 40mg",
+     "c": "Lupin",
+     "m": 17.11,
+     "p": 17.11,
+     "t": 1
+    },
+    {
+     "n": "Ubexa 40",
+     "s": "Febuxostat 40mg",
+     "c": "Lupin",
+     "m": 17.97,
+     "p": 17.97,
+     "t": 1
+    },
+    {
+     "n": "Febuxot 40mg",
+     "s": "Febuxostat 40mg",
+     "c": "Knoll",
+     "m": 19.1,
+     "p": 19.1,
+     "t": 1
+    },
+    {
+     "n": "Febustat 40",
+     "s": "Febuxostat 40mg",
+     "c": "Abbott",
+     "m": 21.82,
+     "p": 21.82,
+     "t": 1
+    },
+    {
+     "n": "Febuxot 80",
+     "s": "Febuxostat 80mg",
+     "c": "Zeelab",
+     "m": 3.75,
+     "p": 3.75,
+     "t": 1
+    },
+    {
+     "n": "Febutax 80",
+     "s": "Febuxostat 80mg",
+     "c": "Leeford",
+     "m": 8.67,
+     "p": 8.67,
+     "t": 1
+    },
+    {
+     "n": "Revifab 80",
+     "s": "Febuxostat 80mg",
+     "c": "Ravenbhel",
+     "m": 12.6,
+     "p": 12.6,
+     "t": 1
+    },
+    {
+     "n": "FXO 80",
+     "s": "Febuxostat 80mg",
+     "c": "Rhumasafe",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Febuvel 80",
+     "s": "Febuxostat 80mg",
+     "c": "Leeford",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Febutec 80",
+     "s": "Febuxostat 80mg",
+     "c": "Cipla",
+     "m": 14.1,
+     "p": 14.1,
+     "t": 1
+    },
+    {
+     "n": "Febuset 80",
+     "s": "Febuxostat 80mg",
+     "c": "Meyer",
+     "m": 16.4,
+     "p": 16.4,
+     "t": 1
+    },
+    {
+     "n": "Fabure 80",
+     "s": "Febuxostat 80mg",
+     "c": "Biovzn",
+     "m": 18.9,
+     "p": 18.9,
+     "t": 1
+    },
+    {
+     "n": "Febubest 80",
+     "s": "Febuxostat 80mg",
+     "c": "Indoco",
+     "m": 19.3,
+     "p": 19.3,
+     "t": 1
+    },
+    {
+     "n": "Fbx 80",
+     "s": "Febuxostat 80mg",
+     "c": "Albert David",
+     "m": 20.06,
+     "p": 20.06,
+     "t": 1
+    },
+    {
+     "n": "Fubox 80",
+     "s": "Febuxostat 80mg",
+     "c": "CMR Life",
+     "m": 20.5,
+     "p": 20.5,
+     "t": 1
+    },
+    {
+     "n": "Ebuxo 80",
+     "s": "Febuxostat 80mg",
+     "c": "Ipca",
+     "m": 22.37,
+     "p": 22.37,
+     "t": 1
+    },
+    {
+     "n": "Foxstat 80",
+     "s": "Febuxostat 80mg",
+     "c": "Franco-Indian",
+     "m": 23.15,
+     "p": 23.15,
+     "t": 1
+    },
+    {
+     "n": "Feboxa 80",
+     "s": "Febuxostat 80mg",
+     "c": "Sun Pharma",
+     "m": 23.9,
+     "p": 23.9,
+     "t": 1
+    },
+    {
+     "n": "Febumac 80",
+     "s": "Febuxostat 80mg",
+     "c": "Macleods",
+     "m": 24.5,
+     "p": 24.5,
+     "t": 1
+    },
+    {
+     "n": "Zurig 80",
+     "s": "Febuxostat 80mg",
+     "c": "Zydus",
+     "m": 24.56,
+     "p": 24.56,
+     "t": 1
+    },
+    {
+     "n": "Feburic 80",
+     "s": "Febuxostat 80mg",
+     "c": "Ajanta",
+     "m": 24.87,
+     "p": 24.87,
+     "t": 1
+    },
+    {
+     "n": "Febugood 80",
+     "s": "Febuxostat 80mg",
+     "c": "Torrent",
+     "m": 24.97,
+     "p": 24.97,
+     "t": 1
+    },
+    {
+     "n": "Fabulas 80",
+     "s": "Febuxostat 80mg",
+     "c": "Intas",
+     "m": 25.9,
+     "p": 25.9,
+     "t": 1
+    },
+    {
+     "n": "Febuxor 80",
+     "s": "Febuxostat 80mg",
+     "c": "Intas",
+     "m": 25.95,
+     "p": 25.95,
+     "t": 1
+    },
+    {
+     "n": "Ubexa 80",
+     "s": "Febuxostat 80mg",
+     "c": "Lupin",
+     "m": 26.47,
+     "p": 26.47,
+     "t": 1
+    },
+    {
+     "n": "Febutaz 80",
+     "s": "Febuxostat 80mg",
+     "c": "Sun Pharma",
+     "m": 26.7,
+     "p": 26.7,
+     "t": 1
+    },
+    {
+     "n": "Febuget 80",
+     "s": "Febuxostat 80mg",
+     "c": "Sun Pharma",
+     "m": 26.7,
+     "p": 26.7,
+     "t": 1
+    },
+    {
+     "n": "Febucip 80",
+     "s": "Febuxostat 80mg",
+     "c": "Cipla",
+     "m": 26.93,
+     "p": 26.93,
+     "t": 1
+    },
+    {
+     "n": "Furic 80",
+     "s": "Febuxostat 80mg",
+     "c": "Lupin",
+     "m": 29.07,
+     "p": 29.07,
+     "t": 1
+    },
+    {
+     "n": "Febustat 80",
+     "s": "Febuxostat 80mg",
+     "c": "Abbott",
+     "m": 31.25,
+     "p": 31.25,
+     "t": 1
+    },
+    {
+     "n": "Ranloric 100",
+     "s": "Allopurinol 100mg",
+     "c": "Sun Pharma",
+     "m": 0.76,
+     "p": 0.76,
+     "t": 1
+    },
+    {
+     "n": "Uridip 100",
+     "s": "Allopurinol 100mg",
+     "c": "Alchemist",
+     "m": 1.83,
+     "p": 1.83,
+     "t": 1
+    },
+    {
+     "n": "Allric 100",
+     "s": "Allopurinol 100mg",
+     "c": "Elixir",
+     "m": 1.9,
+     "p": 1.9,
+     "t": 1
+    },
+    {
+     "n": "Ciploric 100",
+     "s": "Allopurinol 100mg",
+     "c": "Cipla",
+     "m": 2.1,
+     "p": 2.1,
+     "t": 1
+    },
+    {
+     "n": "Algoric 100",
+     "s": "Allopurinol 100mg",
+     "c": "Kamron",
+     "m": 2.1,
+     "p": 2.1,
+     "t": 1
+    },
+    {
+     "n": "Alur 100",
+     "s": "Allopurinol 100mg",
+     "c": "Alna",
+     "m": 2.1,
+     "p": 2.1,
+     "t": 1
+    },
+    {
+     "n": "Zyrik 100",
+     "s": "Allopurinol 100mg",
+     "c": "Cipla",
+     "m": 2.11,
+     "p": 2.11,
+     "t": 1
+    },
+    {
+     "n": "Alopur 100",
+     "s": "Allopurinol 100mg",
+     "c": "Satven",
+     "m": 2.12,
+     "p": 2.12,
+     "t": 1
+    },
+    {
+     "n": "Zyle 100",
+     "s": "Allopurinol 100mg",
+     "c": "Leeford",
+     "m": 2.12,
+     "p": 2.12,
+     "t": 1
+    },
+    {
+     "n": "Zyloric 100",
+     "s": "Allopurinol 100mg",
+     "c": "GSK",
+     "m": 2.12,
+     "p": 2.12,
+     "t": 1
+    },
+    {
+     "n": "Logout 100",
+     "s": "Allopurinol 100mg",
+     "c": "Inga",
+     "m": 2.13,
+     "p": 2.13,
+     "t": 1
+    },
+    {
+     "n": "Ciprolic 100",
+     "s": "Allopurinol 100mg",
+     "c": "Cipla",
+     "m": 2.22,
+     "p": 2.22,
+     "t": 1
+    },
+    {
+     "n": "Alrik 100",
+     "s": "Allopurinol 100mg",
+     "c": "Cipla",
+     "m": 2.4,
+     "p": 2.4,
+     "t": 1
+    },
+    {
+     "n": "Coljoy 0.5",
+     "s": "Colchicine 0.5mg",
+     "c": "Cadila",
+     "m": 2.17,
+     "p": 2.17,
+     "t": 1
+    },
+    {
+     "n": "Geton",
+     "s": "Colchicine 0.5mg",
+     "c": "Ajanta",
+     "m": 3.16,
+     "p": 3.16,
+     "t": 1
+    },
+    {
+     "n": "Gountnil 0.5",
+     "s": "Colchicine 0.5mg",
+     "c": "Inga",
+     "m": 3.37,
+     "p": 3.37,
+     "t": 1
+    },
+    {
+     "n": "Zycolchin",
+     "s": "Colchicine 0.5mg",
+     "c": "Zydus",
+     "m": 3.38,
+     "p": 3.38,
+     "t": 1
+    },
+    {
+     "n": "Goutnil 0.5",
+     "s": "Colchicine 0.5mg",
+     "c": "Inga",
+     "m": 3.39,
+     "p": 3.39,
+     "t": 1
+    },
+    {
+     "n": "Colchiget",
+     "s": "Colchicine 0.5mg",
+     "c": "Chemo",
+     "m": 3.49,
+     "p": 3.49,
+     "t": 1
+    },
+    {
+     "n": "Colchigout 0.5",
+     "s": "Colchicine 0.5mg",
+     "c": "Prevego",
+     "m": 3.49,
+     "p": 3.49,
+     "t": 1
+    },
+    {
+     "n": "Pantopraz 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Khandelwal",
+     "m": 0.98,
+     "p": 0.98,
+     "t": 1
+    },
+    {
+     "n": "Pantoride 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Zeelab",
+     "m": 1.8,
+     "p": 1.8,
+     "t": 1
+    },
+    {
+     "n": "Topp 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Systopic",
+     "m": 2.6,
+     "p": 2.6,
+     "t": 1
+    },
+    {
+     "n": "P-Ppi 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Blue Cross",
+     "m": 3.7,
+     "p": 3.7,
+     "t": 1
+    },
+    {
+     "n": "Zipant 40",
+     "s": "Pantoprazole 40mg",
+     "c": "FDC",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "Pezover 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Leeford",
+     "m": 5.02,
+     "p": 5.02,
+     "t": 1
+    },
+    {
+     "n": "Panum 40",
+     "s": "Pantoprazole 40mg",
+     "c": "JB Chemicals",
+     "m": 5.04,
+     "p": 5.04,
+     "t": 1
+    },
+    {
+     "n": "Pantafol 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Leeford",
+     "m": 5.05,
+     "p": 5.05,
+     "t": 1
+    },
+    {
+     "n": "Pantakind",
+     "s": "Pantoprazole 40mg",
+     "c": "Mankind",
+     "m": 5.14,
+     "p": 5.14,
+     "t": 1
+    },
+    {
+     "n": "Pantorish 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Moreish",
+     "m": 5.71,
+     "p": 5.71,
+     "t": 1
+    },
+    {
+     "n": "Nupenta",
+     "s": "Pantoprazole 40mg",
+     "c": "Macleods",
+     "m": 6.05,
+     "p": 6.05,
+     "t": 1
+    },
+    {
+     "n": "Pentaloc 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Cadila",
+     "m": 6.18,
+     "p": 6.18,
+     "t": 1
+    },
+    {
+     "n": "Pantodaks 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Dakshinamurti",
+     "m": 6.3,
+     "p": 6.3,
+     "t": 1
+    },
+    {
+     "n": "Praztac 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Indoco",
+     "m": 6.6,
+     "p": 6.6,
+     "t": 1
+    },
+    {
+     "n": "Ulpan",
+     "s": "Pantoprazole 40mg",
+     "c": "Corona",
+     "m": 8.13,
+     "p": 8.13,
+     "t": 1
+    },
+    {
+     "n": "Pantosec",
+     "s": "Pantoprazole 40mg",
+     "c": "Cipla",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Pentowok 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Wockhardt",
+     "m": 9.53,
+     "p": 9.53,
+     "t": 1
+    },
+    {
+     "n": "Pantop 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Aristo",
+     "m": 9.6,
+     "p": 9.6,
+     "t": 1
+    },
+    {
+     "n": "Pantoxis 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Docxis",
+     "m": 10.0,
+     "p": 10.0,
+     "t": 1
+    },
+    {
+     "n": "Pantium 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Intas",
+     "m": 10.4,
+     "p": 10.4,
+     "t": 1
+    },
+    {
+     "n": "Pentab 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Alembic",
+     "m": 10.92,
+     "p": 10.92,
+     "t": 1
+    },
+    {
+     "n": "Pantocid",
+     "s": "Pantoprazole 40mg",
+     "c": "Sun Pharma",
+     "m": 11.53,
+     "p": 11.53,
+     "t": 1
+    },
+    {
+     "n": "P2I",
+     "s": "Pantoprazole 40mg",
+     "c": "Lupin",
+     "m": 11.99,
+     "p": 11.99,
+     "t": 1
+    },
+    {
+     "n": "Pansec",
+     "s": "Pantoprazole 40mg",
+     "c": "Cipla",
+     "m": 13.2,
+     "p": 13.2,
+     "t": 1
+    },
+    {
+     "n": "Pansped 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Torrent",
+     "m": 13.8,
+     "p": 13.8,
+     "t": 1
+    },
+    {
+     "n": "Pantodac 40",
+     "s": "Pantoprazole 40mg",
+     "c": "Zydus",
+     "m": 14.2,
+     "p": 14.2,
+     "t": 1
+    },
+    {
+     "n": "Zipant-DSR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "FDC",
+     "m": 8.62,
+     "p": 8.62,
+     "t": 1
+    },
+    {
+     "n": "Pantin D",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Hetero",
+     "m": 9.2,
+     "p": 9.2,
+     "t": 1
+    },
+    {
+     "n": "Padup",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Pure & Cure",
+     "m": 9.38,
+     "p": 9.38,
+     "t": 1
+    },
+    {
+     "n": "Pentalink-D 30",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Lincoln",
+     "m": 10.12,
+     "p": 10.12,
+     "t": 1
+    },
+    {
+     "n": "Cocid DSR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Talent India",
+     "m": 12.09,
+     "p": 12.09,
+     "t": 1
+    },
+    {
+     "n": "Pantadom-SR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Mankind",
+     "m": 12.45,
+     "p": 12.45,
+     "t": 1
+    },
+    {
+     "n": "Pantakind-DSR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Mankind",
+     "m": 12.46,
+     "p": 12.46,
+     "t": 1
+    },
+    {
+     "n": "Pantop-D SR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Aristo",
+     "m": 12.95,
+     "p": 12.95,
+     "t": 1
+    },
+    {
+     "n": "Pantosec D SR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Cipla",
+     "m": 14.23,
+     "p": 14.23,
+     "t": 1
+    },
+    {
+     "n": "Pan-D",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Alkem",
+     "m": 15.87,
+     "p": 15.87,
+     "t": 1
+    },
+    {
+     "n": "Ulpan-DSR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Corona",
+     "m": 16.25,
+     "p": 16.25,
+     "t": 1
+    },
+    {
+     "n": "Pantium DSR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Intas",
+     "m": 16.59,
+     "p": 16.59,
+     "t": 1
+    },
+    {
+     "n": "Pantocid DSR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Sun Pharma",
+     "m": 16.81,
+     "p": 16.81,
+     "t": 1
+    },
+    {
+     "n": "P2i-D",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Lupin",
+     "m": 17.2,
+     "p": 17.2,
+     "t": 1
+    },
+    {
+     "n": "Pantodac DSR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Zydus",
+     "m": 19.96,
+     "p": 19.96,
+     "t": 1
+    },
+    {
+     "n": "Raberide 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Zeelab",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Ecorab",
+     "s": "Rabeprazole 20mg",
+     "c": "Indiabulls",
+     "m": 1.33,
+     "p": 1.33,
+     "t": 1
+    },
+    {
+     "n": "Cyra",
+     "s": "Rabeprazole 20mg",
+     "c": "Systopic",
+     "m": 2.57,
+     "p": 2.57,
+     "t": 1
+    },
+    {
+     "n": "Rabeto 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Flamingo",
+     "m": 3.3,
+     "p": 3.3,
+     "t": 1
+    },
+    {
+     "n": "Rantac R",
+     "s": "Rabeprazole 20mg",
+     "c": "JB Chemicals",
+     "m": 3.32,
+     "p": 3.32,
+     "t": 1
+    },
+    {
+     "n": "R Ppi 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Blue Cross",
+     "m": 3.7,
+     "p": 3.7,
+     "t": 1
+    },
+    {
+     "n": "Rebozen 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Leeford",
+     "m": 4.77,
+     "p": 4.77,
+     "t": 1
+    },
+    {
+     "n": "Ifirab 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Ifimed",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "Pepcia 20",
+     "s": "Rabeprazole 20mg",
+     "c": "FDC",
+     "m": 4.81,
+     "p": 4.81,
+     "t": 1
+    },
+    {
+     "n": "Rabekind 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Mankind",
+     "m": 4.87,
+     "p": 4.87,
+     "t": 1
+    },
+    {
+     "n": "Rabez 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Hetero",
+     "m": 5.8,
+     "p": 5.8,
+     "t": 1
+    },
+    {
+     "n": "Rabedal 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Pharmed",
+     "m": 6.9,
+     "p": 6.9,
+     "t": 1
+    },
+    {
+     "n": "Rabesec 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Cipla",
+     "m": 7.05,
+     "p": 7.05,
+     "t": 1
+    },
+    {
+     "n": "Rabitop",
+     "s": "Rabeprazole 20mg",
+     "c": "Aristo",
+     "m": 7.7,
+     "p": 7.7,
+     "t": 1
+    },
+    {
+     "n": "Bravia 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Grandcure",
+     "m": 8.77,
+     "p": 8.77,
+     "t": 1
+    },
+    {
+     "n": "Rabium 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Intas",
+     "m": 9.4,
+     "p": 9.4,
+     "t": 1
+    },
+    {
+     "n": "Rabemac 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Macleods",
+     "m": 10.55,
+     "p": 10.55,
+     "t": 1
+    },
+    {
+     "n": "Rabiros 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Micro Labs",
+     "m": 10.9,
+     "p": 10.9,
+     "t": 1
+    },
+    {
+     "n": "Rabicip 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Cipla",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Roles 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Sun Pharma",
+     "m": 11.13,
+     "p": 11.13,
+     "t": 1
+    },
+    {
+     "n": "Rabifast 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Zuventus",
+     "m": 11.68,
+     "p": 11.68,
+     "t": 1
+    },
+    {
+     "n": "Helirab 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Micro Labs",
+     "m": 11.9,
+     "p": 11.9,
+     "t": 1
+    },
+    {
+     "n": "Veloz 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Torrent",
+     "m": 12.47,
+     "p": 12.47,
+     "t": 1
+    },
+    {
+     "n": "Rekool 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Alembic",
+     "m": 13.53,
+     "p": 13.53,
+     "t": 1
+    },
+    {
+     "n": "Rablet 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Lupin",
+     "m": 13.92,
+     "p": 13.92,
+     "t": 1
+    },
+    {
+     "n": "Razo 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Dr Reddy's",
+     "m": 15.93,
+     "p": 15.93,
+     "t": 1
+    },
+    {
+     "n": "Rabeloc 20",
+     "s": "Rabeprazole 20mg",
+     "c": "Cadila",
+     "m": 16.3,
+     "p": 16.3,
+     "t": 1
+    },
+    {
+     "n": "Omeride 20",
+     "s": "Omeprazole 20mg",
+     "c": "Zeelab",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Prohibin 20",
+     "s": "Omeprazole 20mg",
+     "c": "Leben",
+     "m": 1.58,
+     "p": 1.58,
+     "t": 1
+    },
+    {
+     "n": "Omecip",
+     "s": "Omeprazole 20mg",
+     "c": "Cipla",
+     "m": 1.88,
+     "p": 1.88,
+     "t": 1
+    },
+    {
+     "n": "Omifyl",
+     "s": "Omeprazole 20mg",
+     "c": "Leeford",
+     "m": 1.94,
+     "p": 1.94,
+     "t": 1
+    },
+    {
+     "n": "Lomac 20",
+     "s": "Omeprazole 20mg",
+     "c": "Cipla",
+     "m": 1.97,
+     "p": 1.97,
+     "t": 1
+    },
+    {
+     "n": "Omee",
+     "s": "Omeprazole 20mg",
+     "c": "Alkem",
+     "m": 2.03,
+     "p": 2.03,
+     "t": 1
+    },
+    {
+     "n": "Omigru 20",
+     "s": "Omeprazole 20mg",
+     "c": "Grubheal",
+     "m": 2.16,
+     "p": 2.16,
+     "t": 1
+    },
+    {
+     "n": "Ozole 20",
+     "s": "Omeprazole 20mg",
+     "c": "Abbott",
+     "m": 2.36,
+     "p": 2.36,
+     "t": 1
+    },
+    {
+     "n": "Omirus 20",
+     "s": "Omeprazole 20mg",
+     "c": "Alarius",
+     "m": 2.41,
+     "p": 2.41,
+     "t": 1
+    },
+    {
+     "n": "OCid 20",
+     "s": "Omeprazole 20mg",
+     "c": "Zydus",
+     "m": 2.68,
+     "p": 2.68,
+     "t": 1
+    },
+    {
+     "n": "Omerel 20",
+     "s": "Omeprazole 20mg",
+     "c": "Relward",
+     "m": 2.71,
+     "p": 2.71,
+     "t": 1
+    },
+    {
+     "n": "Omez",
+     "s": "Omeprazole 20mg",
+     "c": "Dr Reddy's",
+     "m": 3.06,
+     "p": 3.06,
+     "t": 1
+    },
+    {
+     "n": "Omdic D",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Periodic",
+     "m": 3.2,
+     "p": 3.2,
+     "t": 1
+    },
+    {
+     "n": "Omerd",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Blue Cross",
+     "m": 4.36,
+     "p": 4.36,
+     "t": 1
+    },
+    {
+     "n": "Pikloz-DSR",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Sigman",
+     "m": 4.9,
+     "p": 4.9,
+     "t": 1
+    },
+    {
+     "n": "Omequick D",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Cure Quick",
+     "m": 5.3,
+     "p": 5.3,
+     "t": 1
+    },
+    {
+     "n": "Varnvin D",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "SB Lifesciences",
+     "m": 5.93,
+     "p": 5.93,
+     "t": 1
+    },
+    {
+     "n": "O-Safe D",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Innokon",
+     "m": 5.95,
+     "p": 5.95,
+     "t": 1
+    },
+    {
+     "n": "Domstal Plus",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Torrent",
+     "m": 6.5,
+     "p": 6.5,
+     "t": 1
+    },
+    {
+     "n": "Omchem D",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Rapidchem",
+     "m": 6.75,
+     "p": 6.75,
+     "t": 1
+    },
+    {
+     "n": "Omoshi D",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Mediarka",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Ompure D",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Innovexia",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Osostay D",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Stensa",
+     "m": 10.0,
+     "p": 10.0,
+     "t": 1
+    },
+    {
+     "n": "Omez-DSR",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Dr Reddy's",
+     "m": 11.83,
+     "p": 11.83,
+     "t": 1
+    },
+    {
+     "n": "Omidac D",
+     "s": "Omeprazole 20mg + Domperidone 30mg SR",
+     "c": "Skyways",
+     "m": 13.7,
+     "p": 13.7,
+     "t": 1
+    },
+    {
+     "n": "Eszone 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Zeelab",
+     "m": 2.25,
+     "p": 2.25,
+     "t": 1
+    },
+    {
+     "n": "Sppi 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Blue Cross",
+     "m": 3.7,
+     "p": 3.7,
+     "t": 1
+    },
+    {
+     "n": "Somifiz 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Mankind",
+     "m": 4.17,
+     "p": 4.17,
+     "t": 1
+    },
+    {
+     "n": "Esomifyl 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Leeford",
+     "m": 5.41,
+     "p": 5.41,
+     "t": 1
+    },
+    {
+     "n": "Esopel 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Medopharm",
+     "m": 5.5,
+     "p": 5.5,
+     "t": 1
+    },
+    {
+     "n": "Esomefol",
+     "s": "Esomeprazole 40mg",
+     "c": "Leeford",
+     "m": 5.91,
+     "p": 5.91,
+     "t": 1
+    },
+    {
+     "n": "Esofence 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Merck",
+     "m": 6.02,
+     "p": 6.02,
+     "t": 1
+    },
+    {
+     "n": "Coloncid 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Rhumasafe",
+     "m": 7.0,
+     "p": 7.0,
+     "t": 1
+    },
+    {
+     "n": "Izra 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Torrent",
+     "m": 7.84,
+     "p": 7.84,
+     "t": 1
+    },
+    {
+     "n": "Esoprazole 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Wockhardt",
+     "m": 7.88,
+     "p": 7.88,
+     "t": 1
+    },
+    {
+     "n": "Esofine 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Macleods",
+     "m": 8.69,
+     "p": 8.69,
+     "t": 1
+    },
+    {
+     "n": "Rostrum 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Rostrumed",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Espra 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Zydus",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Esogress 40",
+     "s": "Esomeprazole 40mg",
+     "c": "La Renon",
+     "m": 10.0,
+     "p": 10.0,
+     "t": 1
+    },
+    {
+     "n": "Raciper 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Sun Pharma",
+     "m": 10.4,
+     "p": 10.4,
+     "t": 1
+    },
+    {
+     "n": "Esofag 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Micro Labs",
+     "m": 10.6,
+     "p": 10.6,
+     "t": 1
+    },
+    {
+     "n": "Sompraz 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Sun Pharma",
+     "m": 11.07,
+     "p": 11.07,
+     "t": 1
+    },
+    {
+     "n": "Nexpro 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Torrent",
+     "m": 11.33,
+     "p": 11.33,
+     "t": 1
+    },
+    {
+     "n": "Lupisoz",
+     "s": "Esomeprazole 40mg",
+     "c": "Lupin",
+     "m": 12.36,
+     "p": 12.36,
+     "t": 1
+    },
+    {
+     "n": "Esomac 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Cipla",
+     "m": 12.53,
+     "p": 12.53,
+     "t": 1
+    },
+    {
+     "n": "Neksium 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Pfizer",
+     "m": 13.27,
+     "p": 13.27,
+     "t": 1
+    },
+    {
+     "n": "Esoz 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Glenmark",
+     "m": 13.47,
+     "p": 13.47,
+     "t": 1
+    },
+    {
+     "n": "Nexpro Fast 40",
+     "s": "Esomeprazole 40mg",
+     "c": "Torrent",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Famowal 40",
+     "s": "Famotidine 40mg",
+     "c": "Wallace",
+     "m": 0.25,
+     "p": 0.25,
+     "t": 1
+    },
+    {
+     "n": "Famodin 40",
+     "s": "Famotidine 40mg",
+     "c": "Cadila",
+     "m": 0.27,
+     "p": 0.27,
+     "t": 1
+    },
+    {
+     "n": "Fudone 40",
+     "s": "Famotidine 40mg",
+     "c": "Wockhardt",
+     "m": 0.32,
+     "p": 0.32,
+     "t": 1
+    },
+    {
+     "n": "Famocer 40",
+     "s": "Famotidine 40mg",
+     "c": "Elder",
+     "m": 0.32,
+     "p": 0.32,
+     "t": 1
+    },
+    {
+     "n": "Fadine 40",
+     "s": "Famotidine 40mg",
+     "c": "Aristo",
+     "m": 0.33,
+     "p": 0.33,
+     "t": 1
+    },
+    {
+     "n": "Famot 40",
+     "s": "Famotidine 40mg",
+     "c": "Suzikem",
+     "m": 0.36,
+     "p": 0.36,
+     "t": 1
+    },
+    {
+     "n": "Pepdin 40",
+     "s": "Famotidine 40mg",
+     "c": "Overseas",
+     "m": 0.36,
+     "p": 0.36,
+     "t": 1
+    },
+    {
+     "n": "Acicon 40",
+     "s": "Famotidine 40mg",
+     "c": "Alembic",
+     "m": 0.37,
+     "p": 0.37,
+     "t": 1
+    },
+    {
+     "n": "Famonit 40",
+     "s": "Famotidine 40mg",
+     "c": "Zydus",
+     "m": 0.38,
+     "p": 0.38,
+     "t": 1
+    },
+    {
+     "n": "Fam H2 40",
+     "s": "Famotidine 40mg",
+     "c": "Ozone",
+     "m": 0.39,
+     "p": 0.39,
+     "t": 1
+    },
+    {
+     "n": "Facid 40",
+     "s": "Famotidine 40mg",
+     "c": "Intas",
+     "m": 0.48,
+     "p": 0.48,
+     "t": 1
+    },
+    {
+     "n": "Famonext 40",
+     "s": "Famotidine 40mg",
+     "c": "Cadila",
+     "m": 0.5,
+     "p": 0.5,
+     "t": 1
+    },
+    {
+     "n": "FM 40",
+     "s": "Famotidine 40mg",
+     "c": "Caplet",
+     "m": 0.54,
+     "p": 0.54,
+     "t": 1
+    },
+    {
+     "n": "Topcid 40",
+     "s": "Famotidine 40mg",
+     "c": "Torrent",
+     "m": 0.68,
+     "p": 0.68,
+     "t": 1
+    },
+    {
+     "n": "Famocid 40",
+     "s": "Famotidine 40mg",
+     "c": "Sun Pharma",
+     "m": 0.69,
+     "p": 0.69,
+     "t": 1
+    },
+    {
+     "n": "Famotic 40",
+     "s": "Famotidine 40mg",
+     "c": "Terrace",
+     "m": 0.8,
+     "p": 0.8,
+     "t": 1
+    },
+    {
+     "n": "Famtac",
+     "s": "Famotidine 40mg",
+     "c": "Abbott",
+     "m": 2.29,
+     "p": 2.29,
+     "t": 1
+    },
+    {
+     "n": "Acipep 40",
+     "s": "Famotidine 40mg",
+     "c": "Kramer",
+     "m": 3.65,
+     "p": 3.65,
+     "t": 1
+    },
+    {
+     "n": "Peptac 40",
+     "s": "Famotidine 40mg",
+     "c": "Baroda",
+     "m": 4.99,
+     "p": 4.99,
+     "t": 1
+    },
+    {
+     "n": "Advantac 40",
+     "s": "Famotidine 40mg",
+     "c": "Win-Medicare",
+     "m": 6.21,
+     "p": 6.21,
+     "t": 1
+    }
+   ]
   }
  ]
 }
