@@ -11,15 +11,25 @@
   /* निवडलेल्या गोळ्यांची किंमत: 112 / 10 गोळ्या असेल आणि 4 घेतल्या तर 44.80 */
   function L(c,d){
     if(!(d.m>0))d=Object.assign({},d,{m:d.p});
-    if(!d.t)return {q:0,p:d.p,m:d.m};
+    if(!d.t){var n=c.q||1;return {q:n,u:1,p:d.p*n,m:d.m*n}}
     var q=c.q||(d.t>1&&d.t<10?d.t:10);
     return {q:q,p:d.p/d.t*q,m:d.m/d.t*q};
   }
+  /* गोळी नसलेल्या औषधासाठी नगाचे नाव */
+  function U(d){
+    var t=(d.n+" "+d.s).toLowerCase();
+    if(/inj|vial|ampoule|infusion|depot|implant/.test(t))return ["इंजेक्शन","किती इंजेक्शन हवी?"];
+    if(/syrup|suspension|drops|\bml\b|solution|liquid/.test(t))return ["बाटल्या","किती बाटल्या हव्या?"];
+    if(/cream|gel|ointment|paint|\bper gm\b|tube/.test(t))return ["ट्यूब","किती ट्यूब हव्या?"];
+    if(/inhaler|respule|rotacap|spray/.test(t))return ["नग","किती नग हवे?"];
+    if(/sachet|powder/.test(t))return ["पाकिटे","किती पाकिटे हवी?"];
+    return ["पॅक","किती पॅक हवे?"];
+  }
   function qtyHtml(c,k){
     var d=M()[c.sel];
-    if(!d||!d.t)return "";
-    var x=L(c,d),h='<label class="qty"><span>किती गोळ्या हव्या?</span><select data-q="'+k+'" aria-label="गोळ्यांची संख्या">';
-    for(var i=1;i<=60;i++)h+='<option value="'+i+'"'+(i===x.q?' selected':'')+'>'+i+'</option>';
+    if(!d)return "";
+    var x=L(c,d),lab=d.t?"किती गोळ्या हव्या?":U(d)[1],mx=d.t?60:30,h='<label class="qty"><span>'+lab+'</span><select data-q="'+k+'" aria-label="'+lab+'">';
+    for(var i=1;i<=mx;i++)h+='<option value="'+i+'"'+(i===x.q?' selected':'')+'>'+i+'</option>';
     return h+'</select></label><div class="qtyp"><span>किंमत</span><b>'+F(x.p)+'</b></div>';
   }
   function FW(t){return (String(t||"").toLowerCase().match(/[a-z]{3,}/)||[""])[0]}
@@ -136,7 +146,7 @@
         lines.push((k+1)+". "+d.n+(d.c?" ("+d.c+")":""));
         if(d.m>0)lines.push("   MRP: "+F(d.m)+P(d));
         lines.push("   आमचा दर: "+F(d.p)+P(d));
-        if(x.q)lines.push("   मला हव्या: "+x.q+" गोळ्या = "+F(x.p));
+        if(x.q)lines.push(d.t?"   मला हव्या: "+x.q+" गोळ्या = "+F(x.p):"   मला हवे: "+x.q+" "+U(d)[0]+" = "+F(x.p));
         if(c.sel!==c.ex)lines.push("   (स्कॅन केलेले: "+c.n+(c.s?", घटक: "+c.s:"")+")");
       }else{
         lines.push((k+1)+". "+c.n);
