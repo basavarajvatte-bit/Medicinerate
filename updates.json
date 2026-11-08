@@ -6418,6 +6418,805 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-muscle-relaxants",
+   "meds": [
+    {
+     "n": "Thiorelax 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Aristo",
+     "m": 8.8,
+     "p": 8.8,
+     "t": 1
+    },
+    {
+     "n": "Thiofast 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Ipca",
+     "m": 8.9,
+     "p": 8.9,
+     "t": 1
+    },
+    {
+     "n": "Thiofact 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Medico Healthcare",
+     "m": 8.9,
+     "p": 8.9,
+     "t": 1
+    },
+    {
+     "n": "Colchico 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Medley",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Thiosung 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Neoliva",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Thiofact 4 Shatayushi",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Shatayushi",
+     "m": 14.1,
+     "p": 14.1,
+     "t": 1
+    },
+    {
+     "n": "Thyocol 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Acekinetics",
+     "m": 14.5,
+     "p": 14.5,
+     "t": 1
+    },
+    {
+     "n": "Thioxl 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Keimed",
+     "m": 14.9,
+     "p": 14.9,
+     "t": 1
+    },
+    {
+     "n": "Thiosoft 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Hauz",
+     "m": 15.4,
+     "p": 15.4,
+     "t": 1
+    },
+    {
+     "n": "Thyonac 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Aspida",
+     "m": 16.2,
+     "p": 16.2,
+     "t": 1
+    },
+    {
+     "n": "Thionoxide 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Knoll",
+     "m": 16.73,
+     "p": 16.73,
+     "t": 1
+    },
+    {
+     "n": "Thysid 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Medcure",
+     "m": 16.5,
+     "p": 16.5,
+     "t": 1
+    },
+    {
+     "n": "Deficam 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Ridhima",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Thioflex 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Capital Pharma",
+     "m": 20.79,
+     "p": 20.79,
+     "t": 1
+    },
+    {
+     "n": "Otraflam TH 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Radicool",
+     "m": 23.0,
+     "p": 23.0,
+     "t": 1
+    },
+    {
+     "n": "Thiospas 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Abbott",
+     "m": 24.1,
+     "p": 24.1,
+     "t": 1
+    },
+    {
+     "n": "Myoril 4",
+     "s": "Thiocolchicoside 4mg",
+     "c": "Sanofi",
+     "m": 31.93,
+     "p": 31.93,
+     "t": 1
+    },
+    {
+     "n": "Thiodoc 8",
+     "s": "Thiocolchicoside 8mg",
+     "c": "Morepen",
+     "m": 23.63,
+     "p": 23.63,
+     "t": 1
+    },
+    {
+     "n": "Thionoxide 8",
+     "s": "Thiocolchicoside 8mg",
+     "c": "Knoll",
+     "m": 25.87,
+     "p": 25.87,
+     "t": 1
+    },
+    {
+     "n": "Miofree 8",
+     "s": "Thiocolchicoside 8mg",
+     "c": "Lupin",
+     "m": 38.09,
+     "p": 38.09,
+     "t": 1
+    },
+    {
+     "n": "Myoril 8",
+     "s": "Thiocolchicoside 8mg",
+     "c": "Sanofi",
+     "m": 48.2,
+     "p": 48.2,
+     "t": 1
+    },
+    {
+     "n": "Tizpa 2",
+     "s": "Tizanidine 2mg",
+     "c": "Blue Cross",
+     "m": 3.69,
+     "p": 3.69,
+     "t": 1
+    },
+    {
+     "n": "Tidired 2",
+     "s": "Tizanidine 2mg",
+     "c": "Redson",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Myodine 2",
+     "s": "Tizanidine 2mg",
+     "c": "Bangalore Antibiotics",
+     "m": 5.2,
+     "p": 5.2,
+     "t": 1
+    },
+    {
+     "n": "Ginox",
+     "s": "Tizanidine 2mg",
+     "c": "Gold Line",
+     "m": 6.19,
+     "p": 6.19,
+     "t": 1
+    },
+    {
+     "n": "Tizan 2",
+     "s": "Tizanidine 2mg",
+     "c": "Sun Pharma",
+     "m": 18.47,
+     "p": 18.47,
+     "t": 1
+    },
+    {
+     "n": "Sirdalud 2",
+     "s": "Tizanidine 2mg",
+     "c": "Novartis",
+     "m": 20.52,
+     "p": 20.52,
+     "t": 1
+    },
+    {
+     "n": "Enzoril 50",
+     "s": "Eperisone 50mg",
+     "c": "Alkem",
+     "m": 4.9,
+     "p": 4.9,
+     "t": 1
+    },
+    {
+     "n": "Mysone 50",
+     "s": "Eperisone 50mg",
+     "c": "Gary",
+     "m": 5.19,
+     "p": 5.19,
+     "t": 1
+    },
+    {
+     "n": "Zanperison 50",
+     "s": "Eperisone 50mg",
+     "c": "Ambience",
+     "m": 5.5,
+     "p": 5.5,
+     "t": 1
+    },
+    {
+     "n": "Perimine 50",
+     "s": "Eperisone 50mg",
+     "c": "TNT",
+     "m": 6.7,
+     "p": 6.7,
+     "t": 1
+    },
+    {
+     "n": "Myoskel 50",
+     "s": "Eperisone 50mg",
+     "c": "Werke",
+     "m": 7.8,
+     "p": 7.8,
+     "t": 1
+    },
+    {
+     "n": "Eprinez 50",
+     "s": "Eperisone 50mg",
+     "c": "Sitnez",
+     "m": 8.3,
+     "p": 8.3,
+     "t": 1
+    },
+    {
+     "n": "Epry 50",
+     "s": "Eperisone 50mg",
+     "c": "Eisai",
+     "m": 8.9,
+     "p": 8.9,
+     "t": 1
+    },
+    {
+     "n": "Eprisan 50",
+     "s": "Eperisone 50mg",
+     "c": "Eisai",
+     "m": 9.7,
+     "p": 9.7,
+     "t": 1
+    },
+    {
+     "n": "Eprysan 50",
+     "s": "Eperisone 50mg",
+     "c": "Vish Lifecare",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Fepry 50",
+     "s": "Eperisone 50mg",
+     "c": "Forgo",
+     "m": 10.0,
+     "p": 10.0,
+     "t": 1
+    },
+    {
+     "n": "EP-Tab",
+     "s": "Eperisone 50mg",
+     "c": "Superlative",
+     "m": 10.0,
+     "p": 10.0,
+     "t": 1
+    },
+    {
+     "n": "Rapisone 50",
+     "s": "Eperisone 50mg",
+     "c": "Abbott",
+     "m": 10.25,
+     "p": 10.25,
+     "t": 1
+    },
+    {
+     "n": "Myosone",
+     "s": "Eperisone 50mg",
+     "c": "Macleods",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Epry 150 SR",
+     "s": "Eperisone 150mg SR",
+     "c": "Eisai",
+     "m": 29.4,
+     "p": 29.4,
+     "t": 1
+    },
+    {
+     "n": "Baclozee 10",
+     "s": "Baclofen 10mg",
+     "c": "Zeelab",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Tefsole 10",
+     "s": "Baclofen 10mg",
+     "c": "Vhb Life",
+     "m": 5.4,
+     "p": 5.4,
+     "t": 1
+    },
+    {
+     "n": "Riclofen",
+     "s": "Baclofen 10mg",
+     "c": "Samarth",
+     "m": 7.46,
+     "p": 7.46,
+     "t": 1
+    },
+    {
+     "n": "Camirofen 10",
+     "s": "Baclofen 10mg",
+     "c": "Leeford",
+     "m": 7.65,
+     "p": 7.65,
+     "t": 1
+    },
+    {
+     "n": "Bacrite 10",
+     "s": "Baclofen 10mg",
+     "c": "Health N U",
+     "m": 7.95,
+     "p": 7.95,
+     "t": 1
+    },
+    {
+     "n": "Eptil 10",
+     "s": "Baclofen 10mg",
+     "c": "Crescent",
+     "m": 8.09,
+     "p": 8.09,
+     "t": 1
+    },
+    {
+     "n": "Spinospas 10",
+     "s": "Baclofen 10mg",
+     "c": "Venus",
+     "m": 8.5,
+     "p": 8.5,
+     "t": 1
+    },
+    {
+     "n": "Baclodon 10",
+     "s": "Baclofen 10mg",
+     "c": "Bondane",
+     "m": 8.8,
+     "p": 8.8,
+     "t": 1
+    },
+    {
+     "n": "Baspas 10",
+     "s": "Baclofen 10mg",
+     "c": "Arco",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Emfen 10",
+     "s": "Baclofen 10mg",
+     "c": "Medopharm",
+     "m": 9.07,
+     "p": 9.07,
+     "t": 1
+    },
+    {
+     "n": "Baclofast 10",
+     "s": "Baclofen 10mg",
+     "c": "Walnut",
+     "m": 9.3,
+     "p": 9.3,
+     "t": 1
+    },
+    {
+     "n": "Mayofen 10",
+     "s": "Baclofen 10mg",
+     "c": "Marc",
+     "m": 9.42,
+     "p": 9.42,
+     "t": 1
+    },
+    {
+     "n": "Bacwell 10",
+     "s": "Baclofen 10mg",
+     "c": "Propel",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Bacloall 10",
+     "s": "Baclofen 10mg",
+     "c": "Maksun",
+     "m": 10.0,
+     "p": 10.0,
+     "t": 1
+    },
+    {
+     "n": "Despata 10",
+     "s": "Baclofen 10mg",
+     "c": "Lifecare Neuro",
+     "m": 10.1,
+     "p": 10.1,
+     "t": 1
+    },
+    {
+     "n": "Bafen 10",
+     "s": "Baclofen 10mg",
+     "c": "Serwina",
+     "m": 10.2,
+     "p": 10.2,
+     "t": 1
+    },
+    {
+     "n": "Lobac 10",
+     "s": "Baclofen 10mg",
+     "c": "Roussel",
+     "m": 10.2,
+     "p": 10.2,
+     "t": 1
+    },
+    {
+     "n": "Lioresal 10",
+     "s": "Baclofen 10mg",
+     "c": "Novartis",
+     "m": 10.45,
+     "p": 10.45,
+     "t": 1
+    },
+    {
+     "n": "Baclonip 10",
+     "s": "Baclofen 10mg",
+     "c": "Care Formulation",
+     "m": 10.6,
+     "p": 10.6,
+     "t": 1
+    },
+    {
+     "n": "Baclesta 10",
+     "s": "Baclofen 10mg",
+     "c": "Arinna",
+     "m": 10.91,
+     "p": 10.91,
+     "t": 1
+    },
+    {
+     "n": "Baclotop 10",
+     "s": "Baclofen 10mg",
+     "c": "Zuventus",
+     "m": 11.04,
+     "p": 11.04,
+     "t": 1
+    },
+    {
+     "n": "Baclotab 10",
+     "s": "Baclofen 10mg",
+     "c": "Alteus",
+     "m": 11.27,
+     "p": 11.27,
+     "t": 1
+    },
+    {
+     "n": "Bacloren 10",
+     "s": "Baclofen 10mg",
+     "c": "La Renon",
+     "m": 11.3,
+     "p": 11.3,
+     "t": 1
+    },
+    {
+     "n": "Gleefen 10",
+     "s": "Baclofen 10mg",
+     "c": "Sigmund",
+     "m": 11.4,
+     "p": 11.4,
+     "t": 1
+    },
+    {
+     "n": "Baclof 10",
+     "s": "Baclofen 10mg",
+     "c": "Intas",
+     "m": 11.4,
+     "p": 11.4,
+     "t": 1
+    },
+    {
+     "n": "Liofen 10",
+     "s": "Baclofen 10mg",
+     "c": "Sun Pharma",
+     "m": 11.6,
+     "p": 11.6,
+     "t": 1
+    },
+    {
+     "n": "Lobaset 10",
+     "s": "Baclofen 10mg",
+     "c": "Emcure",
+     "m": 12.01,
+     "p": 12.01,
+     "t": 1
+    },
+    {
+     "n": "Bclo 10",
+     "s": "Baclofen 10mg",
+     "c": "DD Pharma",
+     "m": 12.48,
+     "p": 12.48,
+     "t": 1
+    },
+    {
+     "n": "Baclohype 10",
+     "s": "Baclofen 10mg",
+     "c": "Covaxl",
+     "m": 14.9,
+     "p": 14.9,
+     "t": 1
+    },
+    {
+     "n": "Accetiz",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Geno",
+     "m": 4.1,
+     "p": 4.1,
+     "t": 1
+    },
+    {
+     "n": "Starnac TZ",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Invision",
+     "m": 4.9,
+     "p": 4.9,
+     "t": 1
+    },
+    {
+     "n": "Tizanac AC",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "MDC",
+     "m": 5.7,
+     "p": 5.7,
+     "t": 1
+    },
+    {
+     "n": "Tizarest",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Raddison",
+     "m": 6.3,
+     "p": 6.3,
+     "t": 1
+    },
+    {
+     "n": "Acikinz-MR",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Henin Lukinz",
+     "m": 6.3,
+     "p": 6.3,
+     "t": 1
+    },
+    {
+     "n": "Acwan TZ",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Wannock",
+     "m": 6.3,
+     "p": 6.3,
+     "t": 1
+    },
+    {
+     "n": "Omniflam MR",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Embiotic",
+     "m": 6.43,
+     "p": 6.43,
+     "t": 1
+    },
+    {
+     "n": "Acon TZ",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Aeon",
+     "m": 6.58,
+     "p": 6.58,
+     "t": 1
+    },
+    {
+     "n": "Rockon",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Indosurge",
+     "m": 6.99,
+     "p": 6.99,
+     "t": 1
+    },
+    {
+     "n": "Ocenec TZ",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Medcure",
+     "m": 7.0,
+     "p": 7.0,
+     "t": 1
+    },
+    {
+     "n": "Regdol-TZ",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Regulus",
+     "m": 7.48,
+     "p": 7.48,
+     "t": 1
+    },
+    {
+     "n": "Riclofenac T",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Events",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Zerodol-MR",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Ipca",
+     "m": 9.13,
+     "p": 9.13,
+     "t": 1
+    },
+    {
+     "n": "Eurofenac T",
+     "s": "Aceclofenac 100mg + Tizanidine 2mg",
+     "c": "Euro Organics",
+     "m": 11.8,
+     "p": 11.8,
+     "t": 1
+    },
+    {
+     "n": "Dolo TH 4",
+     "s": "Thiocolchicoside 4mg + Paracetamol",
+     "c": "Micro Labs",
+     "m": 18.97,
+     "p": 18.97,
+     "t": 1
+    },
+    {
+     "n": "Myoril Plus",
+     "s": "Thiocolchicoside 4mg + Paracetamol",
+     "c": "Sanofi",
+     "m": 19.16,
+     "p": 19.16,
+     "t": 1
+    },
+    {
+     "n": "Thriocol",
+     "s": "Thiocolchicoside 4mg + Paracetamol",
+     "c": "Origin",
+     "m": 19.7,
+     "p": 19.7,
+     "t": 1
+    },
+    {
+     "n": "Albesyde Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Syntonic",
+     "m": 11.98,
+     "p": 11.98
+    },
+    {
+     "n": "Spafast Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Delcure",
+     "m": 26.66,
+     "p": 26.66
+    },
+    {
+     "n": "Miofree Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Lupin",
+     "m": 28.69,
+     "p": 28.69
+    },
+    {
+     "n": "Bakflex Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Intas",
+     "m": 34.0,
+     "p": 34.0
+    },
+    {
+     "n": "Thiomit Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Mits",
+     "m": 55.0,
+     "p": 55.0
+    },
+    {
+     "n": "Medthiosid Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Medmom",
+     "m": 65.0,
+     "p": 65.0
+    },
+    {
+     "n": "Taptril Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Doctor Dose",
+     "m": 67.0,
+     "p": 67.0
+    },
+    {
+     "n": "Myoril Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Sanofi",
+     "m": 67.14,
+     "p": 67.14
+    },
+    {
+     "n": "T 4mg Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Events",
+     "m": 72.0,
+     "p": 72.0
+    },
+    {
+     "n": "Deficam Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Ridhima",
+     "m": 79.0,
+     "p": 79.0
+    },
+    {
+     "n": "Thiocrit Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Fibovil",
+     "m": 89.0,
+     "p": 89.0
+    },
+    {
+     "n": "Thiochem Fast Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Swastik",
+     "m": 97.0,
+     "p": 97.0
+    },
+    {
+     "n": "Thiozen Fast Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Zencus",
+     "m": 129.0,
+     "p": 129.0
+    },
+    {
+     "n": "Thioquest Inj",
+     "s": "Thiocolchicoside 4mg/2ml Injection",
+     "c": "Alchem",
+     "m": 165.52,
+     "p": 165.52
+    }
+   ]
   }
  ]
 }
