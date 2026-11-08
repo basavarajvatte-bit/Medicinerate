@@ -13684,6 +13684,1171 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-heart-angina",
+   "meds": [
+    {
+     "n": "Sprin 75",
+     "s": "Aspirin 75mg",
+     "c": "Alkem",
+     "m": 0.21,
+     "p": 0.21,
+     "t": 1
+    },
+    {
+     "n": "CV Sprin 75",
+     "s": "Aspirin 75mg",
+     "c": "Cadila",
+     "m": 0.22,
+     "p": 0.22,
+     "t": 1
+    },
+    {
+     "n": "Aspidot 75",
+     "s": "Aspirin 75mg",
+     "c": "Three Dots",
+     "m": 0.24,
+     "p": 0.24,
+     "t": 1
+    },
+    {
+     "n": "ASA 75",
+     "s": "Aspirin 75mg",
+     "c": "Zydus",
+     "m": 0.26,
+     "p": 0.26,
+     "t": 1
+    },
+    {
+     "n": "E Prin 75",
+     "s": "Aspirin 75mg",
+     "c": "Torrent",
+     "m": 0.27,
+     "p": 0.27,
+     "t": 1
+    },
+    {
+     "n": "Actisprin 75",
+     "s": "Aspirin 75mg",
+     "c": "Alkem",
+     "m": 0.27,
+     "p": 0.27,
+     "t": 1
+    },
+    {
+     "n": "Asicom 75",
+     "s": "Aspirin 75mg",
+     "c": "Comed",
+     "m": 0.32,
+     "p": 0.32,
+     "t": 1
+    },
+    {
+     "n": "Loprin 75",
+     "s": "Aspirin 75mg",
+     "c": "Torrent",
+     "m": 0.34,
+     "p": 0.34,
+     "t": 1
+    },
+    {
+     "n": "Delisprin 75",
+     "s": "Aspirin 75mg",
+     "c": "Aristo",
+     "m": 0.38,
+     "p": 0.38,
+     "t": 1
+    },
+    {
+     "n": "Ecosprin 75",
+     "s": "Aspirin 75mg",
+     "c": "USV",
+     "m": 0.38,
+     "p": 0.38,
+     "t": 1
+    },
+    {
+     "n": "Aspeeday 75",
+     "s": "Aspirin 75mg",
+     "c": "Shrinivas Gujarat",
+     "m": 0.38,
+     "p": 0.38,
+     "t": 1
+    },
+    {
+     "n": "Aspo 75",
+     "s": "Aspirin 75mg",
+     "c": "Zeelab",
+     "m": 0.61,
+     "p": 0.61,
+     "t": 1
+    },
+    {
+     "n": "Zosprin 75",
+     "s": "Aspirin 75mg",
+     "c": "Medley",
+     "m": 0.65,
+     "p": 0.65,
+     "t": 1
+    },
+    {
+     "n": "M Spirin 75",
+     "s": "Aspirin 75mg",
+     "c": "Maitri",
+     "m": 0.67,
+     "p": 0.67,
+     "t": 1
+    },
+    {
+     "n": "Brin 75",
+     "s": "Aspirin 75mg",
+     "c": "Brawn",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Clopiril 75",
+     "s": "Clopidogrel 75mg",
+     "c": "Zeelab",
+     "m": 1.5,
+     "p": 1.5,
+     "t": 1
+    },
+    {
+     "n": "Clopigard 75",
+     "s": "Clopidogrel 75mg",
+     "c": "Cipla",
+     "m": 1.61,
+     "p": 1.61,
+     "t": 1
+    },
+    {
+     "n": "Clopid 75",
+     "s": "Clopidogrel 75mg",
+     "c": "Hetero",
+     "m": 2.97,
+     "p": 2.97,
+     "t": 1
+    },
+    {
+     "n": "Clopikind",
+     "s": "Clopidogrel 75mg",
+     "c": "Mankind",
+     "m": 3.29,
+     "p": 3.29,
+     "t": 1
+    },
+    {
+     "n": "Platloc",
+     "s": "Clopidogrel 75mg",
+     "c": "Torrent",
+     "m": 3.91,
+     "p": 3.91,
+     "t": 1
+    },
+    {
+     "n": "Antiplar 75",
+     "s": "Clopidogrel 75mg",
+     "c": "Emcure",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Clodrel",
+     "s": "Clopidogrel 75mg",
+     "c": "Torrent",
+     "m": 4.67,
+     "p": 4.67,
+     "t": 1
+    },
+    {
+     "n": "Cloflow",
+     "s": "Clopidogrel 75mg",
+     "c": "Aristo",
+     "m": 4.83,
+     "p": 4.83,
+     "t": 1
+    },
+    {
+     "n": "Clopact 75",
+     "s": "Clopidogrel 75mg",
+     "c": "Ipca",
+     "m": 5.5,
+     "p": 5.5,
+     "t": 1
+    },
+    {
+     "n": "Clopivas 75",
+     "s": "Clopidogrel 75mg",
+     "c": "Cipla",
+     "m": 7.04,
+     "p": 7.04,
+     "t": 1
+    },
+    {
+     "n": "Klotfree",
+     "s": "Clopidogrel 75mg",
+     "c": "Zydus",
+     "m": 7.06,
+     "p": 7.06,
+     "t": 1
+    },
+    {
+     "n": "Deplatt",
+     "s": "Clopidogrel 75mg",
+     "c": "Torrent",
+     "m": 7.2,
+     "p": 7.2,
+     "t": 1
+    },
+    {
+     "n": "Plagerine",
+     "s": "Clopidogrel 75mg",
+     "c": "Micro Labs",
+     "m": 7.23,
+     "p": 7.23,
+     "t": 1
+    },
+    {
+     "n": "Clopigrel",
+     "s": "Clopidogrel 75mg",
+     "c": "USV",
+     "m": 7.3,
+     "p": 7.3,
+     "t": 1
+    },
+    {
+     "n": "Plagril 75",
+     "s": "Clopidogrel 75mg",
+     "c": "Dr Reddy's",
+     "m": 7.42,
+     "p": 7.42,
+     "t": 1
+    },
+    {
+     "n": "Clopitab",
+     "s": "Clopidogrel 75mg",
+     "c": "Lupin",
+     "m": 7.45,
+     "p": 7.45,
+     "t": 1
+    },
+    {
+     "n": "Plavix (14 tab)",
+     "s": "Clopidogrel 75mg",
+     "c": "Sanofi",
+     "m": 7.46,
+     "p": 7.46,
+     "t": 1
+    },
+    {
+     "n": "Clopilet",
+     "s": "Clopidogrel 75mg",
+     "c": "Sun Pharma",
+     "m": 7.46,
+     "p": 7.46,
+     "t": 1
+    },
+    {
+     "n": "Clavix",
+     "s": "Clopidogrel 75mg",
+     "c": "Intas",
+     "m": 7.46,
+     "p": 7.46,
+     "t": 1
+    },
+    {
+     "n": "Ceruvin 75",
+     "s": "Clopidogrel 75mg",
+     "c": "Sun Pharma",
+     "m": 7.79,
+     "p": 7.79,
+     "t": 1
+    },
+    {
+     "n": "Aamorb brand",
+     "s": "Clopidogrel 75mg + Aspirin 75mg",
+     "c": "Aamorb",
+     "m": 2.99,
+     "p": 2.99,
+     "t": 1
+    },
+    {
+     "n": "Clopicard AP 75",
+     "s": "Clopidogrel 75mg + Aspirin 75mg",
+     "c": "Cipla",
+     "m": 3.11,
+     "p": 3.11,
+     "t": 1
+    },
+    {
+     "n": "Blue Cross brand",
+     "s": "Clopidogrel 75mg + Aspirin 75mg",
+     "c": "Blue Cross",
+     "m": 3.3,
+     "p": 3.3,
+     "t": 1
+    },
+    {
+     "n": "Clopitex-A 75",
+     "s": "Clopidogrel 75mg + Aspirin 75mg",
+     "c": "Leeford",
+     "m": 4.64,
+     "p": 4.64,
+     "t": 1
+    },
+    {
+     "n": "Plagerine A",
+     "s": "Clopidogrel 75mg + Aspirin 75mg",
+     "c": "Micro Labs",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Clavix-AS 75",
+     "s": "Clopidogrel 75mg + Aspirin 75mg",
+     "c": "Intas",
+     "m": 6.27,
+     "p": 6.27,
+     "t": 1
+    },
+    {
+     "n": "Deplatt A 75",
+     "s": "Clopidogrel 75mg + Aspirin 75mg",
+     "c": "Torrent",
+     "m": 6.64,
+     "p": 6.64,
+     "t": 1
+    },
+    {
+     "n": "Clopitab A 75",
+     "s": "Clopidogrel 75mg + Aspirin 75mg",
+     "c": "Lupin",
+     "m": 6.69,
+     "p": 6.69,
+     "t": 1
+    },
+    {
+     "n": "Clopivas AP 75",
+     "s": "Clopidogrel 75mg + Aspirin 75mg",
+     "c": "Cipla",
+     "m": 7.06,
+     "p": 7.06,
+     "t": 1
+    },
+    {
+     "n": "Tikacad 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Cadila",
+     "m": 15.71,
+     "p": 15.71,
+     "t": 1
+    },
+    {
+     "n": "Ticamax 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Human Biolife",
+     "m": 16.07,
+     "p": 16.07,
+     "t": 1
+    },
+    {
+     "n": "Ticazee 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Zeelab",
+     "m": 19.6,
+     "p": 19.6,
+     "t": 1
+    },
+    {
+     "n": "Ticastro 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Intas",
+     "m": 21.4,
+     "p": 21.4,
+     "t": 1
+    },
+    {
+     "n": "Brigrel",
+     "s": "Ticagrelor 90mg",
+     "c": "Micro Labs",
+     "m": 21.7,
+     "p": 21.7,
+     "t": 1
+    },
+    {
+     "n": "Ticaplat 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Emcure",
+     "m": 21.76,
+     "p": 21.76,
+     "t": 1
+    },
+    {
+     "n": "Ticagrel 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Lividus",
+     "m": 22.0,
+     "p": 22.0,
+     "t": 1
+    },
+    {
+     "n": "Ticavic 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Alkem",
+     "m": 23.0,
+     "p": 23.0,
+     "t": 1
+    },
+    {
+     "n": "Ticaspan",
+     "s": "Ticagrelor 90mg",
+     "c": "USV",
+     "m": 23.3,
+     "p": 23.3,
+     "t": 1
+    },
+    {
+     "n": "Tiare",
+     "s": "Ticagrelor 90mg",
+     "c": "MSN",
+     "m": 23.43,
+     "p": 23.43,
+     "t": 1
+    },
+    {
+     "n": "Vasoglor 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Intas",
+     "m": 23.9,
+     "p": 23.9,
+     "t": 1
+    },
+    {
+     "n": "Tigemac 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Macleods",
+     "m": 25.0,
+     "p": 25.0,
+     "t": 1
+    },
+    {
+     "n": "Torplat 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Torrent",
+     "m": 26.21,
+     "p": 26.21,
+     "t": 1
+    },
+    {
+     "n": "Tackel",
+     "s": "Ticagrelor 90mg",
+     "c": "Alembic",
+     "m": 26.28,
+     "p": 26.28,
+     "t": 1
+    },
+    {
+     "n": "Ticus 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Zydus",
+     "m": 26.48,
+     "p": 26.48,
+     "t": 1
+    },
+    {
+     "n": "Ticaflo 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Dr Reddy's",
+     "m": 28.5,
+     "p": 28.5,
+     "t": 1
+    },
+    {
+     "n": "Axcer 90",
+     "s": "Ticagrelor 90mg",
+     "c": "Sun Pharma",
+     "m": 31.71,
+     "p": 31.71,
+     "t": 1
+    },
+    {
+     "n": "Brilinta 90",
+     "s": "Ticagrelor 90mg",
+     "c": "AstraZeneca",
+     "m": 35.71,
+     "p": 35.71,
+     "t": 1
+    },
+    {
+     "n": "Lipvas ASP 10/75",
+     "s": "Aspirin 75mg + Atorvastatin 10mg capsule",
+     "c": "",
+     "m": 2.39,
+     "p": 2.39,
+     "t": 1
+    },
+    {
+     "n": "Lipikind AS",
+     "s": "Aspirin 75mg + Atorvastatin 10mg capsule",
+     "c": "Mankind",
+     "m": 3.51,
+     "p": 3.51,
+     "t": 1
+    },
+    {
+     "n": "Ecosprin AV 75",
+     "s": "Aspirin 75mg + Atorvastatin 10mg capsule",
+     "c": "USV",
+     "m": 4.08,
+     "p": 4.08,
+     "t": 1
+    },
+    {
+     "n": "Lipicure AS 75",
+     "s": "Aspirin 75mg + Atorvastatin 10mg capsule",
+     "c": "",
+     "m": 4.23,
+     "p": 4.23,
+     "t": 1
+    },
+    {
+     "n": "Sorbizex 5 (30 tab)",
+     "s": "Isosorbide Dinitrate 5mg",
+     "c": "Zeelab",
+     "m": 0.33,
+     "p": 0.33,
+     "t": 1
+    },
+    {
+     "n": "Sorbitrate 5 (50 tab)",
+     "s": "Isosorbide Dinitrate 5mg",
+     "c": "",
+     "m": 0.92,
+     "p": 0.92,
+     "t": 1
+    },
+    {
+     "n": "StayHappi ISMN 10 (30 tab)",
+     "s": "Isosorbide Mononitrate 10mg",
+     "c": "Sarvagunaushdhi",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "5 Mono 10",
+     "s": "Isosorbide Mononitrate 10mg",
+     "c": "Biochem",
+     "m": 1.59,
+     "p": 1.59,
+     "t": 1
+    },
+    {
+     "n": "Vasonit 10",
+     "s": "Isosorbide Mononitrate 10mg",
+     "c": "Zydus",
+     "m": 1.64,
+     "p": 1.64,
+     "t": 1
+    },
+    {
+     "n": "Ihd 10",
+     "s": "Isosorbide Mononitrate 10mg",
+     "c": "Stadmed",
+     "m": 1.99,
+     "p": 1.99,
+     "t": 1
+    },
+    {
+     "n": "Monotrate 10",
+     "s": "Isosorbide Mononitrate 10mg",
+     "c": "Sun Pharma",
+     "m": 2.2,
+     "p": 2.2,
+     "t": 1
+    },
+    {
+     "n": "Nitrofix 10",
+     "s": "Isosorbide Mononitrate 10mg",
+     "c": "Micro Labs",
+     "m": 2.2,
+     "p": 2.2,
+     "t": 1
+    },
+    {
+     "n": "Genericart ISMN 30",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "Genericart",
+     "m": 4.46,
+     "p": 4.46,
+     "t": 1
+    },
+    {
+     "n": "Vasotrate OD 30 (7 tab)",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "Torrent",
+     "m": 4.77,
+     "p": 4.77,
+     "t": 1
+    },
+    {
+     "n": "Isonorm 30 SR",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "",
+     "m": 4.91,
+     "p": 4.91,
+     "t": 1
+    },
+    {
+     "n": "Mono Isordil SR 30",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "Ipca",
+     "m": 5.42,
+     "p": 5.42,
+     "t": 1
+    },
+    {
+     "n": "Solotrate SR 30",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "Zydus",
+     "m": 5.5,
+     "p": 5.5,
+     "t": 1
+    },
+    {
+     "n": "Nitrofix SR 30",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "Micro Labs",
+     "m": 5.71,
+     "p": 5.71,
+     "t": 1
+    },
+    {
+     "n": "Imdur 30 (30 tab)",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "AstraZeneca",
+     "m": 5.97,
+     "p": 5.97,
+     "t": 1
+    },
+    {
+     "n": "5 Mono SR 30",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "Biochem",
+     "m": 6.58,
+     "p": 6.58,
+     "t": 1
+    },
+    {
+     "n": "Monotrate SR 30",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "Sun Pharma",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Monit SR 30 (15 tab)",
+     "s": "Isosorbide Mononitrate 30mg SR",
+     "c": "Intas",
+     "m": 7.97,
+     "p": 7.97,
+     "t": 1
+    },
+    {
+     "n": "Mayonil 5",
+     "s": "Nicorandil 5mg",
+     "c": "El-Dorado",
+     "m": 6.0,
+     "p": 6.0,
+     "t": 1
+    },
+    {
+     "n": "K-Ion 5",
+     "s": "Nicorandil 5mg",
+     "c": "Nouveau",
+     "m": 7.12,
+     "p": 7.12,
+     "t": 1
+    },
+    {
+     "n": "Nikolife 5 (30 tab)",
+     "s": "Nicorandil 5mg",
+     "c": "Orris",
+     "m": 8.0,
+     "p": 8.0,
+     "t": 1
+    },
+    {
+     "n": "Nikopress 5",
+     "s": "Nicorandil 5mg",
+     "c": "Enegix",
+     "m": 8.0,
+     "p": 8.0,
+     "t": 1
+    },
+    {
+     "n": "Nicostar 5",
+     "s": "Nicorandil 5mg",
+     "c": "Lupin",
+     "m": 8.25,
+     "p": 8.25,
+     "t": 1
+    },
+    {
+     "n": "Duorandil 5",
+     "s": "Nicorandil 5mg",
+     "c": "Medreich",
+     "m": 9.25,
+     "p": 9.25,
+     "t": 1
+    },
+    {
+     "n": "Nicorex 5",
+     "s": "Nicorandil 5mg",
+     "c": "Aprica",
+     "m": 9.7,
+     "p": 9.7,
+     "t": 1
+    },
+    {
+     "n": "Nicordil 5",
+     "s": "Nicorandil 5mg",
+     "c": "Knoll",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Corflo 5",
+     "s": "Nicorandil 5mg",
+     "c": "Wockhardt",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Tabnicor 5",
+     "s": "Nicorandil 5mg",
+     "c": "Cardiatic Care",
+     "m": 10.3,
+     "p": 10.3,
+     "t": 1
+    },
+    {
+     "n": "Ucoran 5",
+     "s": "Nicorandil 5mg",
+     "c": "Precise",
+     "m": 10.3,
+     "p": 10.3,
+     "t": 1
+    },
+    {
+     "n": "Skodil 5 (30 tab)",
+     "s": "Nicorandil 5mg",
+     "c": "Scope",
+     "m": 12.67,
+     "p": 12.67,
+     "t": 1
+    },
+    {
+     "n": "Cordil 5",
+     "s": "Nicorandil 5mg",
+     "c": "Prevento",
+     "m": 13.0,
+     "p": 13.0,
+     "t": 1
+    },
+    {
+     "n": "Nicodeep 5",
+     "s": "Nicorandil 5mg",
+     "c": "Deepkamal",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "EL-Nico 5",
+     "s": "Nicorandil 5mg",
+     "c": "Elder",
+     "m": 16.5,
+     "p": 16.5,
+     "t": 1
+    },
+    {
+     "n": "K-Cor 5",
+     "s": "Nicorandil 5mg",
+     "c": "Macleods",
+     "m": 18.15,
+     "p": 18.15,
+     "t": 1
+    },
+    {
+     "n": "Nucoril 5 (30 tab)",
+     "s": "Nicorandil 5mg",
+     "c": "Emcure",
+     "m": 19.3,
+     "p": 19.3,
+     "t": 1
+    },
+    {
+     "n": "Nucoril OD 5",
+     "s": "Nicorandil 5mg",
+     "c": "Emcure",
+     "m": 19.64,
+     "p": 19.64,
+     "t": 1
+    },
+    {
+     "n": "Korandil 5",
+     "s": "Nicorandil 5mg",
+     "c": "Sun Pharma",
+     "m": 19.7,
+     "p": 19.7,
+     "t": 1
+    },
+    {
+     "n": "Nikoran 5",
+     "s": "Nicorandil 5mg",
+     "c": "Torrent",
+     "m": 21.85,
+     "p": 21.85,
+     "t": 1
+    },
+    {
+     "n": "Nicoduce 5",
+     "s": "Nicorandil 5mg",
+     "c": "Abbott",
+     "m": 22.12,
+     "p": 22.12,
+     "t": 1
+    },
+    {
+     "n": "Zynicor 5",
+     "s": "Nicorandil 5mg",
+     "c": "Zydus",
+     "m": 22.18,
+     "p": 22.18,
+     "t": 1
+    },
+    {
+     "n": "Rozo 500 ER",
+     "s": "Ranolazine 500mg ER",
+     "c": "Zeelab",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "DavaIndia Ranolazine",
+     "s": "Ranolazine 500mg ER",
+     "c": "Davaindia",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Ranozine 500",
+     "s": "Ranolazine 500mg ER",
+     "c": "Johnlee",
+     "m": 8.2,
+     "p": 8.2,
+     "t": 1
+    },
+    {
+     "n": "Revulant",
+     "s": "Ranolazine 500mg ER",
+     "c": "Sun Pharma",
+     "m": 8.7,
+     "p": 8.7,
+     "t": 1
+    },
+    {
+     "n": "Ranolazine ER",
+     "s": "Ranolazine 500mg ER",
+     "c": "Daxia",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Caroza",
+     "s": "Ranolazine 500mg ER",
+     "c": "Zydus",
+     "m": 12.03,
+     "p": 12.03,
+     "t": 1
+    },
+    {
+     "n": "Rancv 500",
+     "s": "Ranolazine 500mg ER",
+     "c": "MSN",
+     "m": 12.2,
+     "p": 12.2,
+     "t": 1
+    },
+    {
+     "n": "Rancad",
+     "s": "Ranolazine 500mg ER",
+     "c": "Lupin",
+     "m": 14.36,
+     "p": 14.36,
+     "t": 1
+    },
+    {
+     "n": "Cartinex",
+     "s": "Ranolazine 500mg ER",
+     "c": "Micro Labs",
+     "m": 15.4,
+     "p": 15.4,
+     "t": 1
+    },
+    {
+     "n": "Rolazin",
+     "s": "Ranolazine 500mg ER",
+     "c": "Macleods",
+     "m": 15.7,
+     "p": 15.7,
+     "t": 1
+    },
+    {
+     "n": "Ranopill 500",
+     "s": "Ranolazine 500mg ER",
+     "c": "Intas",
+     "m": 15.9,
+     "p": 15.9,
+     "t": 1
+    },
+    {
+     "n": "Synx",
+     "s": "Ranolazine 500mg ER",
+     "c": "Alembic",
+     "m": 16.83,
+     "p": 16.83,
+     "t": 1
+    },
+    {
+     "n": "Ranozex",
+     "s": "Ranolazine 500mg ER",
+     "c": "Sun Pharma",
+     "m": 18.5,
+     "p": 18.5,
+     "t": 1
+    },
+    {
+     "n": "Ranolaz 500",
+     "s": "Ranolazine 500mg ER",
+     "c": "Torrent",
+     "m": 19.4,
+     "p": 19.4,
+     "t": 1
+    },
+    {
+     "n": "Ranx 500",
+     "s": "Ranolazine 500mg ER",
+     "c": "Torrent",
+     "m": 21.27,
+     "p": 21.27,
+     "t": 1
+    },
+    {
+     "n": "Trimex 35",
+     "s": "Trimetazidine 35mg MR",
+     "c": "Nexkem",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Metagard CR 35",
+     "s": "Trimetazidine 35mg MR",
+     "c": "",
+     "m": 12.2,
+     "p": 12.2,
+     "t": 1
+    },
+    {
+     "n": "Trivedon MR",
+     "s": "Trimetazidine 35mg MR",
+     "c": "Cipla",
+     "m": 15.5,
+     "p": 15.5,
+     "t": 1
+    },
+    {
+     "n": "Trimacontin 35",
+     "s": "Trimetazidine 35mg MR",
+     "c": "Modi Mundi",
+     "m": 16.6,
+     "p": 16.6,
+     "t": 1
+    },
+    {
+     "n": "Carvidon MR",
+     "s": "Trimetazidine 35mg MR",
+     "c": "",
+     "m": 16.9,
+     "p": 16.9,
+     "t": 1
+    },
+    {
+     "n": "Flavedon MR",
+     "s": "Trimetazidine 35mg MR",
+     "c": "Servier",
+     "m": 19.76,
+     "p": 19.76,
+     "t": 1
+    },
+    {
+     "n": "Ivazee 5",
+     "s": "Ivabradine 5mg",
+     "c": "Zeelab",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "IVAford 5",
+     "s": "Ivabradine 5mg",
+     "c": "Leeford",
+     "m": 10.93,
+     "p": 10.93,
+     "t": 1
+    },
+    {
+     "n": "Ivastatus 5",
+     "s": "Ivabradine 5mg",
+     "c": "",
+     "m": 13.13,
+     "p": 13.13,
+     "t": 1
+    },
+    {
+     "n": "Beat HF 5",
+     "s": "Ivabradine 5mg",
+     "c": "Emcure",
+     "m": 13.3,
+     "p": 13.3,
+     "t": 1
+    },
+    {
+     "n": "Irban 5",
+     "s": "Ivabradine 5mg",
+     "c": "Glenmark",
+     "m": 14.6,
+     "p": 14.6,
+     "t": 1
+    },
+    {
+     "n": "Corabrad 5",
+     "s": "Ivabradine 5mg",
+     "c": "Mankind",
+     "m": 19.33,
+     "p": 19.33,
+     "t": 1
+    },
+    {
+     "n": "Coralan 5",
+     "s": "Ivabradine 5mg",
+     "c": "Servier",
+     "m": 21.93,
+     "p": 21.93,
+     "t": 1
+    },
+    {
+     "n": "Ivamac 5",
+     "s": "Ivabradine 5mg",
+     "c": "Macleods",
+     "m": 22.2,
+     "p": 22.2,
+     "t": 1
+    },
+    {
+     "n": "Inapure 5",
+     "s": "Ivabradine 5mg",
+     "c": "Sun Pharma",
+     "m": 25.7,
+     "p": 25.7,
+     "t": 1
+    },
+    {
+     "n": "Ivabid 5",
+     "s": "Ivabradine 5mg",
+     "c": "Abbott",
+     "m": 27.86,
+     "p": 27.86,
+     "t": 1
+    },
+    {
+     "n": "Ivanode 5",
+     "s": "Ivabradine 5mg",
+     "c": "Torrent",
+     "m": 29.0,
+     "p": 29.0,
+     "t": 1
+    },
+    {
+     "n": "Ivabrad 5",
+     "s": "Ivabradine 5mg",
+     "c": "Lupin",
+     "m": 30.73,
+     "p": 30.73,
+     "t": 1
+    },
+    {
+     "n": "Sacurise 50",
+     "s": "Sacubitril 24mg + Valsartan 26mg",
+     "c": "Sun Pharma",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Arnx 50",
+     "s": "Sacubitril 24mg + Valsartan 26mg",
+     "c": "Zydus",
+     "m": 19.9,
+     "p": 19.9,
+     "t": 1
+    },
+    {
+     "n": "Arnoza 50",
+     "s": "Sacubitril 24mg + Valsartan 26mg",
+     "c": "Torrent",
+     "m": 19.9,
+     "p": 19.9,
+     "t": 1
+    },
+    {
+     "n": "Sacutan 50 (30 tab)",
+     "s": "Sacubitril 24mg + Valsartan 26mg",
+     "c": "MSN",
+     "m": 35.0,
+     "p": 35.0,
+     "t": 1
+    },
+    {
+     "n": "Vymada 50",
+     "s": "Sacubitril 24mg + Valsartan 26mg",
+     "c": "Novartis",
+     "m": 42.05,
+     "p": 42.05,
+     "t": 1
+    },
+    {
+     "n": "Azmarda 50",
+     "s": "Sacubitril 24mg + Valsartan 26mg",
+     "c": "J B Chemicals",
+     "m": 69.82,
+     "p": 69.82,
+     "t": 1
+    }
+   ]
   }
  ]
 }
