@@ -8798,6 +8798,1332 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-antiemetic-diarrhoea-ors",
+   "meds": [
+    {
+     "n": "Medsetron",
+     "s": "Ondansetron 4mg",
+     "m": 0.44,
+     "p": 0.44,
+     "c": "Medley",
+     "t": 1
+    },
+    {
+     "n": "Onsopil 4",
+     "s": "Ondansetron 4mg",
+     "m": 0.69,
+     "p": 0.69,
+     "c": "Psychotropics",
+     "t": 1
+    },
+    {
+     "n": "Zenoset 4",
+     "s": "Ondansetron 4mg",
+     "m": 1.4,
+     "p": 1.4,
+     "c": "Zenith",
+     "t": 1
+    },
+    {
+     "n": "Setmol 4",
+     "s": "Ondansetron 4mg",
+     "m": 1.89,
+     "p": 1.89,
+     "c": "Wens Drugs",
+     "t": 1
+    },
+    {
+     "n": "Ondoc 4",
+     "s": "Ondansetron 4mg",
+     "m": 2.5,
+     "p": 2.5,
+     "c": "Morepen",
+     "t": 1
+    },
+    {
+     "n": "Ondenset 4",
+     "s": "Ondansetron 4mg",
+     "m": 2.57,
+     "p": 2.57,
+     "c": "Parenteral Drugs",
+     "t": 1
+    },
+    {
+     "n": "Trand 4",
+     "s": "Ondansetron 4mg",
+     "m": 2.95,
+     "p": 2.95,
+     "c": "Trans Life",
+     "t": 1
+    },
+    {
+     "n": "Odt 4",
+     "s": "Ondansetron 4mg",
+     "m": 3.21,
+     "p": 3.21,
+     "c": "Curex",
+     "t": 1
+    },
+    {
+     "n": "Wanset 4",
+     "s": "Ondansetron 4mg",
+     "m": 3.71,
+     "p": 3.71,
+     "c": "Wannock",
+     "t": 1
+    },
+    {
+     "n": "Axivomax 4",
+     "s": "Ondansetron 4mg",
+     "m": 3.71,
+     "p": 3.71,
+     "c": "Axico",
+     "t": 1
+    },
+    {
+     "n": "Vegas 4",
+     "s": "Ondansetron 4mg",
+     "m": 3.82,
+     "p": 3.82,
+     "c": "Rekvina",
+     "t": 1
+    },
+    {
+     "n": "Vomblock 4",
+     "s": "Ondansetron 4mg",
+     "m": 4.13,
+     "p": 4.13,
+     "c": "Axis Labs",
+     "t": 1
+    },
+    {
+     "n": "Set NV 4",
+     "s": "Ondansetron 4mg",
+     "m": 4.36,
+     "p": 4.36,
+     "c": "Mapra",
+     "t": 1
+    },
+    {
+     "n": "Neomit 4",
+     "s": "Ondansetron 4mg",
+     "m": 4.38,
+     "p": 4.38,
+     "c": "Neon",
+     "t": 1
+    },
+    {
+     "n": "Ondazen 4",
+     "s": "Ondansetron 4mg",
+     "m": 4.39,
+     "p": 4.39,
+     "c": "Zenkins",
+     "t": 1
+    },
+    {
+     "n": "Ondestin 4",
+     "s": "Ondansetron 4mg",
+     "m": 4.4,
+     "p": 4.4,
+     "c": "Bioxtreme",
+     "t": 1
+    },
+    {
+     "n": "Vomikool 4",
+     "s": "Ondansetron 4mg",
+     "m": 4.5,
+     "p": 4.5,
+     "c": "Staunch",
+     "t": 1
+    },
+    {
+     "n": "O M T 4",
+     "s": "Ondansetron 4mg",
+     "m": 4.75,
+     "p": 4.75,
+     "c": "Thrift",
+     "t": 1
+    },
+    {
+     "n": "Emitus 4",
+     "s": "Ondansetron 4mg",
+     "m": 4.77,
+     "p": 4.77,
+     "c": "Icarus",
+     "t": 1
+    },
+    {
+     "n": "Instaset ID 4",
+     "s": "Ondansetron 4mg",
+     "m": 4.9,
+     "p": 4.9,
+     "c": "Votary",
+     "t": 1
+    },
+    {
+     "n": "Emless 4",
+     "s": "Ondansetron 4mg",
+     "m": 5.04,
+     "p": 5.04,
+     "c": "IDPL",
+     "t": 1
+    },
+    {
+     "n": "Domi UP 4",
+     "s": "Ondansetron 4mg",
+     "m": 5.23,
+     "p": 5.23,
+     "c": "Lincoln",
+     "t": 1
+    },
+    {
+     "n": "Zytron 4",
+     "s": "Ondansetron 4mg",
+     "m": 5.3,
+     "p": 5.3,
+     "c": "Harson",
+     "t": 1
+    },
+    {
+     "n": "Ondem 4",
+     "s": "Ondansetron 4mg",
+     "m": 5.75,
+     "p": 5.75,
+     "c": "Alkem",
+     "t": 1
+    },
+    {
+     "n": "Zofer 4",
+     "s": "Ondansetron 4mg",
+     "m": 5.75,
+     "p": 5.75,
+     "c": "Sun Pharma",
+     "t": 1
+    },
+    {
+     "n": "Emeset 4",
+     "s": "Ondansetron 4mg",
+     "m": 5.76,
+     "p": 5.76,
+     "c": "Cipla",
+     "t": 1
+    },
+    {
+     "n": "Emeset 4 ODT",
+     "s": "Ondansetron 4mg MD",
+     "m": 5.76,
+     "p": 5.76,
+     "c": "Cipla",
+     "t": 1
+    },
+    {
+     "n": "Periset 4",
+     "s": "Ondansetron 4mg",
+     "m": 5.76,
+     "p": 5.76,
+     "c": "Ipca",
+     "t": 1
+    },
+    {
+     "n": "Ondiron 4",
+     "s": "Ondansetron 4mg",
+     "m": 6.0,
+     "p": 6.0,
+     "c": "Biochem",
+     "t": 1
+    },
+    {
+     "n": "Onwon-MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 1.0,
+     "p": 1.0,
+     "c": "Zeelab",
+     "t": 1
+    },
+    {
+     "n": "Eterna MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 2.98,
+     "p": 2.98,
+     "c": "Blue Cross",
+     "t": 1
+    },
+    {
+     "n": "Vomishield 4MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 3.55,
+     "p": 3.55,
+     "c": "Leeford",
+     "t": 1
+    },
+    {
+     "n": "Vomiford-MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 3.7,
+     "p": 3.7,
+     "c": "Leeford",
+     "t": 1
+    },
+    {
+     "n": "Nuavomin 4 MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 3.94,
+     "p": 3.94,
+     "c": "Abbott",
+     "t": 1
+    },
+    {
+     "n": "Ondawik MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 4.05,
+     "p": 4.05,
+     "c": "Biocube",
+     "t": 1
+    },
+    {
+     "n": "Ondax MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 4.09,
+     "p": 4.09,
+     "c": "Axodin",
+     "t": 1
+    },
+    {
+     "n": "Ondy-MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 4.93,
+     "p": 4.93,
+     "c": "Ronyd",
+     "t": 1
+    },
+    {
+     "n": "Periset MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 5.0,
+     "p": 5.0,
+     "c": "Ipca",
+     "t": 1
+    },
+    {
+     "n": "Ondem-MD 4",
+     "s": "Ondansetron 4mg MD",
+     "m": 5.43,
+     "p": 5.43,
+     "c": "Alkem",
+     "t": 1
+    },
+    {
+     "n": "Emeset 4 MD",
+     "s": "Ondansetron 4mg MD",
+     "m": 5.44,
+     "p": 5.44,
+     "c": "Cipla",
+     "t": 1
+    },
+    {
+     "n": "Vomikind syp",
+     "s": "Ondansetron 2mg/5ml Syrup 30ml",
+     "m": 33.81,
+     "p": 33.81,
+     "c": "Mankind"
+    },
+    {
+     "n": "Isv syp",
+     "s": "Ondansetron 2mg/5ml Syrup 30ml",
+     "m": 34.15,
+     "p": 34.15,
+     "c": "Galpha"
+    },
+    {
+     "n": "Emnil syp",
+     "s": "Ondansetron 2mg/5ml Syrup 30ml",
+     "m": 34.5,
+     "p": 34.5,
+     "c": "Viilbery"
+    },
+    {
+     "n": "Vomisave syp",
+     "s": "Ondansetron 2mg/5ml Syrup 30ml",
+     "m": 35.31,
+     "p": 35.31,
+     "c": "Eris"
+    },
+    {
+     "n": "Ondiset susp",
+     "s": "Ondansetron 2mg/5ml Syrup 30ml",
+     "m": 37.43,
+     "p": 37.43
+    },
+    {
+     "n": "Ondem syp",
+     "s": "Ondansetron 2mg/5ml Syrup 30ml",
+     "m": 37.67,
+     "p": 37.67,
+     "c": "Alkem"
+    },
+    {
+     "n": "Emeset syp",
+     "s": "Ondansetron 2mg/5ml Syrup 30ml",
+     "m": 37.72,
+     "p": 37.72,
+     "c": "Cipla"
+    },
+    {
+     "n": "Emigo",
+     "s": "Ondansetron 2mg/5ml Syrup 30ml",
+     "m": 37.84,
+     "p": 37.84,
+     "c": "Zuventus"
+    },
+    {
+     "n": "Periset syp",
+     "s": "Ondansetron 2mg/5ml Syrup 30ml",
+     "m": 38.3,
+     "p": 38.3,
+     "c": "Ipca"
+    },
+    {
+     "n": "Vstop 4 Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 3.4,
+     "p": 3.4,
+     "c": "Standard Remedies"
+    },
+    {
+     "n": "Monda 4 Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 4.6,
+     "p": 4.6,
+     "c": "Medial"
+    },
+    {
+     "n": "Onsopil 4 inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 5.62,
+     "p": 5.62,
+     "c": "Psychotropics"
+    },
+    {
+     "n": "Onzil Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 11.4,
+     "p": 11.4,
+     "c": "Lifekyor"
+    },
+    {
+     "n": "Setmet 4 Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 11.4,
+     "p": 11.4,
+     "c": "Metamorf"
+    },
+    {
+     "n": "Ondacure Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 11.82,
+     "p": 11.82
+    },
+    {
+     "n": "Onsan Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 12.2,
+     "p": 12.2,
+     "c": "Dansan"
+    },
+    {
+     "n": "Neomit inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 12.47,
+     "p": 12.47,
+     "c": "Neon"
+    },
+    {
+     "n": "Vomikind inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 12.71,
+     "p": 12.71,
+     "c": "Mankind"
+    },
+    {
+     "n": "Emwin Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 13.0,
+     "p": 13.0,
+     "c": "Vhl"
+    },
+    {
+     "n": "Zofer inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 13.35,
+     "p": 13.35,
+     "c": "Sun Pharma"
+    },
+    {
+     "n": "Emeset inj 2ml",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 13.35,
+     "p": 13.35,
+     "c": "Cipla"
+    },
+    {
+     "n": "Ondet inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 13.35,
+     "p": 13.35,
+     "c": "Neuro Pharma"
+    },
+    {
+     "n": "Ondon inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 13.35,
+     "p": 13.35
+    },
+    {
+     "n": "Vomisin Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 13.35,
+     "p": 13.35
+    },
+    {
+     "n": "Ondenset 4 inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 14.56,
+     "p": 14.56,
+     "c": "Parenteral Drugs"
+    },
+    {
+     "n": "Uwan Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 14.74,
+     "p": 14.74,
+     "c": "Aden"
+    },
+    {
+     "n": "Ondawem Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 15.0,
+     "p": 15.0,
+     "c": "Wembrace"
+    },
+    {
+     "n": "Lintron Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 20.0,
+     "p": 20.0,
+     "c": "Linex"
+    },
+    {
+     "n": "Ondeon 4 Inj",
+     "s": "Ondansetron 4mg/2ml Injection",
+     "m": 27.63,
+     "p": 27.63,
+     "c": "Innovative"
+    },
+    {
+     "n": "Otron 4ml Inj",
+     "s": "Ondansetron 8mg/4ml Injection",
+     "m": 12.23,
+     "p": 12.23,
+     "c": "Troikaa"
+    },
+    {
+     "n": "Ondom 4ml Inj",
+     "s": "Ondansetron 8mg/4ml Injection",
+     "m": 15.1,
+     "p": 15.1,
+     "c": "Alkem"
+    },
+    {
+     "n": "Vomiford 4ml Inj",
+     "s": "Ondansetron 8mg/4ml Injection",
+     "m": 24.55,
+     "p": 24.55,
+     "c": "Leeford"
+    },
+    {
+     "n": "Ondem 8mg 4ml Inj",
+     "s": "Ondansetron 8mg/4ml Injection",
+     "m": 26.25,
+     "p": 26.25,
+     "c": "Alkem"
+    },
+    {
+     "n": "Emeset 4ml Inj",
+     "s": "Ondansetron 8mg/4ml Injection",
+     "m": 26.7,
+     "p": 26.7,
+     "c": "Cipla"
+    },
+    {
+     "n": "Ondon 4ml Inj",
+     "s": "Ondansetron 8mg/4ml Injection",
+     "m": 26.7,
+     "p": 26.7
+    },
+    {
+     "n": "Stopvom 10",
+     "s": "Domperidone 10mg",
+     "m": 0.35,
+     "p": 0.35,
+     "c": "Cadila",
+     "t": 1
+    },
+    {
+     "n": "Dompy 10",
+     "s": "Domperidone 10mg",
+     "m": 0.36,
+     "p": 0.36,
+     "c": "Zydus",
+     "t": 1
+    },
+    {
+     "n": "Domipen 10",
+     "s": "Domperidone 10mg",
+     "m": 0.38,
+     "p": 0.38,
+     "c": "Morepen",
+     "t": 1
+    },
+    {
+     "n": "Domstal 10",
+     "s": "Domperidone 10mg",
+     "m": 2.47,
+     "p": 2.47,
+     "c": "Torrent",
+     "t": 1
+    },
+    {
+     "n": "Vomistop",
+     "s": "Domperidone 10mg",
+     "m": 2.47,
+     "p": 2.47,
+     "c": "Cipla",
+     "t": 1
+    },
+    {
+     "n": "Mahadom 10",
+     "s": "Domperidone 10mg",
+     "m": 2.5,
+     "p": 2.5,
+     "c": "Mankind",
+     "t": 1
+    },
+    {
+     "n": "Gastractiv 10",
+     "s": "Domperidone 10mg",
+     "m": 2.68,
+     "p": 2.68,
+     "c": "Janssen",
+     "t": 1
+    },
+    {
+     "n": "Motilium M",
+     "s": "Domperidone 10mg",
+     "m": 2.69,
+     "p": 2.69,
+     "c": "Janssen",
+     "t": 1
+    },
+    {
+     "n": "Domperon 10",
+     "s": "Domperidone 10mg",
+     "m": 3.02,
+     "p": 3.02,
+     "c": "Cadila",
+     "t": 1
+    },
+    {
+     "n": "Domel 10",
+     "s": "Domperidone 10mg",
+     "m": 3.42,
+     "p": 3.42,
+     "c": "Intas",
+     "t": 1
+    },
+    {
+     "n": "Domel MT 10",
+     "s": "Domperidone 10mg",
+     "m": 3.55,
+     "p": 3.55,
+     "c": "Intas",
+     "t": 1
+    },
+    {
+     "n": "Unistal 10",
+     "s": "Domperidone 10mg",
+     "m": 6.35,
+     "p": 6.35,
+     "c": "Torrent",
+     "t": 1
+    },
+    {
+     "n": "Modom 10",
+     "s": "Domperidone 10mg",
+     "m": 6.99,
+     "p": 6.99,
+     "c": "Cerspin",
+     "t": 1
+    },
+    {
+     "n": "Eldostal DT",
+     "s": "Domperidone 10mg DT",
+     "m": 0.38,
+     "p": 0.38,
+     "c": "Elder",
+     "t": 1
+    },
+    {
+     "n": "Domril DT",
+     "s": "Domperidone 10mg DT",
+     "m": 1.54,
+     "p": 1.54,
+     "c": "Monokem",
+     "t": 1
+    },
+    {
+     "n": "Avom DT",
+     "s": "Domperidone 10mg DT",
+     "m": 1.95,
+     "p": 1.95,
+     "c": "Win-Medicare",
+     "t": 1
+    },
+    {
+     "n": "Azinorm DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.0,
+     "p": 2.0,
+     "c": "Azine",
+     "t": 1
+    },
+    {
+     "n": "Domper DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.16,
+     "p": 2.16,
+     "c": "Ethicare",
+     "t": 1
+    },
+    {
+     "n": "Peridone DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.2,
+     "p": 2.2,
+     "c": "Abbott",
+     "t": 1
+    },
+    {
+     "n": "SAN DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.25,
+     "p": 2.25,
+     "c": "Sanat",
+     "t": 1
+    },
+    {
+     "n": "Histal DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.25,
+     "p": 2.25,
+     "c": "Hinglaj",
+     "t": 1
+    },
+    {
+     "n": "Emidon DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.26,
+     "p": 2.26,
+     "c": "KAPL",
+     "t": 1
+    },
+    {
+     "n": "Domfast DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.34,
+     "p": 2.34,
+     "c": "Swiss Pharma",
+     "t": 1
+    },
+    {
+     "n": "Motinorm DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.39,
+     "p": 2.39,
+     "c": "Medley",
+     "t": 1
+    },
+    {
+     "n": "Motidom DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.5,
+     "p": 2.5,
+     "c": "Tas Med",
+     "t": 1
+    },
+    {
+     "n": "Gastrium DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.52,
+     "p": 2.52,
+     "c": "Micro Labs",
+     "t": 1
+    },
+    {
+     "n": "Domstal DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.53,
+     "p": 2.53,
+     "c": "Torrent",
+     "t": 1
+    },
+    {
+     "n": "Domperi DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.53,
+     "p": 2.53,
+     "c": "Ipca",
+     "t": 1
+    },
+    {
+     "n": "Dom-DT Rapitab",
+     "s": "Domperidone 10mg DT",
+     "m": 2.6,
+     "p": 2.6,
+     "c": "Morepen",
+     "t": 1
+    },
+    {
+     "n": "Vom DT",
+     "s": "Domperidone 10mg DT",
+     "m": 2.95,
+     "p": 2.95,
+     "c": "Banureet",
+     "t": 1
+    },
+    {
+     "n": "Vomitex",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 1.95,
+     "p": 1.95,
+     "c": "Mankind",
+     "t": 1
+    },
+    {
+     "n": "Domi 10/10",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 2.33,
+     "p": 2.33,
+     "c": "Lincoln",
+     "t": 1
+    },
+    {
+     "n": "Queezy",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 3.75,
+     "p": 3.75,
+     "c": "Jagsonpal",
+     "t": 1
+    },
+    {
+     "n": "MS Dos",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 3.83,
+     "p": 3.83,
+     "c": "Resilient",
+     "t": 1
+    },
+    {
+     "n": "Rest Aid",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 4.18,
+     "p": 4.18,
+     "c": "Mercury",
+     "t": 1
+    },
+    {
+     "n": "Suxinate",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 4.25,
+     "p": 4.25,
+     "c": "Curagen",
+     "t": 1
+    },
+    {
+     "n": "Nosic",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 5.35,
+     "p": 5.35,
+     "c": "Indoco",
+     "t": 1
+    },
+    {
+     "n": "Doxyla B6 10/10",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 5.37,
+     "p": 5.37,
+     "c": "Maneesh",
+     "t": 1
+    },
+    {
+     "n": "Pregnidoxin NU",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 5.73,
+     "p": 5.73,
+     "c": "Dr Reddy's",
+     "t": 1
+    },
+    {
+     "n": "Goodmorn",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 6.27,
+     "p": 6.27,
+     "c": "DWD",
+     "t": 1
+    },
+    {
+     "n": "Doxinate",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 6.95,
+     "p": 6.95,
+     "c": "Maneesh",
+     "t": 1
+    },
+    {
+     "n": "Act NVP",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "m": 7.7,
+     "p": 7.7,
+     "c": "Akumentis",
+     "t": 1
+    },
+    {
+     "n": "Doxyla B6 20/20",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 2.84,
+     "p": 2.84,
+     "c": "Maneesh",
+     "t": 1
+    },
+    {
+     "n": "Doxipreg OD",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 2.98,
+     "p": 2.98,
+     "c": "Bewell",
+     "t": 1
+    },
+    {
+     "n": "Doxyfem B6",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 3.08,
+     "p": 3.08,
+     "c": "Dabur",
+     "t": 1
+    },
+    {
+     "n": "Pregnadur OD",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 3.5,
+     "p": 3.5,
+     "c": "Rhombus",
+     "t": 1
+    },
+    {
+     "n": "Prezol",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 4.5,
+     "p": 4.5,
+     "c": "Biochemix",
+     "t": 1
+    },
+    {
+     "n": "Alfresh",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 4.5,
+     "p": 4.5,
+     "c": "Almed",
+     "t": 1
+    },
+    {
+     "n": "Pregdox OD",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 6.03,
+     "p": 6.03,
+     "c": "Rekvina",
+     "t": 1
+    },
+    {
+     "n": "Doxymid Forte",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 7.0,
+     "p": 7.0,
+     "c": "Midas",
+     "t": 1
+    },
+    {
+     "n": "Gooday",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 7.4,
+     "p": 7.4,
+     "c": "Akesiss",
+     "t": 1
+    },
+    {
+     "n": "Goodmorn Forte",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 7.62,
+     "p": 7.62,
+     "c": "DWD",
+     "t": 1
+    },
+    {
+     "n": "Doxomit OD",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 8.6,
+     "p": 8.6,
+     "c": "Curador",
+     "t": 1
+    },
+    {
+     "n": "Emestat OD",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 8.64,
+     "p": 8.64,
+     "c": "Obsurge",
+     "t": 1
+    },
+    {
+     "n": "Doxygrace OD",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 8.8,
+     "p": 8.8,
+     "c": "Grace Derma",
+     "t": 1
+    },
+    {
+     "n": "Nvg",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 9.18,
+     "p": 9.18,
+     "c": "Maneesh",
+     "t": 1
+    },
+    {
+     "n": "Doxinate-G",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 10.1,
+     "p": 10.1,
+     "c": "Maneesh",
+     "t": 1
+    },
+    {
+     "n": "Easypreg OD",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 10.3,
+     "p": 10.3,
+     "c": "Kepler",
+     "t": 1
+    },
+    {
+     "n": "Dolby Forte",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 12.31,
+     "p": 12.31,
+     "c": "Orange",
+     "t": 1
+    },
+    {
+     "n": "Doxinate OD",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg OD",
+     "m": 12.33,
+     "p": 12.33,
+     "c": "Maneesh",
+     "t": 1
+    },
+    {
+     "n": "Lee Dott",
+     "s": "Racecadotril 100mg",
+     "m": 9.45,
+     "p": 9.45,
+     "c": "Leeford",
+     "t": 1
+    },
+    {
+     "n": "AD 100",
+     "s": "Racecadotril 100mg",
+     "m": 12.3,
+     "p": 12.3,
+     "c": "Hetero",
+     "t": 1
+    },
+    {
+     "n": "Racedot 100",
+     "s": "Racecadotril 100mg",
+     "m": 18.99,
+     "p": 18.99,
+     "c": "Macleods",
+     "t": 1
+    },
+    {
+     "n": "Redotil 100",
+     "s": "Racecadotril 100mg",
+     "m": 27.2,
+     "p": 27.2,
+     "c": "Dr Reddy's",
+     "t": 1
+    },
+    {
+     "n": "Lopamax 2",
+     "s": "Loperamide 2mg",
+     "m": 0.38,
+     "p": 0.38,
+     "c": "Wockhardt",
+     "t": 1
+    },
+    {
+     "n": "Tropamide 2",
+     "s": "Loperamide 2mg",
+     "m": 0.38,
+     "p": 0.38,
+     "c": "Troikaa",
+     "t": 1
+    },
+    {
+     "n": "Lopramide 2 100 tab",
+     "s": "Loperamide 2mg",
+     "m": 0.41,
+     "p": 0.41,
+     "c": "Makers",
+     "t": 1
+    },
+    {
+     "n": "Lopramide 2",
+     "s": "Loperamide 2mg",
+     "m": 0.5,
+     "p": 0.5,
+     "c": "Cadila",
+     "t": 1
+    },
+    {
+     "n": "Lopidus",
+     "s": "Loperamide 2mg",
+     "m": 0.5,
+     "p": 0.5,
+     "c": "Zydus",
+     "t": 1
+    },
+    {
+     "n": "Lopipen 2",
+     "s": "Loperamide 2mg",
+     "m": 0.63,
+     "p": 0.63,
+     "c": "Morepen",
+     "t": 1
+    },
+    {
+     "n": "Loppa 2",
+     "s": "Loperamide 2mg",
+     "m": 0.63,
+     "p": 0.63,
+     "c": "Zydus",
+     "t": 1
+    },
+    {
+     "n": "Rokamide 2",
+     "s": "Loperamide 2mg",
+     "m": 0.85,
+     "p": 0.85,
+     "c": "Sun Pharma",
+     "t": 1
+    },
+    {
+     "n": "Starlop 2",
+     "s": "Loperamide 2mg",
+     "m": 0.85,
+     "p": 0.85,
+     "c": "Cadila",
+     "t": 1
+    },
+    {
+     "n": "Lopramac 2",
+     "s": "Loperamide 2mg",
+     "m": 0.93,
+     "p": 0.93,
+     "c": "Mac Millon",
+     "t": 1
+    },
+    {
+     "n": "Nitilop 2",
+     "s": "Loperamide 2mg",
+     "m": 0.95,
+     "p": 0.95,
+     "c": "Wood Rock",
+     "t": 1
+    },
+    {
+     "n": "Lupidium",
+     "s": "Loperamide 2mg",
+     "m": 0.95,
+     "p": 0.95,
+     "c": "Lupin",
+     "t": 1
+    },
+    {
+     "n": "Diarmak 2",
+     "s": "Loperamide 2mg",
+     "m": 1.0,
+     "p": 1.0,
+     "c": "Makmaul",
+     "t": 1
+    },
+    {
+     "n": "Lopox 2",
+     "s": "Loperamide 2mg",
+     "m": 1.0,
+     "p": 1.0,
+     "c": "Shalman",
+     "t": 1
+    },
+    {
+     "n": "Loparex 2",
+     "s": "Loperamide 2mg",
+     "m": 1.73,
+     "p": 1.73,
+     "c": "Kentreck",
+     "t": 1
+    },
+    {
+     "n": "Lopdys 2",
+     "s": "Loperamide 2mg",
+     "m": 1.73,
+     "p": 1.73,
+     "c": "Biochem",
+     "t": 1
+    },
+    {
+     "n": "Diarsec 2",
+     "s": "Loperamide 2mg",
+     "m": 1.9,
+     "p": 1.9,
+     "c": "Biochem",
+     "t": 1
+    },
+    {
+     "n": "Lopamide",
+     "s": "Loperamide 2mg",
+     "m": 2.12,
+     "p": 2.12,
+     "c": "Torrent",
+     "t": 1
+    },
+    {
+     "n": "Loparet 2",
+     "s": "Loperamide 2mg",
+     "m": 2.2,
+     "p": 2.2,
+     "c": "Retort",
+     "t": 1
+    },
+    {
+     "n": "Ridol 2",
+     "s": "Loperamide 2mg",
+     "m": 2.22,
+     "p": 2.22,
+     "c": "Gufic",
+     "t": 1
+    },
+    {
+     "n": "Lomofen Plus",
+     "s": "Loperamide 2mg",
+     "m": 2.27,
+     "p": 2.27,
+     "c": "RPG",
+     "t": 1
+    },
+    {
+     "n": "Andial 2",
+     "s": "Loperamide 2mg",
+     "m": 2.45,
+     "p": 2.45,
+     "c": "Veritaz",
+     "t": 1
+    },
+    {
+     "n": "Sestil AD 2",
+     "s": "Loperamide 2mg",
+     "m": 2.58,
+     "p": 2.58,
+     "c": "Vanguard",
+     "t": 1
+    },
+    {
+     "n": "Loramyl 2",
+     "s": "Loperamide 2mg",
+     "m": 2.62,
+     "p": 2.62,
+     "c": "Adonis",
+     "t": 1
+    },
+    {
+     "n": "Lopanam 2",
+     "s": "Loperamide 2mg",
+     "m": 2.65,
+     "p": 2.65,
+     "c": "Mankind",
+     "t": 1
+    },
+    {
+     "n": "Econorm sachet",
+     "s": "Saccharomyces boulardii 250mg sachet",
+     "m": 52.0,
+     "p": 52.0,
+     "c": "Dr Reddy's"
+    },
+    {
+     "n": "Ecomore sachet",
+     "s": "Saccharomyces boulardii 250mg sachet",
+     "m": 52.03,
+     "p": 52.03
+    },
+    {
+     "n": "Dyronorm cap",
+     "s": "Saccharomyces boulardii 250mg",
+     "m": 35.2,
+     "p": 35.2,
+     "c": "Bajaj",
+     "t": 1
+    },
+    {
+     "n": "Econorm 250 cap",
+     "s": "Saccharomyces boulardii 250mg",
+     "m": 36.83,
+     "p": 36.83,
+     "c": "Dr Reddy's",
+     "t": 1
+    },
+    {
+     "n": "Electral",
+     "s": "ORS WHO 21.8g sachet",
+     "m": 22.3,
+     "p": 22.3,
+     "c": "FDC"
+    },
+    {
+     "n": "Dr. Morepen Premium ORS",
+     "s": "ORS WHO 21.8g sachet",
+     "m": 22.66,
+     "p": 22.66,
+     "c": "Morepen"
+    },
+    {
+     "n": "Prolyte ORS",
+     "s": "ORS 21g sachet",
+     "m": 48.81,
+     "p": 48.81
+    }
+   ]
   }
  ]
 }
