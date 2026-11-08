@@ -92,6 +92,7 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:15px;color:var(-
 .ordbar small{display:block;color:#CFE3D8;font-size:13px;line-height:1.2}
 .ordbar b{font:400 25px/1.15 var(--disp)}
 .ordbar .ordbtn{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;background:var(--accent);color:var(--accent-ink);font:800 16px/1.2 Mukta,sans-serif;padding:11px 10px;margin:0;border-radius:12px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 12px 10px;margin-top:12px}.boxh{font:700 19px/1.3 Mukta,sans-serif;color:var(--head);cursor:pointer;padding:8px 0;list-style:none}.boxh::-webkit-details-marker{display:none}.boxh::before{content:'▸ ';color:var(--mute)}details[open]>.boxh::before{content:'▾ '}.boxh span{color:var(--mute);font-weight:600;font-size:15px;margin-left:6px}.box .item{margin-top:6px}
 @keyframes spin{to{transform:rotate(360deg)}}
 @keyframes sweep{to{top:calc(100% - 3px)}}
 @media (prefers-reduced-motion:reduce){.ring{animation-duration:2.6s}.sweep{animation:none;top:50%}}
@@ -270,13 +271,50 @@ function saltKey(t){return (String(t||"").toLowerCase().match(/[a-z]{4,}/g)||[])
 function dKey(d){return String(d.n||"").toLowerCase().replace(/[^a-z0-9]/g,"")+"|"+(d.t||0)}
 function dupIdx(d,skip){for(var i=0;i<meds.length;i++){if(i!==skip&&dKey(meds[i])===dKey(d))return i}return -1}
 function dupGroups(){var g={};meds.forEach(function(d,i){var k=dKey(d);(g[k]=g[k]||[]).push(i)});return Object.keys(g).map(function(k){return g[k]}).filter(function(a){return a.length>1})}
+var CATS=[
+["ताप व वेदना (Antipyretic / Painkiller)",/paracetamol|aceclofenac|diclofenac|etoricoxib|nimesulide|ibuprofen|mefenamic|naproxen|ketorolac|tramadol/],
+["स्नायू शिथिल (Muscle relaxant)",/thiocolchicoside|eperisone|tizanidine|baclofen/],
+["आम्लपित्त / पोट (Acidity)",/prazole|famotidine|ranitidine|sucralfate|antacid|domperidone/],
+["मळमळ / उलटी",/ondansetron|prochlorperazine/],
+["जुलाब / बद्धकोष्ठता",/loperamide|racecadotril|\bors\b|saccharomyces|lactulose|bisacodyl|picosulfate|liquid paraffin|prucalopride|ispaghula|lactobacillus|rifaximin/],
+["यकृत (लिव्हर)",/ursodeoxycholic|silymarin|ademetionine|ornithine|keto-analogues/],
+["डोकेदुखी / मायग्रेन / चक्कर",/sumatriptan|rizatriptan|naratriptan|ergotamine|flunarizine|cinnarizine|betahistine|meclizine|dimenhydrinate/],
+["खोकला / दमा (Cough & Asthma)",/dextromethorphan|guaifenesin|ambroxol|levocloperastine|levosalbutamol|salbutamol|budesonide|tiotropium|doxofylline|salmeterol|bambuterol|montelukast|theophylline/],
+["अॅलर्जी (Antiallergic)",/cetirizine|fexofenadine|desloratadine|bilastine|hydroxyzine|pheniramine/],
+["बीपी / हृदय",/metoprolol|amlodipine|telmisartan|losartan|ramipril|olmesartan|cilnidipine|nifedipine|verapamil|propranolol|bisoprolol|atenolol|nicorandil|ivabradine|ranolazine|trimetazidine|isosorbide|sacubitril/],
+["पाणी गोळी (Diuretic)",/torsemide|torasemide|furosemide|spironolactone|chlorthalidone|indapamide|metolazone|hydrochlorothiazide|acetazolamide/],
+["रक्त पातळ / गुठळी (Blood thinner)",/aspirin|clopidogrel|ticagrelor|prasugrel|cilostazol|apixaban|rivaroxaban|dabigatran|enoxaparin|heparin|acenocoumarol|warfarin|tranexamic/],
+["कोलेस्टेरॉल",/statin|ezetimibe|fenofibrate/],
+["मधुमेह (Diabetes)",/metformin|glimepiride|gliptin|gliflozin|voglibose/],
+["थायरॉईड",/levothyroxine|carbimazole|methimazole|propylthiouracil/],
+["नस / न्यूरोपॅथी",/gabapentin|pregabalin|nortriptyline/],
+["फेफरे / एपिलेप्सी",/levetiracetam|lamotrigine|oxcarbazepine|valpro|phenytoin|phenobarbitone|carbamazepine|clobazam|lacosamide|topiramate/],
+["मानसिक / झोप (Psychiatric)",/sertraline|escitalopram|fluoxetine|duloxetine|mirtazapine|amitriptyline|olanzapine|quetiapine|risperidone|aripiprazole|haloperidol|lithium|alprazolam|clonazepam|lorazepam|etizolam|trihexyphenidyl/],
+["व्हिटॅमिन / कॅल्शियम / लोह",/calcium|vitamin|folic|ferrous|calcitriol|methylcobalamin|carnitine|multivit/],
+["कर्करोग (Cancer)",/carboplatin|cisplatin|oxaliplatin|docetaxel|paclitaxel|doxorubicin|epirubicin|etoposide|gemcitabine|pemetrexed|irinotecan|capecitabine|fluorouracil|leucovorin|fulvestrant|tamoxifen|anastrozole|letrozole|exemestane|bicalutamide|flutamide|enzalutamide|abiraterone|apalutamide|darolutamide|degarelix|leuprolide|goserelin|megestrol|gefitinib|erlotinib|afatinib|osimertinib|lenvatinib|palbociclib|ribociclib|abemaciclib|nivolumab|trastuzumab|ramucirumab|cabazitaxel|methotrexate|cyclophosphamide/],
+["अँटिबायोटिक (Antibiotic)",/amoxy|amoxic|azithro|cef|ciproflox|oflox|linezolid|meropenem|piperacillin|faropenem|metronidazole|tinidazole|ornidazole|doxycycline|clarithro/],
+["बुरशी (Antifungal)",/fluconazole|itraconazole|terbinafine|griseofulvin|clotrimazole|luliconazole|sertaconazole|ketoconazole|voriconazole/],
+["जंतनाशक",/albendazole|ivermectin|nitazoxanide/],
+["यूरिक अॅसिड / सांधे",/febuxostat|allopurinol|colchicine/],
+["प्रोस्टेट / लघवी / पुरुष",/alfuzosin|silodosin|tamsulosin|finasteride|dutasteride|tadalafil|sildenafil/],
+["स्त्री रोग / गर्भाशय",/medroxyprogesterone|gesterone|norethisterone|methylergometrine|cabergoline|doxylamine|isoxsuprine|levonorgestrel|clomiphene/],
+["इंजेक्शन / इतर",/injection|infusion|vial|ampoule|respule|inhaler|rotacap|spray/]
+];
+function catOf(d){var t=String(d.s||d.n||"").toLowerCase();for(var k=0;k<CATS.length;k++){if(CATS[k][1].test(t))return k}return CATS.length}
 function renderAll(){
   var dg=dupGroups(),dset={};dg.forEach(function(a){a.forEach(function(i){dset[i]=1})});
   var first={},view=meds.map(function(d,i){var k=saltKey(d.s)||("~"+i);if(!(k in first))first[k]=i;return{d:d,i:i,o:first[k]}});
   view.sort(function(a,b){return (a.o-b.o)||(a.i-b.i)});
   var row=function(d,i){return '<div class="item" style="cursor:default'+(dset[i]?';border:2px solid var(--bad)':'')+'"><span>'+(dset[i]?'<b style="color:var(--bad)">⚠️ दोनदा · </b>':'')+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+(d.m>0?' · MRP '+fm(d.m):' · MRP नाही')+(!d.t&&!/inject|infusion|syrup|ml|gargle|pack|drop/i.test(d.n+' '+d.s)?' · <b style="color:var(--bad)">पॅक नाही</b>':'')+(!d.c?' · <b style="color:var(--bad)">कंपनी नाही</b>':'')+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span><span class="edbtns"><button class="btn ghost ed" data-ed="'+i+'">बदला</button><button class="btn ghost" data-del="'+i+'">काढा</button></span></span></div>'};
   var warn=dg.length?'<div class="result" style="border:2px solid var(--bad)"><b style="color:var(--bad)">⚠️ '+dg.length+' औषधे यादीत दोनदा आहेत</b><p class="salt">एकाच कंपनीचे, एकाच पॅकचे औषध दोनदा आहे. जुने "काढा" किंवा योग्य दर "बदला".</p>'+dg.map(function(a){return a.map(function(i){return row(meds[i],i)}).join("")}).join('<hr style="border:0;border-top:1px dashed var(--line);margin:8px 0">')+'</div>':'';
-  $("all").innerHTML=warn+(view.length?view.map(function(v){return row(v.d,v.i)}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>');
+  var groups=[];for(var k=0;k<=CATS.length;k++)groups.push([]);
+  view.forEach(function(v){groups[catOf(v.d)].push(v)});
+  var boxes=groups.map(function(g,k){
+    if(!g.length)return "";
+    var label=k<CATS.length?CATS[k][0]:"इतर (वर्गीकरण नाही)";
+    return '<details class="box" open><summary class="boxh">'+esc(label)+'<span>'+g.length+' औषधे</span></summary>'+g.map(function(v){return row(v.d,v.i)}).join("")+'</details>';
+  }).join("");
+  $("all").innerHTML=warn+(view.length?boxes:'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>');
 }
 function clearForm(){
   edit=null;
