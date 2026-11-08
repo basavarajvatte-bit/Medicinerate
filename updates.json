@@ -30399,6 +30399,1261 @@
      "p": 21111.0
     }
    ]
+  },
+  {
+   "id": "2026-11-08-breast-cancer",
+   "meds": [
+    {
+     "n": "Xifen 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Miracalus",
+     "m": 1.5,
+     "p": 1.5,
+     "t": 1
+    },
+    {
+     "n": "Valodex 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Samarth",
+     "m": 1.51,
+     "p": 1.51,
+     "t": 1
+    },
+    {
+     "n": "Entax 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Neon",
+     "m": 1.74,
+     "p": 1.74,
+     "t": 1
+    },
+    {
+     "n": "Moxifen 10",
+     "s": "Tamoxifen 10mg",
+     "c": "VHB",
+     "m": 1.9,
+     "p": 1.9,
+     "t": 1
+    },
+    {
+     "n": "Cytotam 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Cipla",
+     "m": 1.94,
+     "p": 1.94,
+     "t": 1
+    },
+    {
+     "n": "Tomifen 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Alkem",
+     "m": 1.98,
+     "p": 1.98,
+     "t": 1
+    },
+    {
+     "n": "Tamoxilon 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Celon",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Oncomox 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Sun",
+     "m": 2.05,
+     "p": 2.05,
+     "t": 1
+    },
+    {
+     "n": "Mamofen 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Khandelwal",
+     "m": 2.42,
+     "p": 2.42,
+     "t": 1
+    },
+    {
+     "n": "Caditam 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Cadila",
+     "m": 2.46,
+     "p": 2.46,
+     "t": 1
+    },
+    {
+     "n": "Blastofen 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Chandra Bhagat",
+     "m": 2.49,
+     "p": 2.49,
+     "t": 1
+    },
+    {
+     "n": "Nolvadex 10",
+     "s": "Tamoxifen 10mg",
+     "c": "AstraZeneca",
+     "m": 2.54,
+     "p": 2.54,
+     "t": 1
+    },
+    {
+     "n": "Eldtam 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Elder",
+     "m": 2.63,
+     "p": 2.63,
+     "t": 1
+    },
+    {
+     "n": "Tamovac 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Prevego",
+     "m": 2.76,
+     "p": 2.76,
+     "t": 1
+    },
+    {
+     "n": "Tamodex 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Biochem",
+     "m": 2.78,
+     "p": 2.78,
+     "t": 1
+    },
+    {
+     "n": "Tevafen 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Abbott",
+     "m": 2.8,
+     "p": 2.8,
+     "t": 1
+    },
+    {
+     "n": "Oncotam 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Cadila",
+     "m": 2.92,
+     "p": 2.92,
+     "t": 1
+    },
+    {
+     "n": "Nolvacure 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Khandelwal",
+     "m": 3.1,
+     "p": 3.1,
+     "t": 1
+    },
+    {
+     "n": "Tamofen 10",
+     "s": "Tamoxifen 10mg",
+     "c": "Torrent",
+     "m": 3.34,
+     "p": 3.34,
+     "t": 1
+    },
+    {
+     "n": "Caditam 20",
+     "s": "Tamoxifen 20mg",
+     "c": "Cadila",
+     "m": 2.87,
+     "p": 2.87,
+     "t": 1
+    },
+    {
+     "n": "Nolvacure 20",
+     "s": "Tamoxifen 20mg",
+     "c": "Khandelwal",
+     "m": 2.9,
+     "p": 2.9,
+     "t": 1
+    },
+    {
+     "n": "Mamofen 20",
+     "s": "Tamoxifen 20mg",
+     "c": "Khandelwal",
+     "m": 2.97,
+     "p": 2.97,
+     "t": 1
+    },
+    {
+     "n": "Tomifen 20",
+     "s": "Tamoxifen 20mg",
+     "c": "Alkem",
+     "m": 2.98,
+     "p": 2.98,
+     "t": 1
+    },
+    {
+     "n": "Xifen 20",
+     "s": "Tamoxifen 20mg",
+     "c": "Miracalus",
+     "m": 3.03,
+     "p": 3.03,
+     "t": 1
+    },
+    {
+     "n": "Tamoxol 20",
+     "s": "Tamoxifen 20mg",
+     "c": "Johnlee",
+     "m": 3.24,
+     "p": 3.24,
+     "t": 1
+    },
+    {
+     "n": "Tamodex 20",
+     "s": "Tamoxifen 20mg",
+     "c": "Biochem",
+     "m": 3.26,
+     "p": 3.26,
+     "t": 1
+    },
+    {
+     "n": "Eldtam 20",
+     "s": "Tamoxifen 20mg",
+     "c": "Elder",
+     "m": 4.99,
+     "p": 4.99,
+     "t": 1
+    },
+    {
+     "n": "Womazol",
+     "s": "Anastrozole 1mg",
+     "c": "Khandelwal",
+     "m": 24.29,
+     "p": 24.29,
+     "t": 1
+    },
+    {
+     "n": "Anarzole 1",
+     "s": "Anastrozole 1mg",
+     "c": "RPG",
+     "m": 29.41,
+     "p": 29.41,
+     "t": 1
+    },
+    {
+     "n": "Armilon 1",
+     "s": "Anastrozole 1mg",
+     "c": "Celon",
+     "m": 31.88,
+     "p": 31.88,
+     "t": 1
+    },
+    {
+     "n": "Antreol 1",
+     "s": "Anastrozole 1mg",
+     "c": "Knoll",
+     "m": 35.0,
+     "p": 35.0,
+     "t": 1
+    },
+    {
+     "n": "Anacan",
+     "s": "Anastrozole 1mg",
+     "c": "Biochem",
+     "m": 38.39,
+     "p": 38.39,
+     "t": 1
+    },
+    {
+     "n": "Anastronat 1 (30)",
+     "s": "Anastrozole 1mg",
+     "c": "Natco",
+     "m": 40.0,
+     "p": 40.0,
+     "t": 1
+    },
+    {
+     "n": "Anatero",
+     "s": "Anastrozole 1mg",
+     "c": "Hetero",
+     "m": 47.0,
+     "p": 47.0,
+     "t": 1
+    },
+    {
+     "n": "Anastra 1 (14)",
+     "s": "Anastrozole 1mg",
+     "c": "Wockhardt",
+     "m": 48.01,
+     "p": 48.01,
+     "t": 1
+    },
+    {
+     "n": "Femitraz",
+     "s": "Anastrozole 1mg",
+     "c": "Lupin",
+     "m": 50.7,
+     "p": 50.7,
+     "t": 1
+    },
+    {
+     "n": "Altrol 1 (14)",
+     "s": "Anastrozole 1mg",
+     "c": "Taj Pharma",
+     "m": 51.63,
+     "p": 51.63,
+     "t": 1
+    },
+    {
+     "n": "Trazocad 1",
+     "s": "Anastrozole 1mg",
+     "c": "Cadila",
+     "m": 51.98,
+     "p": 51.98,
+     "t": 1
+    },
+    {
+     "n": "Brestozol",
+     "s": "Anastrozole 1mg",
+     "c": "",
+     "m": 53.44,
+     "p": 53.44,
+     "t": 1
+    },
+    {
+     "n": "Anabrez (5)",
+     "s": "Anastrozole 1mg",
+     "c": "Sun",
+     "m": 54.19,
+     "p": 54.19,
+     "t": 1
+    },
+    {
+     "n": "Altraz (14)",
+     "s": "Anastrozole 1mg",
+     "c": "Alkem",
+     "m": 54.24,
+     "p": 54.24,
+     "t": 1
+    },
+    {
+     "n": "Anosam 1",
+     "s": "Anastrozole 1mg",
+     "c": "Samarth",
+     "m": 55.0,
+     "p": 55.0,
+     "t": 1
+    },
+    {
+     "n": "Anastrocare 1",
+     "s": "Anastrozole 1mg",
+     "c": "Medicare",
+     "m": 57.0,
+     "p": 57.0,
+     "t": 1
+    },
+    {
+     "n": "Anaday",
+     "s": "Anastrozole 1mg",
+     "c": "Zuventus",
+     "m": 62.98,
+     "p": 62.98,
+     "t": 1
+    },
+    {
+     "n": "Armotraz",
+     "s": "Anastrozole 1mg",
+     "c": "Cipla",
+     "m": 69.18,
+     "p": 69.18,
+     "t": 1
+    },
+    {
+     "n": "Atraz 1",
+     "s": "Anastrozole 1mg",
+     "c": "Feron",
+     "m": 81.0,
+     "p": 81.0,
+     "t": 1
+    },
+    {
+     "n": "Lilmantro 1",
+     "s": "Anastrozole 1mg",
+     "c": "Eli Lilly",
+     "m": 97.0,
+     "p": 97.0,
+     "t": 1
+    },
+    {
+     "n": "Azelon 1 (14)",
+     "s": "Anastrozole 1mg",
+     "c": "VHB",
+     "m": 105.71,
+     "p": 105.71,
+     "t": 1
+    },
+    {
+     "n": "Arimidex 1 (14)",
+     "s": "Anastrozole 1mg",
+     "c": "AstraZeneca",
+     "m": 245.36,
+     "p": 245.36,
+     "t": 1
+    },
+    {
+     "n": "Xcel 25",
+     "s": "Exemestane 25mg",
+     "c": "Celon",
+     "m": 32.0,
+     "p": 32.0,
+     "t": 1
+    },
+    {
+     "n": "Xamalon 25",
+     "s": "Exemestane 25mg",
+     "c": "Celon",
+     "m": 32.0,
+     "p": 32.0,
+     "t": 1
+    },
+    {
+     "n": "Xtane 25 (30)",
+     "s": "Exemestane 25mg",
+     "c": "Natco",
+     "m": 35.33,
+     "p": 35.33,
+     "t": 1
+    },
+    {
+     "n": "Exmasin 25 (5)",
+     "s": "Exemestane 25mg",
+     "c": "Sun",
+     "m": 44.0,
+     "p": 44.0,
+     "t": 1
+    },
+    {
+     "n": "Zemasin 25",
+     "s": "Exemestane 25mg",
+     "c": "Oncozest",
+     "m": 60.0,
+     "p": 60.0,
+     "t": 1
+    },
+    {
+     "n": "Xemasin 25",
+     "s": "Exemestane 25mg",
+     "c": "Zee Labs",
+     "m": 239.7,
+     "p": 239.7,
+     "t": 1
+    },
+    {
+     "n": "Aromasin 25 (15)",
+     "s": "Exemestane 25mg",
+     "c": "Pfizer",
+     "m": 391.56,
+     "p": 391.56,
+     "t": 1
+    },
+    {
+     "n": "BDPalbo (₹4,185)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "BDR",
+     "m": 199.29,
+     "p": 199.29,
+     "t": 1
+    },
+    {
+     "n": "Palbomed (₹5,000)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Medicamen",
+     "m": 238.1,
+     "p": 238.1,
+     "t": 1
+    },
+    {
+     "n": "Piciclib (₹5,160)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "",
+     "m": 245.71,
+     "p": 245.71,
+     "t": 1
+    },
+    {
+     "n": "Ciclib (₹5,995)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Shilpa",
+     "m": 285.48,
+     "p": 285.48,
+     "t": 1
+    },
+    {
+     "n": "Palbinas (₹6,094)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Glenmark",
+     "m": 290.18,
+     "p": 290.18,
+     "t": 1
+    },
+    {
+     "n": "Paleno (₹6,199)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Sun",
+     "m": 295.19,
+     "p": 295.19,
+     "t": 1
+    },
+    {
+     "n": "Myciclib (₹6,553)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Khandelwal",
+     "m": 312.05,
+     "p": 312.05,
+     "t": 1
+    },
+    {
+     "n": "Palbolieva (₹7,124)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Allieva",
+     "m": 339.24,
+     "p": 339.24,
+     "t": 1
+    },
+    {
+     "n": "Pabreca (₹7,125)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Lupin",
+     "m": 339.29,
+     "p": 339.29,
+     "t": 1
+    },
+    {
+     "n": "Palbojas (₹7,200)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Jasgur",
+     "m": 342.86,
+     "p": 342.86,
+     "t": 1
+    },
+    {
+     "n": "Palside (7 tab ₹2,500)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Lucien",
+     "m": 357.14,
+     "p": 357.14,
+     "t": 1
+    },
+    {
+     "n": "Palbocib (₹7,600)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "",
+     "m": 361.9,
+     "p": 361.9,
+     "t": 1
+    },
+    {
+     "n": "Adcilib (₹7,838)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Adley",
+     "m": 373.21,
+     "p": 373.21,
+     "t": 1
+    },
+    {
+     "n": "Cydekin (₹7,969)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Intas",
+     "m": 379.46,
+     "p": 379.46,
+     "t": 1
+    },
+    {
+     "n": "Celoclib (₹12,656)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Celon",
+     "m": 602.68,
+     "p": 602.68,
+     "t": 1
+    },
+    {
+     "n": "Palbace (₹21,094)",
+     "s": "Palbociclib 125mg capsule",
+     "c": "Pfizer (original)",
+     "m": 1004.46,
+     "p": 1004.46,
+     "t": 1
+    },
+    {
+     "n": "Kryxana (21 ₹23,625)",
+     "s": "Ribociclib 200mg",
+     "c": "Novartis",
+     "m": 1125.0,
+     "p": 1125.0,
+     "t": 1
+    },
+    {
+     "n": "Ramiven (14 ₹22,384)",
+     "s": "Abemaciclib 150mg",
+     "c": "Eli Lilly",
+     "m": 1598.84,
+     "p": 1598.84,
+     "t": 1
+    },
+    {
+     "n": "Distamine 500",
+     "s": "Capecitabine 500mg",
+     "c": "Neon",
+     "m": 70.6,
+     "p": 70.6,
+     "t": 1
+    },
+    {
+     "n": "Capegard 500",
+     "s": "Capecitabine 500mg",
+     "c": "Cipla",
+     "m": 72.1,
+     "p": 72.1,
+     "t": 1
+    },
+    {
+     "n": "Capostat 500",
+     "s": "Capecitabine 500mg",
+     "c": "Samarth",
+     "m": 87.5,
+     "p": 87.5,
+     "t": 1
+    },
+    {
+     "n": "Capehope 500",
+     "s": "Capecitabine 500mg",
+     "c": "Torrent",
+     "m": 93.75,
+     "p": 93.75,
+     "t": 1
+    },
+    {
+     "n": "Capecad 500",
+     "s": "Capecitabine 500mg",
+     "c": "Cadila",
+     "m": 95.24,
+     "p": 95.24,
+     "t": 1
+    },
+    {
+     "n": "Zenocite 500",
+     "s": "Capecitabine 500mg",
+     "c": "Unimark",
+     "m": 104.72,
+     "p": 104.72,
+     "t": 1
+    },
+    {
+     "n": "Capemart",
+     "s": "Capecitabine 500mg",
+     "c": "Curemart",
+     "m": 112.5,
+     "p": 112.5,
+     "t": 1
+    },
+    {
+     "n": "Capeta Nova 500",
+     "s": "Capecitabine 500mg",
+     "c": "Alkem",
+     "m": 112.59,
+     "p": 112.59,
+     "t": 1
+    },
+    {
+     "n": "Capiibine (30)",
+     "s": "Capecitabine 500mg",
+     "c": "Dr Reddy's",
+     "m": 112.59,
+     "p": 112.59,
+     "t": 1
+    },
+    {
+     "n": "Caxeta 500 (4)",
+     "s": "Capecitabine 500mg",
+     "c": "Sun",
+     "m": 112.59,
+     "p": 112.59,
+     "t": 1
+    },
+    {
+     "n": "Capibine 500",
+     "s": "Capecitabine 500mg",
+     "c": "Dr Reddy's",
+     "m": 114.5,
+     "p": 114.5,
+     "t": 1
+    },
+    {
+     "n": "Xecap 500",
+     "s": "Capecitabine 500mg",
+     "c": "RPG",
+     "m": 125.0,
+     "p": 125.0,
+     "t": 1
+    },
+    {
+     "n": "Capcel 500",
+     "s": "Capecitabine 500mg",
+     "c": "Celon",
+     "m": 132.0,
+     "p": 132.0,
+     "t": 1
+    },
+    {
+     "n": "Citabin",
+     "s": "Capecitabine 500mg",
+     "c": "United Biotech",
+     "m": 132.85,
+     "p": 132.85,
+     "t": 1
+    },
+    {
+     "n": "Xeloda 500",
+     "s": "Capecitabine 500mg",
+     "c": "Roche (original)",
+     "m": 135.33,
+     "p": 135.33,
+     "t": 1
+    },
+    {
+     "n": "Capecite 500 (8)",
+     "s": "Capecitabine 500mg",
+     "c": "Abbott",
+     "m": 141.08,
+     "p": 141.08,
+     "t": 1
+    },
+    {
+     "n": "Cacit 500",
+     "s": "Capecitabine 500mg",
+     "c": "Biochem/Zydus",
+     "m": 141.13,
+     "p": 141.13,
+     "t": 1
+    },
+    {
+     "n": "Capsy 500",
+     "s": "Capecitabine 500mg",
+     "c": "Intas",
+     "m": 141.13,
+     "p": 141.13,
+     "t": 1
+    },
+    {
+     "n": "Capezam 500",
+     "s": "Capecitabine 500mg",
+     "c": "Zuventus",
+     "m": 141.91,
+     "p": 141.91,
+     "t": 1
+    },
+    {
+     "n": "Zocitab 500",
+     "s": "Capecitabine 500mg",
+     "c": "Fresenius Kabi",
+     "m": 154.24,
+     "p": 154.24,
+     "t": 1
+    },
+    {
+     "n": "Capnat 500",
+     "s": "Capecitabine 500mg",
+     "c": "Natco",
+     "m": 180.0,
+     "p": 180.0,
+     "t": 1
+    },
+    {
+     "n": "Fulviglen 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Glenmark",
+     "m": 9000.0,
+     "p": 9000.0
+    },
+    {
+     "n": "Celvestrant PFS",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Celon",
+     "m": 10889.46,
+     "p": 10889.46
+    },
+    {
+     "n": "Faslomax 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "GLS",
+     "m": 12521.0,
+     "p": 12521.0
+    },
+    {
+     "n": "Vestrant 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Getwell",
+     "m": 12950.0,
+     "p": 12950.0
+    },
+    {
+     "n": "Fulvant",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Arechar",
+     "m": 13135.0,
+     "p": 13135.0
+    },
+    {
+     "n": "Strantas 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Intas",
+     "m": 13300.08,
+     "p": 13300.08
+    },
+    {
+     "n": "Fulvira 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Emcure",
+     "m": 13417.0,
+     "p": 13417.0
+    },
+    {
+     "n": "Fuvestrol",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Cadila",
+     "m": 13511.0,
+     "p": 13511.0
+    },
+    {
+     "n": "Fasnorm 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Biocon",
+     "m": 14000.0,
+     "p": 14000.0
+    },
+    {
+     "n": "Fulvidax 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Aureate",
+     "m": 14100.0,
+     "p": 14100.0
+    },
+    {
+     "n": "Fulveryze 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Sunlight",
+     "m": 14500.0,
+     "p": 14500.0
+    },
+    {
+     "n": "Fulvether 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Therdose",
+     "m": 15232.3,
+     "p": 15232.3
+    },
+    {
+     "n": "Fulvetraz 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Alkem",
+     "m": 15798.0,
+     "p": 15798.0
+    },
+    {
+     "n": "Fulzos 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Hetero",
+     "m": 16000.0,
+     "p": 16000.0
+    },
+    {
+     "n": "Fulvenat 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Natco",
+     "m": 18000.0,
+     "p": 18000.0
+    },
+    {
+     "n": "Fulbreca 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "RPG",
+     "m": 18000.0,
+     "p": 18000.0
+    },
+    {
+     "n": "Fistent",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "Adley",
+     "m": 21000.0,
+     "p": 21000.0
+    },
+    {
+     "n": "Faslodex 250",
+     "s": "Fulvestrant 250mg injection (per vial)",
+     "c": "AstraZeneca (original)",
+     "m": 42200.0,
+     "p": 42200.0
+    },
+    {
+     "n": "Vivitra 440",
+     "s": "Trastuzumab 440mg injection (per vial)",
+     "c": "Zydus",
+     "m": 58633.92,
+     "p": 58633.92
+    },
+    {
+     "n": "Hertraz 440",
+     "s": "Trastuzumab 440mg injection (per vial)",
+     "c": "Mylan/Viatris",
+     "m": 58820.0,
+     "p": 58820.0
+    },
+    {
+     "n": "Canmab 440",
+     "s": "Trastuzumab 440mg injection (per vial)",
+     "c": "Biocon",
+     "m": 59981.6,
+     "p": 59981.6
+    },
+    {
+     "n": "Trasturel 440",
+     "s": "Trastuzumab 440mg injection (per vial)",
+     "c": "Reliance",
+     "m": 61132.12,
+     "p": 61132.12
+    },
+    {
+     "n": "Herceptin 440",
+     "s": "Trastuzumab 440mg injection (per vial)",
+     "c": "Roche (original)",
+     "m": 66156.25,
+     "p": 66156.25
+    },
+    {
+     "n": "Biceltis 440",
+     "s": "Trastuzumab 440mg injection (per vial)",
+     "c": "Cipla",
+     "m": 75000.0,
+     "p": 75000.0
+    },
+    {
+     "n": "Dutaxel 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Samarth",
+     "m": 1203.28,
+     "p": 1203.28
+    },
+    {
+     "n": "Taxeleon 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Neon",
+     "m": 1536.0,
+     "p": 1536.0
+    },
+    {
+     "n": "Paclitrust 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Panacea",
+     "m": 1781.6,
+     "p": 1781.6
+    },
+    {
+     "n": "Paclicad 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Cadila",
+     "m": 2775.0,
+     "p": 2775.0
+    },
+    {
+     "n": "Paxtal 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Abbott",
+     "m": 3013.0,
+     "p": 3013.0
+    },
+    {
+     "n": "Paclistar 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Lupin",
+     "m": 3146.52,
+     "p": 3146.52
+    },
+    {
+     "n": "Zupaxel 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Zuventus",
+     "m": 7141.85,
+     "p": 7141.85
+    },
+    {
+     "n": "Oncotaxel 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Sun",
+     "m": 7408.25,
+     "p": 7408.25
+    },
+    {
+     "n": "Pacliwel 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Getwell",
+     "m": 7700.0,
+     "p": 7700.0
+    },
+    {
+     "n": "Paclipar 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "PDIL",
+     "m": 8698.81,
+     "p": 8698.81
+    },
+    {
+     "n": "Celtax 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Celon",
+     "m": 9000.0,
+     "p": 9000.0
+    },
+    {
+     "n": "Petaxel 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Biochem",
+     "m": 9271.89,
+     "p": 9271.89
+    },
+    {
+     "n": "Paxuba 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Glenmark",
+     "m": 9300.0,
+     "p": 9300.0
+    },
+    {
+     "n": "Chemotax 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Cytogen",
+     "m": 9430.0,
+     "p": 9430.0
+    },
+    {
+     "n": "Pacliget 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "GLS",
+     "m": 9560.0,
+     "p": 9560.0
+    },
+    {
+     "n": "Paclitax 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Cipla",
+     "m": 9966.58,
+     "p": 9966.58
+    },
+    {
+     "n": "Tortaxel 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Torrent",
+     "m": 9985.79,
+     "p": 9985.79
+    },
+    {
+     "n": "Paclitol 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Venus",
+     "m": 9999.0,
+     "p": 9999.0
+    },
+    {
+     "n": "Gros 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Emcure",
+     "m": 10454.0,
+     "p": 10454.0
+    },
+    {
+     "n": "Cytax 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Intas",
+     "m": 10457.14,
+     "p": 10457.14
+    },
+    {
+     "n": "Zpac 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "RPG",
+     "m": 10514.2,
+     "p": 10514.2
+    },
+    {
+     "n": "Altaxel Nova 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Alkem",
+     "m": 11434.62,
+     "p": 11434.62
+    },
+    {
+     "n": "Intaxel 260",
+     "s": "Paclitaxel 260mg injection (per vial)",
+     "c": "Fresenius Kabi",
+     "m": 13493.5,
+     "p": 13493.5
+    },
+    {
+     "n": "Metodox 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Neon",
+     "m": 211.9,
+     "p": 211.9
+    },
+    {
+     "n": "Stridox 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Mylan",
+     "m": 250.0,
+     "p": 250.0
+    },
+    {
+     "n": "Doxorex 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Samarth",
+     "m": 262.1,
+     "p": 262.1
+    },
+    {
+     "n": "Doxilyd 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Celon",
+     "m": 523.81,
+     "p": 523.81
+    },
+    {
+     "n": "Adronex RD 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "VHB",
+     "m": 654.76,
+     "p": 654.76
+    },
+    {
+     "n": "Doxorubin 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Khandelwal",
+     "m": 654.76,
+     "p": 654.76
+    },
+    {
+     "n": "Doxotero 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Hetero",
+     "m": 686.81,
+     "p": 686.81
+    },
+    {
+     "n": "Doxutec 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "United Biotech",
+     "m": 749.0,
+     "p": 749.0
+    },
+    {
+     "n": "Adrib",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Adley",
+     "m": 870.0,
+     "p": 870.0
+    },
+    {
+     "n": "Zodox 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Intas",
+     "m": 874.39,
+     "p": 874.39
+    },
+    {
+     "n": "Adrim 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Fresenius Kabi",
+     "m": 874.39,
+     "p": 874.39
+    },
+    {
+     "n": "Adriamycin 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Pfizer",
+     "m": 889.0,
+     "p": 889.0
+    },
+    {
+     "n": "Doxybenz 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Admac",
+     "m": 929.0,
+     "p": 929.0
+    },
+    {
+     "n": "Zubidox 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "RPG",
+     "m": 950.0,
+     "p": 950.0
+    },
+    {
+     "n": "Naprodox 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Miracalus",
+     "m": 975.0,
+     "p": 975.0
+    },
+    {
+     "n": "Cadria 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Cadila",
+     "m": 991.13,
+     "p": 991.13
+    },
+    {
+     "n": "Doxiglan 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Gland",
+     "m": 999.0,
+     "p": 999.0
+    },
+    {
+     "n": "Samrucin 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Cellcys",
+     "m": 1002.3,
+     "p": 1002.3
+    },
+    {
+     "n": "Adrosal 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "VHB",
+     "m": 1150.0,
+     "p": 1150.0
+    },
+    {
+     "n": "Doxolem 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Elder",
+     "m": 1190.0,
+     "p": 1190.0
+    },
+    {
+     "n": "Cdoxin 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Health Biotech",
+     "m": 1195.0,
+     "p": 1195.0
+    },
+    {
+     "n": "Doxotar 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Venus",
+     "m": 1250.0,
+     "p": 1250.0
+    },
+    {
+     "n": "Ceprucin 50",
+     "s": "Doxorubicin 50mg injection (per vial)",
+     "c": "Health Biotech",
+     "m": 2250.0,
+     "p": 2250.0
+    }
+   ]
   }
  ]
 }
