@@ -2693,6 +2693,591 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-pain-fever",
+   "meds": [
+    {
+     "n": "ParaCIP 650",
+     "s": "Paracetamol 650mg",
+     "c": "Cipla",
+     "m": 1.43,
+     "p": 1.43,
+     "t": 1
+    },
+    {
+     "n": "Leemol 650",
+     "s": "Paracetamol 650mg",
+     "c": "Leeford",
+     "m": 1.49,
+     "p": 1.49,
+     "t": 1
+    },
+    {
+     "n": "Parafast 650",
+     "s": "Paracetamol 650mg",
+     "c": "Cipla",
+     "m": 1.52,
+     "p": 1.52,
+     "t": 1
+    },
+    {
+     "n": "Paralup 650",
+     "s": "Paracetamol 650mg",
+     "c": "Lupin",
+     "m": 1.71,
+     "p": 1.71,
+     "t": 1
+    },
+    {
+     "n": "Dolopar 650",
+     "s": "Paracetamol 650mg",
+     "c": "Micro Labs",
+     "m": 1.9,
+     "p": 1.9,
+     "t": 1
+    },
+    {
+     "n": "PUC 650",
+     "s": "Paracetamol 650mg",
+     "c": "Alkem",
+     "m": 1.92,
+     "p": 1.92,
+     "t": 1
+    },
+    {
+     "n": "P 650",
+     "s": "Paracetamol 650mg",
+     "c": "Apex",
+     "m": 1.93,
+     "p": 1.93,
+     "t": 1
+    },
+    {
+     "n": "Parasafe 650",
+     "s": "Paracetamol 650mg",
+     "c": "Strassenburg",
+     "m": 1.96,
+     "p": 1.96,
+     "t": 1
+    },
+    {
+     "n": "Pyrigesic 650",
+     "s": "Paracetamol 650mg",
+     "c": "East India",
+     "m": 1.99,
+     "p": 1.99,
+     "t": 1
+    },
+    {
+     "n": "Biopyrin 650",
+     "s": "Paracetamol 650mg",
+     "c": "Zydus",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Calpol 650+",
+     "s": "Paracetamol 650mg",
+     "c": "GSK",
+     "m": 2.01,
+     "p": 2.01,
+     "t": 1
+    },
+    {
+     "n": "Crocin 650",
+     "s": "Paracetamol 650mg",
+     "c": "GSK",
+     "m": 2.14,
+     "p": 2.14,
+     "t": 1
+    },
+    {
+     "n": "Malidens 650",
+     "s": "Paracetamol 650mg",
+     "c": "Abbott",
+     "m": 2.24,
+     "p": 2.24,
+     "t": 1
+    },
+    {
+     "n": "Macfast 650",
+     "s": "Paracetamol 650mg",
+     "c": "Macleods",
+     "m": 2.25,
+     "p": 2.25,
+     "t": 1
+    },
+    {
+     "n": "Pacimol 650",
+     "s": "Paracetamol 650mg",
+     "c": "Ipca",
+     "m": 2.25,
+     "p": 2.25,
+     "t": 1
+    },
+    {
+     "n": "ParaCIP 500",
+     "s": "Paracetamol 500mg",
+     "c": "Cipla",
+     "m": 0.83,
+     "p": 0.83,
+     "t": 1
+    },
+    {
+     "n": "Calpol 500+",
+     "s": "Paracetamol 500mg",
+     "c": "GSK",
+     "m": 0.87,
+     "p": 0.87,
+     "t": 1
+    },
+    {
+     "n": "Parasafe 500",
+     "s": "Paracetamol 500mg",
+     "c": "Strassenburg",
+     "m": 0.95,
+     "p": 0.95,
+     "t": 1
+    },
+    {
+     "n": "Dolo 500",
+     "s": "Paracetamol 500mg",
+     "c": "Micro Labs",
+     "m": 0.95,
+     "p": 0.95,
+     "t": 1
+    },
+    {
+     "n": "P 500",
+     "s": "Paracetamol 500mg",
+     "c": "Apex",
+     "m": 0.97,
+     "p": 0.97,
+     "t": 1
+    },
+    {
+     "n": "Pyrigesic 500",
+     "s": "Paracetamol 500mg",
+     "c": "East India",
+     "m": 0.97,
+     "p": 0.97,
+     "t": 1
+    },
+    {
+     "n": "Pacimol 500",
+     "s": "Paracetamol 500mg",
+     "c": "Ipca",
+     "m": 0.97,
+     "p": 0.97,
+     "t": 1
+    },
+    {
+     "n": "Ibuflamar 400",
+     "s": "Ibuprofen 400mg",
+     "c": "Indoco",
+     "m": 0.53,
+     "p": 0.53,
+     "t": 1
+    },
+    {
+     "n": "Bruriff 400",
+     "s": "Ibuprofen 400mg",
+     "c": "Cadila",
+     "m": 0.58,
+     "p": 0.58,
+     "t": 1
+    },
+    {
+     "n": "Alfam 400",
+     "s": "Ibuprofen 400mg",
+     "c": "Albert David",
+     "m": 0.59,
+     "p": 0.59,
+     "t": 1
+    },
+    {
+     "n": "Tabalon 400",
+     "s": "Ibuprofen 400mg",
+     "c": "Sanofi",
+     "m": 0.67,
+     "p": 0.67,
+     "t": 1
+    },
+    {
+     "n": "Bren 400",
+     "s": "Ibuprofen 400mg",
+     "c": "Kopran",
+     "m": 0.71,
+     "p": 0.71,
+     "t": 1
+    },
+    {
+     "n": "Ibugesic 400",
+     "s": "Ibuprofen 400mg",
+     "c": "Cipla",
+     "m": 0.73,
+     "p": 0.73,
+     "t": 1
+    },
+    {
+     "n": "Brufen 400",
+     "s": "Ibuprofen 400mg",
+     "c": "Abbott",
+     "m": 1.16,
+     "p": 1.16,
+     "t": 1
+    },
+    {
+     "n": "Ibugam 400",
+     "s": "Ibuprofen 400mg",
+     "c": "Omega",
+     "m": 1.2,
+     "p": 1.2,
+     "t": 1
+    },
+    {
+     "n": "Meflup 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Lupin",
+     "m": 0.83,
+     "p": 0.83,
+     "t": 1
+    },
+    {
+     "n": "Mefalth 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Orchid",
+     "m": 1.83,
+     "p": 1.83,
+     "t": 1
+    },
+    {
+     "n": "Osra 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Bennet",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Mifucet 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Intas",
+     "m": 2.02,
+     "p": 2.02,
+     "t": 1
+    },
+    {
+     "n": "Mefrin 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Rhine Biogenics",
+     "m": 2.2,
+     "p": 2.2,
+     "t": 1
+    },
+    {
+     "n": "Almefkem 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Alkem",
+     "m": 2.4,
+     "p": 2.4,
+     "t": 1
+    },
+    {
+     "n": "Mefacid 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Floreat",
+     "m": 2.4,
+     "p": 2.4,
+     "t": 1
+    },
+    {
+     "n": "Mefalgin 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Anthus",
+     "m": 2.53,
+     "p": 2.53,
+     "t": 1
+    },
+    {
+     "n": "Meftal 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Blue Cross",
+     "m": 2.6,
+     "p": 2.6,
+     "t": 1
+    },
+    {
+     "n": "Meflan 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Lancer",
+     "m": 2.7,
+     "p": 2.7,
+     "t": 1
+    },
+    {
+     "n": "Mictal 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Biochem",
+     "m": 2.74,
+     "p": 2.74,
+     "t": 1
+    },
+    {
+     "n": "Mef Plus 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Que Pharma",
+     "m": 2.88,
+     "p": 2.88,
+     "t": 1
+    },
+    {
+     "n": "Mefex 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Medicraft",
+     "m": 2.9,
+     "p": 2.9,
+     "t": 1
+    },
+    {
+     "n": "Mefan 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Tzana",
+     "m": 3.1,
+     "p": 3.1,
+     "t": 1
+    },
+    {
+     "n": "Meflin 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Lincoln",
+     "m": 3.34,
+     "p": 3.34,
+     "t": 1
+    },
+    {
+     "n": "Mef 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Lemford",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Maxi 500",
+     "s": "Mefenamic acid 500mg",
+     "c": "Torrent",
+     "m": 6.5,
+     "p": 6.5,
+     "t": 1
+    },
+    {
+     "n": "Combiflam",
+     "s": "Ibuprofen 400mg + Paracetamol 325mg",
+     "c": "Sanofi",
+     "m": 2.87,
+     "p": 2.87,
+     "t": 1
+    },
+    {
+     "n": "PCM 150",
+     "s": "Paracetamol 150mg/ml 2ml Injection ampoule",
+     "c": "Intas",
+     "m": 4.27,
+     "p": 4.27
+    },
+    {
+     "n": "Lupipara 150",
+     "s": "Paracetamol 150mg/ml 2ml Injection ampoule",
+     "c": "Lupin",
+     "m": 6.5,
+     "p": 6.5
+    },
+    {
+     "n": "Neomol 150",
+     "s": "Paracetamol 150mg/ml 2ml Injection ampoule",
+     "c": "Neon",
+     "m": 6.55,
+     "p": 6.55
+    },
+    {
+     "n": "Biocetamol 150",
+     "s": "Paracetamol 150mg/ml 2ml Injection ampoule",
+     "c": "Biochem",
+     "m": 6.88,
+     "p": 6.88
+    },
+    {
+     "n": "Paracad 150",
+     "s": "Paracetamol 150mg/ml 2ml Injection ampoule",
+     "c": "Zydus",
+     "m": 7.05,
+     "p": 7.05
+    },
+    {
+     "n": "Paragee 150",
+     "s": "Paracetamol 150mg/ml 2ml Injection ampoule",
+     "c": "Zydus",
+     "m": 7.21,
+     "p": 7.21
+    },
+    {
+     "n": "Metacin 150",
+     "s": "Paracetamol 150mg/ml 2ml Injection ampoule",
+     "c": "Themis",
+     "m": 7.24,
+     "p": 7.24
+    },
+    {
+     "n": "Pacinova 150",
+     "s": "Paracetamol 150mg/ml 2ml Injection ampoule",
+     "c": "Ikon",
+     "m": 7.95,
+     "p": 7.95
+    },
+    {
+     "n": "Fevastin 150",
+     "s": "Paracetamol 150mg/ml 2ml Injection ampoule",
+     "c": "Tablets India",
+     "m": 14.9,
+     "p": 14.9
+    },
+    {
+     "n": "Paarmol 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Sun Pharma",
+     "m": 38.75,
+     "p": 38.75
+    },
+    {
+     "n": "Pidimol 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Parenteral Drugs",
+     "m": 119.05,
+     "p": 119.05
+    },
+    {
+     "n": "Sumo L IV",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Alkem",
+     "m": 229.0,
+     "p": 229.0
+    },
+    {
+     "n": "Thermodol 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Akumentis",
+     "m": 252.0,
+     "p": 252.0
+    },
+    {
+     "n": "Dolo 1000 IV",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Micro Labs",
+     "m": 268.0,
+     "p": 268.0
+    },
+    {
+     "n": "Pyrigesic 1000 IV",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "East India",
+     "m": 273.0,
+     "p": 273.0
+    },
+    {
+     "n": "Finamac 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Macleods",
+     "m": 290.0,
+     "p": 290.0
+    },
+    {
+     "n": "Macfast IV",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Macleods",
+     "m": 290.0,
+     "p": 290.0
+    },
+    {
+     "n": "Anemol 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Themis",
+     "m": 291.51,
+     "p": 291.51
+    },
+    {
+     "n": "Perfalgan 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "BMS",
+     "m": 299.0,
+     "p": 299.0
+    },
+    {
+     "n": "Dologlan 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Gland",
+     "m": 313.0,
+     "p": 313.0
+    },
+    {
+     "n": "Fevridol 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Zuventus",
+     "m": 328.6,
+     "p": 328.6
+    },
+    {
+     "n": "Hospimol 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Alkem",
+     "m": 332.0,
+     "p": 332.0
+    },
+    {
+     "n": "Kabimol Freeflex",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Fresenius Kabi",
+     "m": 339.9,
+     "p": 339.9
+    },
+    {
+     "n": "Malidens IV",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Abbott",
+     "m": 389.0,
+     "p": 389.0
+    },
+    {
+     "n": "Fepanil 1000 IV",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Veritaz",
+     "m": 402.0,
+     "p": 402.0
+    },
+    {
+     "n": "Prolop 1000",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Biocon",
+     "m": 408.71,
+     "p": 408.71
+    },
+    {
+     "n": "Neomol 1000 IV",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Neon",
+     "m": 432.0,
+     "p": 432.0
+    },
+    {
+     "n": "Paracip IV",
+     "s": "Paracetamol 1000mg/100ml IV Infusion",
+     "c": "Cipla",
+     "m": 463.84,
+     "p": 463.84
+    }
+   ]
   }
  ]
 }
