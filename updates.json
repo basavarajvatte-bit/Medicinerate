@@ -3278,6 +3278,771 @@
      "p": 463.84
     }
    ]
+  },
+  {
+   "id": "2026-11-08-cholesterol",
+   "meds": [
+    {
+     "n": "Genxvast 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Hetero",
+     "m": 1.95,
+     "p": 1.95,
+     "t": 1
+    },
+    {
+     "n": "Lipvas 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Cipla",
+     "m": 2.72,
+     "p": 2.72,
+     "t": 1
+    },
+    {
+     "n": "Storvas 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Sun Pharma",
+     "m": 4.79,
+     "p": 4.79,
+     "t": 1
+    },
+    {
+     "n": "Tonact 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Lupin",
+     "m": 4.79,
+     "p": 4.79,
+     "t": 1
+    },
+    {
+     "n": "Atorva 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Zydus",
+     "m": 4.79,
+     "p": 4.79,
+     "t": 1
+    },
+    {
+     "n": "Atorlip 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Cipla",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "Statix 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Biocon",
+     "m": 5.5,
+     "p": 5.5,
+     "t": 1
+    },
+    {
+     "n": "Aztor 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Sun Pharma",
+     "m": 5.53,
+     "p": 5.53,
+     "t": 1
+    },
+    {
+     "n": "Atorsave 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Eris",
+     "m": 5.53,
+     "p": 5.53,
+     "t": 1
+    },
+    {
+     "n": "Atocor 10",
+     "s": "Atorvastatin 10mg",
+     "c": "Dr Reddy's",
+     "m": 5.53,
+     "p": 5.53,
+     "t": 1
+    },
+    {
+     "n": "Atchol 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Aristo",
+     "m": 5.44,
+     "p": 5.44,
+     "t": 1
+    },
+    {
+     "n": "Atrovas 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Jackson Labs",
+     "m": 7.2,
+     "p": 7.2,
+     "t": 1
+    },
+    {
+     "n": "Lipvas 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Cipla",
+     "m": 7.21,
+     "p": 7.21,
+     "t": 1
+    },
+    {
+     "n": "Cardiozen 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Leeford",
+     "m": 12.33,
+     "p": 12.33,
+     "t": 1
+    },
+    {
+     "n": "Atoder 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Elder",
+     "m": 13.0,
+     "p": 13.0,
+     "t": 1
+    },
+    {
+     "n": "Storvas 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Sun Pharma",
+     "m": 13.13,
+     "p": 13.13,
+     "t": 1
+    },
+    {
+     "n": "Tonact 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Lupin",
+     "m": 13.13,
+     "p": 13.13,
+     "t": 1
+    },
+    {
+     "n": "Stator 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Abbott",
+     "m": 13.13,
+     "p": 13.13,
+     "t": 1
+    },
+    {
+     "n": "Atorva 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Zydus",
+     "m": 13.13,
+     "p": 13.13,
+     "t": 1
+    },
+    {
+     "n": "Avas 20",
+     "s": "Atorvastatin 20mg",
+     "c": "Micro Labs",
+     "m": 13.17,
+     "p": 13.17,
+     "t": 1
+    },
+    {
+     "n": "Rovastat 10",
+     "s": "Rosuvastatin 10mg",
+     "c": "Blue Cross",
+     "m": 6.33,
+     "p": 6.33,
+     "t": 1
+    },
+    {
+     "n": "Rosuless 10",
+     "s": "Rosuvastatin 10mg",
+     "c": "Corona",
+     "m": 6.37,
+     "p": 6.37,
+     "t": 1
+    },
+    {
+     "n": "Rosys 10",
+     "s": "Rosuvastatin 10mg",
+     "c": "Systopic",
+     "m": 6.7,
+     "p": 6.7,
+     "t": 1
+    },
+    {
+     "n": "Lipigo 10",
+     "s": "Rosuvastatin 10mg",
+     "c": "Merck",
+     "m": 13.41,
+     "p": 13.41,
+     "t": 1
+    },
+    {
+     "n": "Rosuhenz 10",
+     "s": "Rosuvastatin 10mg",
+     "c": "Metalis",
+     "m": 14.03,
+     "p": 14.03,
+     "t": 1
+    },
+    {
+     "n": "Rosugard 10",
+     "s": "Rosuvastatin 10mg",
+     "c": "Cipla",
+     "m": 20.41,
+     "p": 20.41,
+     "t": 1
+    },
+    {
+     "n": "Rozavel 10",
+     "s": "Rosuvastatin 10mg",
+     "c": "Sun Pharma",
+     "m": 22.6,
+     "p": 22.6,
+     "t": 1
+    },
+    {
+     "n": "Rosuvas 10",
+     "s": "Rosuvastatin 10mg",
+     "c": "Sun Pharma",
+     "m": 22.6,
+     "p": 22.6,
+     "t": 1
+    },
+    {
+     "n": "Crestor 10",
+     "s": "Rosuvastatin 10mg",
+     "c": "AstraZeneca",
+     "m": 25.13,
+     "p": 25.13,
+     "t": 1
+    },
+    {
+     "n": "Rosuson 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Unison",
+     "m": 7.9,
+     "p": 7.9,
+     "t": 1
+    },
+    {
+     "n": "Rosuless 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Corona",
+     "m": 12.39,
+     "p": 12.39,
+     "t": 1
+    },
+    {
+     "n": "Crevast 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Eris",
+     "m": 19.56,
+     "p": 19.56,
+     "t": 1
+    },
+    {
+     "n": "Consivas 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Emcure",
+     "m": 20.48,
+     "p": 20.48,
+     "t": 1
+    },
+    {
+     "n": "Rosurex 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Medrexcare",
+     "m": 21.0,
+     "p": 21.0,
+     "t": 1
+    },
+    {
+     "n": "Rosucus 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Pficus",
+     "m": 22.13,
+     "p": 22.13,
+     "t": 1
+    },
+    {
+     "n": "Roswow 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Medicamen",
+     "m": 23.0,
+     "p": 23.0,
+     "t": 1
+    },
+    {
+     "n": "Rosubest 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Cadila",
+     "m": 23.17,
+     "p": 23.17,
+     "t": 1
+    },
+    {
+     "n": "Razel 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "JB Chemicals",
+     "m": 23.9,
+     "p": 23.9,
+     "t": 1
+    },
+    {
+     "n": "Rovax 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Thrivex",
+     "m": 27.5,
+     "p": 27.5,
+     "t": 1
+    },
+    {
+     "n": "Jupiros 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Alkem",
+     "m": 27.93,
+     "p": 27.93,
+     "t": 1
+    },
+    {
+     "n": "Rosulip 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Cipla",
+     "m": 31.11,
+     "p": 31.11,
+     "t": 1
+    },
+    {
+     "n": "Statpure 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Mankind",
+     "m": 31.54,
+     "p": 31.54,
+     "t": 1
+    },
+    {
+     "n": "Rosuvas 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Sun Pharma",
+     "m": 43.1,
+     "p": 43.1,
+     "t": 1
+    },
+    {
+     "n": "Rozavel 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Sun Pharma",
+     "m": 43.1,
+     "p": 43.1,
+     "t": 1
+    },
+    {
+     "n": "Rozucor 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Torrent",
+     "m": 45.0,
+     "p": 45.0,
+     "t": 1
+    },
+    {
+     "n": "Novastat 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "Lupin",
+     "m": 45.56,
+     "p": 45.56,
+     "t": 1
+    },
+    {
+     "n": "Crestor 20",
+     "s": "Rosuvastatin 20mg",
+     "c": "AstraZeneca",
+     "m": 51.53,
+     "p": 51.53,
+     "t": 1
+    },
+    {
+     "n": "DavaIndia Fenofibrate 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Davaindia",
+     "m": 2.5,
+     "p": 2.5,
+     "t": 1
+    },
+    {
+     "n": "Fibrofen 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Orchid",
+     "m": 5.3,
+     "p": 5.3,
+     "t": 1
+    },
+    {
+     "n": "TG Chek 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Torrent",
+     "m": 7.0,
+     "p": 7.0,
+     "t": 1
+    },
+    {
+     "n": "Tigifib 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Elder",
+     "m": 7.8,
+     "p": 7.8,
+     "t": 1
+    },
+    {
+     "n": "Fenacor 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Taj Pharma",
+     "m": 8.77,
+     "p": 8.77,
+     "t": 1
+    },
+    {
+     "n": "Stanlip 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Sun Pharma",
+     "m": 8.77,
+     "p": 8.77,
+     "t": 1
+    },
+    {
+     "n": "Fenocin 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Avecia",
+     "m": 11.1,
+     "p": 11.1,
+     "t": 1
+    },
+    {
+     "n": "Finate 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Johnlee",
+     "m": 11.43,
+     "p": 11.43,
+     "t": 1
+    },
+    {
+     "n": "Fenabrate 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Prevego",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Fenolip 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Cipla",
+     "m": 12.1,
+     "p": 12.1,
+     "t": 1
+    },
+    {
+     "n": "Fenotag 160",
+     "s": "Fenofibrate 160mg",
+     "c": "Ikon",
+     "m": 13.5,
+     "p": 13.5,
+     "t": 1
+    },
+    {
+     "n": "Lipicard 160",
+     "s": "Fenofibrate 160mg",
+     "c": "USV",
+     "m": 16.32,
+     "p": 16.32,
+     "t": 1
+    },
+    {
+     "n": "Mibe 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Troikaa",
+     "m": 5.89,
+     "p": 5.89,
+     "t": 1
+    },
+    {
+     "n": "Ezetib 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Torrent",
+     "m": 5.9,
+     "p": 5.9,
+     "t": 1
+    },
+    {
+     "n": "Ezzicad 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Glenmark",
+     "m": 6.66,
+     "p": 6.66,
+     "t": 1
+    },
+    {
+     "n": "Ezetimide 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Lupin",
+     "m": 6.97,
+     "p": 6.97,
+     "t": 1
+    },
+    {
+     "n": "Zeteze 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Sun Pharma",
+     "m": 7.51,
+     "p": 7.51,
+     "t": 1
+    },
+    {
+     "n": "Ezlip 10",
+     "s": "Ezetimibe 10mg",
+     "c": "East West",
+     "m": 7.92,
+     "p": 7.92,
+     "t": 1
+    },
+    {
+     "n": "Zeticure 10",
+     "s": "Ezetimibe 10mg",
+     "c": "TBG Pharma",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Ezewin 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Ikon",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Ezechol 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Prevento",
+     "m": 10.7,
+     "p": 10.7,
+     "t": 1
+    },
+    {
+     "n": "Ezee 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Hetero",
+     "m": 11.9,
+     "p": 11.9,
+     "t": 1
+    },
+    {
+     "n": "Ezibloc 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Cadila",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Ezitrol 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Aristo",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Ezemore 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Morepen",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Zetimax 10",
+     "s": "Ezetimibe 10mg",
+     "c": "USV",
+     "m": 12.21,
+     "p": 12.21,
+     "t": 1
+    },
+    {
+     "n": "Etimibe 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Dr Reddy's",
+     "m": 12.21,
+     "p": 12.21,
+     "t": 1
+    },
+    {
+     "n": "Ezta 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Zydus",
+     "m": 12.24,
+     "p": 12.24,
+     "t": 1
+    },
+    {
+     "n": "Zetica 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Torrent",
+     "m": 12.5,
+     "p": 12.5,
+     "t": 1
+    },
+    {
+     "n": "Ezebet 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Innovative",
+     "m": 15.5,
+     "p": 15.5,
+     "t": 1
+    },
+    {
+     "n": "Ezentia 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Sun Pharma",
+     "m": 16.5,
+     "p": 16.5,
+     "t": 1
+    },
+    {
+     "n": "Ezedoc 10",
+     "s": "Ezetimibe 10mg",
+     "c": "Lupin",
+     "m": 18.99,
+     "p": 18.99,
+     "t": 1
+    },
+    {
+     "n": "Lipira EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Emcure",
+     "m": 9.43,
+     "p": 9.43,
+     "t": 1
+    },
+    {
+     "n": "Rosubeat EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Zenolia",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Razel-EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Glenmark",
+     "m": 17.11,
+     "p": 17.11,
+     "t": 1
+    },
+    {
+     "n": "Drose E 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Dr. Edwin Lab",
+     "m": 18.0,
+     "p": 18.0,
+     "t": 1
+    },
+    {
+     "n": "Turbovas EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Micro Labs",
+     "m": 18.0,
+     "p": 18.0,
+     "t": 1
+    },
+    {
+     "n": "Crevast EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Eris",
+     "m": 19.58,
+     "p": 19.58,
+     "t": 1
+    },
+    {
+     "n": "Rosycap EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Akums",
+     "m": 19.9,
+     "p": 19.9,
+     "t": 1
+    },
+    {
+     "n": "Rosave EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Alembic",
+     "m": 21.31,
+     "p": 21.31,
+     "t": 1
+    },
+    {
+     "n": "Rosumac EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Macleods",
+     "m": 24.18,
+     "p": 24.18,
+     "t": 1
+    },
+    {
+     "n": "Rosukem EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Alkem",
+     "m": 25.4,
+     "p": 25.4,
+     "t": 1
+    },
+    {
+     "n": "Jupiros EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Alkem",
+     "m": 25.4,
+     "p": 25.4,
+     "t": 1
+    },
+    {
+     "n": "Rozavel EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Sun Pharma",
+     "m": 25.9,
+     "p": 25.9,
+     "t": 1
+    },
+    {
+     "n": "Rozucor EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Torrent",
+     "m": 26.35,
+     "p": 26.35,
+     "t": 1
+    },
+    {
+     "n": "Novastat EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Lupin",
+     "m": 27.9,
+     "p": 27.9,
+     "t": 1
+    },
+    {
+     "n": "Roseday EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "USV",
+     "m": 30.45,
+     "p": 30.45,
+     "t": 1
+    },
+    {
+     "n": "Rosuvas EZ 10",
+     "s": "Rosuvastatin 10mg + Ezetimibe 10mg",
+     "c": "Emcure",
+     "m": 39.39,
+     "p": 39.39,
+     "t": 1
+    }
+   ]
   }
  ]
 }
