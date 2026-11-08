@@ -12525,6 +12525,410 @@
      "p": 65.0
     }
    ]
+  },
+  {
+   "id": "2026-11-08-cough-syrup",
+   "meds": [
+    {
+     "n": "Nakuf LS",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Alkem",
+     "m": 60.0,
+     "p": 60.0
+    },
+    {
+     "n": "Rexcof LS",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Cipla",
+     "m": 68.0,
+     "p": 68.0
+    },
+    {
+     "n": "Salbetol LS",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "FDC",
+     "m": 72.0,
+     "p": 72.0
+    },
+    {
+     "n": "Ambrodil-LX",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Aristo",
+     "m": 83.0,
+     "p": 83.0
+    },
+    {
+     "n": "Zerotuss XP",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Aristo",
+     "m": 83.0,
+     "p": 83.0
+    },
+    {
+     "n": "Kofirax",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Hetero",
+     "m": 86.0,
+     "p": 86.0
+    },
+    {
+     "n": "Zerotuss LS",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Aristo",
+     "m": 94.0,
+     "p": 94.0
+    },
+    {
+     "n": "Asthalin AX",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Cipla",
+     "m": 95.0,
+     "p": 95.0
+    },
+    {
+     "n": "Ambrolite Levo",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Tablets India",
+     "m": 98.0,
+     "p": 98.0
+    },
+    {
+     "n": "Deletus LS",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Abbott",
+     "m": 98.0,
+     "p": 98.0
+    },
+    {
+     "n": "Mucaryl LS",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Glenmark",
+     "m": 108.0,
+     "p": 108.0
+    },
+    {
+     "n": "Ascoril LS",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Glenmark",
+     "m": 108.0,
+     "p": 108.0
+    },
+    {
+     "n": "Pulmoclear LS",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Fourrts",
+     "m": 111.0,
+     "p": 111.0
+    },
+    {
+     "n": "Levolin Plus SF",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Cipla",
+     "m": 119.0,
+     "p": 119.0
+    },
+    {
+     "n": "Kofarest-LS",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Centaur",
+     "m": 119.0,
+     "p": 119.0
+    },
+    {
+     "n": "Solvin LS (60ml)",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Ipca",
+     "m": 128.0,
+     "p": 128.0
+    },
+    {
+     "n": "Indikof LS SF (60ml)",
+     "s": "Ambroxol 30mg + Levosalbutamol 1mg + Guaifenesin 50mg per 5ml",
+     "c": "Alkem",
+     "m": 129.0,
+     "p": 129.0
+    },
+    {
+     "n": "Ambril Plus",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Maneesh",
+     "m": 66.0,
+     "p": 66.0
+    },
+    {
+     "n": "Cleartuss LS",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Cadila",
+     "m": 72.0,
+     "p": 72.0
+    },
+    {
+     "n": "Rizet EX Jr (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Astranova",
+     "m": 75.0,
+     "p": 75.0
+    },
+    {
+     "n": "Terbulent L (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Unipure",
+     "m": 80.0,
+     "p": 80.0
+    },
+    {
+     "n": "Brozeet Plus",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Alembic",
+     "m": 83.0,
+     "p": 83.0
+    },
+    {
+     "n": "Altime LS",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "S H Pharma",
+     "m": 85.0,
+     "p": 85.0
+    },
+    {
+     "n": "Siltus LS Kid (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Asiltus",
+     "m": 92.0,
+     "p": 92.0
+    },
+    {
+     "n": "Expectus LS Kid (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Indi Pharma",
+     "m": 92.0,
+     "p": 92.0
+    },
+    {
+     "n": "Mactuss LS Jr (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Macwell",
+     "m": 98.0,
+     "p": 98.0
+    },
+    {
+     "n": "Kufril LS",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Med Manor",
+     "m": 99.0,
+     "p": 99.0
+    },
+    {
+     "n": "Vestaryl Jr (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Indiabulls",
+     "m": 100.0,
+     "p": 100.0
+    },
+    {
+     "n": "Solvin LS Junior",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Ipca",
+     "m": 104.0,
+     "p": 104.0
+    },
+    {
+     "n": "Traxin Junior (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Drakt",
+     "m": 113.0,
+     "p": 113.0
+    },
+    {
+     "n": "Servil LS Jr (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Adonis",
+     "m": 131.0,
+     "p": 131.0
+    },
+    {
+     "n": "Ascoril LS Junior (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Glenmark",
+     "m": 137.0,
+     "p": 137.0
+    },
+    {
+     "n": "Broncolite-LS Jr (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Innovative",
+     "m": 137.0,
+     "p": 137.0
+    },
+    {
+     "n": "Chericof-LS Jr (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Sun Pharma",
+     "m": 143.0,
+     "p": 143.0
+    },
+    {
+     "n": "Respicure-LS Jr (60ml)",
+     "s": "Ambroxol 15mg + Levosalbutamol 0.5mg + Guaifenesin 50mg per 5ml",
+     "c": "Corona",
+     "m": 173.0,
+     "p": 173.0
+    },
+    {
+     "n": "Usal LS",
+     "s": "Ambroxol 7.5mg + Guaifenesin 12.5mg + Levosalbutamol 0.25mg drops",
+     "c": "",
+     "m": 49.69,
+     "p": 49.69
+    },
+    {
+     "n": "Zerotuss XP Drop",
+     "s": "Ambroxol 7.5mg + Guaifenesin 12.5mg + Levosalbutamol 0.25mg drops",
+     "c": "Aristo",
+     "m": 52.0,
+     "p": 52.0
+    },
+    {
+     "n": "Bro-Zedex LS",
+     "s": "Ambroxol 7.5mg + Guaifenesin 12.5mg + Levosalbutamol 0.25mg drops",
+     "c": "",
+     "m": 79.92,
+     "p": 79.92
+    },
+    {
+     "n": "Brozeet-LS",
+     "s": "Ambroxol 7.5mg + Guaifenesin 12.5mg + Levosalbutamol 0.25mg drops",
+     "c": "Alembic",
+     "m": 87.09,
+     "p": 87.09
+    },
+    {
+     "n": "Kofarest-PD",
+     "s": "Ambroxol 7.5mg + Guaifenesin 12.5mg + Levosalbutamol 0.25mg drops",
+     "c": "Centaur",
+     "m": 93.06,
+     "p": 93.06
+    },
+    {
+     "n": "Ambrodil-S",
+     "s": "Ambroxol 15mg + Salbutamol 1mg per 5ml",
+     "c": "Aristo",
+     "m": 33.0,
+     "p": 33.0
+    },
+    {
+     "n": "Chericof",
+     "s": "Chlorpheniramine 2mg + Dextromethorphan 10mg + Phenylephrine 5mg per 5ml",
+     "c": "Sun Pharma",
+     "m": 108.0,
+     "p": 108.0
+    },
+    {
+     "n": "Ascoril D Plus SF",
+     "s": "Chlorpheniramine 2mg + Dextromethorphan 10mg + Phenylephrine 5mg per 5ml",
+     "c": "Glenmark",
+     "m": 118.0,
+     "p": 118.0
+    },
+    {
+     "n": "Ambrolite D",
+     "s": "Chlorpheniramine 2mg + Dextromethorphan 10mg + Phenylephrine 5mg per 5ml",
+     "c": "Tablets India",
+     "m": 130.0,
+     "p": 130.0
+    },
+    {
+     "n": "Alex",
+     "s": "Chlorpheniramine 2mg + Dextromethorphan 10mg + Phenylephrine 5mg per 5ml",
+     "c": "Glenmark",
+     "m": 145.0,
+     "p": 145.0
+    },
+    {
+     "n": "Alex Junior (60ml)",
+     "s": "Chlorpheniramine 2mg + Dextromethorphan 10mg + Phenylephrine 5mg per 5ml",
+     "c": "Glenmark",
+     "m": 173.0,
+     "p": 173.0
+    },
+    {
+     "n": "Ascoril D Junior (60ml)",
+     "s": "Chlorpheniramine 2mg + Dextromethorphan 10mg + Phenylephrine 5mg per 5ml",
+     "c": "Glenmark",
+     "m": 195.0,
+     "p": 195.0
+    },
+    {
+     "n": "Avlinctus",
+     "s": "Grilinctus type (salt strip pe check baki)",
+     "c": "Afive",
+     "m": 45.0,
+     "p": 45.0
+    },
+    {
+     "n": "Phenlinctus",
+     "s": "Grilinctus type (salt strip pe check baki)",
+     "c": "",
+     "m": 46.0,
+     "p": 46.0
+    },
+    {
+     "n": "Cofmac",
+     "s": "Grilinctus type (salt strip pe check baki)",
+     "c": "Torque",
+     "m": 48.0,
+     "p": 48.0
+    },
+    {
+     "n": "Koflinctus",
+     "s": "Grilinctus type (salt strip pe check baki)",
+     "c": "Alkem",
+     "m": 70.0,
+     "p": 70.0
+    },
+    {
+     "n": "Grilinctus",
+     "s": "Grilinctus type (salt strip pe check baki)",
+     "c": "Franco-Indian",
+     "m": 133.0,
+     "p": 133.0
+    },
+    {
+     "n": "Cloperawin SF",
+     "s": "Levocloperastine 20mg per 5ml",
+     "c": "",
+     "m": 128.0,
+     "p": 128.0
+    },
+    {
+     "n": "Phensedyl LR",
+     "s": "Levocloperastine 20mg per 5ml",
+     "c": "Piramal",
+     "m": 160.0,
+     "p": 160.0
+    },
+    {
+     "n": "Grilinctus L",
+     "s": "Levocloperastine 20mg per 5ml",
+     "c": "Franco-Indian",
+     "m": 161.0,
+     "p": 161.0
+    },
+    {
+     "n": "Lupituss",
+     "s": "Levocloperastine 20mg per 5ml",
+     "c": "Lupin",
+     "m": 166.0,
+     "p": 166.0
+    },
+    {
+     "n": "Lupituss SF",
+     "s": "Levocloperastine 20mg per 5ml",
+     "c": "Lupin",
+     "m": 183.0,
+     "p": 183.0
+    }
+   ]
   }
  ]
 }
