@@ -4043,6 +4043,119 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-fix-old-entries",
+   "remove": [
+    "Azithral-500",
+    "Amlip-5",
+    "Augmentin 625"
+   ],
+   "meds": [
+    {
+     "n": "Dolo 650",
+     "s": "Paracetamol 650mg",
+     "m": 30.91,
+     "p": 26,
+     "c": "Micro Labs",
+     "t": 15
+    },
+    {
+     "n": "Crocin Advance 500",
+     "s": "Paracetamol 500mg",
+     "m": 20.5,
+     "p": 17,
+     "c": "GSK",
+     "t": 20
+    },
+    {
+     "n": "Pan 40",
+     "s": "Pantoprazole 40mg",
+     "m": 155,
+     "p": 128,
+     "c": "Alkem",
+     "t": 15
+    },
+    {
+     "n": "Dailyglim M2",
+     "s": "Glimepiride 2mg + Metformin 500mg SR",
+     "m": 56,
+     "p": 38.6,
+     "c": "Leeford Healthcare",
+     "t": 10
+    },
+    {
+     "n": "El nico 5",
+     "s": "Nicorandil 5mg",
+     "m": 309,
+     "p": 250,
+     "c": "Elder",
+     "t": 20
+    },
+    {
+     "n": "AboMet 1000 SR",
+     "s": "Metformin Hydrochloride 1000 mg",
+     "m": 65.15,
+     "p": 46.3,
+     "c": "Abbott",
+     "t": 15
+    },
+    {
+     "n": "DAILYGLIM-2",
+     "s": "Glimepiride 2mg",
+     "m": 52,
+     "p": 35.9,
+     "c": "Leeford Healthcare",
+     "t": 10
+    },
+    {
+     "n": "GLIMESTAR-2",
+     "s": "Glimepiride 2mg",
+     "m": 40,
+     "p": 36,
+     "c": "Mankind",
+     "t": 10
+    },
+    {
+     "n": "GLYCOMET-GP 2",
+     "s": "Glimepiride 2mg + Metformin 500mg SR",
+     "m": 180,
+     "p": 162,
+     "c": "USV",
+     "t": 15
+    },
+    {
+     "n": "Azipro 500",
+     "s": "Azithromycin 500 mg",
+     "m": 74.24,
+     "p": 53.4,
+     "c": "Cipla",
+     "t": 3
+    },
+    {
+     "n": "Zincovit tablet",
+     "s": "Vitamin C 80mg, Grape Seed Extract 50mg, Vitamin B3 18mg, Zinc 17mg, Vitamin E 10mg, Magnesium 3mg, Vitamin B5 3mg, Vitamin B2 2.5mg, Vitamin B6 2.4mg, Vitamin B1 1.8mg, Vitamin A 1000mcg, Manganese 2",
+     "m": 113,
+     "p": 107,
+     "c": "Apex Laboratories",
+     "t": 15
+    },
+    {
+     "n": "Prolomet XL 25",
+     "s": "Metoprolol Succinate 23.75 mg",
+     "m": 68.47,
+     "p": 61.6,
+     "c": "Sun Pharma",
+     "t": 15
+    },
+    {
+     "n": "Zincovit",
+     "s": "Vitamin B3 7.5mg, L-Lysine 5mg, Zinc 5mg, Vitamin E 2.5mg, Vitamin B5 1.25mg, Vitamin B2 0.75mg, Vitamin B1 0.7mg, Vitamin B6 0.5mg, Vitamin A 375ug, Iodine 38ug, Copper 25ug, Selenium 10ug, Vitamin B",
+     "m": 168.1,
+     "p": 158,
+     "c": "Apex Laboratories"
+    }
+   ]
   }
  ]
 }
