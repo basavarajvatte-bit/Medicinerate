@@ -25740,6 +25740,1804 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-obs-gynae",
+   "meds": [
+    {
+     "n": "Jigest 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Sanzyme",
+     "m": 22.68,
+     "p": 22.68,
+     "t": 1
+    },
+    {
+     "n": "Dydrolast 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Leeford",
+     "m": 38.7,
+     "p": 38.7,
+     "t": 1
+    },
+    {
+     "n": "Dydronix 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Kepler",
+     "m": 42.5,
+     "p": 42.5,
+     "t": 1
+    },
+    {
+     "n": "Dydrolady 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Cipla",
+     "m": 44.0,
+     "p": 44.0,
+     "t": 1
+    },
+    {
+     "n": "Isofit 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Alembic",
+     "m": 48.6,
+     "p": 48.6,
+     "t": 1
+    },
+    {
+     "n": "Ladyboon 10 (14)",
+     "s": "Dydrogesterone 10mg",
+     "c": "Indoco",
+     "m": 49.93,
+     "p": 49.93,
+     "t": 1
+    },
+    {
+     "n": "Dydrofem 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Emcure",
+     "m": 54.4,
+     "p": 54.4,
+     "t": 1
+    },
+    {
+     "n": "Dydrowell 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Macleods",
+     "m": 54.45,
+     "p": 54.45,
+     "t": 1
+    },
+    {
+     "n": "Dydrojoy 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Aristo",
+     "m": 55.0,
+     "p": 55.0,
+     "t": 1
+    },
+    {
+     "n": "Dydrohope 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Corona",
+     "m": 56.4,
+     "p": 56.4,
+     "t": 1
+    },
+    {
+     "n": "Zydro 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Rapross",
+     "m": 57.0,
+     "p": 57.0,
+     "t": 1
+    },
+    {
+     "n": "Lupihope 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Lupin",
+     "m": 59.9,
+     "p": 59.9,
+     "t": 1
+    },
+    {
+     "n": "Mydydro 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Akumentis",
+     "m": 60.0,
+     "p": 60.0,
+     "t": 1
+    },
+    {
+     "n": "Dyqugest 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Solvate",
+     "m": 60.0,
+     "p": 60.0,
+     "t": 1
+    },
+    {
+     "n": "Drogyna",
+     "s": "Dydrogesterone 10mg",
+     "c": "Mankind",
+     "m": 60.4,
+     "p": 60.4,
+     "t": 1
+    },
+    {
+     "n": "Dydrosure 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Alkem",
+     "m": 61.4,
+     "p": 61.4,
+     "t": 1
+    },
+    {
+     "n": "Dydrolady Art 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Cipla",
+     "m": 66.0,
+     "p": 66.0,
+     "t": 1
+    },
+    {
+     "n": "Hertility 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Koye",
+     "m": 66.3,
+     "p": 66.3,
+     "t": 1
+    },
+    {
+     "n": "Dydrogest 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Zydus",
+     "m": 67.1,
+     "p": 67.1,
+     "t": 1
+    },
+    {
+     "n": "Dydropreg 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Torrent",
+     "m": 69.3,
+     "p": 69.3,
+     "t": 1
+    },
+    {
+     "n": "Duphaston 10",
+     "s": "Dydrogesterone 10mg",
+     "c": "Abbott",
+     "m": 81.5,
+     "p": 81.5,
+     "t": 1
+    },
+    {
+     "n": "Myprog 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "Mylan",
+     "m": 26.63,
+     "p": 26.63,
+     "t": 1
+    },
+    {
+     "n": "Macgest 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "",
+     "m": 26.95,
+     "p": 26.95,
+     "t": 1
+    },
+    {
+     "n": "Nidaglan 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "Gland",
+     "m": 27.6,
+     "p": 27.6,
+     "t": 1
+    },
+    {
+     "n": "Ibigest 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "Indiabulls",
+     "m": 27.79,
+     "p": 27.79,
+     "t": 1
+    },
+    {
+     "n": "Gestoford 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "Leeford",
+     "m": 29.06,
+     "p": 29.06,
+     "t": 1
+    },
+    {
+     "n": "Promelia 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "Amelia",
+     "m": 30.56,
+     "p": 30.56,
+     "t": 1
+    },
+    {
+     "n": "Hilgestrone 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "HLL Lifecare",
+     "m": 32.63,
+     "p": 32.63,
+     "t": 1
+    },
+    {
+     "n": "Gestofit 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "",
+     "m": 35.0,
+     "p": 35.0,
+     "t": 1
+    },
+    {
+     "n": "Chop 200 (TABLET)",
+     "s": "Progesterone 200mg capsule",
+     "c": "Corona",
+     "m": 37.13,
+     "p": 37.13,
+     "t": 1
+    },
+    {
+     "n": "Susten 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "Sun",
+     "m": 39.19,
+     "p": 39.19,
+     "t": 1
+    },
+    {
+     "n": "Sugest 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "Sanzyme",
+     "m": 46.58,
+     "p": 46.58,
+     "t": 1
+    },
+    {
+     "n": "Emprogest 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "Emcure",
+     "m": 50.37,
+     "p": 50.37,
+     "t": 1
+    },
+    {
+     "n": "Naturogest 200",
+     "s": "Progesterone 200mg capsule",
+     "c": "German Remedies",
+     "m": 50.56,
+     "p": 50.56,
+     "t": 1
+    },
+    {
+     "n": "Susten 100",
+     "s": "Progesterone 100mg",
+     "c": "Sun",
+     "m": 17.9,
+     "p": 17.9,
+     "t": 1
+    },
+    {
+     "n": "Gestofit 400",
+     "s": "Progesterone 400mg",
+     "c": "",
+     "m": 62.5,
+     "p": 62.5,
+     "t": 1
+    },
+    {
+     "n": "Susten 400",
+     "s": "Progesterone 400mg",
+     "c": "Sun",
+     "m": 65.25,
+     "p": 65.25,
+     "t": 1
+    },
+    {
+     "n": "NT Natal 250",
+     "s": "Hydroxyprogesterone 250mg/1ml injection",
+     "c": "",
+     "m": 130.0,
+     "p": 130.0
+    },
+    {
+     "n": "Proluton Depot 250",
+     "s": "Hydroxyprogesterone 250mg/1ml injection",
+     "c": "Zydus",
+     "m": 173.2,
+     "p": 173.2
+    },
+    {
+     "n": "Maintane 250",
+     "s": "Hydroxyprogesterone 250mg/1ml injection",
+     "c": "Jagsonpal",
+     "m": 173.64,
+     "p": 173.64
+    },
+    {
+     "n": "Pro 9 500",
+     "s": "Hydroxyprogesterone 500mg/2ml injection",
+     "c": "",
+     "m": 266.0,
+     "p": 266.0
+    },
+    {
+     "n": "Proluton Depot 500",
+     "s": "Hydroxyprogesterone 500mg/2ml injection",
+     "c": "Zydus",
+     "m": 407.75,
+     "p": 407.75
+    },
+    {
+     "n": "Gidilan 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Prayas",
+     "m": 0.95,
+     "p": 0.95,
+     "t": 1
+    },
+    {
+     "n": "Isoprix 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Dial",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Udilan 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Troikaa",
+     "m": 1.13,
+     "p": 1.13,
+     "t": 1
+    },
+    {
+     "n": "Uterest 10 (30)",
+     "s": "Isoxsuprine 10mg",
+     "c": "Serum Institute",
+     "m": 1.19,
+     "p": 1.19,
+     "t": 1
+    },
+    {
+     "n": "Ioril 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Zee Labs",
+     "m": 1.25,
+     "p": 1.25,
+     "t": 1
+    },
+    {
+     "n": "Adilin 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Lincoln",
+     "m": 1.42,
+     "p": 1.42,
+     "t": 1
+    },
+    {
+     "n": "Pridilan 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Gujarat Terce",
+     "m": 1.52,
+     "p": 1.52,
+     "t": 1
+    },
+    {
+     "n": "Divos 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Mediva",
+     "m": 1.66,
+     "p": 1.66,
+     "t": 1
+    },
+    {
+     "n": "Utolan",
+     "s": "Isoxsuprine 10mg",
+     "c": "Positif",
+     "m": 1.66,
+     "p": 1.66,
+     "t": 1
+    },
+    {
+     "n": "Voxrin 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Solace",
+     "m": 1.82,
+     "p": 1.82,
+     "t": 1
+    },
+    {
+     "n": "Urilex 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Navil",
+     "m": 1.9,
+     "p": 1.9,
+     "t": 1
+    },
+    {
+     "n": "Susox 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Rekvina",
+     "m": 1.98,
+     "p": 1.98,
+     "t": 1
+    },
+    {
+     "n": "Isoxlan 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Colinz",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "X-Ride 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Aamorb",
+     "m": 2.2,
+     "p": 2.2,
+     "t": 1
+    },
+    {
+     "n": "Utesafe 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Orion",
+     "m": 2.37,
+     "p": 2.37,
+     "t": 1
+    },
+    {
+     "n": "Tidilan 10 (30)",
+     "s": "Isoxsuprine 10mg",
+     "c": "Juggat",
+     "m": 3.03,
+     "p": 3.03,
+     "t": 1
+    },
+    {
+     "n": "Pregnin 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Overseas",
+     "m": 3.39,
+     "p": 3.39,
+     "t": 1
+    },
+    {
+     "n": "Prymavas 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Semiotic",
+     "m": 3.68,
+     "p": 3.68,
+     "t": 1
+    },
+    {
+     "n": "Suprox",
+     "s": "Isoxsuprine 10mg",
+     "c": "Ind Swift",
+     "m": 3.83,
+     "p": 3.83,
+     "t": 1
+    },
+    {
+     "n": "Gestakind 10",
+     "s": "Isoxsuprine 10mg",
+     "c": "Mankind",
+     "m": 4.23,
+     "p": 4.23,
+     "t": 1
+    },
+    {
+     "n": "Duvadilan (50)",
+     "s": "Isoxsuprine 10mg",
+     "c": "Abbott",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Doxyla B6 20 (20)",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg",
+     "c": "Maneesh",
+     "m": 2.84,
+     "p": 2.84,
+     "t": 1
+    },
+    {
+     "n": "Doxeva OD",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg",
+     "c": "Pegasus",
+     "m": 4.25,
+     "p": 4.25,
+     "t": 1
+    },
+    {
+     "n": "Gooday 20/20",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg",
+     "c": "Akesiss",
+     "m": 7.4,
+     "p": 7.4,
+     "t": 1
+    },
+    {
+     "n": "Doxyla B6 Forte",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg",
+     "c": "Maneesh",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Vomiwon OD (15)",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg",
+     "c": "Wonder Drugs",
+     "m": 10.33,
+     "p": 10.33,
+     "t": 1
+    },
+    {
+     "n": "Nvg 20/20",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg",
+     "c": "Maneesh",
+     "m": 10.6,
+     "p": 10.6,
+     "t": 1
+    },
+    {
+     "n": "Doxebet 20",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg",
+     "c": "Bharat Serums",
+     "m": 12.33,
+     "p": 12.33,
+     "t": 1
+    },
+    {
+     "n": "Nvtab-OD (15)",
+     "s": "Doxylamine 20mg + Pyridoxine 20mg",
+     "c": "Ar-Ex",
+     "m": 14.67,
+     "p": 14.67,
+     "t": 1
+    },
+    {
+     "n": "Nosic 10/10 (30)",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "c": "Indoco",
+     "m": 5.35,
+     "p": 5.35,
+     "t": 1
+    },
+    {
+     "n": "Doxinate (30)",
+     "s": "Doxylamine 10mg + Pyridoxine 10mg",
+     "c": "Maneesh",
+     "m": 6.95,
+     "p": 6.95,
+     "t": 1
+    },
+    {
+     "n": "Promolup N 5",
+     "s": "Norethisterone 5mg",
+     "c": "Lupin",
+     "m": 1.22,
+     "p": 1.22,
+     "t": 1
+    },
+    {
+     "n": "Rethrowel 5",
+     "s": "Norethisterone 5mg",
+     "c": "Leeford",
+     "m": 3.35,
+     "p": 3.35,
+     "t": 1
+    },
+    {
+     "n": "Norlut-N",
+     "s": "Norethisterone 5mg",
+     "c": "Cipla",
+     "m": 3.52,
+     "p": 3.52,
+     "t": 1
+    },
+    {
+     "n": "Prevent N 5",
+     "s": "Norethisterone 5mg",
+     "c": "Intas",
+     "m": 3.52,
+     "p": 3.52,
+     "t": 1
+    },
+    {
+     "n": "Primolut-N",
+     "s": "Norethisterone 5mg",
+     "c": "Zydus",
+     "m": 4.22,
+     "p": 4.22,
+     "t": 1
+    },
+    {
+     "n": "Norfol N 5",
+     "s": "Norethisterone 5mg",
+     "c": "Elder",
+     "m": 4.22,
+     "p": 4.22,
+     "t": 1
+    },
+    {
+     "n": "Prolin N 5",
+     "s": "Norethisterone 5mg",
+     "c": "Lincoln",
+     "m": 5.18,
+     "p": 5.18,
+     "t": 1
+    },
+    {
+     "n": "Gynabest 5",
+     "s": "Norethisterone 5mg",
+     "c": "BestoChem",
+     "m": 5.41,
+     "p": 5.41,
+     "t": 1
+    },
+    {
+     "n": "Amenova 5",
+     "s": "Norethisterone 5mg",
+     "c": "Bal Pharma",
+     "m": 6.0,
+     "p": 6.0,
+     "t": 1
+    },
+    {
+     "n": "Redotrex 500",
+     "s": "Tranexamic Acid 500mg",
+     "c": "Leeford",
+     "m": 11.9,
+     "p": 11.9,
+     "t": 1
+    },
+    {
+     "n": "MI Tranex 500",
+     "s": "Tranexamic Acid 500mg",
+     "c": "",
+     "m": 14.2,
+     "p": 14.2,
+     "t": 1
+    },
+    {
+     "n": "Texakind 500",
+     "s": "Tranexamic Acid 500mg",
+     "c": "Mankind",
+     "m": 14.3,
+     "p": 14.3,
+     "t": 1
+    },
+    {
+     "n": "Traklot 500 (6)",
+     "s": "Tranexamic Acid 500mg",
+     "c": "Kontest",
+     "m": 17.37,
+     "p": 17.37,
+     "t": 1
+    },
+    {
+     "n": "Clip 500",
+     "s": "Tranexamic Acid 500mg",
+     "c": "FDC",
+     "m": 18.1,
+     "p": 18.1,
+     "t": 1
+    },
+    {
+     "n": "T-Stat 500",
+     "s": "Tranexamic Acid 500mg",
+     "c": "Mercury",
+     "m": 18.19,
+     "p": 18.19,
+     "t": 1
+    },
+    {
+     "n": "Trapic 500",
+     "s": "Tranexamic Acid 500mg",
+     "c": "Sun",
+     "m": 18.28,
+     "p": 18.28,
+     "t": 1
+    },
+    {
+     "n": "Tranostat",
+     "s": "Tranexamic Acid 500mg",
+     "c": "Ozone",
+     "m": 18.28,
+     "p": 18.28,
+     "t": 1
+    },
+    {
+     "n": "Trenaxa 500 (6)",
+     "s": "Tranexamic Acid 500mg",
+     "c": "Macleods",
+     "m": 18.28,
+     "p": 18.28,
+     "t": 1
+    },
+    {
+     "n": "Xamic 500",
+     "s": "Tranexamic Acid 500mg",
+     "c": "Torrent",
+     "m": 19.8,
+     "p": 19.8,
+     "t": 1
+    },
+    {
+     "n": "Pause 500",
+     "s": "Tranexamic Acid 500mg",
+     "c": "Emcure",
+     "m": 19.93,
+     "p": 19.93,
+     "t": 1
+    },
+    {
+     "n": "TX MF (6)",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "",
+     "m": 14.42,
+     "p": 14.42,
+     "t": 1
+    },
+    {
+     "n": "Tenacid MF",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Leeford",
+     "m": 17.5,
+     "p": 17.5,
+     "t": 1
+    },
+    {
+     "n": "Tranost-MF",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Austro",
+     "m": 17.8,
+     "p": 17.8,
+     "t": 1
+    },
+    {
+     "n": "Fibrinil MF",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Franco-Indian",
+     "m": 23.07,
+     "p": 23.07,
+     "t": 1
+    },
+    {
+     "n": "Texid-MF",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Rapross",
+     "m": 26.7,
+     "p": 26.7,
+     "t": 1
+    },
+    {
+     "n": "Tranlok-M",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Aristo",
+     "m": 27.1,
+     "p": 27.1,
+     "t": 1
+    },
+    {
+     "n": "Tranostat-MF (6)",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Ozone",
+     "m": 30.25,
+     "p": 30.25,
+     "t": 1
+    },
+    {
+     "n": "Texakind-MF",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Mankind",
+     "m": 32.3,
+     "p": 32.3,
+     "t": 1
+    },
+    {
+     "n": "Xamic MF",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Torrent",
+     "m": 40.6,
+     "p": 40.6,
+     "t": 1
+    },
+    {
+     "n": "Tranexaren 500/250",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "La Renon",
+     "m": 41.9,
+     "p": 41.9,
+     "t": 1
+    },
+    {
+     "n": "Trapic MF",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Sun",
+     "m": 45.9,
+     "p": 45.9,
+     "t": 1
+    },
+    {
+     "n": "Pause-MF",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Emcure",
+     "m": 50.2,
+     "p": 50.2,
+     "t": 1
+    },
+    {
+     "n": "Trenaxa MF",
+     "s": "Tranexamic Acid 500mg + Mefenamic Acid 250mg",
+     "c": "Macleods",
+     "m": 54.9,
+     "p": 54.9,
+     "t": 1
+    },
+    {
+     "n": "Methastar",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Cadila",
+     "m": 0.79,
+     "p": 0.79,
+     "t": 1
+    },
+    {
+     "n": "Metharmed",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Zydus",
+     "m": 0.88,
+     "p": 0.88,
+     "t": 1
+    },
+    {
+     "n": "Metergo",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Lupin",
+     "m": 1.19,
+     "p": 1.19,
+     "t": 1
+    },
+    {
+     "n": "Trin (15)",
+     "s": "Methylergometrine 0.125mg",
+     "c": "PPL Healthcare",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Orgo M",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Oyster",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Memcad",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Zydus",
+     "m": 4.7,
+     "p": 4.7,
+     "t": 1
+    },
+    {
+     "n": "Gotrin",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Rekvina",
+     "m": 4.95,
+     "p": 4.95,
+     "t": 1
+    },
+    {
+     "n": "Mergox",
+     "s": "Methylergometrine 0.125mg",
+     "c": "BPL",
+     "m": 5.2,
+     "p": 5.2,
+     "t": 1
+    },
+    {
+     "n": "Ergogem",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Aamorb",
+     "m": 5.24,
+     "p": 5.24,
+     "t": 1
+    },
+    {
+     "n": "Wergomet",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Wockhardt",
+     "m": 5.4,
+     "p": 5.4,
+     "t": 1
+    },
+    {
+     "n": "Nugine",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Cronus",
+     "m": 7.0,
+     "p": 7.0,
+     "t": 1
+    },
+    {
+     "n": "Memz",
+     "s": "Methylergometrine 0.125mg",
+     "c": "D.S. Lab",
+     "m": 7.1,
+     "p": 7.1,
+     "t": 1
+    },
+    {
+     "n": "Ergolin",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Lincoln",
+     "m": 7.92,
+     "p": 7.92,
+     "t": 1
+    },
+    {
+     "n": "Methygin",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Intas",
+     "m": 8.05,
+     "p": 8.05,
+     "t": 1
+    },
+    {
+     "n": "Ergagin",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Mercury",
+     "m": 8.13,
+     "p": 8.13,
+     "t": 1
+    },
+    {
+     "n": "Mergin",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Shrinivas Gujarat",
+     "m": 8.17,
+     "p": 8.17,
+     "t": 1
+    },
+    {
+     "n": "Methercip",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Cipla",
+     "m": 8.46,
+     "p": 8.46,
+     "t": 1
+    },
+    {
+     "n": "Utergin",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Maneesh",
+     "m": 8.85,
+     "p": 8.85,
+     "t": 1
+    },
+    {
+     "n": "Methergin",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Dr Reddy's",
+     "m": 8.87,
+     "p": 8.87,
+     "t": 1
+    },
+    {
+     "n": "Koltrap",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Pax",
+     "m": 8.9,
+     "p": 8.9,
+     "t": 1
+    },
+    {
+     "n": "Methargo",
+     "s": "Methylergometrine 0.125mg",
+     "c": "Mankind",
+     "m": 12.22,
+     "p": 12.22,
+     "t": 1
+    },
+    {
+     "n": "Ovipreg 50",
+     "s": "Clomiphene 50mg",
+     "c": "Win-Medicare",
+     "m": 3.1,
+     "p": 3.1,
+     "t": 1
+    },
+    {
+     "n": "Clomisur 50",
+     "s": "Clomiphene 50mg",
+     "c": "Surge",
+     "m": 3.4,
+     "p": 3.4,
+     "t": 1
+    },
+    {
+     "n": "Fertilin 50",
+     "s": "Clomiphene 50mg",
+     "c": "Ind Swift",
+     "m": 4.1,
+     "p": 4.1,
+     "t": 1
+    },
+    {
+     "n": "Fertex 50",
+     "s": "Clomiphene 50mg",
+     "c": "HLL Lifecare",
+     "m": 5.08,
+     "p": 5.08,
+     "t": 1
+    },
+    {
+     "n": "Fertova 50",
+     "s": "Clomiphene 50mg",
+     "c": "Triton",
+     "m": 5.29,
+     "p": 5.29,
+     "t": 1
+    },
+    {
+     "n": "Refert 50",
+     "s": "Clomiphene 50mg",
+     "c": "Sanzyme",
+     "m": 5.36,
+     "p": 5.36,
+     "t": 1
+    },
+    {
+     "n": "Clofent 50",
+     "s": "Clomiphene 50mg",
+     "c": "TNT",
+     "m": 5.67,
+     "p": 5.67,
+     "t": 1
+    },
+    {
+     "n": "Ovuclom 50 (5)",
+     "s": "Clomiphene 50mg",
+     "c": "VHB",
+     "m": 6.0,
+     "p": 6.0,
+     "t": 1
+    },
+    {
+     "n": "Clomiziv 50",
+     "s": "Clomiphene 50mg",
+     "c": "Salveo",
+     "m": 6.01,
+     "p": 6.01,
+     "t": 1
+    },
+    {
+     "n": "Clomher 50",
+     "s": "Clomiphene 50mg",
+     "c": "Maksun",
+     "m": 6.45,
+     "p": 6.45,
+     "t": 1
+    },
+    {
+     "n": "Fertitrig 50",
+     "s": "Clomiphene 50mg",
+     "c": "Leeford",
+     "m": 7.24,
+     "p": 7.24,
+     "t": 1
+    },
+    {
+     "n": "Fertotab 50",
+     "s": "Clomiphene 50mg",
+     "c": "GSK",
+     "m": 8.29,
+     "p": 8.29,
+     "t": 1
+    },
+    {
+     "n": "Ovagen 50",
+     "s": "Clomiphene 50mg",
+     "c": "Walter Bushnell",
+     "m": 8.3,
+     "p": 8.3,
+     "t": 1
+    },
+    {
+     "n": "Materna CC 50 (5)",
+     "s": "Clomiphene 50mg",
+     "c": "Emcure",
+     "m": 8.39,
+     "p": 8.39,
+     "t": 1
+    },
+    {
+     "n": "Vifert 50",
+     "s": "Clomiphene 50mg",
+     "c": "Colinz",
+     "m": 8.6,
+     "p": 8.6,
+     "t": 1
+    },
+    {
+     "n": "Fertyl",
+     "s": "Clomiphene 50mg",
+     "c": "Ar-Ex",
+     "m": 8.69,
+     "p": 8.69,
+     "t": 1
+    },
+    {
+     "n": "Clofert 50",
+     "s": "Clomiphene 50mg",
+     "c": "Maneesh",
+     "m": 8.7,
+     "p": 8.7,
+     "t": 1
+    },
+    {
+     "n": "Rejun 50",
+     "s": "Clomiphene 50mg",
+     "c": "Sanzyme",
+     "m": 8.85,
+     "p": 8.85,
+     "t": 1
+    },
+    {
+     "n": "Fertomid 50",
+     "s": "Clomiphene 50mg",
+     "c": "Cipla",
+     "m": 9.08,
+     "p": 9.08,
+     "t": 1
+    },
+    {
+     "n": "Siphene",
+     "s": "Clomiphene 50mg",
+     "c": "Serum Institute",
+     "m": 9.08,
+     "p": 9.08,
+     "t": 1
+    },
+    {
+     "n": "Anzen 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Sanzyme",
+     "m": 2.49,
+     "p": 2.49,
+     "t": 1
+    },
+    {
+     "n": "Chemlet 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Neon",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Fertolet",
+     "s": "Letrozole 2.5mg",
+     "c": "Cipla",
+     "m": 7.36,
+     "p": 7.36,
+     "t": 1
+    },
+    {
+     "n": "LETero",
+     "s": "Letrozole 2.5mg",
+     "c": "Hetero",
+     "m": 7.63,
+     "p": 7.63,
+     "t": 1
+    },
+    {
+     "n": "Fempro",
+     "s": "Letrozole 2.5mg",
+     "c": "Cipla",
+     "m": 8.95,
+     "p": 8.95,
+     "t": 1
+    },
+    {
+     "n": "Caditraz 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Cadila",
+     "m": 12.4,
+     "p": 12.4,
+     "t": 1
+    },
+    {
+     "n": "Letroprime 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Leeford",
+     "m": 13.66,
+     "p": 13.66,
+     "t": 1
+    },
+    {
+     "n": "Fertlet 2.5 (5)",
+     "s": "Letrozole 2.5mg",
+     "c": "West-Coast",
+     "m": 20.16,
+     "p": 20.16,
+     "t": 1
+    },
+    {
+     "n": "Letronat",
+     "s": "Letrozole 2.5mg",
+     "c": "Natco",
+     "m": 20.8,
+     "p": 20.8,
+     "t": 1
+    },
+    {
+     "n": "Letrohope 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "",
+     "m": 23.0,
+     "p": 23.0,
+     "t": 1
+    },
+    {
+     "n": "Letro Plus 2.5 (5)",
+     "s": "Letrozole 2.5mg",
+     "c": "Alkem",
+     "m": 27.0,
+     "p": 27.0,
+     "t": 1
+    },
+    {
+     "n": "Femara 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Novartis",
+     "m": 28.4,
+     "p": 28.4,
+     "t": 1
+    },
+    {
+     "n": "Stimufol 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Intas",
+     "m": 28.6,
+     "p": 28.6,
+     "t": 1
+    },
+    {
+     "n": "LETpro 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Aristo",
+     "m": 28.6,
+     "p": 28.6,
+     "t": 1
+    },
+    {
+     "n": "Letroz",
+     "s": "Letrozole 2.5mg",
+     "c": "Sun",
+     "m": 28.8,
+     "p": 28.8,
+     "t": 1
+    },
+    {
+     "n": "Letoval",
+     "s": "Letrozole 2.5mg",
+     "c": "Sun",
+     "m": 28.8,
+     "p": 28.8,
+     "t": 1
+    },
+    {
+     "n": "Stimucor 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Corona",
+     "m": 28.8,
+     "p": 28.8,
+     "t": 1
+    },
+    {
+     "n": "LETsi 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Serum Institute",
+     "m": 28.8,
+     "p": 28.8,
+     "t": 1
+    },
+    {
+     "n": "Lets 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Samarth",
+     "m": 29.29,
+     "p": 29.29,
+     "t": 1
+    },
+    {
+     "n": "Trozet 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Fresenius",
+     "m": 29.81,
+     "p": 29.81,
+     "t": 1
+    },
+    {
+     "n": "Culet 2.5 (5)",
+     "s": "Letrozole 2.5mg",
+     "c": "Cureill",
+     "m": 31.0,
+     "p": 31.0,
+     "t": 1
+    },
+    {
+     "n": "Newova 2.5 (5)",
+     "s": "Letrozole 2.5mg",
+     "c": "Akumentis",
+     "m": 34.4,
+     "p": 34.4,
+     "t": 1
+    },
+    {
+     "n": "Goodova-L (5)",
+     "s": "Letrozole 2.5mg",
+     "c": "Akumentis",
+     "m": 35.87,
+     "p": 35.87,
+     "t": 1
+    },
+    {
+     "n": "Letryl 2.5 (5)",
+     "s": "Letrozole 2.5mg",
+     "c": "Ar-Ex",
+     "m": 37.42,
+     "p": 37.42,
+     "t": 1
+    },
+    {
+     "n": "Oreta 2.5",
+     "s": "Letrozole 2.5mg",
+     "c": "Dr Reddy's",
+     "m": 38.55,
+     "p": 38.55,
+     "t": 1
+    },
+    {
+     "n": "Letrofil 2.5 (5)",
+     "s": "Letrozole 2.5mg",
+     "c": "Fourrts",
+     "m": 41.8,
+     "p": 41.8,
+     "t": 1
+    },
+    {
+     "n": "Cabetag 0.5 (10)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Ikon",
+     "m": 14.5,
+     "p": 14.5,
+     "t": 1
+    },
+    {
+     "n": "Caberlee 0.5 (10)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Johnlee",
+     "m": 29.7,
+     "p": 29.7,
+     "t": 1
+    },
+    {
+     "n": "Caberline 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "TNT",
+     "m": 30.5,
+     "p": 30.5,
+     "t": 1
+    },
+    {
+     "n": "Lactocab 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Zydus",
+     "m": 40.0,
+     "p": 40.0,
+     "t": 1
+    },
+    {
+     "n": "Colette 0.5 (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Cipla",
+     "m": 45.0,
+     "p": 45.0,
+     "t": 1
+    },
+    {
+     "n": "Golin 0.5 (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Salud Care",
+     "m": 52.41,
+     "p": 52.41,
+     "t": 1
+    },
+    {
+     "n": "Zuricab 0.5 (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Alkem",
+     "m": 60.5,
+     "p": 60.5,
+     "t": 1
+    },
+    {
+     "n": "Cabgon 0.5 (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Intas",
+     "m": 62.0,
+     "p": 62.0,
+     "t": 1
+    },
+    {
+     "n": "Cabercet (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Bharat Serums",
+     "m": 66.0,
+     "p": 66.0,
+     "t": 1
+    },
+    {
+     "n": "Carbimax 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Mits",
+     "m": 70.0,
+     "p": 70.0,
+     "t": 1
+    },
+    {
+     "n": "Cabedac 0.5 (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Innovative",
+     "m": 72.5,
+     "p": 72.5,
+     "t": 1
+    },
+    {
+     "n": "Cabernol 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Knoll",
+     "m": 75.5,
+     "p": 75.5,
+     "t": 1
+    },
+    {
+     "n": "Cablet 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Dewcare",
+     "m": 80.63,
+     "p": 80.63,
+     "t": 1
+    },
+    {
+     "n": "Cabrolix 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Human Biolife",
+     "m": 81.0,
+     "p": 81.0,
+     "t": 1
+    },
+    {
+     "n": "Remigolin 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Tridev",
+     "m": 82.0,
+     "p": 82.0,
+     "t": 1
+    },
+    {
+     "n": "Cabogen 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Amagen",
+     "m": 90.0,
+     "p": 90.0,
+     "t": 1
+    },
+    {
+     "n": "Cabersmart 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Prevego",
+     "m": 90.5,
+     "p": 90.5,
+     "t": 1
+    },
+    {
+     "n": "Caberlact 0.5 (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Neon",
+     "m": 92.75,
+     "p": 92.75,
+     "t": 1
+    },
+    {
+     "n": "TTCab (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "TTK",
+     "m": 97.35,
+     "p": 97.35,
+     "t": 1
+    },
+    {
+     "n": "Cabotin 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "H & Care",
+     "m": 99.75,
+     "p": 99.75,
+     "t": 1
+    },
+    {
+     "n": "CB-Lin (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Serum Institute",
+     "m": 117.0,
+     "p": 117.0,
+     "t": 1
+    },
+    {
+     "n": "Cabernorm 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Abbott",
+     "m": 117.7,
+     "p": 117.7,
+     "t": 1
+    },
+    {
+     "n": "Caberlin 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Sun",
+     "m": 131.25,
+     "p": 131.25,
+     "t": 1
+    },
+    {
+     "n": "Cabgolin 0.5 (4)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Sun",
+     "m": 131.25,
+     "p": 131.25,
+     "t": 1
+    },
+    {
+     "n": "Cabliz 0.5 (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Macleods",
+     "m": 134.0,
+     "p": 134.0,
+     "t": 1
+    },
+    {
+     "n": "Camforte 0.5 (2)",
+     "s": "Cabergoline 0.5mg",
+     "c": "Maneesh",
+     "m": 141.4,
+     "p": 141.4,
+     "t": 1
+    },
+    {
+     "n": "Myconorm V 6",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Psychotropics",
+     "m": 16.25,
+     "p": 16.25
+    },
+    {
+     "n": "Canazole VG 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Lupin",
+     "m": 20.0,
+     "p": 20.0
+    },
+    {
+     "n": "Kamestin 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Gracure",
+     "m": 23.0,
+     "p": 23.0
+    },
+    {
+     "n": "Glenmark Clotrimazole 6",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Glenmark",
+     "m": 23.74,
+     "p": 23.74
+    },
+    {
+     "n": "Fungnil-V",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Torque",
+     "m": 23.75,
+     "p": 23.75
+    },
+    {
+     "n": "Cancap 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Ind Swift",
+     "m": 28.0,
+     "p": 28.0
+    },
+    {
+     "n": "Decand V6 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Comed",
+     "m": 28.27,
+     "p": 28.27
+    },
+    {
+     "n": "Mycocid 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Mapra",
+     "m": 45.63,
+     "p": 45.63
+    },
+    {
+     "n": "Clomax V7 100 (7 tab)",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Bombay Tablet",
+     "m": 46.25,
+     "p": 46.25
+    },
+    {
+     "n": "Clocip",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Cipla",
+     "m": 46.5,
+     "p": 46.5
+    },
+    {
+     "n": "Clodoc V6 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Morepen",
+     "m": 50.78,
+     "p": 50.78
+    },
+    {
+     "n": "Gatrima-V 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "German Remedies",
+     "m": 52.69,
+     "p": 52.69
+    },
+    {
+     "n": "Candibid V 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Menrik",
+     "m": 52.9,
+     "p": 52.9
+    },
+    {
+     "n": "Clotrin V 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "NuLife",
+     "m": 55.71,
+     "p": 55.71
+    },
+    {
+     "n": "Canesten V6",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Bayer",
+     "m": 57.95,
+     "p": 57.95
+    },
+    {
+     "n": "Gynaemed",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Synmedic",
+     "m": 60.0,
+     "p": 60.0
+    },
+    {
+     "n": "Candid-V6",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Glenmark",
+     "m": 63.07,
+     "p": 63.07
+    },
+    {
+     "n": "Imidil 100",
+     "s": "Clotrimazole 100mg vaginal tablet (per pack)",
+     "c": "Hetero",
+     "m": 73.13,
+     "p": 73.13
+    },
+    {
+     "n": "Olic 5 (50)",
+     "s": "Folic Acid 5mg",
+     "c": "",
+     "m": 0.28,
+     "p": 0.28,
+     "t": 1
+    },
+    {
+     "n": "Folicyn 5",
+     "s": "Folic Acid 5mg",
+     "c": "Acron",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Foly-Act",
+     "s": "Folic Acid 5mg",
+     "c": "Morepen",
+     "m": 1.37,
+     "p": 1.37,
+     "t": 1
+    },
+    {
+     "n": "Folifred",
+     "s": "Folic Acid 5mg",
+     "c": "",
+     "m": 1.5,
+     "p": 1.5,
+     "t": 1
+    },
+    {
+     "n": "Folinal 5 (30)",
+     "s": "Folic Acid 5mg",
+     "c": "Alembic",
+     "m": 1.53,
+     "p": 1.53,
+     "t": 1
+    },
+    {
+     "n": "Folera (30)",
+     "s": "Folic Acid 5mg",
+     "c": "Maneesh",
+     "m": 1.56,
+     "p": 1.56,
+     "t": 1
+    },
+    {
+     "n": "Folvite 5 (45)",
+     "s": "Folic Acid 5mg",
+     "c": "Pfizer",
+     "m": 1.61,
+     "p": 1.61,
+     "t": 1
+    },
+    {
+     "n": "Folitab 5 (30)",
+     "s": "Folic Acid 5mg",
+     "c": "",
+     "m": 1.69,
+     "p": 1.69,
+     "t": 1
+    },
+    {
+     "n": "Folimac 5",
+     "s": "Folic Acid 5mg",
+     "c": "Ikon",
+     "m": 1.73,
+     "p": 1.73,
+     "t": 1
+    },
+    {
+     "n": "L Fiza F 5",
+     "s": "Folic Acid 5mg",
+     "c": "D.S. Lab",
+     "m": 2.1,
+     "p": 2.1,
+     "t": 1
+    }
+   ]
   }
  ]
 }
