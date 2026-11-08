@@ -18,7 +18,7 @@ function one(d) {
 }
 
 function clean(arr) {
-  if (!Array.isArray(arr) || arr.length > 3000) return null;
+  if (!Array.isArray(arr) || arr.length > MAX_LIST) return null;
   const out = [];
   for (const d of arr) {
     const o = one(d);
@@ -33,14 +33,38 @@ function clean(arr) {
 // न लावलेला batch एकदाच यादीत मिसळला जातो (पासवर्डची गरज नाही).
 const low = (s) => String(s || "").toLowerCase().replace(/\s+/g, " ").trim();
 
-function upsert(list, d) {
-  const n = low(d.n);
-  let i = list.findIndex((o) => low(o.n) === n && (o.t || 0) === (d.t || 0));
-  if (i < 0) {
-    const same = list.map((o, k) => [o, k]).filter(([o]) => low(o.n) === n);
-    if (same.length === 1 && !same[0][0].t) i = same[0][1];   // जुने, पॅक नसलेले
+const MAX_LIST = 10000;
+
+// एका वेळी एकच batch, Map वापरून — Cloudflare ची CPU मर्यादा ओलांडू नये म्हणून.
+function mergeBatch(list, meds) {
+  const key = (o) => low(o.n) + "|" + (o.t || 0);
+  const exact = new Map();
+  const names = new Map();
+  list.forEach((o, i) => {
+    const k = key(o);
+    if (!exact.has(k)) exact.set(k, i);
+    const n = low(o.n);
+    const e = names.get(n);
+    if (e) e.count++; else names.set(n, { count: 1, i });
+  });
+  for (const d of meds) {
+    const k = key(d);
+    const n = low(d.n);
+    let i = exact.get(k);
+    if (i === undefined) {
+      const e = names.get(n);
+      if (e && e.count === 1 && !list[e.i].t) {              // जुने, पॅक नसलेले
+        i = e.i;
+        exact.delete(key(list[i]));
+        exact.set(k, i);
+      }
+    }
+    if (i !== undefined) { list[i] = d; continue; }
+    list.push(d);
+    exact.set(k, list.length - 1);
+    const e = names.get(n);
+    if (e) e.count++; else names.set(n, { count: 1, i: list.length - 1 });
   }
-  if (i >= 0) list[i] = d; else list.push(d);
 }
 
 async function loadUpdates(request, env) {
@@ -62,17 +86,13 @@ async function applyUpdates(request, env, list) {
   try { applied = (await env.MEDS.get("applied", { type: "json" })) || []; } catch {}
   const todo = batches.filter((b) => b && b.id && !applied.includes(b.id));
   if (!todo.length) return list;
-  const out = Array.isArray(list) ? list.slice() : [];
-  for (const b of todo) {
-    const rm = (Array.isArray(b.remove) ? b.remove : []).map(low);
-    for (let k = out.length - 1; k >= 0; k--) if (rm.includes(low(out[k].n))) out.splice(k, 1);
-    for (const d of Array.isArray(b.meds) ? b.meds : []) {
-      const o = one(d);
-      if (o) upsert(out, o);
-    }
-    applied.push(b.id);
-  }
-  if (out.length > 3000) return list;
+  const b = todo[0];                                  // उरलेले batch पुढच्या वेळी
+  const rm = (Array.isArray(b.remove) ? b.remove : []).map(low);
+  const base = Array.isArray(list) ? list : [];
+  const out = rm.length ? base.filter((o) => !rm.includes(low(o.n))) : base.slice();
+  mergeBatch(out, (Array.isArray(b.meds) ? b.meds : []).map(one).filter(Boolean));
+  if (out.length > MAX_LIST) return list;
+  applied.push(b.id);
   await env.MEDS.put("list", JSON.stringify(out));
   await env.MEDS.put("applied", JSON.stringify(applied));
   return out;
