@@ -53,6 +53,8 @@
       ".qtyp{display:flex;justify-content:space-between;align-items:baseline;margin-top:6px;font-size:16px;color:var(--mute)}"+
       ".qtyp b{font:400 25px/1.1 var(--disp);color:var(--brand)}"+
       ".use{margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--goodbg);border-left:4px solid var(--accent);font-size:20px;line-height:1.3;font-weight:800}"+
+      ".opt.xh{display:none}"+
+      ".morebtn{display:block;margin:8px auto 0;padding:6px 14px;border-radius:999px;border:1.5px solid var(--brand);background:transparent;color:var(--brand);font:700 14px Mukta,sans-serif;cursor:pointer}"+
       ".mini{font-size:12px;line-height:1.4;color:var(--mute);margin:12px 2px 0}"+
       ".gsearch{display:block;text-align:center;margin-top:8px;padding:9px 10px;border-radius:10px;border:1.5px solid var(--brand);color:var(--brand);text-decoration:none;font-weight:700;font-size:15px}"+
       ".ask{display:flex;align-items:center;gap:8px;margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--bg);border-left:4px solid var(--accent);color:var(--ink);text-decoration:none;font-weight:600;font-size:16px}";
@@ -66,7 +68,8 @@
       var alts=(it.alts&&it.alts.length)?it.alts.slice():(it.idx!=null?[{i:it.idx,st:"check"}]:[]);
       alts=alts.filter(function(a){return meds[a.i]});
       var ex=(it.exact!=null)?it.exact:((it.by==="name"&&it.idx!=null)?it.idx:null);
-      alts.sort(function(a,b){return (meds[a.i].p-meds[b.i].p)||((b.i===ex)-(a.i===ex))});
+      var up=function(d){return d.p/(d.t||1)};
+      alts.sort(function(a,b){return (up(meds[a.i])-up(meds[b.i]))||((b.i===ex)-(a.i===ex))});
       return {n:it.name||"",s:it.salt||"",u:it.use||"",g:!!it.guess,ex:ex,alts:alts,sel:alts.length?alts[0].i:null};
     });
   }
@@ -83,15 +86,17 @@
         ?'हे औषध आमच्याकडे आहे.'
         :(sameBrand(c.n,meds[c.alts[0].i].n)?'घटक तोच.':'घटक तोच, कंपनी वेगळी.'))+'</span></div>';
       h+='<div class="opts">';
+      var hid=0;
       c.alts.forEach(function(a,j){
         var d=meds[a.i],cheap=(j===0&&c.alts.length>1);
-        h+='<label class="opt'+(a.i===c.sel?' on':'')+'"><input type="radio" name="g'+k+'" value="'+a.i+'"'+(a.i===c.sel?' checked':'')+'>'+
+        var xh=!c.open&&j>=3&&a.i!==c.sel&&a.i!==c.ex;if(xh)hid++;
+        h+='<label class="opt'+(a.i===c.sel?' on':'')+(xh?' xh':'')+'"><input type="radio" name="g'+k+'" value="'+a.i+'"'+(a.i===c.sel?' checked':'')+'>'+
           '<span class="onm">'+E(d.n)+(d.c?' · '+E(d.c):'')+
           (cheap?'<span class="bdg">सर्वात स्वस्त</span>':'')+
           (a.i===c.ex?'<span class="bdg b2">तुम्ही स्कॅन केलेले</span>':'')+
           '<small>'+E(d.s)+(d.m>0?' · MRP '+F(d.m):'')+'</small></span><span class="price">'+F(d.p)+(d.t?'<small>/ '+d.t+' गोळ्या</small>':'')+'</span></label>';
       });
-      h+='</div><div id="qb'+k+'">'+qtyHtml(c,k)+'</div>';
+      h+='</div>'+(hid?'<button type="button" class="morebtn" data-more="'+k+'">आणखी '+hid+' पर्याय पहा ▾</button>':'')+'<div id="qb'+k+'">'+qtyHtml(c,k)+'</div>';
     }
     h+=(c.u?'<div class="use">'+E(c.u)+'</div>':'')+'</div>';
     return h;
@@ -172,6 +177,14 @@
   function bind(out){
     if(out.__bound)return;
     out.__bound=true;
+    out.addEventListener("click",function(e){
+      var b=e.target&&e.target.closest&&e.target.closest("[data-more]");
+      if(!b)return;
+      var k=+b.dataset.more,c=(W.__cards||[])[k];if(c)c.open=true;
+      var ls=out.querySelectorAll('input[name="g'+k+'"]');
+      for(var i=0;i<ls.length;i++)ls[i].parentNode.classList.remove("xh");
+      b.parentNode.removeChild(b);
+    });
     out.addEventListener("change",function(e){
       var t=e.target;
       if(t&&t.dataset&&t.dataset.q!=null){
