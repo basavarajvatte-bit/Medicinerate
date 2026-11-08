@@ -8,13 +8,29 @@
   function M(){return W.meds||[]}
   function I(n){return '<svg class="i" aria-hidden="true"><use href="#i-'+n+'"/></svg>'}
   function P(d){return d.t?" / "+d.t+" गोळ्या":""}
+  /* निवडलेल्या गोळ्यांची किंमत: 112 / 10 गोळ्या असेल आणि 4 घेतल्या तर 44.80 */
+  function L(c,d){
+    if(!(d.m>0))d=Object.assign({},d,{m:d.p});
+    if(!d.t)return {q:0,p:d.p,m:d.m};
+    var q=c.q||d.t;
+    return {q:q,p:d.p/d.t*q,m:d.m/d.t*q};
+  }
+  function qtyHtml(c,k){
+    var d=M()[c.sel];
+    if(!d||!d.t)return "";
+    var x=L(c,d),h='<label class="qty"><span>किती गोळ्या हव्या?</span><select data-q="'+k+'" aria-label="गोळ्यांची संख्या">';
+    for(var i=1;i<=60;i++)h+='<option value="'+i+'"'+(i===x.q?' selected':'')+'>'+i+'</option>';
+    return h+'</select></label><div class="qtyp"><span>किंमत</span><b>'+F(x.p)+'</b></div>';
+  }
+  function FW(t){return (String(t||"").toLowerCase().match(/[a-z]{3,}/)||[""])[0]}
+  function sameBrand(a,b){var x=FW(a);return !!x&&x===FW(b)}
   function K(t){return (String(t||"").toLowerCase().match(/[a-z]{4,}/g)||[]).sort().join(" ")}
 
   /* ---------- स्टाईल ---------- */
   if(typeof document!=="undefined"&&document.head){
     var st=document.createElement("style");
     st.textContent=
-      ".same{display:flex;gap:7px;margin-top:12px;color:var(--good);font-weight:700;font-size:16px;line-height:1.35}"+
+      ".same{display:flex;gap:7px;margin-top:12px;color:var(--good);font-weight:600;font-size:14px;line-height:1.35}"+
       ".same svg{margin-top:3px}"+
       ".opts{display:grid;gap:8px;margin-top:10px}"+
       ".opt{display:flex;align-items:center;gap:10px;margin:0;padding:11px 12px;border:1.5px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font-size:17px;cursor:pointer}"+
@@ -27,11 +43,19 @@
       ".bdg{display:inline-block;font:800 12px/1.5 Mukta,sans-serif;padding:0 7px;border-radius:999px;margin:2px 4px 2px 0;background:var(--brand);color:var(--brand-ink)}"+
       ".bdg.b2{background:var(--accent);color:var(--accent-ink)}"+
       ".addrow{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;justify-content:center;margin-top:14px}"+
-      ".addbtn{width:100%;background:var(--card);color:var(--brand);border:2px dashed var(--brand);font:800 17px Mukta,sans-serif;padding:13px;border-radius:14px;cursor:pointer}"+
+      ".addtwo{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}"+
+      ".addbtn{width:100%;background:var(--card);color:var(--brand);border:2px dashed var(--brand);font:800 15px/1.25 Mukta,sans-serif;padding:10px 6px;border-radius:12px;cursor:pointer}"+
       ".addgal{border:0;background:none;color:var(--brand);font:700 15px Mukta,sans-serif;text-decoration:underline;text-underline-offset:3px;cursor:pointer;padding:2px}"+
       ".sc.grp{margin-top:6px;border-top-left-radius:6px;border-top-right-radius:6px;border-left:4px solid var(--accent)}"+
       ".grpnote{font-size:14px;font-weight:700;color:var(--mute);margin:0 0 6px}"+
-      ".ask{margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--bg);border-left:4px solid var(--accent);font-weight:600;font-size:16px}";
+      ".qty{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:10px 0 0;font-weight:700;font-size:16px;color:var(--ink)}"+
+      ".qty select{width:92px;flex:none;padding:8px 10px;font-weight:700}"+
+      ".qtyp{display:flex;justify-content:space-between;align-items:baseline;margin-top:6px;font-size:16px;color:var(--mute)}"+
+      ".qtyp b{font:400 25px/1.1 var(--disp);color:var(--brand)}"+
+      ".use{margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--goodbg);border-left:4px solid var(--accent);font-size:20px;line-height:1.3;font-weight:800}"+
+      ".mini{font-size:12px;line-height:1.4;color:var(--mute);margin:12px 2px 0}"+
+      ".gsearch{display:block;text-align:center;margin-top:8px;padding:9px 10px;border-radius:10px;border:1.5px solid var(--brand);color:var(--brand);text-decoration:none;font-weight:700;font-size:15px}"+
+      ".ask{display:flex;align-items:center;gap:8px;margin-top:10px;padding:10px 12px;border-radius:10px;background:var(--bg);border-left:4px solid var(--accent);color:var(--ink);text-decoration:none;font-weight:600;font-size:16px}";
     document.head.appendChild(st);
   }
 
@@ -43,20 +67,21 @@
       alts=alts.filter(function(a){return meds[a.i]});
       var ex=(it.exact!=null)?it.exact:((it.by==="name"&&it.idx!=null)?it.idx:null);
       alts.sort(function(a,b){return (meds[a.i].p-meds[b.i].p)||((b.i===ex)-(a.i===ex))});
-      return {n:it.name||"",s:it.salt||"",u:it.use||"",ex:ex,alts:alts,sel:alts.length?alts[0].i:null};
+      return {n:it.name||"",s:it.salt||"",u:it.use||"",g:!!it.guess,ex:ex,alts:alts,sel:alts.length?alts[0].i:null};
     });
   }
   function cardHtml(c,k){
     var meds=M();
     var pv=(W.__cards||[])[k-1],grp=pv&&K(c.s)&&K(pv.s)===K(c.s);
-    var h='<div class="result sc'+(grp?' grp':'')+'">'+(grp?'<p class="grpnote">वरच्या औषधाचाच घटक</p>':'')+'<h2>'+(k+1)+'. '+E(c.n)+'</h2><p class="salt">'+E(c.s)+'</p>';
+    var h='<div class="result sc'+(grp?' grp':'')+'">'+(grp?'<p class="grpnote">वरच्या औषधाचाच घटक</p>':'')+'<h2>'+(k+1)+'. '+E(c.n)+'</h2>'+(c.s?'<p class="salt">'+E(c.s)+'</p>':'')+
+      (c.g?'<a class="gsearch" target="_blank" rel="noopener" href="https://www.google.com/search?q='+encodeURIComponent(c.n+" composition uses")+'">🔍 Google वर घटक पहा</a>':'');
     if(!c.alts.length){
-      h+='<div class="ask">आमच्या यादीत हे औषध किंवा याच घटकाचे औषध नाही. दुकानात विचारा.</div>';
+      var wa="*"+SHOP+"*\n\nहे औषध मागवून देता येईल का?\nऔषध: "+c.n+(/[a-z]/i.test(c.s)?"\nघटक: "+c.s:"");
+      h+='<a class="ask" target="_blank" rel="noopener" href="https://wa.me/'+NUM+'?text='+encodeURIComponent(wa)+'" aria-label="WhatsApp वर दुकानाला विचारा"><span aria-hidden="true">💬</span><span>हे औषध मागवून देता येईल का, ते दुकानात विचारा.</span></a>';
     }else{
-      var any=c.alts.some(function(a){return a.st==="check"});
       h+='<div class="same">'+I("ok")+'<span>'+(c.ex!=null
         ?'हे औषध आमच्याकडे आहे.'
-        :'"'+E(c.n)+'" आमच्याकडे नाही, पण तोच घटक ('+E(c.s)+') असलेली ही औषधे आहेत:')+'</span></div>';
+        :(sameBrand(c.n,meds[c.alts[0].i].n)?'घटक तोच.':'घटक तोच, कंपनी वेगळी.'))+'</span></div>';
       h+='<div class="opts">';
       c.alts.forEach(function(a,j){
         var d=meds[a.i],cheap=(j===0&&c.alts.length>1);
@@ -66,15 +91,14 @@
           (a.i===c.ex?'<span class="bdg b2">तुम्ही स्कॅन केलेले</span>':'')+
           '<small>'+E(d.s)+(d.m>0?' · MRP '+F(d.m):'')+'</small></span><span class="price">'+F(d.p)+(d.t?'<small>/ '+d.t+' गोळ्या</small>':'')+'</span></label>';
       });
-      h+='</div><p class="note" style="margin:8px 0 0">'+(any?'ताकद (mg) जुळते का ते दुकानात विचारा. ':'ताकद सारखी आहे ✓. ')+
-         'दुसऱ्या कंपनीचे औषध हवे असेल तर वर तेच निवडा.</p>';
+      h+='</div><div id="qb'+k+'">'+qtyHtml(c,k)+'</div>';
     }
-    h+='<div class="use"><small>कशासाठी वापरतात</small>'+E(c.u)+'</div></div>';
+    h+=(c.u?'<div class="use">'+E(c.u)+'</div>':'')+'</div>';
     return h;
   }
   function totals(cards){
     var t=0,m=0,n=0,meds=M();
-    cards.forEach(function(c){if(c.sel!=null&&meds[c.sel]){var d=meds[c.sel];t+=d.p;m+=(d.m>0?d.m:d.p);n++}});
+    cards.forEach(function(c){if(c.sel!=null&&meds[c.sel]){var x=L(c,meds[c.sel]);t+=x.p;m+=x.m;n++}});
     return {t:t,m:m,n:n};
   }
   function totHtml(cards){
@@ -94,9 +118,11 @@
     cards.forEach(function(c,k){
       if(c.sel!=null&&meds[c.sel]){
         var d=meds[c.sel];
+        var x=L(c,d);
         lines.push((k+1)+". "+d.n+(d.c?" ("+d.c+")":""));
         if(d.m>0)lines.push("   MRP: "+F(d.m)+P(d));
         lines.push("   आमचा दर: "+F(d.p)+P(d));
+        if(x.q)lines.push("   मला हव्या: "+x.q+" गोळ्या = "+F(x.p));
         if(c.sel!==c.ex)lines.push("   (स्कॅन केलेले: "+c.n+(c.s?", घटक: "+c.s:"")+")");
       }else{
         lines.push((k+1)+". "+c.n);
@@ -148,10 +174,20 @@
     out.__bound=true;
     out.addEventListener("change",function(e){
       var t=e.target;
+      if(t&&t.dataset&&t.dataset.q!=null){
+        var q=(W.__cards||[])[+t.dataset.q];
+        if(!q)return;
+        q.q=+t.value;
+        g("qb"+t.dataset.q).innerHTML=qtyHtml(q,+t.dataset.q);
+        refreshTot();
+        return;
+      }
       if(!t||t.type!=="radio"||!/^g\d+$/.test(t.name))return;
       var k=+t.name.slice(1),c=(W.__cards||[])[k];
       if(!c)return;
       c.sel=+t.value;
+      c.q=null;
+      g("qb"+k).innerHTML=qtyHtml(c,k);
       var labs=out.querySelectorAll('input[name="'+t.name+'"]');
       for(var i=0;i<labs.length;i++){labs[i].parentNode.classList.toggle("on",labs[i].checked)}
       refreshTot();
@@ -160,26 +196,51 @@
   /* सर्व स्कॅन केलेली औषधे एकत्र दाखवणे */
   function resultsHtml(secs,slot){
     var h=(W.__cards||[]).map(cardHtml).join("");
-    h+=slot||'<div class="addrow"><button class="addbtn" id="addcam">➕ आणखी औषध जोडा</button><button class="addgal" id="addgal">गॅलरीतून जोडा</button></div>';
+    if((W.__cards||[]).some(function(c){return c.alts.length}))h+='<p class="mini">ताकद (mg) जुळते का ते दुकानात विचारा. दुसऱ्या कंपनीचे औषध हवे असेल तर वर तेच निवडा.</p>';
+    h+=slot||'<div class="addtwo"><button class="addbtn" id="addcam">➕ आणखी औषध जोडा</button><button class="addbtn" id="addgal">गॅलरीतून जोडा</button></div>';
     h+='<div class="result tot" id="totbox"></div>';
     h+='<p class="note">'+(secs?'स्कॅनला '+secs+' सेकंद लागले. ':'')+'औषध घेण्यापूर्वी फार्मासिस्टकडून खात्री करा. दुसऱ्या कंपनीचे औषध घेताना घटक आणि ताकद (mg) सारखी आहे का ते फार्मासिस्टला विचारा.</p>';
     h+='<div class="ordbar" id="ordbar"></div>';
+    if(!slot)h+='<div class="addrow"><button class="addgal" id="newlist">नवीन यादी सुरू करा</button></div>';
     return h;
   }
   function wireAdd(){
-    var c=g("addcam"),v=g("addgal");
-    if(c)c.onclick=function(){W.__adding=true;g("file").click()};
-    if(v)v.onclick=function(){W.__adding=true;g("file2").click()};
+    var c=g("addcam"),v=g("addgal"),n=g("newlist");
+    if(c)c.onclick=function(){g("file").click()};
+    if(v)v.onclick=function(){g("file2").click()};
+    if(n)n.onclick=function(){W.__cards=[];g("scanres").innerHTML=""};
   }
-  function clearAdding(){W.__adding=false}
-  if(typeof document!=="undefined"){
-    ["scanbtn"].forEach(function(id){var e=g(id);if(e)e.addEventListener("click",clearAdding)});
-    var gl=document.querySelector('label[for="file2"]');if(gl)gl.addEventListener("click",clearAdding);
+  /* नाव टाइप करून शोधलेले औषध यादीत जोडणे */
+  function insertCard(list,c){
+    var key=K(c.s),at=-1;
+    if(key)list.forEach(function(o,i){if(K(o.s)===key)at=i});
+    if(at>=0)list.splice(at+1,0,c);else list.push(c);
   }
+  function addMed(i){
+    var d=M()[i];if(!d)return;
+    var list=W.__cards||(W.__cards=[]);
+    var have=list.some(function(o){return o.sel===i||o.n.toLowerCase()===d.n.toLowerCase()});
+    if(!have)insertCard(list,{n:d.n,s:d.s,u:"",ex:i,alts:[{i:i,st:"check"}],sel:i});
+    var out=g("scanres");
+    out.innerHTML=resultsHtml("");
+    bind(out);refreshTot();wireAdd();
+    g("res").innerHTML="";g("sug").innerHTML="";g("q").value="";
+    var bar=g("ordbar");if(bar)bar.scrollIntoView({behavior:"smooth",block:"center"});
+  }
+  var oldShow=W.show;
+  if(oldShow)W.show=function(){
+    oldShow();
+    var r=document.querySelector("#res .result");
+    if(!r||W.sel==null)return;
+    var b=document.createElement("button"),i=W.sel;
+    b.className="addbtn";b.style.marginTop="12px";
+    b.textContent="➕ यादीत जोडा";
+    b.onclick=function(){addMed(i)};
+    r.appendChild(b);
+  };
   W.doScan=async function(f){
     var out=g("scanres"),t0=Date.now();
-    var add=!!W.__adding&&(W.__cards||[]).length>0;
-    W.__adding=false;
+    var add=(W.__cards||[]).length>0;
     g("res").innerHTML="";g("sug").innerHTML="";
     var msgs=["फोटो वाचत आहे…","भरपूर पाणी प्या 💧","औषधाचे नाव ओळखत आहे…","रोज थोडा व्यायाम करा 🚶","माहिती तपासत आहे…","पुरेशी झोप घ्या 😴","आमचा दर शोधत आहे…","औषधे वेळेवर घ्या 💊"],mi=0;
     var pic=URL.createObjectURL(f);
@@ -198,11 +259,7 @@
       var cards=cardsFrom(j.items||[]);
       var old=W.__cards||[];
       cards=cards.filter(function(c){return !old.some(function(o){return o.n.toLowerCase()===c.n.toLowerCase()})});
-      cards.forEach(function(c){
-        var key=K(c.s),at=-1;
-        if(key)old.forEach(function(o,i){if(K(o.s)===key)at=i});
-        if(at>=0)old.splice(at+1,0,c);else old.push(c);
-      });
+      cards.forEach(function(c){insertCard(old,c)});
       W.__cards=old;
       if(!W.__cards.length){
         out.innerHTML='<div class="empty">औषध ओळखता आले नाही. स्पष्ट फोटो काढा किंवा नाव टाइप करा.</div>';
@@ -221,9 +278,20 @@
       var fail='<div class="fail">'+E(m)+'<p>पुन्हा स्कॅन करा किंवा खाली औषधाचे नाव टाइप करा.</p><button class="btn" id="retry">पुन्हा स्कॅन करा</button></div>';
       if(add){out.innerHTML=resultsHtml("",fail);bind(out);refreshTot()}
       else out.innerHTML=fail;
-      g("retry").onclick=function(){W.__adding=add;W.doScan(W.__last)};
+      g("retry").onclick=function(){W.doScan(W.__last)};
     }
   };
+  /* गॅलरीतून एकावेळी अनेक फोटो */
+  var gf=g("file2");
+  if(gf){
+    gf.multiple=true;
+    gf.onchange=async function(){
+      var fs=Array.prototype.slice.call(this.files||[]);
+      this.value="";
+      if(fs.length>5){alert("एका वेळी जास्तीत जास्त 5 फोटो निवडा. पहिले 5 फोटो स्कॅन होतील.");fs=fs.slice(0,5)}
+      for(var i=0;i<fs.length;i++)await W.doScan(fs[i]);
+    };
+  }
   W.__tulja={cardsFrom:cardsFrom,cardHtml:cardHtml,totHtml:totHtml,build:build};
 
   /* मालकासाठी स्कॅन अहवाल */

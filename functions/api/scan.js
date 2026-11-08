@@ -30,7 +30,11 @@ function numsCompatible(a, b) {
   for (const x of a) if (b.has(x)) return true;
   return false;
 }
-const words = (s) => new Set(norm(s).split(" ").filter((w) => w.length >= 4 && /^[a-z]+$/.test(w)));
+// घटकांची वेगवेगळी स्पेलिंग एकच मानायची: Amoxycillin = Amoxicillin, Clavulanate = Clavulanic acid
+const SKIP = new Set(["sodium", "potassium", "hydrochloride", "sulphate", "sulfate", "acid", "tablet", "tablets", "capsule", "capsules"]);
+const canon = (w) => ({ amoxycillin: "amoxicillin", clavulanate: "clavulanic", clavulanic: "clavulanic", acetaminophen: "paracetamol" }[w] || w);
+const words = (s) => new Set(norm(s).split(" ").filter((w) => w.length >= 4 && /^[a-z]+$/.test(w) && !SKIP.has(w)).map(canon));
+const sameSet = (a, b) => a.size > 0 && a.size === b.size && [...a].every((x) => b.has(x));
 function jacc(a, b) {
   if (!a.size || !b.size) return 0;
   let i = 0;
@@ -49,14 +53,15 @@ function formOf(t) {
 }
 // नाव तुलना करताना Tab, Inj असे शब्द काढायचे
 const brandOf = (t) => norm(t).replace(/\b(tab|tabs|tablet|tablets|cap|caps|capsule|capsules|inj|injection|syp|syrup)\b/g, " ");
+const firstWord = (t) => brandOf(t).trim().split(/\s+/)[0] || "";
 const fixMr = (t) => String(t || "").replace(/अ\u200d?ॅ/g, "ॲ");
 function saltText(salt, str, printed) {
   const s = String(salt || "").trim(), t = String(str || "").trim();
-  if (!s) return "घटक फोटोत दिसले नाहीत. दुकानात विचारा.";
+  if (!s) return "";
   const need = [...nums(t)];
   const have = nums(s);
-  const full = !t ? s + " (ताकद दिसली नाही)" : need.length && need.every((n) => have.has(n)) ? s : s + " " + t;
-  return printed === false ? full + " (अंदाजे, दुकानात खात्री करा)" : full;
+  if (!t) return printed === false ? s : s + " (ताकद दिसली नाही)";
+  return need.length && need.every((n) => have.has(n)) ? s : s + " " + t;
 }
 
 function parseList(text) {
@@ -67,7 +72,13 @@ function parseList(text) {
     const idx = parseInt(line.slice(0, k), 10);
     if (!Number.isFinite(idx)) continue;
     const rest = line.slice(k + 2);
-    const o = rest.lastIndexOf("("), c = rest.lastIndexOf(")");
+    // शेवटच्या ) ची जोडी शोधायची, म्हणजे Paracetamol (500mg) असा घटकही नीट वाचला जाईल
+    const c = rest.lastIndexOf(")");
+    let o = -1;
+    for (let i = c - 1, depth = 1; i >= 0 && c > 0; i--) {
+      if (rest[i] === ")") depth++;
+      else if (rest[i] === "(" && --depth === 0) { o = i; break; }
+    }
     const n = o > 0 ? rest.slice(0, o).trim() : rest.trim();
     const s = o > 0 && c > o ? rest.slice(o + 1, c).trim() : "";
     out.push({ idx, n, s, nn: nums(n + " " + s), sw: words(s), f: formOf(n + " " + s) });
@@ -83,8 +94,12 @@ function bestMatch(it, meds) {
   let best = null, bestScore = 0, by = "name";
   for (const d of meds) {
     if (!unknown && d.f !== itForm) continue;             // इंजेक्शन ≠ गोळी
-    const nameSim = dice(brandOf(it.name), brandOf(d.n)) - (unknown && d.f ? 0.01 : 0);
+    let nameSim = dice(brandOf(it.name), brandOf(d.n)) - (unknown && d.f ? 0.01 : 0);
     if (!numsCompatible(itNums, d.nn)) continue;          // Dolo 650 ≠ Dolo 500
+    // Evion + 400mg = Evion 400 : पहिले नाव आणि ताकद जुळली तर तेच औषध
+    const a = firstWord(it.name), inNum = nums(it.name), dNum = nums(d.n);
+    const nameNumsOk = !inNum.size || !dNum.size || numsCompatible(inNum, dNum);
+    if (a.length >= 4 && a === firstWord(d.n) && itNums.size && d.nn.size && nameNumsOk) nameSim = 1;
     // घटक फोटोत छापलेला नसेल तर त्यावरून पर्याय दाखवायचा नाही
     const saltSim = it.saltPrinted === false || (unknown && d.f) ? 0 : jacc(itWords, d.sw);
     const score = Math.max(nameSim, saltSim * 0.95);
@@ -93,18 +108,35 @@ function bestMatch(it, meds) {
   return best && bestScore >= 0.72 ? { idx: best.idx, by, d: best } : { idx: null, by: "", d: null };
 }
 
+// यादीतील त्याच घटकाची, त्याच ताकदीची आणि त्याच प्रकारची सर्व औषधे
+function sameSalt(sw, nn, form, unknown, meds) {
+  return meds.filter((d) => {
+    if (!unknown && d.f !== form) return false;
+    if (unknown && d.f) return false;
+    return sameSet(sw, d.sw) && numsCompatible(nn, d.nn);
+  }).map((d) => ({ i: d.idx, st: "same" }));
+}
+const isUnknown = (it) => /unknown/i.test(String(it.form || "")) && !formOf(it.name + " " + it.form);
+function saltOptions(it, meds) {
+  return sameSalt(words(it.salt), nums(it.name + " " + it.salt + " " + it.strength),
+    formOf(it.name + " " + it.form), isUnknown(it), meds);
+}
+// नावातच घटक असेल (Paracetamol 500) तर तो घटक छापलेलाच आहे
+const nameIsSalt = (it) => { const a = words(it.salt), b = words(it.name); return a.size > 0 && [...a].every((x) => b.has(x)); };
+
 // ---------- AI : फक्त फोटो वाचतो ----------
 const PROMPT =
   "The image shows a medicine strip/box or a doctor's prescription. Read every medicine in it.\n" +
   "For each medicine return:\n" +
   "- name: the medicine name exactly as written (keep English letters).\n" +
   "- salt: the complete composition with every ingredient, names only (keep English letters). " +
-  "Combination medicines have many ingredients: list all of them. If the composition is not printed in the image, " +
-  "write it only if you are sure of every ingredient of this exact brand, otherwise return an empty string.\n" +
+  "Combination medicines have many ingredients: list all of them. Doctors usually write only the brand name, so when the composition is not printed, " +
+  "give the known composition of this brand from your own knowledge. Return an empty string only if you do not recognise the brand at all.\n" +
   "- saltPrinted: true if the composition or generic name is printed or written in the image, false if it came from your own knowledge.\n" +
   "- strength: the strength of every ingredient exactly as printed, e.g. '40mg', '500mg + 125mg', '4mg/2ml'. " +
   "Look carefully on the whole strip, box or prescription. A number that is part of the medicine name, like 'PSAM 40', counts as printed: " +
-  "return it with its unit if the unit is visible, otherwise return only the number. If no strength is printed anywhere, return an empty string. Never guess.\n" +
+  "return it with its unit if the unit is visible, otherwise return only the number. If it is not printed but you gave the composition from your knowledge, " +
+  "give the usual strength of this brand too. Otherwise return an empty string.\n" +
   "- form: one of tablet, capsule, injection, syrup, drops, ointment, other, unknown. Use only what the image shows; if it does not show the form, use unknown.\n" +
   "- use: what it is used for, in simple MARATHI (Devanagari), everyday words of ordinary village and town people, " +
   "NOT medical terms. Maximum 8 words. Examples: diabetes -> 'शुगरची गोळी'; blood pressure -> 'बीपीची गोळी'; " +
@@ -135,6 +167,69 @@ const SCHEMA = {
   },
   required: ["items"],
 };
+
+// आपल्या यादीतील घटकावरून मराठी उपयोग (फोटोतील अंदाजावरून नाही)
+async function usesFor(salts, model, key) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 6000);
+  try {
+    const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models/" + model + ":generateContent", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-goog-api-key": key },
+      signal: ctrl.signal,
+      body: JSON.stringify({
+        contents: [{ parts: [{ text:
+          "For each composition below, write what it is used for in simple everyday MARATHI (Devanagari), maximum 8 words, no medical terms. " +
+          "If it is an injection, syrup, drops or ointment, say so. Return one string for each line, in the same order.\n" +
+          salts.map((x, i) => (i + 1) + ". " + x).join("\n") }] }],
+        generationConfig: { temperature: 0, maxOutputTokens: 500, responseMimeType: "application/json",
+          responseSchema: { type: "ARRAY", items: { type: "STRING" } } },
+      }),
+    });
+    if (!r.ok) return [];
+    const j = await r.json();
+    const t = (j?.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
+    const a = JSON.parse(t);
+    return Array.isArray(a) ? a : [];
+  } catch {
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+// दुसरे मत: दुसऱ्या AI ला फक्त नावावरून घटक विचारणे. दोघांचे जुळले तरच दाखवायचे.
+async function secondOpinion(list, model, key) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 7000);
+  try {
+    const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models/" + model + ":generateContent", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-goog-api-key": key },
+      signal: ctrl.signal,
+      body: JSON.stringify({
+        contents: [{ parts: [{ text:
+          "You are an experienced Indian pharmacist. For each Indian medicine brand below, independently give its complete composition (names only, in English) " +
+          "and what it is used for in simple everyday MARATHI (Devanagari), maximum 8 words, no medical terms. Say if it is an injection, syrup, drops or ointment. " +
+          "Use the brand name, its number and its form. Do not assume a composition just because the name sounds similar to another brand. " +
+          "If you are not sure, return an empty salt. Return one object for each line, in the same order.\n" +
+          list.map((x, i) => (i + 1) + ". " + x).join("\n") }] }],
+        generationConfig: { temperature: 0, maxOutputTokens: 800, responseMimeType: "application/json",
+          responseSchema: { type: "ARRAY", items: { type: "OBJECT",
+            properties: { salt: { type: "STRING" }, use: { type: "STRING" } }, required: ["salt", "use"] } } },
+      }),
+    });
+    if (!r.ok) return [];
+    const j = await r.json();
+    const t = (j?.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
+    const a = JSON.parse(t);
+    return Array.isArray(a) ? a : [];
+  } catch {
+    return [];
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 // ---------- Google ला कॉल ----------
 async function callGemini(model, think, image, key, signal) {
@@ -235,15 +330,46 @@ export async function onRequestPost({ request, env }) {
     return json({ error: msg, detail: l.detail || "" }, 502);
   }
 
+  const askUse = [], askSalt = [];
   const items = res.items.map((it) => {
+    if (it.saltPrinted === false && nameIsSalt(it)) it.saltPrinted = true;
     const m = bestMatch(it, meds);
     const known = m.by === "name" && m.d;   // नावाने जुळले: आपल्या यादीतील नाव आणि घटक खरे मानायचे
-    return {
+    const guess = it.saltPrinted === false; // घटक फोटोत नाहीत: AI चा अंदाज ग्राहकाला दाखवायचा नाही
+    const row = {
       name: known ? m.d.n : String(it.name || ""),
-      salt: known && m.d.s ? m.d.s : saltText(it.salt, it.strength, it.saltPrinted),
-      use: fixMr(it.use), idx: m.idx, by: m.by,
+      salt: known && m.d.s ? m.d.s : guess ? "घटकांची माहिती दुकानात मिळेल." : saltText(it.salt, it.strength, it.saltPrinted),
+      use: guess ? "" : fixMr(it.use), idx: m.idx, by: m.by, alts: [], exact: known ? m.d.idx : null,
     };
+    if (known) row.alts = m.d.s ? sameSalt(m.d.sw, m.d.nn, m.d.f, false, meds) : [{ i: m.d.idx, st: "same" }];
+    else if (!guess) row.alts = saltOptions(it, meds);
+    if (known && !row.alts.some((a) => a.i === m.d.idx)) row.alts.push({ i: m.d.idx, st: "same" });
+    if (!known) row.idx = row.alts.length ? row.alts[0].i : null;
+    if (!known && guess && String(it.salt || "").trim()) askSalt.push({ row, it });
+    if (known && guess && m.d.s) askUse.push(row);
+    return row;
   });
+  if (askSalt.length) {
+    const second = models[1] || models[0];
+    const ans = await secondOpinion(askSalt.map((x) => x.it.name + (x.it.form ? " (" + x.it.form + ")" : "")), second, key);
+    askSalt.forEach((x, i) => {
+      const a = ans[i] || {};
+      // दोन्ही AI चे घटक जुळले तरच ग्राहकाला दाखवायचे
+      if (jacc(words(x.it.salt), words(a.salt)) >= 0.5) {
+        x.row.salt = saltText(x.it.salt, x.it.strength, false);
+        x.row.use = fixMr(a.use || x.it.use);
+        // दोन्ही AI चे सर्व घटक जुळले तरच यादीतील औषध पर्याय म्हणून दाखवायचे
+        if (sameSet(words(x.it.salt), words(a.salt))) {
+          x.row.alts = saltOptions(x.it, meds);
+          if (x.row.alts.length) { x.row.idx = x.row.alts[0].i; x.row.by = "salt"; }
+        }
+      }
+    });
+  }
+  if (askUse.length) {
+    const uses = await usesFor(askUse.map((r) => r.salt), models[0], key);
+    askUse.forEach((r, i) => { r.use = fixMr(uses[i]); });
+  }
   return json({
     items,
     ms: { ai: tAi, total: Date.now() - t0, model: res.model, backup: res.idx > 0, think: res.idx === 0 ? (think || "default") : "n/a" },
