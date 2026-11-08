@@ -88,13 +88,13 @@
       var ex=(it.exact!=null)?it.exact:((it.by==="name"&&it.idx!=null)?it.idx:null);
       var up=function(d){return d.p/(d.t||1)};
       alts.sort(function(a,b){return (up(meds[a.i])-up(meds[b.i]))||((b.i===ex)-(a.i===ex))});
-      return {os:it.otherStr||[],ot:(it.otherType||[]).filter(function(i){return meds[i]}),n:it.name||"",s:it.salt||"",u:it.use||"",g:!!it.guess,ex:ex,alts:alts,sel:alts.length?alts[0].i:null};
+      return {os:it.otherStr||[],ot:(it.otherType||[]).filter(function(i){return meds[i]}),n:it.name||"",s:it.salt||"",u:it.use||"",g:!!it.guess,p:!!it.pend,ai:it.aiSalt||"",aiu:it.aiUse||"",ex:ex,alts:alts,sel:alts.length?alts[0].i:null};
     });
   }
   function cardHtml(c,k){
     var meds=M();
     var pv=(W.__cards||[])[k-1],grp=pv&&K(c.s)&&K(pv.s)===K(c.s);
-    var h='<div class="result sc'+(grp?' grp':'')+'">'+(grp?'<p class="grpnote">वरच्या औषधाचाच घटक</p>':'')+'<h2>'+(k+1)+'. '+E(c.n)+'</h2>'+(c.s?'<p class="salt">'+E(c.s)+'</p>':'')+
+    var h='<div class="result sc'+(grp?' grp':'')+'">'+(grp?'<p class="grpnote">वरच्या औषधाचाच घटक</p>':'')+'<h2>'+(k+1)+'. '+E(c.n)+'</h2>'+(c.s?'<p class="salt">'+E(c.s)+'</p>'+(c.gs?'<p class="mini">घटक Google शोधातून घेतले आहेत.</p>':''):'')+
       (c.g?'<a class="gsearch" target="_blank" rel="noopener" href="https://www.google.com/search?q='+encodeURIComponent(c.n+" composition uses")+'">🔍 Google वर घटक पहा</a>':'');
     if(!c.alts.length){
       var wa="*"+SHOP+"*\n\nहे औषध मागवून देता येईल का?\nऔषध: "+c.n+(/[a-z]/i.test(c.s)?"\nघटक: "+c.s:"");
@@ -278,6 +278,32 @@
     b.onclick=function(){addMed(i)};
     r.appendChild(b);
   };
+  /* घटक फोटोत नसतील तर Google शोधातून आणून कार्डमध्ये भरणे (कार्ड आधी दाखवलेले असते, वेग कमी होत नाही) */
+  function groundCards(cards,mod,ask,out){
+    var pend=cards.filter(function(c){return c.p});
+    if(!pend.length||!mod)return;
+    ask({mode:"ground",names:pend.map(function(c){return c.n})}).then(function(res){
+      var meds=M();
+      pend.forEach(function(c,i){
+        var r=(res&&res[i])||{},k=(W.__cards||[]).indexOf(c);
+        if(k<0)return;
+        c.p=false;
+        if(r.salt){
+          c.s=r.salt;c.gs=true;c.u=(r.use?mod.cleanUse(r.use):"")||c.aiu||"";
+          var alts=mod.altsFor({name:c.n,salt:r.salt,strength:"",form:""},mod.parseList(meds.map(function(d,j){return d.o?"":j+": "+d.n+" ("+d.s+")"}).filter(Boolean).join("\n"))).filter(function(a){return meds[a.i]});
+          var up=function(d){return d.p/(d.t||1)};
+          alts.sort(function(a,b){return up(meds[a.i])-up(meds[b.i])});
+          c.alts=alts;c.sel=alts.length?alts[0].i:null;c.ex=null;
+        }else{
+          c.s=c.ai?"अंदाजे घटक: "+c.ai+" (दुकानात खात्री करा)":"घटक आपोआप मिळाले नाहीत. खालील Google बटण दाबा.";
+          c.u=c.aiu||"";
+        }
+        var nodes=out.querySelectorAll(".result.sc");
+        if(nodes[k])nodes[k].outerHTML=cardHtml(c,k);
+      });
+      refreshTot();
+    }).catch(function(){});
+  }
   W.doScan=async function(f){
     var out=g("scanres"),t0=Date.now();
     var add=(W.__cards||[]).length>0;
@@ -311,6 +337,7 @@
         var ask=function(b){return fetch("/api/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(b)})
           .then(function(r){return r.json()}).then(function(x){return (x&&x.out)||[]}).catch(function(){return []})};
         j={items:await mod.finishItems(j.raw,mod.parseList(list),{
+          ground:true,
           second:function(n){return ask({mode:"second",names:n})},
           uses:function(sl){return ask({mode:"uses",salts:sl})}})};
       }
@@ -329,6 +356,7 @@
       refreshTot();
       wireAdd();
       if(cards.length)logScan(cards);
+      groundCards(cards,mod,ask,out);
     }catch(e){
       clearInterval(tm);URL.revokeObjectURL(pic);
       var m=String(e&&e.message||"");

@@ -168,7 +168,16 @@ export async function finishItems(rawItems, meds, ask) {
     else if (!guess) row.alts = saltOptions(it, meds);
     if (known && !row.alts.some((a) => a.i === m.d.idx)) row.alts.push({ i: m.d.idx, st: "same" });
     if (!known) row.idx = row.alts.length ? row.alts[0].i : null;
-    if (!known && guess) askSalt.push({ row, it });
+    if (!known && guess) {
+      if (ask.ground) {
+        // Google शोधाने घटक नंतर भरले जातील; आत्ता कार्ड लगेच दाखवायचे (स्कॅनचा वेग कमी होत नाही)
+        row.pend = true; row.guess = true;
+        row.aiSalt = String(it.salt || "").trim() ? saltText(it.salt, it.strength, false) : "";
+        row.aiUse = fixMr(it.use);
+        row.salt = "🔎 घटक शोधत आहे…";
+        row.use = "";
+      } else askSalt.push({ row, it });
+    }
     if (known && guess && m.d.s) askUse.push(row);
     return row;
   });
@@ -215,6 +224,10 @@ export async function finishItems(rawItems, meds, ask) {
   }
   return items;
 }
+
+// Google शोधातून मिळालेल्या घटकाशी जुळणारी आपली औषधे
+export function altsFor(it, meds) { return saltOptions(it, meds); }
+export const cleanUse = (t) => fixMr(t);
 
 // डॉक्टरांच्या चिठ्ठीवरच मिळणारी औषधे. order.js मध्येही हीच यादी आहे — दोन्ही ठिकाणी सारखी ठेवा.
 export const RX = /tramadol|tapentadol|codeine|morphine|fentanyl|buprenorphine|alprazolam|clonazepam|lorazepam|diazepam|etizolam|zolpidem|nitrazepam|clobazam|pregabalin|gabapentin|sumatriptan|rizatriptan|naratriptan|zolmitriptan|ergotamine|levothyroxine|thyroxine|carbimazole|methimazole|insulin|warfarin|acenocoumarol|apixaban|rivaroxaban|dabigatran|enoxaparin|heparin|clopidogrel|ticagrelor|prasugrel|lithium|haloperidol|olanzapine|quetiapine|risperidone|aripiprazole|clozapine|sertraline|escitalopram|fluoxetine|paroxetine|venlafaxine|duloxetine|mirtazapine|amitriptyline|nortriptyline|levetiracetam|lamotrigine|oxcarbazepine|carbamazepine|valpro|phenytoin|phenobarbit|topiramate|lacosamide|methotrexate|carboplatin|cisplatin|oxaliplatin|docetaxel|paclitaxel|doxorubicin|epirubicin|gemcitabine|pemetrexed|capecitabine|etoposide|irinotecan|cyclophosphamide|tamoxifen|anastrozole|letrozole|exemestane|bicalutamide|enzalutamide|abiraterone|apalutamide|gefitinib|erlotinib|afatinib|osimertinib|lenvatinib|palbociclib|ribociclib|abemaciclib|nivolumab|pembrolizumab|trastuzumab|bevacizumab|leuprolide|goserelin|degarelix|fulvestrant|megestrol|cabergoline|misoprostol|mifepristone|methylergometrine|isotretinoin|prednisolone|dexamethasone|methylprednisolone|hydrocortisone|linezolid|meropenem|imipenem|piperacillin|colistin|vancomycin|teicoplanin|ceftriaxone|cefoperazone|cefixime|cefpodoxime|cefuroxime|amoxy|azithro|clarithro|ciproflox|oflox|doxycycline|metronidazole|tinidazole|ornidazole|amikacin|gentamicin|tadalafil|sildenafil|finasteride|dutasteride|silodosin|alfuzosin|torsemide|torasemide|furosemide|spironolactone|ivabradine|sacubitril|ranolazine|nicorandil|amiodarone|digoxin/;

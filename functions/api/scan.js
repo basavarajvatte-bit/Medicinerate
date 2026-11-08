@@ -115,6 +115,74 @@ async function secondOpinion(list, model, key) {
   }
 }
 
+// ---------- Google Search सह घटक शोधणे (स्कॅन झाल्यावर, पार्श्वभूमीत) ----------
+// फोटोत घटक छापलेले नसतील तर ब्रँडच्या नावावरून Google वर शोधून खरे घटक आणि उपयोग आणतो.
+async function groundCall(model, prompt, key, signal) {
+  const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models/" + model + ":generateContent", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "x-goog-api-key": key },
+    signal,
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: prompt }] }],
+      tools: [{ google_search: {} }],
+      generationConfig: { temperature: 0, maxOutputTokens: 1000 },
+    }),
+  });
+  if (!r.ok) return null;
+  const j = await r.json().catch(() => null);
+  return (j?.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
+}
+
+function parseGround(text, n) {
+  const out = Array.from({ length: n }, () => ({ salt: "", use: "" }));
+  for (const line of String(text || "").split("\n")) {
+    const m = line.match(/^\s*[*\-]?\s*(\d+)\s*[.)]?\s*\|([^|]*)\|(.*)$/);
+    if (!m) continue;
+    const i = parseInt(m[1], 10) - 1;
+    if (i < 0 || i >= n) continue;
+    const clean = (t) => String(t).replace(/\[\d+(?:,\s*\d+)*\]/g, "").replace(/[*_`]/g, "").replace(/\s+/g, " ").trim();
+    const salt = clean(m[2]), use = clean(m[3]);
+    if (/[A-Za-z]{3,}/.test(salt)) out[i] = { salt: salt.slice(0, 220), use: use.slice(0, 120) };
+  }
+  return out;
+}
+
+async function groundSalts(names, models, key) {
+  const list = names.map((x) => String(x).slice(0, 80));
+  if (!list.length) return [];
+  const prompt =
+    "You are helping an Indian medical shop. For each medicine BRAND below (as sold in India), use Google Search to find its exact composition: " +
+    "every active ingredient with its strength, for example \"Aceclofenac 100mg + Paracetamol 325mg\". " +
+    "Also give what it is used for in simple everyday MARATHI (Devanagari), maximum 8 words, no medical terms; say if it is an injection, syrup or ointment. " +
+    "Answer with exactly one line per item, in the same order, in this format: NUMBER|composition|use. " +
+    "If you cannot find the brand for sure, write NUMBER|| and nothing else for that item. No other text.\n" +
+    list.map((x, i) => (i + 1) + ". " + x).join("\n");
+  const order = [env_pick(models, 0), env_pick(models, 1), env_pick(models, 2)].filter((m, i, a) => m && a.indexOf(m) === i);
+  return new Promise((resolve) => {
+    const ctrls = order.map(() => new AbortController());
+    let done = false, failed = 0;
+    const finish = (v) => { if (done) return; done = true; ctrls.forEach((c) => { try { c.abort(); } catch {} }); resolve(v); };
+    const start = (i) => {
+      if (done || i >= order.length || start.s[i]) return;
+      start.s[i] = true;
+      if (i + 1 < order.length) setTimeout(() => start(i + 1), 3500);   // धीमे असेल तर दुसरे मॉडेल समांतर
+      const timer = setTimeout(() => ctrls[i].abort(), 15000);
+      groundCall(order[i], prompt, key, ctrls[i].signal).then((t) => {
+        clearTimeout(timer);
+        if (done) return;
+        const parsed = t ? parseGround(t, list.length) : null;
+        if (parsed && parsed.some((x) => x.salt)) return finish(parsed);
+        failed++;
+        start(i + 1);
+        if (failed >= order.length) finish(list.map(() => ({ salt: "", use: "" })));
+      }).catch(() => { clearTimeout(timer); failed++; start(i + 1); if (failed >= order.length) finish(list.map(() => ({ salt: "", use: "" }))); });
+    };
+    start.s = [];
+    start(0);
+  });
+}
+const env_pick = (models, i) => models[i];
+
 // ---------- Google ला कॉल ----------
 async function callGemini(model, think, image, key, signal) {
   const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models/" + model + ":generateContent", {
@@ -198,6 +266,10 @@ export async function onRequestPost({ request, env }) {
   try { body = await request.json(); } catch { return json({ error: "चुकीची विनंती" }, 400); }
   // फोनवरून जुळवणी करताना लागणारे छोटे प्रश्न (फोटो नाही)
   if (body.mode === "second") return json({ out: await secondOpinion((body.names || []).slice(0, 30).map(String), models[1] || models[0], key) });
+  if (body.mode === "ground") {
+    const gm = [env.GEMINI_SEARCH_MODEL || "gemini-flash-latest", models[1], models[0]].filter(Boolean);
+    return json({ out: await groundSalts((body.names || []).slice(0, 12).map(String), gm, key) });
+  }
   if (body.mode === "uses") return json({ out: await usesFor((body.salts || []).slice(0, 30).map(String), models[0], key) });
   const image = String(body.image || "");
   if (!image || image.length > 4000000) return json({ error: "फोटो नाही किंवा खूप मोठा आहे." }, 400);
