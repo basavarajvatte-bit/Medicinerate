@@ -42,7 +42,7 @@ function findByText(meds, q) {
 }
 
 function line(d) {
-  return "💊 *" + d.n + "*\n" + d.s + "\nMRP: " + rs(d.m) + "\n✅ आमचा दर: *" + rs(d.p) + "*  (बचत " + rs(d.m - d.p) + ")";
+  return "💊 *" + d.n + "*\n" + d.s + (d.m > 0 ? "\nMRP: " + rs(d.m) : "") + "\n✅ आमचा दर: *" + rs(d.p) + "*" + (d.m > 0 ? "  (बचत " + rs(d.m - d.p) + ")" : "");
 }
 
 async function readImage(mediaId) {
@@ -103,7 +103,7 @@ async function handle(msg, meds) {
     items.forEach((it, k) => {
       const d = it.idx != null ? meds[it.idx] : null;
       let t = (k + 1) + ". *" + it.name + "*\n" + it.salt + "\nउपयोग: " + it.use;
-      if (d) { n++; tot += d.p; mrp += d.m; t += "\nMRP: " + rs(d.m) + "\n✅ आमचा दर: *" + rs(d.p) + "*"; }
+      if (d) { n++; tot += d.p; mrp += d.m > 0 ? d.m : d.p; t += (d.m > 0 ? "\nMRP: " + rs(d.m) : "") + "\n✅ आमचा दर: *" + rs(d.p) + "*"; }
       else t += "\n❓ आमच्या यादीत नाही, दुकानात विचारा.";
       out.push(t);
     });

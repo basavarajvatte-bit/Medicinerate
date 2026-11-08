@@ -601,6 +601,123 @@
      "t": 10
     }
    ]
+  },
+  {
+   "id": "2026-11-08-no-mrp",
+   "meds": [
+    {
+     "n": "Telgard AM 40/5",
+     "s": "Telmisartan 40mg + Amlodipine 5mg",
+     "c": "Cipla",
+     "m": 0,
+     "p": 67.8,
+     "t": 10
+    },
+    {
+     "n": "Bisocar 5",
+     "s": "Bisoprolol 5mg",
+     "c": "Rusan Pharma",
+     "m": 0,
+     "p": 29.5,
+     "t": 10
+    },
+    {
+     "n": "Ultracet",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Janssen",
+     "m": 0,
+     "p": 20.4,
+     "t": 1
+    },
+    {
+     "n": "Thioford 100/4",
+     "s": "Aceclofenac 100mg + Thiocolchicoside 4mg",
+     "c": "Leeford Healthcare",
+     "m": 0,
+     "p": 102.0,
+     "t": 10
+    },
+    {
+     "n": "Cipcal 500",
+     "s": "Calcium + Vitamin D3",
+     "c": "Cipla",
+     "m": 0,
+     "p": 80.3,
+     "t": 15
+    },
+    {
+     "n": "Uprise-D3 60K",
+     "s": "Vitamin D3 60000 IU",
+     "c": "Alkem",
+     "m": 0,
+     "p": 29.75,
+     "t": 1
+    },
+    {
+     "n": "TorSinol 10",
+     "s": "Torasemide 10mg",
+     "c": "Knoll Pharma",
+     "m": 0,
+     "p": 26.7,
+     "t": 10
+    },
+    {
+     "n": "Lasix",
+     "s": "Furosemide 40mg",
+     "c": "Sanofi",
+     "m": 0,
+     "p": 14.51,
+     "t": 15
+    },
+    {
+     "n": "Sevcar 400",
+     "s": "Sevelamer 400mg",
+     "c": "Emcure",
+     "m": 0,
+     "p": 40.9,
+     "t": 1
+    },
+    {
+     "n": "Revlamer 400",
+     "s": "Sevelamer 400mg",
+     "c": "Sun Pharma",
+     "m": 0,
+     "p": 10.2,
+     "t": 1
+    },
+    {
+     "n": "Ketosteril",
+     "s": "Keto-analogues + amino acids",
+     "c": "Fresenius Kabi",
+     "m": 0,
+     "p": 37.0,
+     "t": 1
+    },
+    {
+     "n": "Ketoadd",
+     "s": "Keto-analogues + amino acids",
+     "c": "Sun Pharma",
+     "m": 0,
+     "p": 25.9,
+     "t": 1
+    },
+    {
+     "n": "Nefrosave Keto",
+     "s": "Keto-analogues + amino acids",
+     "c": "Fourrts India",
+     "m": 0,
+     "p": 22.8,
+     "t": 1
+    },
+    {
+     "n": "Metrogyl 400",
+     "s": "Metronidazole 400mg",
+     "c": "JB Chemicals",
+     "m": 0,
+     "p": 32.76,
+     "t": 20
+    }
+   ]
   }
  ]
 }

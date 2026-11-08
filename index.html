@@ -252,9 +252,9 @@ function show(){
   var d=meds[sel];if(!d)return;
   var off=Math.round((1-d.p/d.m)*100);
   $("res").innerHTML='<div class="result"><h2>'+esc(d.n)+'</h2><p class="salt">'+esc(d.s)+'</p>'+
-  '<div class="row"><span>MRP</span><b>'+fm(d.m)+pk(d)+'</b></div>'+
+  (d.m>0?'<div class="row"><span>MRP</span><b>'+fm(d.m)+pk(d)+'</b></div>':'')+
   '<div class="row"><span>आमच्याकडे</span><span><span class="big">'+fm(d.p)+'</span><b>'+pk(d)+'</b></span></div>'+
-  '<div class="row"><span>MRP पेक्षा बचत</span><b>'+fm(d.m-d.p)+' ('+off+'% सूट)</b></div>'+
+  (d.m>0?'<div class="row"><span>MRP पेक्षा बचत</span><b>'+fm(d.m-d.p)+' ('+off+'% सूट)</b></div>':'')+
   '<label for="o">तुम्हाला दुसरीकडे किती रुपयांना मिळाले? (₹)</label><input id="o" type="number" inputmode="decimal" min="0" placeholder="उदा. '+Math.round(d.m)+'">'+
   '<div id="vd"></div></div>';
   $("o").oninput=function(){
@@ -274,7 +274,7 @@ function renderAll(){
   var dg=dupGroups(),dset={};dg.forEach(function(a){a.forEach(function(i){dset[i]=1})});
   var first={},view=meds.map(function(d,i){var k=saltKey(d.s)||("~"+i);if(!(k in first))first[k]=i;return{d:d,i:i,o:first[k]}});
   view.sort(function(a,b){return (a.o-b.o)||(a.i-b.i)});
-  var row=function(d,i){return '<div class="item" style="cursor:default'+(dset[i]?';border:2px solid var(--bad)':'')+'"><span>'+(dset[i]?'<b style="color:var(--bad)">⚠️ दोनदा · </b>':'')+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+' · MRP '+fm(d.m)+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span><span class="edbtns"><button class="btn ghost ed" data-ed="'+i+'">बदला</button><button class="btn ghost" data-del="'+i+'">काढा</button></span></span></div>'};
+  var row=function(d,i){return '<div class="item" style="cursor:default'+(dset[i]?';border:2px solid var(--bad)':'')+'"><span>'+(dset[i]?'<b style="color:var(--bad)">⚠️ दोनदा · </b>':'')+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+(d.m>0?' · MRP '+fm(d.m):' · MRP नाही')+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span><span class="edbtns"><button class="btn ghost ed" data-ed="'+i+'">बदला</button><button class="btn ghost" data-del="'+i+'">काढा</button></span></span></div>'};
   var warn=dg.length?'<div class="result" style="border:2px solid var(--bad)"><b style="color:var(--bad)">⚠️ '+dg.length+' औषधे यादीत दोनदा आहेत</b><p class="salt">एकाच कंपनीचे, एकाच पॅकचे औषध दोनदा आहे. जुने "काढा" किंवा योग्य दर "बदला".</p>'+dg.map(function(a){return a.map(function(i){return row(meds[i],i)}).join("")}).join('<hr style="border:0;border-top:1px dashed var(--line);margin:8px 0">')+'</div>':'';
   $("all").innerHTML=warn+(view.length?view.map(function(v){return row(v.d,v.i)}).join(""):'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>');
 }
@@ -286,7 +286,7 @@ function clearForm(){
 function startEdit(i){
   var d=meds[i];if(!d)return;
   edit=i;
-  $("n").value=d.n;$("c").value=d.c||"";$("s").value=d.s||"";$("m").value=d.m;$("p").value=d.p;$("pack").value=d.t||"";
+  $("n").value=d.n;$("c").value=d.c||"";$("s").value=d.s||"";$("m").value=d.m||"";$("p").value=d.p;$("pack").value=d.t||"";
   $("add").textContent="बदल सेव्ह करा";$("cancel").classList.remove("hide");
   $("nst").className="st";$("nst").textContent=d.n+" बदलत आहात.";
   $("nst").scrollIntoView({behavior:"smooth",block:"center"});
@@ -303,7 +303,8 @@ $("all").onclick=function(e){
 };
 $("add").onclick=function(){
   var n=$("n").value.trim(),m=parseFloat($("m").value),p=parseFloat($("p").value);
-  if(!n||isNaN(m)||isNaN(p)){alert("नाव, MRP आणि आमचा दर तिन्ही भरा.");return}
+  if(isNaN(m))m=0;
+  if(!n||isNaN(p)){alert("नाव आणि आमचा दर भरा.");return}
   if(!canSave())return;
   var d={n:n,s:$("s").value.trim(),m:m,p:p};
   var c=$("c").value.trim();if(c)d.c=c;
@@ -325,7 +326,7 @@ $("imp").onclick=function(){
   var c=0;$("csv").value.split("\n").forEach(function(l){
     var a=l.split(",").map(function(x){return x.trim()});
     var m=parseFloat(a[2]),p=parseFloat(a[3]);
-    if(a[0]&&!isNaN(m)&&!isNaN(p)){var d={n:a[0],s:a[1]||"",m:m,p:p},t=parseInt(a[4],10);if(t>=1&&t<=200)d.t=t;var j=dupIdx(d,-1);if(j>-1){if(meds[j].c&&!d.c)d.c=meds[j].c;meds[j]=d}else meds.push(d);c++}
+    if(isNaN(m))m=0;if(a[0]&&!isNaN(p)){var d={n:a[0],s:a[1]||"",m:m,p:p},t=parseInt(a[4],10);if(t>=1&&t<=200)d.t=t;var j=dupIdx(d,-1);if(j>-1){if(meds[j].c&&!d.c)d.c=meds[j].c;meds[j]=d}else meds.push(d);c++}
   });
   $("csv").value="";renderAll();save();alert(c+" औषधे आयात झाली.");
 };
@@ -368,8 +369,8 @@ async function doScan(f){
     its.forEach(function(it,k){
       var d=(it.idx!=null&&meds[it.idx])?meds[it.idx]:null;
       h+='<div class="result" style="margin:0 0 10px"><h2>'+(k+1)+'. '+esc(it.name)+'</h2><p class="salt">'+esc(it.salt)+'</p>';
-      if(d){n++;tot+=d.p;mrp+=d.m;
-        h+='<div class="row"><span>MRP</span><b>'+fm(d.m)+'</b></div>'+
+      if(d){n++;tot+=d.p;mrp+=(d.m>0?d.m:d.p);
+        h+=(d.m>0?'<div class="row"><span>MRP</span><b>'+fm(d.m)+'</b></div>':'')+
            '<div class="row"><span>आमच्याकडे</span><span class="big">'+fm(d.p)+'</span></div>';
       }else{miss++;h+='<div class="un">आमच्या दरयादीत सापडले नाही. दुकानात विचारा.</div>'}
       h+='<div class="use"><small>उपयोग</small>'+esc(it.use)+'</div></div>';

@@ -64,7 +64,7 @@
           '<span class="onm">'+E(d.n)+(d.c?' · '+E(d.c):'')+
           (cheap?'<span class="bdg">सर्वात स्वस्त</span>':'')+
           (a.i===c.ex?'<span class="bdg b2">तुम्ही स्कॅन केलेले</span>':'')+
-          '<small>'+E(d.s)+' · MRP '+F(d.m)+'</small></span><span class="price">'+F(d.p)+(d.t?'<small>/ '+d.t+' गोळ्या</small>':'')+'</span></label>';
+          '<small>'+E(d.s)+(d.m>0?' · MRP '+F(d.m):'')+'</small></span><span class="price">'+F(d.p)+(d.t?'<small>/ '+d.t+' गोळ्या</small>':'')+'</span></label>';
       });
       h+='</div><p class="note" style="margin:8px 0 0">'+(any?'ताकद (mg) जुळते का ते दुकानात विचारा. ':'ताकद सारखी आहे ✓. ')+
          'दुसऱ्या कंपनीचे औषध हवे असेल तर वर तेच निवडा.</p>';
@@ -74,7 +74,7 @@
   }
   function totals(cards){
     var t=0,m=0,n=0,meds=M();
-    cards.forEach(function(c){if(c.sel!=null&&meds[c.sel]){var d=meds[c.sel];t+=d.p;m+=d.m;n++}});
+    cards.forEach(function(c){if(c.sel!=null&&meds[c.sel]){var d=meds[c.sel];t+=d.p;m+=(d.m>0?d.m:d.p);n++}});
     return {t:t,m:m,n:n};
   }
   function totHtml(cards){
@@ -95,7 +95,7 @@
       if(c.sel!=null&&meds[c.sel]){
         var d=meds[c.sel];
         lines.push((k+1)+". "+d.n+(d.c?" ("+d.c+")":""));
-        lines.push("   MRP: "+F(d.m)+P(d));
+        if(d.m>0)lines.push("   MRP: "+F(d.m)+P(d));
         lines.push("   आमचा दर: "+F(d.p)+P(d));
         if(c.sel!==c.ex)lines.push("   (स्कॅन केलेले: "+c.n+(c.s?", घटक: "+c.s:"")+")");
       }else{
