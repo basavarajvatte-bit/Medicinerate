@@ -4169,6 +4169,1365 @@
      "t": 15
     }
    ]
+  },
+  {
+   "id": "2026-11-08-pain-ortho-brands",
+   "meds": [
+    {
+     "n": "Akilos 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Unison",
+     "m": 1.38,
+     "p": 1.38,
+     "t": 1
+    },
+    {
+     "n": "Topnac 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Systopic",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Topflam 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Acme",
+     "m": 2.42,
+     "p": 2.42,
+     "t": 1
+    },
+    {
+     "n": "Acenext 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Cadila",
+     "m": 2.45,
+     "p": 2.45,
+     "t": 1
+    },
+    {
+     "n": "Dolostat 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Blue Cross",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Dolokind 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Mankind",
+     "m": 3.88,
+     "p": 3.88,
+     "t": 1
+    },
+    {
+     "n": "Lekace 100",
+     "s": "Aceclofenac 100mg",
+     "c": "JB Chemicals",
+     "m": 3.95,
+     "p": 3.95,
+     "t": 1
+    },
+    {
+     "n": "Acenac",
+     "s": "Aceclofenac 100mg",
+     "c": "Medley",
+     "m": 4.15,
+     "p": 4.15,
+     "t": 1
+    },
+    {
+     "n": "Aceclo",
+     "s": "Aceclofenac 100mg",
+     "c": "Aristo",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "Xtra 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Alpic",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Dolowin",
+     "s": "Aceclofenac 100mg",
+     "c": "Micro Labs",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Adenate 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Chicky",
+     "m": 6.14,
+     "p": 6.14,
+     "t": 1
+    },
+    {
+     "n": "Zix 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Jenburkt",
+     "m": 6.18,
+     "p": 6.18,
+     "t": 1
+    },
+    {
+     "n": "Zerodol",
+     "s": "Aceclofenac 100mg",
+     "c": "Ipca",
+     "m": 6.52,
+     "p": 6.52,
+     "t": 1
+    },
+    {
+     "n": "Equidol 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Akumentis",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Acemiz 100",
+     "s": "Aceclofenac 100mg",
+     "c": "Lupin",
+     "m": 8.1,
+     "p": 8.1,
+     "t": 1
+    },
+    {
+     "n": "Dan 50",
+     "s": "Diclofenac 50mg",
+     "c": "Unison",
+     "m": 0.69,
+     "p": 0.69,
+     "t": 1
+    },
+    {
+     "n": "Vivian 50",
+     "s": "Diclofenac 50mg",
+     "c": "Lincoln",
+     "m": 0.91,
+     "p": 0.91,
+     "t": 1
+    },
+    {
+     "n": "Vovo 50",
+     "s": "Diclofenac 50mg",
+     "c": "Alembic",
+     "m": 0.94,
+     "p": 0.94,
+     "t": 1
+    },
+    {
+     "n": "Neodol K 50",
+     "s": "Diclofenac 50mg",
+     "c": "Micro Labs",
+     "m": 1.28,
+     "p": 1.28,
+     "t": 1
+    },
+    {
+     "n": "Jonac 50",
+     "s": "Diclofenac 50mg",
+     "c": "Zydus",
+     "m": 1.51,
+     "p": 1.51,
+     "t": 1
+    },
+    {
+     "n": "Dicloflam 50",
+     "s": "Diclofenac 50mg",
+     "c": "Intas",
+     "m": 1.58,
+     "p": 1.58,
+     "t": 1
+    },
+    {
+     "n": "NAC 50",
+     "s": "Diclofenac 50mg",
+     "c": "Systopic",
+     "m": 1.6,
+     "p": 1.6,
+     "t": 1
+    },
+    {
+     "n": "Diclofen 50",
+     "s": "Diclofenac 50mg",
+     "c": "Biochem",
+     "m": 1.66,
+     "p": 1.66,
+     "t": 1
+    },
+    {
+     "n": "Inac 50",
+     "s": "Diclofenac 50mg",
+     "c": "Zydus",
+     "m": 2.08,
+     "p": 2.08,
+     "t": 1
+    },
+    {
+     "n": "Voltaflam 50",
+     "s": "Diclofenac 50mg",
+     "c": "Novartis",
+     "m": 2.09,
+     "p": 2.09,
+     "t": 1
+    },
+    {
+     "n": "Dynapar EC 50",
+     "s": "Diclofenac 50mg",
+     "c": "Troikaa",
+     "m": 2.12,
+     "p": 2.12,
+     "t": 1
+    },
+    {
+     "n": "Reactin 50",
+     "s": "Diclofenac 50mg",
+     "c": "Cipla",
+     "m": 2.13,
+     "p": 2.13,
+     "t": 1
+    },
+    {
+     "n": "Dicloran 50",
+     "s": "Diclofenac 50mg",
+     "c": "Lekar",
+     "m": 2.13,
+     "p": 2.13,
+     "t": 1
+    },
+    {
+     "n": "Divon 50",
+     "s": "Diclofenac 50mg",
+     "c": "Micro Labs",
+     "m": 2.14,
+     "p": 2.14,
+     "t": 1
+    },
+    {
+     "n": "Clofen 50",
+     "s": "Diclofenac 50mg",
+     "c": "Indchemie",
+     "m": 2.54,
+     "p": 2.54,
+     "t": 1
+    },
+    {
+     "n": "Etowox 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Wockhardt",
+     "m": 8.47,
+     "p": 8.47,
+     "t": 1
+    },
+    {
+     "n": "Etojet 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Themis",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Etorday 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Silhos",
+     "m": 9.8,
+     "p": 9.8,
+     "t": 1
+    },
+    {
+     "n": "Etonow 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Grandcure",
+     "m": 10.6,
+     "p": 10.6,
+     "t": 1
+    },
+    {
+     "n": "Brutaflam 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Mankind",
+     "m": 13.2,
+     "p": 13.2,
+     "t": 1
+    },
+    {
+     "n": "Etospeed 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Zuventus",
+     "m": 14.44,
+     "p": 14.44,
+     "t": 1
+    },
+    {
+     "n": "Etrik 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Alembic",
+     "m": 15.05,
+     "p": 15.05,
+     "t": 1
+    },
+    {
+     "n": "Nureeto 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Intas",
+     "m": 15.4,
+     "p": 15.4,
+     "t": 1
+    },
+    {
+     "n": "Etrobax 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Sun Pharma",
+     "m": 16.4,
+     "p": 16.4,
+     "t": 1
+    },
+    {
+     "n": "Etorvel 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Kinedex",
+     "m": 18.49,
+     "p": 18.49,
+     "t": 1
+    },
+    {
+     "n": "Retoz Neo 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Dr Reddy's",
+     "m": 18.55,
+     "p": 18.55,
+     "t": 1
+    },
+    {
+     "n": "Etody 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Abbott",
+     "m": 19.63,
+     "p": 19.63,
+     "t": 1
+    },
+    {
+     "n": "Etoxib 90",
+     "s": "Etoricoxib 90mg",
+     "c": "Torrent",
+     "m": 20.05,
+     "p": 20.05,
+     "t": 1
+    },
+    {
+     "n": "Asozen-Plus",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Zeelab",
+     "m": 1.1,
+     "p": 1.1,
+     "t": 1
+    },
+    {
+     "n": "Dolostat PC",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Blue Cross",
+     "m": 2.5,
+     "p": 2.5,
+     "t": 1
+    },
+    {
+     "n": "Acimol",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Leeford",
+     "m": 2.59,
+     "p": 2.59,
+     "t": 1
+    },
+    {
+     "n": "Akilos-P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Unison",
+     "m": 2.73,
+     "p": 2.73,
+     "t": 1
+    },
+    {
+     "n": "Vetory P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Hetero",
+     "m": 2.81,
+     "p": 2.81,
+     "t": 1
+    },
+    {
+     "n": "Topnac P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Systopic",
+     "m": 3.8,
+     "p": 3.8,
+     "t": 1
+    },
+    {
+     "n": "Fulstrch P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Umano",
+     "m": 3.95,
+     "p": 3.95,
+     "t": 1
+    },
+    {
+     "n": "Aceloemm-P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Ess Emm",
+     "m": 4.3,
+     "p": 4.3,
+     "t": 1
+    },
+    {
+     "n": "Nefo P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Dawson",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Arflur-P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "FDC",
+     "m": 5.02,
+     "p": 5.02,
+     "t": 1
+    },
+    {
+     "n": "Altraflam-P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Sun Pharma",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Dolokind Plus",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Mankind",
+     "m": 5.15,
+     "p": 5.15,
+     "t": 1
+    },
+    {
+     "n": "Willgo P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Panacea",
+     "m": 5.27,
+     "p": 5.27,
+     "t": 1
+    },
+    {
+     "n": "Aceclo Plus",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Aristo",
+     "m": 5.53,
+     "p": 5.53,
+     "t": 1
+    },
+    {
+     "n": "Anaflam XP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Albert David",
+     "m": 5.76,
+     "p": 5.76,
+     "t": 1
+    },
+    {
+     "n": "Acenac-P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Medley",
+     "m": 7.2,
+     "p": 7.2,
+     "t": 1
+    },
+    {
+     "n": "Zulu-P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Torrent",
+     "m": 7.35,
+     "p": 7.35,
+     "t": 1
+    },
+    {
+     "n": "Dolowin Plus",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Micro Labs",
+     "m": 8.2,
+     "p": 8.2,
+     "t": 1
+    },
+    {
+     "n": "Ibugesic AP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Cipla",
+     "m": 8.27,
+     "p": 8.27,
+     "t": 1
+    },
+    {
+     "n": "Ace Proxyvon",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Dr Reddy's",
+     "m": 8.75,
+     "p": 8.75,
+     "t": 1
+    },
+    {
+     "n": "Acemiz Plus",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Lupin",
+     "m": 11.98,
+     "p": 11.98,
+     "t": 1
+    },
+    {
+     "n": "Vetory SP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Hetero",
+     "m": 6.65,
+     "p": 6.65,
+     "t": 1
+    },
+    {
+     "n": "Movon-SP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Ipca",
+     "m": 8.14,
+     "p": 8.14,
+     "t": 1
+    },
+    {
+     "n": "Aceclorej-SP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Rejli",
+     "m": 9.8,
+     "p": 9.8,
+     "t": 1
+    },
+    {
+     "n": "Buta Proxyvon SP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Wockhardt",
+     "m": 10.3,
+     "p": 10.3,
+     "t": 1
+    },
+    {
+     "n": "Ketorol SP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Dr Reddy's",
+     "m": 10.58,
+     "p": 10.58,
+     "t": 1
+    },
+    {
+     "n": "Acecloren",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Indoco",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Movexx SP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Cipla",
+     "m": 11.62,
+     "p": 11.62,
+     "t": 1
+    },
+    {
+     "n": "Sanogesic SP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Sanomed",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Zerodol SP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Serratiopeptidase 15mg",
+     "c": "Ipca",
+     "m": 13.96,
+     "p": 13.96,
+     "t": 1
+    },
+    {
+     "n": "Rhumacort-TH 4",
+     "s": "Aceclofenac 100mg + Thiocolchicoside 4mg",
+     "c": "Galpha",
+     "m": 13.97,
+     "p": 13.97,
+     "t": 1
+    },
+    {
+     "n": "Willgo TH4",
+     "s": "Aceclofenac 100mg + Thiocolchicoside 4mg",
+     "c": "Panacea",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Equiflex",
+     "s": "Aceclofenac 100mg + Thiocolchicoside 4mg",
+     "c": "Pfizer",
+     "m": 16.58,
+     "p": 16.58,
+     "t": 1
+    },
+    {
+     "n": "Bakflex-A",
+     "s": "Aceclofenac 100mg + Thiocolchicoside 4mg",
+     "c": "Intas",
+     "m": 20.0,
+     "p": 20.0,
+     "t": 1
+    },
+    {
+     "n": "Zerodol TH 4",
+     "s": "Aceclofenac 100mg + Thiocolchicoside 4mg",
+     "c": "Ipca",
+     "m": 20.9,
+     "p": 20.9,
+     "t": 1
+    },
+    {
+     "n": "Thichoren AC 4",
+     "s": "Aceclofenac 100mg + Thiocolchicoside 4mg",
+     "c": "La Renon",
+     "m": 22.7,
+     "p": 22.7,
+     "t": 1
+    },
+    {
+     "n": "Zulu AT 4",
+     "s": "Aceclofenac 100mg + Thiocolchicoside 4mg",
+     "c": "Torrent",
+     "m": 23.04,
+     "p": 23.04,
+     "t": 1
+    },
+    {
+     "n": "Zix-MR",
+     "s": "Aceclofenac 100mg + Thiocolchicoside 4mg",
+     "c": "Jenburkt",
+     "m": 24.0,
+     "p": 24.0,
+     "t": 1
+    },
+    {
+     "n": "Etos MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Systopic",
+     "m": 12.9,
+     "p": 12.9,
+     "t": 1
+    },
+    {
+     "n": "Witori MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Delcure",
+     "m": 19.1,
+     "p": 19.1,
+     "t": 1
+    },
+    {
+     "n": "Etorica MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Micro Labs",
+     "m": 20.0,
+     "p": 20.0,
+     "t": 1
+    },
+    {
+     "n": "Etonow-MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Grandcure",
+     "m": 20.55,
+     "p": 20.55,
+     "t": 1
+    },
+    {
+     "n": "Brutaflam-MR 4",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Mankind",
+     "m": 21.89,
+     "p": 21.89,
+     "t": 1
+    },
+    {
+     "n": "Etosaid MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Macleods",
+     "m": 22.3,
+     "p": 22.3,
+     "t": 1
+    },
+    {
+     "n": "Etrik MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Alembic",
+     "m": 24.68,
+     "p": 24.68,
+     "t": 1
+    },
+    {
+     "n": "Etozox T",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Cipla",
+     "m": 24.96,
+     "p": 24.96,
+     "t": 1
+    },
+    {
+     "n": "Ebov MR 4",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Integrace",
+     "m": 26.75,
+     "p": 26.75,
+     "t": 1
+    },
+    {
+     "n": "Etoxib MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Torrent",
+     "m": 27.36,
+     "p": 27.36,
+     "t": 1
+    },
+    {
+     "n": "Ezact MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Sun Pharma",
+     "m": 29.9,
+     "p": 29.9,
+     "t": 1
+    },
+    {
+     "n": "Retoz-MR 4",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Dr Reddy's",
+     "m": 30.7,
+     "p": 30.7,
+     "t": 1
+    },
+    {
+     "n": "Nucoxia MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Zydus",
+     "m": 33.48,
+     "p": 33.48,
+     "t": 1
+    },
+    {
+     "n": "Etoshine MR",
+     "s": "Etoricoxib 60mg + Thiocolchicoside 4mg",
+     "c": "Sun Pharma",
+     "m": 33.8,
+     "p": 33.8,
+     "t": 1
+    },
+    {
+     "n": "Diclowin Plus",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Wings",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Dolojust",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Mankind",
+     "m": 2.14,
+     "p": 2.14,
+     "t": 1
+    },
+    {
+     "n": "Nac Plus",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Systopic",
+     "m": 2.6,
+     "p": 2.6,
+     "t": 1
+    },
+    {
+     "n": "Reactin Plus",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Cipla",
+     "m": 2.6,
+     "p": 2.6,
+     "t": 1
+    },
+    {
+     "n": "Sumo Joy",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Alkem",
+     "m": 3.3,
+     "p": 3.3,
+     "t": 1
+    },
+    {
+     "n": "Divon Plus",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Micro Labs",
+     "m": 5.13,
+     "p": 5.13,
+     "t": 1
+    },
+    {
+     "n": "Voveran Plus",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Novartis",
+     "m": 5.5,
+     "p": 5.5,
+     "t": 1
+    },
+    {
+     "n": "Diclogesic",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Torrent",
+     "m": 5.53,
+     "p": 5.53,
+     "t": 1
+    },
+    {
+     "n": "Oxalgin-DP",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Zydus",
+     "m": 5.58,
+     "p": 5.58,
+     "t": 1
+    },
+    {
+     "n": "Magadol",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Alembic",
+     "m": 6.58,
+     "p": 6.58,
+     "t": 1
+    },
+    {
+     "n": "Dynapar",
+     "s": "Diclofenac 50mg + Paracetamol 325mg",
+     "c": "Troikaa",
+     "m": 6.75,
+     "p": 6.75,
+     "t": 1
+    },
+    {
+     "n": "Brufen P",
+     "s": "Ibuprofen 400mg + Paracetamol 325mg",
+     "c": "Abbott",
+     "m": 1.79,
+     "p": 1.79,
+     "t": 1
+    },
+    {
+     "n": "Flexon",
+     "s": "Ibuprofen 400mg + Paracetamol 325mg",
+     "c": "Aristo",
+     "m": 2.29,
+     "p": 2.29,
+     "t": 1
+    },
+    {
+     "n": "Entramol",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Endurance",
+     "m": 3.9,
+     "p": 3.9,
+     "t": 1
+    },
+    {
+     "n": "Tolydol",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Ipca",
+     "m": 5.06,
+     "p": 5.06,
+     "t": 1
+    },
+    {
+     "n": "PT",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Apex",
+     "m": 6.11,
+     "p": 6.11,
+     "t": 1
+    },
+    {
+     "n": "Calpol T",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "GSK",
+     "m": 6.81,
+     "p": 6.81,
+     "t": 1
+    },
+    {
+     "n": "Ultramol",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Aristo",
+     "m": 7.29,
+     "p": 7.29,
+     "t": 1
+    },
+    {
+     "n": "Ramcet",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Sundyota",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Zyrotram P",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Troikaa",
+     "m": 9.07,
+     "p": 9.07,
+     "t": 1
+    },
+    {
+     "n": "Domadol Plus",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Torrent",
+     "m": 9.58,
+     "p": 9.58,
+     "t": 1
+    },
+    {
+     "n": "Gudril",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Intas",
+     "m": 10.4,
+     "p": 10.4,
+     "t": 1
+    },
+    {
+     "n": "Ultramed",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Pharmed",
+     "m": 10.9,
+     "p": 10.9,
+     "t": 1
+    },
+    {
+     "n": "Urgendol P",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Win-Medicare",
+     "m": 12.7,
+     "p": 12.7,
+     "t": 1
+    },
+    {
+     "n": "Ultram",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Micro Labs",
+     "m": 13.4,
+     "p": 13.4,
+     "t": 1
+    },
+    {
+     "n": "Trabest",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Lupin",
+     "m": 13.88,
+     "p": 13.88,
+     "t": 1
+    },
+    {
+     "n": "NAC-AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Systopic",
+     "m": 14.5,
+     "p": 14.5
+    },
+    {
+     "n": "Volitra AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Sun Pharma",
+     "m": 15.0,
+     "p": 15.0
+    },
+    {
+     "n": "Vivian Plus Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Lincoln",
+     "m": 15.8,
+     "p": 15.8
+    },
+    {
+     "n": "D Pain AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Hetero",
+     "m": 16.5,
+     "p": 16.5
+    },
+    {
+     "n": "Dilona Aqua 2ml Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Mapra",
+     "m": 18.0,
+     "p": 18.0
+    },
+    {
+     "n": "Lysoflam AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Cachet",
+     "m": 18.5,
+     "p": 18.5
+    },
+    {
+     "n": "Justin AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Neon",
+     "m": 19.4,
+     "p": 19.4
+    },
+    {
+     "n": "Esgipyrin AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Abbott",
+     "m": 19.5,
+     "p": 19.5
+    },
+    {
+     "n": "Nudiclo Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Macleods",
+     "m": 19.8,
+     "p": 19.8
+    },
+    {
+     "n": "Diclotal AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Blue Cross",
+     "m": 21.0,
+     "p": 21.0
+    },
+    {
+     "n": "Doloban Aqua Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Mankind",
+     "m": 22.0,
+     "p": 22.0
+    },
+    {
+     "n": "Dicloaqua Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Dr Reddy's",
+     "m": 23.5,
+     "p": 23.5
+    },
+    {
+     "n": "Dolokind Aqua Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Mankind",
+     "m": 29.9,
+     "p": 29.9
+    },
+    {
+     "n": "Dynapar AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Troikaa",
+     "m": 37.7,
+     "p": 37.7
+    },
+    {
+     "n": "Diclogesic RR 2ml Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Torrent",
+     "m": 51.65,
+     "p": 51.65
+    },
+    {
+     "n": "Diclofenac Sodium Inj",
+     "s": "Diclofenac 75mg/3ml Injection",
+     "c": "Cadila",
+     "m": 2.87,
+     "p": 2.87
+    },
+    {
+     "n": "Tromax Inj",
+     "s": "Diclofenac 75mg/3ml Injection",
+     "c": "Aristo",
+     "m": 4.42,
+     "p": 4.42
+    },
+    {
+     "n": "Inac Inj",
+     "s": "Diclofenac 75mg/3ml Injection",
+     "c": "Zydus",
+     "m": 4.87,
+     "p": 4.87
+    },
+    {
+     "n": "Dicloran Inj",
+     "s": "Diclofenac 75mg/3ml Injection",
+     "c": "Lekar",
+     "m": 24.85,
+     "p": 24.85
+    },
+    {
+     "n": "Kitkit Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Zeelab",
+     "m": 3.0,
+     "p": 3.0
+    },
+    {
+     "n": "Kerosite Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Leeford",
+     "m": 5.0,
+     "p": 5.0
+    },
+    {
+     "n": "Kelac Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Intas",
+     "m": 5.16,
+     "p": 5.16
+    },
+    {
+     "n": "Rolac Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Alkem",
+     "m": 6.75,
+     "p": 6.75
+    },
+    {
+     "n": "Ketofan Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Emar",
+     "m": 15.93,
+     "p": 15.93
+    },
+    {
+     "n": "Ketopher Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Bennet",
+     "m": 16.5,
+     "p": 16.5
+    },
+    {
+     "n": "Fortral KT Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Perk",
+     "m": 16.8,
+     "p": 16.8
+    },
+    {
+     "n": "Krapfen Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Capsutab",
+     "m": 18.0,
+     "p": 18.0
+    },
+    {
+     "n": "Ketam Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Panm Labs",
+     "m": 19.75,
+     "p": 19.75
+    },
+    {
+     "n": "Catlac Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Gladden",
+     "m": 22.5,
+     "p": 22.5
+    },
+    {
+     "n": "Ketoserve Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Man Serve",
+     "m": 23.55,
+     "p": 23.55
+    },
+    {
+     "n": "Cadolac Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Cadila",
+     "m": 24.5,
+     "p": 24.5
+    },
+    {
+     "n": "Ketoscan Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Medishri",
+     "m": 25.0,
+     "p": 25.0
+    },
+    {
+     "n": "Ketis Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Dynamed",
+     "m": 26.5,
+     "p": 26.5
+    },
+    {
+     "n": "Optiket Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Albia",
+     "m": 30.0,
+     "p": 30.0
+    },
+    {
+     "n": "Ketofine Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Universal",
+     "m": 30.0,
+     "p": 30.0
+    },
+    {
+     "n": "Ketolac Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Intas",
+     "m": 32.0,
+     "p": 32.0
+    },
+    {
+     "n": "Ketorol Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Dr Reddy's",
+     "m": 33.27,
+     "p": 33.27
+    },
+    {
+     "n": "Ketanov Inj",
+     "s": "Ketorolac 30mg/1ml Injection",
+     "c": "Sun Pharma",
+     "m": 38.0,
+     "p": 38.0
+    },
+    {
+     "n": "Tramore 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Morepen",
+     "m": 3.25,
+     "p": 3.25
+    },
+    {
+     "n": "Tramacad 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Cadila",
+     "m": 4.47,
+     "p": 4.47
+    },
+    {
+     "n": "Tranzex 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Sun Pharma",
+     "m": 6.25,
+     "p": 6.25
+    },
+    {
+     "n": "Contramal 50 Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Abbott",
+     "m": 10.63,
+     "p": 10.63
+    },
+    {
+     "n": "Tramazac Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Zydus",
+     "m": 11.77,
+     "p": 11.77
+    },
+    {
+     "n": "Ramcet Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Sundyota",
+     "m": 12.31,
+     "p": 12.31
+    },
+    {
+     "n": "Supridol Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Neon",
+     "m": 13.0,
+     "p": 13.0
+    },
+    {
+     "n": "Domadol Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Torrent",
+     "m": 13.48,
+     "p": 13.48
+    },
+    {
+     "n": "Tramadex 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Laborate",
+     "m": 20.8,
+     "p": 20.8
+    },
+    {
+     "n": "Ultramed 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Pharmed",
+     "m": 21.28,
+     "p": 21.28
+    },
+    {
+     "n": "Biotram 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Biochem",
+     "m": 24.0,
+     "p": 24.0
+    },
+    {
+     "n": "Kedol 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Keen",
+     "m": 24.55,
+     "p": 24.55
+    },
+    {
+     "n": "Tramef 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Alkem",
+     "m": 25.77,
+     "p": 25.77
+    },
+    {
+     "n": "Tradol 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Rusan",
+     "m": 26.0,
+     "p": 26.0
+    },
+    {
+     "n": "Tramatas 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Intas",
+     "m": 26.46,
+     "p": 26.46
+    },
+    {
+     "n": "Urgendol 2ml Inj",
+     "s": "Tramadol 50mg/ml Injection",
+     "c": "Win-Medicare",
+     "m": 27.0,
+     "p": 27.0
+    }
+   ]
   }
  ]
 }
