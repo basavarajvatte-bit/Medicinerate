@@ -131,6 +131,7 @@ const nameIsSalt = (it) => { const a = words(it.salt), b = words(it.name); retur
 // ---------- AI : फक्त फोटो वाचतो ----------
 const PROMPT =
   "The image shows a medicine strip/box or a doctor's prescription. Read every medicine in it.\n" +
+  "The photo may be rotated, upside down, sideways, tilted, blurry, partly cut or taken at an angle: still read the text in whatever direction it runs. Never refuse because of orientation or quality; give your best reading.\n" +
   "For each medicine return:\n" +
   "- name: the medicine name exactly as written (keep English letters).\n" +
   "- salt: the complete composition with every ingredient, names only (keep English letters). " +
@@ -327,7 +328,9 @@ export async function onRequestPost({ request, env }) {
   const think = String(env.THINK || "").trim();
   const hedgeMs = parseInt(env.HEDGE_MS || "2500", 10) || 2500;
 
-  const res = await race(models, think, image, key, hedgeMs);
+  let res = await race(models, think, image, key, hedgeMs);
+  // सगळे मॉडेल अपयशी (मर्यादा सोडून): एकदा पुन्हा पूर्ण प्रयत्न
+  if (res.failed && (res.last || {}).status !== 429) res = await race(models, "", image, key, 1500);
   const tAi = Date.now() - t0;
 
   if (res.failed) {

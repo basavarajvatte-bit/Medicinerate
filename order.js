@@ -284,8 +284,16 @@
     try{
       var blob=await W.shrink(f),img=await W.b64(blob);
       var list=M().map(function(d,i){return i+": "+d.n+" ("+d.s+")"}).join("\n");
-      var res=await fetch("/api/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,list:list})});
-      var j=await res.json().catch(function(){return{}});
+      var res,j,tries=0;
+      while(true){
+        try{
+          res=await fetch("/api/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,list:list})});
+          j=await res.json().catch(function(){return{}});
+          if(res.ok||res.status===429||tries>=2)break;
+        }catch(er){if(tries>=2)throw er}
+        tries++;
+        await new Promise(function(r){setTimeout(r,1200)});
+      }
       if(!res.ok)throw new Error(j.error||"स्कॅन झाले नाही.");
       clearInterval(tm);URL.revokeObjectURL(pic);
       var cards=cardsFrom(j.items||[]);
@@ -306,8 +314,9 @@
       clearInterval(tm);URL.revokeObjectURL(pic);
       var m=String(e&&e.message||"");
       if(!m||/fetch|network|load failed/i.test(m))m="इंटरनेट जोडणी मिळाली नाही.";
-      else m=m.split("(")[0].trim();
-      var fail='<div class="fail">'+E(m)+'<p>पुन्हा स्कॅन करा किंवा खाली औषधाचे नाव टाइप करा.</p><button class="btn" id="retry">पुन्हा स्कॅन करा</button></div>';
+      var code=(m.match(/\(([^)]*)\)/)||[])[1]||"";
+      if(m&&!/fetch|network|load failed/i.test(m))m=m.split("(")[0].trim();
+      var fail='<div class="fail">'+E(m)+'<p>खाली "पुन्हा स्कॅन करा" दाबा किंवा औषधाचे नाव टाइप करा.</p><button class="btn" id="retry">पुन्हा स्कॅन करा</button>'+(code?'<p class="mini" style="margin-top:8px">कोड: '+E(code)+'</p>':'')+'</div>';
       if(add){out.innerHTML=resultsHtml("",fail);bind(out);refreshTot()}
       else out.innerHTML=fail;
       g("retry").onclick=function(){W.doScan(W.__last)};
