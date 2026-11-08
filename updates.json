@@ -27538,6 +27538,611 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-prostate",
+   "meds": [
+    {
+     "n": "Veltam 0.4 (15)",
+     "s": "Tamsulosin 0.4mg",
+     "c": "Intas",
+     "m": 11.4,
+     "p": 11.4,
+     "t": 1
+    },
+    {
+     "n": "Uritin 0.4",
+     "s": "Tamsulosin 0.4mg",
+     "c": "Overseas",
+     "m": 12.29,
+     "p": 12.29,
+     "t": 1
+    },
+    {
+     "n": "Urimax 0.4 (20)",
+     "s": "Tamsulosin 0.4mg",
+     "c": "Cipla",
+     "m": 15.73,
+     "p": 15.73,
+     "t": 1
+    },
+    {
+     "n": "Tamflo 0.4",
+     "s": "Tamsulosin 0.4mg",
+     "c": "",
+     "m": 15.9,
+     "p": 15.9,
+     "t": 1
+    },
+    {
+     "n": "Urimax 0.2 (15)",
+     "s": "Tamsulosin 0.2mg",
+     "c": "Cipla",
+     "m": 11.33,
+     "p": 11.33,
+     "t": 1
+    },
+    {
+     "n": "Silodal 8",
+     "s": "Silodosin 8mg",
+     "c": "Sun",
+     "m": 29.9,
+     "p": 29.9,
+     "t": 1
+    },
+    {
+     "n": "Silofast 8 (15)",
+     "s": "Silodosin 8mg",
+     "c": "",
+     "m": 38.0,
+     "p": 38.0,
+     "t": 1
+    },
+    {
+     "n": "Fulflo 10",
+     "s": "Alfuzosin 10mg",
+     "c": "",
+     "m": 7.88,
+     "p": 7.88,
+     "t": 1
+    },
+    {
+     "n": "Fual 10",
+     "s": "Alfuzosin 10mg",
+     "c": "",
+     "m": 8.0,
+     "p": 8.0,
+     "t": 1
+    },
+    {
+     "n": "Xelflo 10",
+     "s": "Alfuzosin 10mg",
+     "c": "",
+     "m": 8.8,
+     "p": 8.8,
+     "t": 1
+    },
+    {
+     "n": "Alfugress 10",
+     "s": "Alfuzosin 10mg",
+     "c": "",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Zyalfa 10",
+     "s": "Alfuzosin 10mg",
+     "c": "",
+     "m": 10.64,
+     "p": 10.64,
+     "t": 1
+    },
+    {
+     "n": "Efzu",
+     "s": "Alfuzosin 10mg",
+     "c": "Overseas",
+     "m": 11.38,
+     "p": 11.38,
+     "t": 1
+    },
+    {
+     "n": "Emzosin",
+     "s": "Alfuzosin 10mg",
+     "c": "Emcure",
+     "m": 11.9,
+     "p": 11.9,
+     "t": 1
+    },
+    {
+     "n": "Velfu 10 (7)",
+     "s": "Alfuzosin 10mg",
+     "c": "",
+     "m": 12.86,
+     "p": 12.86,
+     "t": 1
+    },
+    {
+     "n": "Z Alfu 10",
+     "s": "Alfuzosin 10mg",
+     "c": "Daylon",
+     "m": 13.9,
+     "p": 13.9,
+     "t": 1
+    },
+    {
+     "n": "Alzosin 10",
+     "s": "Alfuzosin 10mg",
+     "c": "Werke",
+     "m": 13.99,
+     "p": 13.99,
+     "t": 1
+    },
+    {
+     "n": "Flotral 10 (30)",
+     "s": "Alfuzosin 10mg",
+     "c": "Sun",
+     "m": 16.5,
+     "p": 16.5,
+     "t": 1
+    },
+    {
+     "n": "Aidalfa 10",
+     "s": "Alfuzosin 10mg",
+     "c": "Workcell",
+     "m": 17.0,
+     "p": 17.0,
+     "t": 1
+    },
+    {
+     "n": "Aluts",
+     "s": "Alfuzosin 10mg",
+     "c": "Medrhans",
+     "m": 17.5,
+     "p": 17.5,
+     "t": 1
+    },
+    {
+     "n": "Alfusin (15)",
+     "s": "Alfuzosin 10mg",
+     "c": "Cipla",
+     "m": 18.1,
+     "p": 18.1,
+     "t": 1
+    },
+    {
+     "n": "Zosialfa",
+     "s": "Alfuzosin 10mg",
+     "c": "Ytiliga",
+     "m": 19.8,
+     "p": 19.8,
+     "t": 1
+    },
+    {
+     "n": "Alfoo 10 (30)",
+     "s": "Alfuzosin 10mg",
+     "c": "Dr Reddy's",
+     "m": 20.84,
+     "p": 20.84,
+     "t": 1
+    },
+    {
+     "n": "Routwin 5",
+     "s": "Finasteride 5mg",
+     "c": "MLT Labs",
+     "m": 5.7,
+     "p": 5.7,
+     "t": 1
+    },
+    {
+     "n": "Finastat 5",
+     "s": "Finasteride 5mg",
+     "c": "Active Healthcare",
+     "m": 7.0,
+     "p": 7.0,
+     "t": 1
+    },
+    {
+     "n": "Fintride 5",
+     "s": "Finasteride 5mg",
+     "c": "Kopran",
+     "m": 8.72,
+     "p": 8.72,
+     "t": 1
+    },
+    {
+     "n": "Finast 5",
+     "s": "Finasteride 5mg",
+     "c": "Dr Reddy's",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Cgfin 5",
+     "s": "Finasteride 5mg",
+     "c": "CMG",
+     "m": 10.4,
+     "p": 10.4,
+     "t": 1
+    },
+    {
+     "n": "Fincept 5",
+     "s": "Finasteride 5mg",
+     "c": "Lupin",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Prosteride",
+     "s": "Finasteride 5mg",
+     "c": "HAB Pharma",
+     "m": 11.6,
+     "p": 11.6,
+     "t": 1
+    },
+    {
+     "n": "Finrest 5",
+     "s": "Finasteride 5mg",
+     "c": "Johnlee",
+     "m": 14.9,
+     "p": 14.9,
+     "t": 1
+    },
+    {
+     "n": "Folvinat 5",
+     "s": "Finasteride 5mg",
+     "c": "Osnat",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Fintes 5",
+     "s": "Finasteride 5mg",
+     "c": "Trumac",
+     "m": 16.5,
+     "p": 16.5,
+     "t": 1
+    },
+    {
+     "n": "Finostan 5",
+     "s": "Finasteride 5mg",
+     "c": "Morepen",
+     "m": 18.2,
+     "p": 18.2,
+     "t": 1
+    },
+    {
+     "n": "Finastrate 5",
+     "s": "Finasteride 5mg",
+     "c": "Prevego",
+     "m": 18.2,
+     "p": 18.2,
+     "t": 1
+    },
+    {
+     "n": "Finent 5",
+     "s": "Finasteride 5mg",
+     "c": "TNT",
+     "m": 19.5,
+     "p": 19.5,
+     "t": 1
+    },
+    {
+     "n": "Fincar",
+     "s": "Finasteride 5mg",
+     "c": "Cipla",
+     "m": 19.57,
+     "p": 19.57,
+     "t": 1
+    },
+    {
+     "n": "Finopex 5",
+     "s": "Finasteride 5mg",
+     "c": "Carlton",
+     "m": 29.0,
+     "p": 29.0,
+     "t": 1
+    },
+    {
+     "n": "Dutride 0.5",
+     "s": "Dutasteride 0.5mg",
+     "c": "Swati Spentose",
+     "m": 13.5,
+     "p": 13.5,
+     "t": 1
+    },
+    {
+     "n": "Urilosin D",
+     "s": "Tamsulosin 0.4mg + Dutasteride 0.5mg",
+     "c": "Cipla",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Dutasmer T",
+     "s": "Tamsulosin 0.4mg + Dutasteride 0.5mg",
+     "c": "",
+     "m": 15.47,
+     "p": 15.47,
+     "t": 1
+    },
+    {
+     "n": "Urislash D",
+     "s": "Tamsulosin 0.4mg + Dutasteride 0.5mg",
+     "c": "",
+     "m": 15.51,
+     "p": 15.51,
+     "t": 1
+    },
+    {
+     "n": "Geriflo D (30)",
+     "s": "Tamsulosin 0.4mg + Dutasteride 0.5mg",
+     "c": "",
+     "m": 29.07,
+     "p": 29.07,
+     "t": 1
+    },
+    {
+     "n": "Urimax D (15)",
+     "s": "Tamsulosin 0.4mg + Dutasteride 0.5mg",
+     "c": "Cipla",
+     "m": 36.8,
+     "p": 36.8,
+     "t": 1
+    },
+    {
+     "n": "Tamsin D (15)",
+     "s": "Tamsulosin 0.4mg + Dutasteride 0.5mg",
+     "c": "",
+     "m": 43.33,
+     "p": 43.33,
+     "t": 1
+    },
+    {
+     "n": "Tamplus",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Urifinet",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "",
+     "m": 11.5,
+     "p": 11.5,
+     "t": 1
+    },
+    {
+     "n": "Tamflo F",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "",
+     "m": 12.03,
+     "p": 12.03,
+     "t": 1
+    },
+    {
+     "n": "Urilosin F",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "Cipla",
+     "m": 12.73,
+     "p": 12.73,
+     "t": 1
+    },
+    {
+     "n": "Flokind F",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "Mankind",
+     "m": 13.1,
+     "p": 13.1,
+     "t": 1
+    },
+    {
+     "n": "Tamseal F",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "",
+     "m": 13.9,
+     "p": 13.9,
+     "t": 1
+    },
+    {
+     "n": "Geriflo",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "",
+     "m": 15.47,
+     "p": 15.47,
+     "t": 1
+    },
+    {
+     "n": "Contiflo OD F",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "",
+     "m": 15.6,
+     "p": 15.6,
+     "t": 1
+    },
+    {
+     "n": "Finast T (30)",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "Dr Reddy's",
+     "m": 16.33,
+     "p": 16.33,
+     "t": 1
+    },
+    {
+     "n": "Veltam F (15)",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "Intas",
+     "m": 17.4,
+     "p": 17.4,
+     "t": 1
+    },
+    {
+     "n": "Temsunol F",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "",
+     "m": 22.05,
+     "p": 22.05,
+     "t": 1
+    },
+    {
+     "n": "Urimax F (15)",
+     "s": "Tamsulosin 0.4mg + Finasteride 5mg",
+     "c": "Cipla",
+     "m": 27.14,
+     "p": 27.14,
+     "t": 1
+    },
+    {
+     "n": "Sterdu L",
+     "s": "Alfuzosin 10mg + Dutasteride 0.5mg",
+     "c": "Alkem",
+     "m": 15.9,
+     "p": 15.9,
+     "t": 1
+    },
+    {
+     "n": "Alfugress-D",
+     "s": "Alfuzosin 10mg + Dutasteride 0.5mg",
+     "c": "",
+     "m": 18.5,
+     "p": 18.5,
+     "t": 1
+    },
+    {
+     "n": "Afdura",
+     "s": "Alfuzosin 10mg + Dutasteride 0.5mg",
+     "c": "",
+     "m": 19.4,
+     "p": 19.4,
+     "t": 1
+    },
+    {
+     "n": "Tadgo 5",
+     "s": "Tadalafil 5mg",
+     "c": "RPG",
+     "m": 18.14,
+     "p": 18.14,
+     "t": 1
+    },
+    {
+     "n": "Tadox 5",
+     "s": "Tadalafil 5mg",
+     "c": "Himeros",
+     "m": 18.75,
+     "p": 18.75,
+     "t": 1
+    },
+    {
+     "n": "Corectil T 5 (4)",
+     "s": "Tadalafil 5mg",
+     "c": "Tas Med",
+     "m": 19.36,
+     "p": 19.36,
+     "t": 1
+    },
+    {
+     "n": "Yaw 5",
+     "s": "Tadalafil 5mg",
+     "c": "Corona",
+     "m": 19.97,
+     "p": 19.97,
+     "t": 1
+    },
+    {
+     "n": "Tadasure 5",
+     "s": "Tadalafil 5mg",
+     "c": "Linux",
+     "m": 20.34,
+     "p": 20.34,
+     "t": 1
+    },
+    {
+     "n": "Tfil 5 (4)",
+     "s": "Tadalafil 5mg",
+     "c": "Icon",
+     "m": 20.5,
+     "p": 20.5,
+     "t": 1
+    },
+    {
+     "n": "aLFil 5",
+     "s": "Tadalafil 5mg",
+     "c": "Samarth",
+     "m": 20.55,
+     "p": 20.55,
+     "t": 1
+    },
+    {
+     "n": "Mildfil",
+     "s": "Tadalafil 5mg",
+     "c": "Fourrts",
+     "m": 23.3,
+     "p": 23.3,
+     "t": 1
+    },
+    {
+     "n": "ED Save",
+     "s": "Tadalafil 5mg",
+     "c": "",
+     "m": 23.43,
+     "p": 23.43,
+     "t": 1
+    },
+    {
+     "n": "Efil 5",
+     "s": "Tadalafil 5mg",
+     "c": "JB Chemicals",
+     "m": 24.13,
+     "p": 24.13,
+     "t": 1
+    },
+    {
+     "n": "Tadnor 5",
+     "s": "Tadalafil 5mg",
+     "c": "Ytiliga",
+     "m": 24.5,
+     "p": 24.5,
+     "t": 1
+    },
+    {
+     "n": "Tedup 5",
+     "s": "Tadalafil 5mg",
+     "c": "",
+     "m": 24.84,
+     "p": 24.84,
+     "t": 1
+    },
+    {
+     "n": "Tazzle 5",
+     "s": "Tadalafil 5mg",
+     "c": "Dr Reddy's",
+     "m": 26.33,
+     "p": 26.33,
+     "t": 1
+    },
+    {
+     "n": "Modula",
+     "s": "Tadalafil 5mg",
+     "c": "Sun",
+     "m": 27.4,
+     "p": 27.4,
+     "t": 1
+    },
+    {
+     "n": "Tadaflo 5 (15)",
+     "s": "Tadalafil 5mg",
+     "c": "",
+     "m": 30.45,
+     "p": 30.45,
+     "t": 1
+    }
+   ]
   }
  ]
 }
