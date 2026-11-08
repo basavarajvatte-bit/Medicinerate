@@ -16095,6 +16095,1273 @@
      "p": 180.0
     }
    ]
+  },
+  {
+   "id": "2026-11-08-diuretics",
+   "meds": [
+    {
+     "n": "Lasipen 40",
+     "s": "Furosemide 40mg",
+     "c": "Morepen",
+     "m": 0.33,
+     "p": 0.33,
+     "t": 1
+    },
+    {
+     "n": "Frusamide 40 (15 tab)",
+     "s": "Furosemide 40mg",
+     "c": "Sanofi",
+     "m": 0.4,
+     "p": 0.4,
+     "t": 1
+    },
+    {
+     "n": "Frusenex 40",
+     "s": "Furosemide 40mg",
+     "c": "Geno",
+     "m": 0.52,
+     "p": 0.52,
+     "t": 1
+    },
+    {
+     "n": "Cgfru 40",
+     "s": "Furosemide 40mg",
+     "c": "Cmg Biotech",
+     "m": 0.52,
+     "p": 0.52,
+     "t": 1
+    },
+    {
+     "n": "Frucix 40",
+     "s": "Furosemide 40mg",
+     "c": "Medibest",
+     "m": 0.84,
+     "p": 0.84,
+     "t": 1
+    },
+    {
+     "n": "Frusimed 40",
+     "s": "Furosemide 40mg",
+     "c": "Prevego",
+     "m": 0.84,
+     "p": 0.84,
+     "t": 1
+    },
+    {
+     "n": "Lasitag 40",
+     "s": "Furosemide 40mg",
+     "c": "Ikon",
+     "m": 0.84,
+     "p": 0.84,
+     "t": 1
+    },
+    {
+     "n": "Furosemide 40",
+     "s": "Furosemide 40mg",
+     "c": "Care Formulation",
+     "m": 0.84,
+     "p": 0.84,
+     "t": 1
+    },
+    {
+     "n": "Frasix 40",
+     "s": "Furosemide 40mg",
+     "c": "Healing Pharma",
+     "m": 0.9,
+     "p": 0.9,
+     "t": 1
+    },
+    {
+     "n": "Lasiwin 40",
+     "s": "Furosemide 40mg",
+     "c": "Innovative",
+     "m": 0.93,
+     "p": 0.93,
+     "t": 1
+    },
+    {
+     "n": "Oroside 40",
+     "s": "Furosemide 40mg",
+     "c": "Zeelab",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Lasix 40 (15 tab)",
+     "s": "Furosemide 40mg",
+     "c": "Sanofi",
+     "m": 1.01,
+     "p": 1.01,
+     "t": 1
+    },
+    {
+     "n": "Lasix 2ml amp",
+     "s": "Furosemide 10mg/ml injection",
+     "c": "Sanofi/Emcure",
+     "m": 11.0,
+     "p": 11.0
+    },
+    {
+     "n": "Lasix 4ml amp",
+     "s": "Furosemide 10mg/ml injection",
+     "c": "Sanofi/Emcure",
+     "m": 13.39,
+     "p": 13.39
+    },
+    {
+     "n": "Tosec 10",
+     "s": "Torsemide 10mg",
+     "c": "Intas",
+     "m": 1.98,
+     "p": 1.98,
+     "t": 1
+    },
+    {
+     "n": "Torsemi 10",
+     "s": "Torsemide 10mg",
+     "c": "FDC",
+     "m": 2.22,
+     "p": 2.22,
+     "t": 1
+    },
+    {
+     "n": "Torsikind 10",
+     "s": "Torsemide 10mg",
+     "c": "Mankind",
+     "m": 2.4,
+     "p": 2.4,
+     "t": 1
+    },
+    {
+     "n": "Torpres 10",
+     "s": "Torsemide 10mg",
+     "c": "Alniche",
+     "m": 2.5,
+     "p": 2.5,
+     "t": 1
+    },
+    {
+     "n": "Zator 10",
+     "s": "Torsemide 10mg",
+     "c": "Torrent",
+     "m": 3.4,
+     "p": 3.4,
+     "t": 1
+    },
+    {
+     "n": "Tormis 10",
+     "s": "Torsemide 10mg",
+     "c": "Mission Research",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Torkid 10",
+     "s": "Torsemide 10mg",
+     "c": "Econ",
+     "m": 3.9,
+     "p": 3.9,
+     "t": 1
+    },
+    {
+     "n": "Meltor 10",
+     "s": "Torsemide 10mg",
+     "c": "Centaur",
+     "m": 4.24,
+     "p": 4.24,
+     "t": 1
+    },
+    {
+     "n": "Tormid 10",
+     "s": "Torsemide 10mg",
+     "c": "Marc",
+     "m": 4.24,
+     "p": 4.24,
+     "t": 1
+    },
+    {
+     "n": "Torvigress 10",
+     "s": "Torsemide 10mg",
+     "c": "La Renon",
+     "m": 4.3,
+     "p": 4.3,
+     "t": 1
+    },
+    {
+     "n": "Torsid 10",
+     "s": "Torsemide 10mg",
+     "c": "Aristo",
+     "m": 4.65,
+     "p": 4.65,
+     "t": 1
+    },
+    {
+     "n": "Toresa 10",
+     "s": "Torsemide 10mg",
+     "c": "Abbott",
+     "m": 4.69,
+     "p": 4.69,
+     "t": 1
+    },
+    {
+     "n": "Torsinex 10",
+     "s": "Torsemide 10mg",
+     "c": "Micro Labs",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "Retorlix 10",
+     "s": "Torsemide 10mg",
+     "c": "Lupin",
+     "m": 4.89,
+     "p": 4.89,
+     "t": 1
+    },
+    {
+     "n": "Tormax 10",
+     "s": "Torsemide 10mg",
+     "c": "Maxlive",
+     "m": 4.9,
+     "p": 4.9,
+     "t": 1
+    },
+    {
+     "n": "Dytor 10 (15 tab)",
+     "s": "Torsemide 10mg",
+     "c": "Cipla",
+     "m": 5.15,
+     "p": 5.15,
+     "t": 1
+    },
+    {
+     "n": "Durite 10",
+     "s": "Torsemide 10mg",
+     "c": "Leeford",
+     "m": 5.62,
+     "p": 5.62,
+     "t": 1
+    },
+    {
+     "n": "Dyloop 10",
+     "s": "Torsemide 10mg",
+     "c": "Sinsan",
+     "m": 5.63,
+     "p": 5.63,
+     "t": 1
+    },
+    {
+     "n": "Tide 10",
+     "s": "Torsemide 10mg",
+     "c": "Torrent",
+     "m": 7.86,
+     "p": 7.86,
+     "t": 1
+    },
+    {
+     "n": "Torget 10",
+     "s": "Torsemide 10mg",
+     "c": "Zydus",
+     "m": 8.0,
+     "p": 8.0,
+     "t": 1
+    },
+    {
+     "n": "ZEetor 20",
+     "s": "Torsemide 20mg",
+     "c": "Zeelab",
+     "m": 3.3,
+     "p": 3.3,
+     "t": 1
+    },
+    {
+     "n": "Torsemi 20",
+     "s": "Torsemide 20mg",
+     "c": "FDC",
+     "m": 4.15,
+     "p": 4.15,
+     "t": 1
+    },
+    {
+     "n": "Durite 20",
+     "s": "Torsemide 20mg",
+     "c": "Leeford",
+     "m": 4.31,
+     "p": 4.31,
+     "t": 1
+    },
+    {
+     "n": "Torpres 20",
+     "s": "Torsemide 20mg",
+     "c": "Alniche",
+     "m": 4.7,
+     "p": 4.7,
+     "t": 1
+    },
+    {
+     "n": "Lhd 20",
+     "s": "Torsemide 20mg",
+     "c": "Ipca",
+     "m": 5.08,
+     "p": 5.08,
+     "t": 1
+    },
+    {
+     "n": "Dyloop 20",
+     "s": "Torsemide 20mg",
+     "c": "Zyphar's",
+     "m": 5.19,
+     "p": 5.19,
+     "t": 1
+    },
+    {
+     "n": "Zator 20",
+     "s": "Torsemide 20mg",
+     "c": "Torrent",
+     "m": 5.24,
+     "p": 5.24,
+     "t": 1
+    },
+    {
+     "n": "Torkid 20",
+     "s": "Torsemide 20mg",
+     "c": "Econ",
+     "m": 5.5,
+     "p": 5.5,
+     "t": 1
+    },
+    {
+     "n": "Toride 20",
+     "s": "Torsemide 20mg",
+     "c": "Sun Pharma",
+     "m": 6.21,
+     "p": 6.21,
+     "t": 1
+    },
+    {
+     "n": "Torvigress 20",
+     "s": "Torsemide 20mg",
+     "c": "La Renon",
+     "m": 6.22,
+     "p": 6.22,
+     "t": 1
+    },
+    {
+     "n": "Tosec 20",
+     "s": "Torsemide 20mg",
+     "c": "Intas",
+     "m": 6.64,
+     "p": 6.64,
+     "t": 1
+    },
+    {
+     "n": "Toresa 20",
+     "s": "Torsemide 20mg",
+     "c": "Abbott",
+     "m": 7.65,
+     "p": 7.65,
+     "t": 1
+    },
+    {
+     "n": "Torsid 20",
+     "s": "Torsemide 20mg",
+     "c": "Aristo",
+     "m": 7.78,
+     "p": 7.78,
+     "t": 1
+    },
+    {
+     "n": "Meltor 20",
+     "s": "Torsemide 20mg",
+     "c": "Centaur",
+     "m": 7.87,
+     "p": 7.87,
+     "t": 1
+    },
+    {
+     "n": "Nephtor 20",
+     "s": "Torsemide 20mg",
+     "c": "Septalyst",
+     "m": 8.44,
+     "p": 8.44,
+     "t": 1
+    },
+    {
+     "n": "TOR 20 (15 tab)",
+     "s": "Torsemide 20mg",
+     "c": "Intas",
+     "m": 8.47,
+     "p": 8.47,
+     "t": 1
+    },
+    {
+     "n": "Torsinex 20",
+     "s": "Torsemide 20mg",
+     "c": "Micro Labs",
+     "m": 9.08,
+     "p": 9.08,
+     "t": 1
+    },
+    {
+     "n": "Retorlix 20",
+     "s": "Torsemide 20mg",
+     "c": "Lupin",
+     "m": 9.7,
+     "p": 9.7,
+     "t": 1
+    },
+    {
+     "n": "Torget 20",
+     "s": "Torsemide 20mg",
+     "c": "Zydus",
+     "m": 11.2,
+     "p": 11.2,
+     "t": 1
+    },
+    {
+     "n": "JBtor 20",
+     "s": "Torsemide 20mg",
+     "c": "J B Chemicals",
+     "m": 11.7,
+     "p": 11.7,
+     "t": 1
+    },
+    {
+     "n": "Tide 20",
+     "s": "Torsemide 20mg",
+     "c": "Torrent",
+     "m": 13.4,
+     "p": 13.4,
+     "t": 1
+    },
+    {
+     "n": "Dytor 20",
+     "s": "Torsemide 20mg",
+     "c": "Cipla",
+     "m": 13.87,
+     "p": 13.87,
+     "t": 1
+    },
+    {
+     "n": "Diurator 20",
+     "s": "Torsemide 20mg",
+     "c": "Elder",
+     "m": 14.46,
+     "p": 14.46,
+     "t": 1
+    },
+    {
+     "n": "Aldobloc 25",
+     "s": "Spironolactone 25mg",
+     "c": "FDC",
+     "m": 1.6,
+     "p": 1.6,
+     "t": 1
+    },
+    {
+     "n": "Onoctone 25",
+     "s": "Spironolactone 25mg",
+     "c": "Zeelab",
+     "m": 1.8,
+     "p": 1.8,
+     "t": 1
+    },
+    {
+     "n": "Spirix 25",
+     "s": "Spironolactone 25mg",
+     "c": "Psychocare",
+     "m": 1.94,
+     "p": 1.94,
+     "t": 1
+    },
+    {
+     "n": "Aldactone 25 (15 tab)",
+     "s": "Spironolactone 25mg",
+     "c": "RPG",
+     "m": 2.13,
+     "p": 2.13,
+     "t": 1
+    },
+    {
+     "n": "Silectone 25",
+     "s": "Spironolactone 25mg",
+     "c": "Johnlee",
+     "m": 2.13,
+     "p": 2.13,
+     "t": 1
+    },
+    {
+     "n": "Spiromax 25",
+     "s": "Spironolactone 25mg",
+     "c": "Maxford",
+     "m": 2.14,
+     "p": 2.14,
+     "t": 1
+    },
+    {
+     "n": "Spirolact 25",
+     "s": "Spironolactone 25mg",
+     "c": "Prevego",
+     "m": 2.14,
+     "p": 2.14,
+     "t": 1
+    },
+    {
+     "n": "Spironot 25",
+     "s": "Spironolactone 25mg",
+     "c": "Care Formulation",
+     "m": 2.21,
+     "p": 2.21,
+     "t": 1
+    },
+    {
+     "n": "Spiroz 25",
+     "s": "Spironolactone 25mg",
+     "c": "Klintoz",
+     "m": 2.4,
+     "p": 2.4,
+     "t": 1
+    },
+    {
+     "n": "Aldowin 25",
+     "s": "Spironolactone 25mg",
+     "c": "Steris",
+     "m": 2.44,
+     "p": 2.44,
+     "t": 1
+    },
+    {
+     "n": "Cglactone 25",
+     "s": "Spironolactone 25mg",
+     "c": "Cmg Biotech",
+     "m": 2.5,
+     "p": 2.5,
+     "t": 1
+    },
+    {
+     "n": "Genericart Spironolactone",
+     "s": "Spironolactone 25mg",
+     "c": "Genericart",
+     "m": 3.0,
+     "p": 3.0,
+     "t": 1
+    },
+    {
+     "n": "Sprino Ven 25",
+     "s": "Spironolactone 25mg",
+     "c": "Biovenice",
+     "m": 3.0,
+     "p": 3.0,
+     "t": 1
+    },
+    {
+     "n": "Frusis 20/50",
+     "s": "Furosemide 20mg + Spironolactone 50mg",
+     "c": "Intel",
+     "m": 3.6,
+     "p": 3.6,
+     "t": 1
+    },
+    {
+     "n": "Diutone",
+     "s": "Furosemide 20mg + Spironolactone 50mg",
+     "c": "Zeelab",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Fruselac",
+     "s": "Furosemide 20mg + Spironolactone 50mg",
+     "c": "Lupin",
+     "m": 4.77,
+     "p": 4.77,
+     "t": 1
+    },
+    {
+     "n": "Lasilactone 50",
+     "s": "Furosemide 20mg + Spironolactone 50mg",
+     "c": "Sanofi/Emcure",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "Aldoloc 20/50",
+     "s": "Furosemide 20mg + Spironolactone 50mg",
+     "c": "Thrift",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Dytor Plus LS (15 tab)",
+     "s": "Torsemide 10mg + Spironolactone 25mg",
+     "c": "Cipla",
+     "m": 3.13,
+     "p": 3.13,
+     "t": 1
+    },
+    {
+     "n": "Tide Plus 10",
+     "s": "Torsemide 10mg + Spironolactone 50mg",
+     "c": "Torrent",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "Dytor Plus 10 (15 tab)",
+     "s": "Torsemide 10mg + Spironolactone 50mg",
+     "c": "Cipla",
+     "m": 6.55,
+     "p": 6.55,
+     "t": 1
+    },
+    {
+     "n": "Hydrozide 12.5",
+     "s": "Hydrochlorothiazide 12.5mg",
+     "c": "Zeelab",
+     "m": 0.23,
+     "p": 0.23,
+     "t": 1
+    },
+    {
+     "n": "Dizide 12.5",
+     "s": "Hydrochlorothiazide 12.5mg",
+     "c": "Kenn",
+     "m": 0.91,
+     "p": 0.91,
+     "t": 1
+    },
+    {
+     "n": "Hydrazide 12.5",
+     "s": "Hydrochlorothiazide 12.5mg",
+     "c": "Cipla",
+     "m": 0.97,
+     "p": 0.97,
+     "t": 1
+    },
+    {
+     "n": "Hydronol 12.5",
+     "s": "Hydrochlorothiazide 12.5mg",
+     "c": "Knoll",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Hydride 12.5",
+     "s": "Hydrochlorothiazide 12.5mg",
+     "c": "Micro Labs",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Bpzide 12.5",
+     "s": "Hydrochlorothiazide 12.5mg",
+     "c": "Stadmed",
+     "m": 1.01,
+     "p": 1.01,
+     "t": 1
+    },
+    {
+     "n": "Thiazide 12.5",
+     "s": "Hydrochlorothiazide 12.5mg",
+     "c": "Ordain",
+     "m": 1.02,
+     "p": 1.02,
+     "t": 1
+    },
+    {
+     "n": "Hyzide 12.5",
+     "s": "Hydrochlorothiazide 12.5mg",
+     "c": "East West",
+     "m": 1.02,
+     "p": 1.02,
+     "t": 1
+    },
+    {
+     "n": "Aquazide 12.5",
+     "s": "Hydrochlorothiazide 12.5mg",
+     "c": "Sun Pharma",
+     "m": 1.11,
+     "p": 1.11,
+     "t": 1
+    },
+    {
+     "n": "Tensiclor 12.5 (15 tab)",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Zeelab",
+     "m": 1.2,
+     "p": 1.2,
+     "t": 1
+    },
+    {
+     "n": "Thalizide 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Ipca",
+     "m": 1.43,
+     "p": 1.43,
+     "t": 1
+    },
+    {
+     "n": "New CH 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Systopic",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Chlohat 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Akesiss",
+     "m": 3.33,
+     "p": 3.33,
+     "t": 1
+    },
+    {
+     "n": "Chlornol 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Knoll",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Clovet 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Ajanta",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Chlorfid 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Fidelity",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Thalidon 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Johnlee",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Chlorix 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Mendcure",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Chlordica 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Linus",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Chlorone 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Cardivista",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Thiovas 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Lakshya",
+     "m": 5.2,
+     "p": 5.2,
+     "t": 1
+    },
+    {
+     "n": "Lupiclor 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Lupin",
+     "m": 5.35,
+     "p": 5.35,
+     "t": 1
+    },
+    {
+     "n": "Thiaklor 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Emcure",
+     "m": 5.43,
+     "p": 5.43,
+     "t": 1
+    },
+    {
+     "n": "Aquiris 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Akumentis",
+     "m": 5.9,
+     "p": 5.9,
+     "t": 1
+    },
+    {
+     "n": "Ifyclodon 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Syntonic",
+     "m": 5.99,
+     "p": 5.99,
+     "t": 1
+    },
+    {
+     "n": "Thaloric 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Zuventus",
+     "m": 6.99,
+     "p": 6.99,
+     "t": 1
+    },
+    {
+     "n": "Chlorfit 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Innovexa",
+     "m": 7.15,
+     "p": 7.15,
+     "t": 1
+    },
+    {
+     "n": "Goodclor 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Workcell",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "CTD 12.5 (15 tab)",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Ipca",
+     "m": 8.0,
+     "p": 8.0,
+     "t": 1
+    },
+    {
+     "n": "Chloronol 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Knoll",
+     "m": 8.25,
+     "p": 8.25,
+     "t": 1
+    },
+    {
+     "n": "Thaliton 12.5",
+     "s": "Chlorthalidone 12.5mg",
+     "c": "Raymedica",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "IN 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Systopic",
+     "m": 3.75,
+     "p": 3.75,
+     "t": 1
+    },
+    {
+     "n": "Indazee SR (20 tab)",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Zeelab",
+     "m": 3.75,
+     "p": 3.75,
+     "t": 1
+    },
+    {
+     "n": "Natritor 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Ipca",
+     "m": 3.99,
+     "p": 3.99,
+     "t": 1
+    },
+    {
+     "n": "Natridac 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Zydus",
+     "m": 4.9,
+     "p": 4.9,
+     "t": 1
+    },
+    {
+     "n": "Excrete 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Cardia",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Fanton 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Mandar",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Inmide 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "East West",
+     "m": 6.0,
+     "p": 6.0,
+     "t": 1
+    },
+    {
+     "n": "Inklud 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Zunison",
+     "m": 6.5,
+     "p": 6.5,
+     "t": 1
+    },
+    {
+     "n": "Cgmide 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Cmg Biotech",
+     "m": 6.59,
+     "p": 6.59,
+     "t": 1
+    },
+    {
+     "n": "Diurix 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Bal Pharma",
+     "m": 6.7,
+     "p": 6.7,
+     "t": 1
+    },
+    {
+     "n": "Natrax 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Grefith",
+     "m": 6.8,
+     "p": 6.8,
+     "t": 1
+    },
+    {
+     "n": "Indap 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Orchid",
+     "m": 7.35,
+     "p": 7.35,
+     "t": 1
+    },
+    {
+     "n": "Indromide 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Zaneka",
+     "m": 7.69,
+     "p": 7.69,
+     "t": 1
+    },
+    {
+     "n": "Indomis 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Curis",
+     "m": 7.7,
+     "p": 7.7,
+     "t": 1
+    },
+    {
+     "n": "Inzu 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Dexter",
+     "m": 8.32,
+     "p": 8.32,
+     "t": 1
+    },
+    {
+     "n": "Indepin 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Johnlee",
+     "m": 8.6,
+     "p": 8.6,
+     "t": 1
+    },
+    {
+     "n": "IND SR 1.5",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Concertina",
+     "m": 11.4,
+     "p": 11.4,
+     "t": 1
+    },
+    {
+     "n": "Inditab 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Prevego",
+     "m": 11.7,
+     "p": 11.7,
+     "t": 1
+    },
+    {
+     "n": "Natrilix SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Serdia",
+     "m": 11.99,
+     "p": 11.99,
+     "t": 1
+    },
+    {
+     "n": "Healtrix 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Healing Pharma",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Inpamide 1.5 SR",
+     "s": "Indapamide 1.5mg SR",
+     "c": "Zydus",
+     "m": 14.09,
+     "p": 14.09,
+     "t": 1
+    },
+    {
+     "n": "Metoral 5",
+     "s": "Metolazone 5mg",
+     "c": "Dr Reddy's",
+     "m": 9.05,
+     "p": 9.05,
+     "t": 1
+    },
+    {
+     "n": "Mela 5",
+     "s": "Metolazone 5mg",
+     "c": "RPG",
+     "m": 9.77,
+     "p": 9.77,
+     "t": 1
+    },
+    {
+     "n": "Diurem 5",
+     "s": "Metolazone 5mg",
+     "c": "Cipla",
+     "m": 10.02,
+     "p": 10.02,
+     "t": 1
+    },
+    {
+     "n": "Zalat 5",
+     "s": "Metolazone 5mg",
+     "c": "Intas",
+     "m": 10.34,
+     "p": 10.34,
+     "t": 1
+    },
+    {
+     "n": "Metozide 5",
+     "s": "Metolazone 5mg",
+     "c": "Torrent",
+     "m": 10.5,
+     "p": 10.5,
+     "t": 1
+    },
+    {
+     "n": "Metadure 5",
+     "s": "Metolazone 5mg",
+     "c": "Micro Labs",
+     "m": 10.74,
+     "p": 10.74,
+     "t": 1
+    },
+    {
+     "n": "Lazon 5",
+     "s": "Metolazone 5mg",
+     "c": "United Biotech",
+     "m": 11.53,
+     "p": 11.53,
+     "t": 1
+    },
+    {
+     "n": "Metolaz 5",
+     "s": "Metolazone 5mg",
+     "c": "Centaur",
+     "m": 12.85,
+     "p": 12.85,
+     "t": 1
+    },
+    {
+     "n": "Rpmel 5",
+     "s": "Metolazone 5mg",
+     "c": "RPG",
+     "m": 18.2,
+     "p": 18.2,
+     "t": 1
+    },
+    {
+     "n": "Metalodax 5",
+     "s": "Metolazone 5mg",
+     "c": "Daxia",
+     "m": 25.4,
+     "p": 25.4,
+     "t": 1
+    },
+    {
+     "n": "Zytanix 5",
+     "s": "Metolazone 5mg",
+     "c": "Zydus",
+     "m": 29.43,
+     "p": 29.43,
+     "t": 1
+    },
+    {
+     "n": "Matzol",
+     "s": "Metolazone 5mg",
+     "c": "Merynova",
+     "m": 29.5,
+     "p": 29.5,
+     "t": 1
+    },
+    {
+     "n": "Metolyzin 5",
+     "s": "Metolazone 5mg",
+     "c": "Accuren",
+     "m": 29.5,
+     "p": 29.5,
+     "t": 1
+    },
+    {
+     "n": "Metoz 5",
+     "s": "Metolazone 5mg",
+     "c": "Centaur",
+     "m": 31.39,
+     "p": 31.39,
+     "t": 1
+    },
+    {
+     "n": "Acemax (100 tab)",
+     "s": "Acetazolamide 250mg",
+     "c": "Cipla",
+     "m": 0.37,
+     "p": 0.37,
+     "t": 1
+    },
+    {
+     "n": "Acetomide 250",
+     "s": "Acetazolamide 250mg",
+     "c": "Zee Labs",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Zac 250",
+     "s": "Acetazolamide 250mg",
+     "c": "Oscar",
+     "m": 2.6,
+     "p": 2.6,
+     "t": 1
+    },
+    {
+     "n": "Azomide 250",
+     "s": "Acetazolamide 250mg",
+     "c": "East West",
+     "m": 2.88,
+     "p": 2.88,
+     "t": 1
+    },
+    {
+     "n": "Actazid 250",
+     "s": "Acetazolamide 250mg",
+     "c": "Ortin",
+     "m": 3.0,
+     "p": 3.0,
+     "t": 1
+    },
+    {
+     "n": "O Mide 250",
+     "s": "Acetazolamide 250mg",
+     "c": "Optho Remedies",
+     "m": 3.4,
+     "p": 3.4,
+     "t": 1
+    },
+    {
+     "n": "Gromide 250",
+     "s": "Acetazolamide 250mg",
+     "c": "Growell Vision",
+     "m": 3.55,
+     "p": 3.55,
+     "t": 1
+    },
+    {
+     "n": "Healthy Life Acetazolamide",
+     "s": "Acetazolamide 250mg",
+     "c": "",
+     "m": 3.65,
+     "p": 3.65,
+     "t": 1
+    },
+    {
+     "n": "Acetamide 250",
+     "s": "Acetazolamide 250mg",
+     "c": "Micro Labs",
+     "m": 3.85,
+     "p": 3.85,
+     "t": 1
+    },
+    {
+     "n": "Diamox (15 tab)",
+     "s": "Acetazolamide 250mg",
+     "c": "Pfizer/Sun",
+     "m": 3.85,
+     "p": 3.85,
+     "t": 1
+    },
+    {
+     "n": "Acimday 250",
+     "s": "Acetazolamide 250mg",
+     "c": "Care Formulation",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Avva 250",
+     "s": "Acetazolamide 250mg",
+     "c": "",
+     "m": 4.27,
+     "p": 4.27,
+     "t": 1
+    },
+    {
+     "n": "Acetazo 250",
+     "s": "Acetazolamide 250mg",
+     "c": "Jamrex",
+     "m": 4.55,
+     "p": 4.55,
+     "t": 1
+    },
+    {
+     "n": "Acetawise 250",
+     "s": "Acetazolamide 250mg",
+     "c": "Trumac",
+     "m": 4.7,
+     "p": 4.7,
+     "t": 1
+    }
+   ]
   }
  ]
 }
