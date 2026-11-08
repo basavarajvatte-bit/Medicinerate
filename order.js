@@ -90,10 +90,11 @@
         ?'हे औषध आमच्याकडे आहे.'
         :(sameBrand(c.n,meds[c.alts[0].i].n)?'घटक तोच.':'घटक तोच, कंपनी वेगळी.'))+'</span></div>';
       h+='<div class="opts">';
-      var hid=0;
+      var hid=0,exAt=-1;c.alts.forEach(function(a,j){if(a.i===c.ex)exAt=j});
+      var lim=(exAt>=3?2:3);
       c.alts.forEach(function(a,j){
         var d=meds[a.i],cheap=(j===0&&c.alts.length>1);
-        var xh=!c.open&&j>=3&&a.i!==c.sel&&a.i!==c.ex;if(xh)hid++;
+        var xh=!c.open&&j>=lim&&a.i!==c.ex&&a.i!==c.sel;if(xh)hid++;
         h+='<label class="opt'+(a.i===c.sel?' on':'')+(xh?' xh':'')+'"><input type="radio" name="g'+k+'" value="'+a.i+'"'+(a.i===c.sel?' checked':'')+'>'+
           '<span class="onm">'+E(d.n)+(d.c?' · '+E(d.c):'')+
           (cheap?'<span class="bdg">सर्वात स्वस्त</span>':'')+
