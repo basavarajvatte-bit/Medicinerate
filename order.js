@@ -54,6 +54,7 @@
       ".qtyp b{font:400 25px/1.1 var(--disp);color:var(--brand)}"+
       ".use{margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--goodbg);border-left:4px solid var(--accent);font-size:20px;line-height:1.3;font-weight:800}"+
       ".opt.xh{display:none}"+
+      ".oth{margin-top:10px;padding:10px 12px;border-radius:10px;border:1.5px dashed var(--accent);font-size:15px}"+
       ".morebtn{display:block;margin:8px auto 0;padding:6px 14px;border-radius:999px;border:1.5px solid var(--brand);background:transparent;color:var(--brand);font:700 14px Mukta,sans-serif;cursor:pointer}"+
       ".mini{font-size:12px;line-height:1.4;color:var(--mute);margin:12px 2px 0}"+
       ".gsearch{display:block;text-align:center;margin-top:8px;padding:9px 10px;border-radius:10px;border:1.5px solid var(--brand);color:var(--brand);text-decoration:none;font-weight:700;font-size:15px}"+
@@ -70,7 +71,7 @@
       var ex=(it.exact!=null)?it.exact:((it.by==="name"&&it.idx!=null)?it.idx:null);
       var up=function(d){return d.p/(d.t||1)};
       alts.sort(function(a,b){return (up(meds[a.i])-up(meds[b.i]))||((b.i===ex)-(a.i===ex))});
-      return {n:it.name||"",s:it.salt||"",u:it.use||"",g:!!it.guess,ex:ex,alts:alts,sel:alts.length?alts[0].i:null};
+      return {o:(it.others||[]).filter(function(i){return meds[i]}),n:it.name||"",s:it.salt||"",u:it.use||"",g:!!it.guess,ex:ex,alts:alts,sel:alts.length?alts[0].i:null};
     });
   }
   function cardHtml(c,k){
@@ -80,6 +81,9 @@
       (c.g?'<a class="gsearch" target="_blank" rel="noopener" href="https://www.google.com/search?q='+encodeURIComponent(c.n+" composition uses")+'">🔍 Google वर घटक पहा</a>':'');
     if(!c.alts.length){
       var wa="*"+SHOP+"*\n\nहे औषध मागवून देता येईल का?\nऔषध: "+c.n+(/[a-z]/i.test(c.s)?"\nघटक: "+c.s:"");
+      if(c.o&&c.o.length){
+        h+='<div class="oth"><b>⚠️ हेच औषध आमच्याकडे वेगळ्या ताकदीत (mg) आहे:</b>'+c.o.map(function(i){var d=meds[i];return '<div class="row"><span>'+E(d.n)+(d.c?' · '+E(d.c):'')+'<small style="display:block;color:var(--mute)">'+E(d.s)+'</small></span><b>'+F(d.p)+(d.t?' / '+d.t+' गोळ्या':'')+'</b></div>'}).join("")+'<p class="mini" style="margin-top:6px">ताकद वेगळी आहे. डॉक्टरांना विचारल्याशिवाय बदलू नका.</p></div>';
+      }
       h+='<a class="ask" target="_blank" rel="noopener" href="https://wa.me/'+NUM+'?text='+encodeURIComponent(wa)+'" aria-label="WhatsApp वर दुकानाला विचारा"><span aria-hidden="true">💬</span><span>हे औषध मागवून देता येईल का, ते दुकानात विचारा.</span></a>';
     }else{
       h+='<div class="same">'+I("ok")+'<span>'+(c.ex!=null

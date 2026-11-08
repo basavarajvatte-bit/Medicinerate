@@ -341,6 +341,7 @@ export async function onRequestPost({ request, env }) {
       salt: known && m.d.s ? m.d.s : guess ? "घटकांची माहिती दुकानात मिळेल." : saltText(it.salt, it.strength, it.saltPrinted),
       use: guess ? "" : fixMr(it.use), idx: m.idx, by: m.by, alts: [], exact: known ? m.d.idx : null,
     };
+    Object.defineProperty(row, "_sw", { value: words(it.salt), enumerable: false });
     if (known) row.alts = m.d.s ? sameSalt(m.d.sw, m.d.nn, m.d.f, false, meds) : [{ i: m.d.idx, st: "same" }];
     else if (!guess) row.alts = saltOptions(it, meds);
     if (known && !row.alts.some((a) => a.i === m.d.idx)) row.alts.push({ i: m.d.idx, st: "same" });
@@ -369,6 +370,11 @@ export async function onRequestPost({ request, env }) {
   if (askUse.length) {
     const uses = await usesFor(askUse.map((r) => r.salt), models[0], key);
     askUse.forEach((r, i) => { r.use = fixMr(uses[i]); });
+  }
+  // त्याच घटकाचे पण वेगळ्या ताकदीचे औषध: फक्त माहितीसाठी दाखवायचे (निवडता येणार नाही)
+  for (const r of items) {
+    if (r.alts.length || !r._sw || !r._sw.size) continue;
+    r.others = meds.filter((d) => sameSet(r._sw, d.sw)).slice(0, 6).map((d) => d.idx);
   }
   return json({
     items,
