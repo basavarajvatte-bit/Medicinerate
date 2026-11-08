@@ -12,7 +12,7 @@
   function L(c,d){
     if(!(d.m>0))d=Object.assign({},d,{m:d.p});
     if(!d.t)return {q:0,p:d.p,m:d.m};
-    var q=c.q||(d.t<10?d.t:10);
+    var q=c.q||(d.t>1&&d.t<10?d.t:10);
     return {q:q,p:d.p/d.t*q,m:d.m/d.t*q};
   }
   function qtyHtml(c,k){
