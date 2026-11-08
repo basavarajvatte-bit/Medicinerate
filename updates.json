@@ -4156,6 +4156,19 @@
      "c": "Apex Laboratories"
     }
    ]
+  },
+  {
+   "id": "2026-11-08-prolomet25-salt",
+   "meds": [
+    {
+     "n": "Prolomet XL 25",
+     "s": "Metoprolol succinate 25mg ER",
+     "m": 68.47,
+     "p": 61.6,
+     "c": "Sun Pharma",
+     "t": 15
+    }
+   ]
   }
  ]
 }

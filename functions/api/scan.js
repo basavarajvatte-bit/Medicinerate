@@ -31,7 +31,7 @@ function numsCompatible(a, b) {
   return false;
 }
 // घटकांची वेगवेगळी स्पेलिंग एकच मानायची: Amoxycillin = Amoxicillin, Clavulanate = Clavulanic acid
-const SKIP = new Set(["sodium", "potassium", "hydrochloride", "sulphate", "sulfate", "acid", "tablet", "tablets", "capsule", "capsules"]);
+const SKIP = new Set(["sodium", "potassium", "hydrochloride", "sulphate", "sulfate", "acid", "tablet", "tablets", "capsule", "capsules", "succinate", "tartrate", "besilate", "besylate", "maleate", "mesylate", "mesilate", "fumarate", "hyclate", "bitartrate", "trihydrate", "dihydrate", "monohydrate", "prolonged", "release", "extended", "sustained"]);
 const canon = (w) => ({ amoxycillin: "amoxicillin", clavulanate: "clavulanic", clavulanic: "clavulanic", acetaminophen: "paracetamol" }[w] || w);
 const words = (s) => new Set(norm(s).split(" ").filter((w) => w.length >= 4 && /^[a-z]+$/.test(w) && !SKIP.has(w)).map(canon));
 const sameSet = (a, b) => a.size > 0 && a.size === b.size && [...a].every((x) => b.has(x));
