@@ -524,6 +524,83 @@
      "t": 15
     }
    ]
+  },
+  {
+   "id": "2026-11-08-antibiotic",
+   "meds": [
+    {
+     "n": "Augmentin 625 Duo",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "GSK",
+     "m": 196.65,
+     "p": 181.0,
+     "t": 10
+    },
+    {
+     "n": "Mox CV 625",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "Sun Pharma",
+     "m": 195.38,
+     "p": 176.0,
+     "t": 10
+    },
+    {
+     "n": "Mox 500",
+     "s": "Amoxycillin 500mg",
+     "c": "Sun Pharma",
+     "m": 118.53,
+     "p": 109.0,
+     "t": 15
+    },
+    {
+     "n": "Azithral 500",
+     "s": "Azithromycin 500mg",
+     "c": "Alembic",
+     "m": 126.73,
+     "p": 122.0,
+     "t": 5
+    },
+    {
+     "n": "Azee 500",
+     "s": "Azithromycin 500mg",
+     "c": "Cipla",
+     "m": 126.71,
+     "p": 122.0,
+     "t": 5
+    },
+    {
+     "n": "Taxim-O 200",
+     "s": "Cefixime 200mg",
+     "c": "Alkem",
+     "m": 105.1,
+     "p": 100.0,
+     "t": 10
+    },
+    {
+     "n": "Zifi 200",
+     "s": "Cefixime 200mg",
+     "c": "FDC",
+     "m": 105.11,
+     "p": 96.7,
+     "t": 10
+    },
+    {
+     "n": "Cepodem 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Sun Pharma",
+     "m": 210.94,
+     "p": 194.0,
+     "t": 10
+    },
+    {
+     "n": "Ciplox 500",
+     "s": "Ciprofloxacin 500mg",
+     "c": "Cipla",
+     "m": 45.66,
+     "p": 43.4,
+     "t": 10
+    }
+   ]
   }
  ]
 }
