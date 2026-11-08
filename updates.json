@@ -24671,6 +24671,1075 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-thyroid",
+   "meds": [
+    {
+     "n": "Thyronex 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Zeelab",
+     "m": 0.25,
+     "p": 0.25,
+     "t": 1
+    },
+    {
+     "n": "Thyrochek 25 (10)",
+     "s": "Levothyroxine 25mcg",
+     "c": "Mankind",
+     "m": 0.6,
+     "p": 0.6,
+     "t": 1
+    },
+    {
+     "n": "Ezithyx 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "DR Best",
+     "m": 0.69,
+     "p": 0.69,
+     "t": 1
+    },
+    {
+     "n": "Thyropax 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Alteus",
+     "m": 0.79,
+     "p": 0.79,
+     "t": 1
+    },
+    {
+     "n": "Thyrine 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Olcare",
+     "m": 0.9,
+     "p": 0.9,
+     "t": 1
+    },
+    {
+     "n": "Thyrobest 25 (10)",
+     "s": "Levothyroxine 25mcg",
+     "c": "BestoChem",
+     "m": 0.9,
+     "p": 0.9,
+     "t": 1
+    },
+    {
+     "n": "Thyroactiv 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Leeford",
+     "m": 0.91,
+     "p": 0.91,
+     "t": 1
+    },
+    {
+     "n": "Thyroxinol 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Knoll",
+     "m": 0.93,
+     "p": 0.93,
+     "t": 1
+    },
+    {
+     "n": "Thyrosurz 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Novartis",
+     "m": 0.95,
+     "p": 0.95,
+     "t": 1
+    },
+    {
+     "n": "Novoroid 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Emenox",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Thyroshine 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Zeuson",
+     "m": 1.1,
+     "p": 1.1,
+     "t": 1
+    },
+    {
+     "n": "Thyrofit 25 (30)",
+     "s": "Levothyroxine 25mcg",
+     "c": "Eris",
+     "m": 1.21,
+     "p": 1.21,
+     "t": 1
+    },
+    {
+     "n": "Thyrozin 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Chemo Healthcare",
+     "m": 1.27,
+     "p": 1.27,
+     "t": 1
+    },
+    {
+     "n": "Lethyrox 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Intas",
+     "m": 1.28,
+     "p": 1.28,
+     "t": 1
+    },
+    {
+     "n": "Rethyro 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Tas Med",
+     "m": 1.38,
+     "p": 1.38,
+     "t": 1
+    },
+    {
+     "n": "Eltroxin 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "GSK",
+     "m": 1.4,
+     "p": 1.4,
+     "t": 1
+    },
+    {
+     "n": "Thyroneed 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Mankind",
+     "m": 1.4,
+     "p": 1.4,
+     "t": 1
+    },
+    {
+     "n": "Thyronorm 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Abbott",
+     "m": 1.41,
+     "p": 1.41,
+     "t": 1
+    },
+    {
+     "n": "Thyrox 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Macleods",
+     "m": 1.41,
+     "p": 1.41,
+     "t": 1
+    },
+    {
+     "n": "Thyroup 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Lupin",
+     "m": 1.41,
+     "p": 1.41,
+     "t": 1
+    },
+    {
+     "n": "Thyromed 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Comed",
+     "m": 1.43,
+     "p": 1.43,
+     "t": 1
+    },
+    {
+     "n": "Euthyrox 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Merck",
+     "m": 1.46,
+     "p": 1.46,
+     "t": 1
+    },
+    {
+     "n": "Thyrose 25",
+     "s": "Levothyroxine 25mcg",
+     "c": "Prevego",
+     "m": 1.75,
+     "p": 1.75,
+     "t": 1
+    },
+    {
+     "n": "Thyronex 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Zeelab",
+     "m": 0.3,
+     "p": 0.3,
+     "t": 1
+    },
+    {
+     "n": "Thyroactiv 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Leeford",
+     "m": 0.68,
+     "p": 0.68,
+     "t": 1
+    },
+    {
+     "n": "Thiarx 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Ordain",
+     "m": 0.72,
+     "p": 0.72,
+     "t": 1
+    },
+    {
+     "n": "Ezithyx 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "DR Best",
+     "m": 0.79,
+     "p": 0.79,
+     "t": 1
+    },
+    {
+     "n": "Eltroxin 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "GSK",
+     "m": 0.87,
+     "p": 0.87,
+     "t": 1
+    },
+    {
+     "n": "Thyrobest 50 (10)",
+     "s": "Levothyroxine 50mcg",
+     "c": "BestoChem",
+     "m": 0.95,
+     "p": 0.95,
+     "t": 1
+    },
+    {
+     "n": "Thyrotop 50 (30)",
+     "s": "Levothyroxine 50mcg",
+     "c": "Micro Labs",
+     "m": 0.96,
+     "p": 0.96,
+     "t": 1
+    },
+    {
+     "n": "Fertibex 50 (10)",
+     "s": "Levothyroxine 50mcg",
+     "c": "Fourrts",
+     "m": 0.96,
+     "p": 0.96,
+     "t": 1
+    },
+    {
+     "n": "Thyronorm 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Abbott",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Thyrox 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Macleods",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Thyroup 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Lupin",
+     "m": 1.0,
+     "p": 1.0,
+     "t": 1
+    },
+    {
+     "n": "Lethyrox 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Intas",
+     "m": 1.01,
+     "p": 1.01,
+     "t": 1
+    },
+    {
+     "n": "Thyrofit 50 (30)",
+     "s": "Levothyroxine 50mcg",
+     "c": "Eris",
+     "m": 1.03,
+     "p": 1.03,
+     "t": 1
+    },
+    {
+     "n": "Novoroid 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Emenox",
+     "m": 1.07,
+     "p": 1.07,
+     "t": 1
+    },
+    {
+     "n": "Thyroban 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "BAB",
+     "m": 1.08,
+     "p": 1.08,
+     "t": 1
+    },
+    {
+     "n": "Thylomat 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Glomat",
+     "m": 1.08,
+     "p": 1.08,
+     "t": 1
+    },
+    {
+     "n": "Thyromed 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Comed",
+     "m": 1.09,
+     "p": 1.09,
+     "t": 1
+    },
+    {
+     "n": "Thyrorich 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Primus",
+     "m": 1.09,
+     "p": 1.09,
+     "t": 1
+    },
+    {
+     "n": "Thyrolix 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Elixir",
+     "m": 1.1,
+     "p": 1.1,
+     "t": 1
+    },
+    {
+     "n": "Thyroxinol 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Knoll",
+     "m": 1.12,
+     "p": 1.12,
+     "t": 1
+    },
+    {
+     "n": "Thyrorite 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Cadila",
+     "m": 1.12,
+     "p": 1.12,
+     "t": 1
+    },
+    {
+     "n": "Thyrotis 50 (120)",
+     "s": "Levothyroxine 50mcg",
+     "c": "Atlantis",
+     "m": 1.17,
+     "p": 1.17,
+     "t": 1
+    },
+    {
+     "n": "Thyroace 50",
+     "s": "Levothyroxine 50mcg",
+     "c": "Morepen",
+     "m": 1.2,
+     "p": 1.2,
+     "t": 1
+    },
+    {
+     "n": "Thyronex 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Zeelab",
+     "m": 0.33,
+     "p": 0.33,
+     "t": 1
+    },
+    {
+     "n": "Thyropax 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Alteus",
+     "m": 0.77,
+     "p": 0.77,
+     "t": 1
+    },
+    {
+     "n": "Thyroxinol 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Knoll",
+     "m": 0.92,
+     "p": 0.92,
+     "t": 1
+    },
+    {
+     "n": "Thyroactiv 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Leeford",
+     "m": 1.02,
+     "p": 1.02,
+     "t": 1
+    },
+    {
+     "n": "Thyrozyte 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Aamorb",
+     "m": 1.23,
+     "p": 1.23,
+     "t": 1
+    },
+    {
+     "n": "Thyrozin 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Chemo Healthcare",
+     "m": 1.26,
+     "p": 1.26,
+     "t": 1
+    },
+    {
+     "n": "Thyrofit 75 (30)",
+     "s": "Levothyroxine 75mcg",
+     "c": "Eris",
+     "m": 1.29,
+     "p": 1.29,
+     "t": 1
+    },
+    {
+     "n": "Thyrorich 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Primus",
+     "m": 1.32,
+     "p": 1.32,
+     "t": 1
+    },
+    {
+     "n": "Thynice 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Crestige",
+     "m": 1.35,
+     "p": 1.35,
+     "t": 1
+    },
+    {
+     "n": "Thyrosoft 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Hauz",
+     "m": 1.37,
+     "p": 1.37,
+     "t": 1
+    },
+    {
+     "n": "Thyrorite 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Cadila",
+     "m": 1.37,
+     "p": 1.37,
+     "t": 1
+    },
+    {
+     "n": "Eltroxin 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "GSK",
+     "m": 1.39,
+     "p": 1.39,
+     "t": 1
+    },
+    {
+     "n": "Thyronorm 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Abbott",
+     "m": 1.4,
+     "p": 1.4,
+     "t": 1
+    },
+    {
+     "n": "Thyrox 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Macleods",
+     "m": 1.4,
+     "p": 1.4,
+     "t": 1
+    },
+    {
+     "n": "Thyrocloud 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Mendcure",
+     "m": 1.4,
+     "p": 1.4,
+     "t": 1
+    },
+    {
+     "n": "Thyrostop 75 (120)",
+     "s": "Levothyroxine 75mcg",
+     "c": "Windlas",
+     "m": 1.44,
+     "p": 1.44,
+     "t": 1
+    },
+    {
+     "n": "Thyrogood 75 (120)",
+     "s": "Levothyroxine 75mcg",
+     "c": "Workcell",
+     "m": 1.44,
+     "p": 1.44,
+     "t": 1
+    },
+    {
+     "n": "Thyromed 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Comed",
+     "m": 1.45,
+     "p": 1.45,
+     "t": 1
+    },
+    {
+     "n": "Thyrotreat 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Treatwell",
+     "m": 1.45,
+     "p": 1.45,
+     "t": 1
+    },
+    {
+     "n": "Lethyrox 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Intas",
+     "m": 1.46,
+     "p": 1.46,
+     "t": 1
+    },
+    {
+     "n": "Thyrotek 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Gonan",
+     "m": 1.46,
+     "p": 1.46,
+     "t": 1
+    },
+    {
+     "n": "Thyroneed 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Mankind",
+     "m": 1.52,
+     "p": 1.52,
+     "t": 1
+    },
+    {
+     "n": "Thyroup 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Lupin",
+     "m": 1.53,
+     "p": 1.53,
+     "t": 1
+    },
+    {
+     "n": "Mynorm 75 (120)",
+     "s": "Levothyroxine 75mcg",
+     "c": "Adexa",
+     "m": 1.6,
+     "p": 1.6,
+     "t": 1
+    },
+    {
+     "n": "Euthyrox 75",
+     "s": "Levothyroxine 75mcg",
+     "c": "Merck",
+     "m": 1.61,
+     "p": 1.61,
+     "t": 1
+    },
+    {
+     "n": "Thyroactiv 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Leeford",
+     "m": 0.66,
+     "p": 0.66,
+     "t": 1
+    },
+    {
+     "n": "Ezithyx 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "DR Best",
+     "m": 0.89,
+     "p": 0.89,
+     "t": 1
+    },
+    {
+     "n": "Thyrobest 100 (10)",
+     "s": "Levothyroxine 100mcg",
+     "c": "BestoChem",
+     "m": 1.1,
+     "p": 1.1,
+     "t": 1
+    },
+    {
+     "n": "Thyrocare 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Olcare",
+     "m": 1.15,
+     "p": 1.15,
+     "t": 1
+    },
+    {
+     "n": "Iodo 100 (10)",
+     "s": "Levothyroxine 100mcg",
+     "c": "Lotus",
+     "m": 1.16,
+     "p": 1.16,
+     "t": 1
+    },
+    {
+     "n": "Roxin 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Zydus",
+     "m": 1.18,
+     "p": 1.18,
+     "t": 1
+    },
+    {
+     "n": "Thyrogic 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Neorangic",
+     "m": 1.21,
+     "p": 1.21,
+     "t": 1
+    },
+    {
+     "n": "Thyroxinol 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Knoll",
+     "m": 1.23,
+     "p": 1.23,
+     "t": 1
+    },
+    {
+     "n": "Novoroid 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Emenox",
+     "m": 1.24,
+     "p": 1.24,
+     "t": 1
+    },
+    {
+     "n": "Thyrogear 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Erinyle",
+     "m": 1.26,
+     "p": 1.26,
+     "t": 1
+    },
+    {
+     "n": "Thyronorm 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Abbott",
+     "m": 1.28,
+     "p": 1.28,
+     "t": 1
+    },
+    {
+     "n": "Eltroxin 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "GSK",
+     "m": 1.28,
+     "p": 1.28,
+     "t": 1
+    },
+    {
+     "n": "Thyrox 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Macleods",
+     "m": 1.29,
+     "p": 1.29,
+     "t": 1
+    },
+    {
+     "n": "Thynice 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Crestige",
+     "m": 1.3,
+     "p": 1.3,
+     "t": 1
+    },
+    {
+     "n": "L-Thyroid 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Johnlee",
+     "m": 1.3,
+     "p": 1.3,
+     "t": 1
+    },
+    {
+     "n": "Thyromed 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Comed",
+     "m": 1.33,
+     "p": 1.33,
+     "t": 1
+    },
+    {
+     "n": "Euthyrox 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Merck",
+     "m": 1.33,
+     "p": 1.33,
+     "t": 1
+    },
+    {
+     "n": "Lethyrox 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Intas",
+     "m": 1.35,
+     "p": 1.35,
+     "t": 1
+    },
+    {
+     "n": "Thyolife 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "CMG Biotech",
+     "m": 1.44,
+     "p": 1.44,
+     "t": 1
+    },
+    {
+     "n": "Nek 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "MB2 Medicare",
+     "m": 1.46,
+     "p": 1.46,
+     "t": 1
+    },
+    {
+     "n": "Thyfree 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Cardimind",
+     "m": 1.47,
+     "p": 1.47,
+     "t": 1
+    },
+    {
+     "n": "Thyrorich 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Primus",
+     "m": 1.48,
+     "p": 1.48,
+     "t": 1
+    },
+    {
+     "n": "Thyroneed 100 (120)",
+     "s": "Levothyroxine 100mcg",
+     "c": "Mankind",
+     "m": 1.48,
+     "p": 1.48,
+     "t": 1
+    },
+    {
+     "n": "Tranheal 100",
+     "s": "Levothyroxine 100mcg",
+     "c": "Trans Life",
+     "m": 1.56,
+     "p": 1.56,
+     "t": 1
+    },
+    {
+     "n": "Thyronex 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Zeelab",
+     "m": 0.45,
+     "p": 0.45,
+     "t": 1
+    },
+    {
+     "n": "Thyrocut 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Care Formulation",
+     "m": 1.07,
+     "p": 1.07,
+     "t": 1
+    },
+    {
+     "n": "Thyrosec 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Taj Pharma",
+     "m": 1.14,
+     "p": 1.14,
+     "t": 1
+    },
+    {
+     "n": "Thyrofit 125 (30)",
+     "s": "Levothyroxine 125mcg",
+     "c": "Eris",
+     "m": 1.31,
+     "p": 1.31,
+     "t": 1
+    },
+    {
+     "n": "Thyroxium 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Elder",
+     "m": 1.35,
+     "p": 1.35,
+     "t": 1
+    },
+    {
+     "n": "Thyrogear 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Erinyle",
+     "m": 1.4,
+     "p": 1.4,
+     "t": 1
+    },
+    {
+     "n": "Thyrosig 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Signova",
+     "m": 1.46,
+     "p": 1.46,
+     "t": 1
+    },
+    {
+     "n": "Thyrorich 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Primus",
+     "m": 1.49,
+     "p": 1.49,
+     "t": 1
+    },
+    {
+     "n": "Thyroxinol 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Knoll",
+     "m": 1.49,
+     "p": 1.49,
+     "t": 1
+    },
+    {
+     "n": "L-Thyroid 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Johnlee",
+     "m": 1.5,
+     "p": 1.5,
+     "t": 1
+    },
+    {
+     "n": "Thyramax 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Astonea",
+     "m": 1.53,
+     "p": 1.53,
+     "t": 1
+    },
+    {
+     "n": "Thyromed 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Comed",
+     "m": 1.56,
+     "p": 1.56,
+     "t": 1
+    },
+    {
+     "n": "Thyrod 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "TNT",
+     "m": 1.56,
+     "p": 1.56,
+     "t": 1
+    },
+    {
+     "n": "Thyroace 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Morepen",
+     "m": 1.61,
+     "p": 1.61,
+     "t": 1
+    },
+    {
+     "n": "Lethyrox 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Intas",
+     "m": 1.62,
+     "p": 1.62,
+     "t": 1
+    },
+    {
+     "n": "Thyrocip 125 (120)",
+     "s": "Levothyroxine 125mcg",
+     "c": "Cipla",
+     "m": 1.69,
+     "p": 1.69,
+     "t": 1
+    },
+    {
+     "n": "Thyroup 125 (120)",
+     "s": "Levothyroxine 125mcg",
+     "c": "Lupin",
+     "m": 1.71,
+     "p": 1.71,
+     "t": 1
+    },
+    {
+     "n": "Eltroxin 125 (60)",
+     "s": "Levothyroxine 125mcg",
+     "c": "GSK",
+     "m": 1.72,
+     "p": 1.72,
+     "t": 1
+    },
+    {
+     "n": "Thyrox 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Macleods",
+     "m": 1.72,
+     "p": 1.72,
+     "t": 1
+    },
+    {
+     "n": "Thyronorm 125 (120)",
+     "s": "Levothyroxine 125mcg",
+     "c": "Abbott",
+     "m": 1.82,
+     "p": 1.82,
+     "t": 1
+    },
+    {
+     "n": "Mynorm 125 (120)",
+     "s": "Levothyroxine 125mcg",
+     "c": "Adexa",
+     "m": 1.89,
+     "p": 1.89,
+     "t": 1
+    },
+    {
+     "n": "Thyrotime 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Fibovil",
+     "m": 1.91,
+     "p": 1.91,
+     "t": 1
+    },
+    {
+     "n": "Thirozex 125",
+     "s": "Levothyroxine 125mcg",
+     "c": "Origin",
+     "m": 2.05,
+     "p": 2.05,
+     "t": 1
+    },
+    {
+     "n": "Thyrodip 5",
+     "s": "Carbimazole 5mg",
+     "c": "Lupin",
+     "m": 1.89,
+     "p": 1.89,
+     "t": 1
+    },
+    {
+     "n": "Neo-Mercazole 5 (100)",
+     "s": "Carbimazole 5mg",
+     "c": "Abbott",
+     "m": 2.07,
+     "p": 2.07,
+     "t": 1
+    },
+    {
+     "n": "Thyrocab 5",
+     "s": "Carbimazole 5mg",
+     "c": "Corona",
+     "m": 2.12,
+     "p": 2.12,
+     "t": 1
+    },
+    {
+     "n": "Anti-Thyrox 5",
+     "s": "Carbimazole 5mg",
+     "c": "Macleods",
+     "m": 2.13,
+     "p": 2.13,
+     "t": 1
+    },
+    {
+     "n": "Metazole 5 (10)",
+     "s": "Carbimazole 5mg",
+     "c": "Jackson Labs",
+     "m": 6.6,
+     "p": 6.6,
+     "t": 1
+    },
+    {
+     "n": "Carbizole 10",
+     "s": "Carbimazole 10mg",
+     "c": "Steris",
+     "m": 1.99,
+     "p": 1.99,
+     "t": 1
+    },
+    {
+     "n": "Carol 10 (120)",
+     "s": "Carbimazole 10mg",
+     "c": "Eris",
+     "m": 3.99,
+     "p": 3.99,
+     "t": 1
+    },
+    {
+     "n": "Thyrocab 10",
+     "s": "Carbimazole 10mg",
+     "c": "Corona",
+     "m": 4.11,
+     "p": 4.11,
+     "t": 1
+    },
+    {
+     "n": "Anti-Thyrox 10",
+     "s": "Carbimazole 10mg",
+     "c": "Macleods",
+     "m": 4.55,
+     "p": 4.55,
+     "t": 1
+    },
+    {
+     "n": "Neo-Mercazole 10 (120)",
+     "s": "Carbimazole 10mg",
+     "c": "Abbott",
+     "m": 4.93,
+     "p": 4.93,
+     "t": 1
+    },
+    {
+     "n": "Methimzole 5",
+     "s": "Methimazole 5mg",
+     "c": "Steris",
+     "m": 2.11,
+     "p": 2.11,
+     "t": 1
+    },
+    {
+     "n": "Metnimez 5",
+     "s": "Methimazole 5mg",
+     "c": "Sun",
+     "m": 4.42,
+     "p": 4.42,
+     "t": 1
+    },
+    {
+     "n": "Mtmazole 5",
+     "s": "Methimazole 5mg",
+     "c": "Daxia",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "Methimez 10 (10)",
+     "s": "Methimazole 10mg",
+     "c": "Sun",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "PTU (100)",
+     "s": "Propylthiouracil 50mg",
+     "c": "Macleods",
+     "m": 8.97,
+     "p": 8.97,
+     "t": 1
+    }
+   ]
   }
  ]
 }
