@@ -210,7 +210,7 @@ async function usesFor(salts, model, key) {
 // दुसरे मत: दुसऱ्या AI ला फक्त नावावरून घटक विचारणे. दोघांचे जुळले तरच दाखवायचे.
 async function secondOpinion(list, model, key) {
   const ctrl = new AbortController();
-  const timer = setTimeout(() => ctrl.abort(), 7000);
+  const timer = setTimeout(() => ctrl.abort(), 12000);
   try {
     const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models/" + model + ":generateContent", {
       method: "POST",
@@ -358,7 +358,7 @@ export async function onRequestPost({ request, env }) {
     else if (!guess) row.alts = saltOptions(it, meds);
     if (known && !row.alts.some((a) => a.i === m.d.idx)) row.alts.push({ i: m.d.idx, st: "same" });
     if (!known) row.idx = row.alts.length ? row.alts[0].i : null;
-    if (!known && guess && String(it.salt || "").trim()) askSalt.push({ row, it });
+    if (!known && guess) askSalt.push({ row, it });
     if (known && guess && m.d.s) askUse.push(row);
     return row;
   });
@@ -368,7 +368,17 @@ export async function onRequestPost({ request, env }) {
     askSalt.forEach((x, i) => {
       const a = ans[i] || {};
       // दोन्ही AI चे घटक जुळले तरच ग्राहकाला दाखवायचे
-      if (jacc(words(x.it.salt), words(a.salt)) >= 0.5) {
+      const s1 = String(x.it.salt || "").trim(), s2 = String(a.salt || "").trim();
+      if (!s1 || jacc(words(x.it.salt), words(a.salt)) < 0.5) {
+        // AI एकमत नाही: तरी अंदाजे घटक दाखवायचे, खात्रीची सूचना देऊन
+        const g = s1 ? saltText(x.it.salt, x.it.strength, false) : s2 ? saltText(a.salt, "", false) : "";
+        if (g) {
+          x.row.salt = "अंदाजे घटक: " + g + " (दुकानात खात्री करा)";
+          x.row.use = fixMr((s1 ? x.it.use : a.use) || x.it.use || a.use);
+        }
+        return;
+      }
+      {
         x.row.salt = saltText(x.it.salt, x.it.strength, false);
         x.row.use = fixMr(a.use || x.it.use);
         // दोन्ही AI चे सर्व घटक जुळले तरच यादीतील औषध पर्याय म्हणून दाखवायचे
