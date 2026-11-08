@@ -342,6 +342,7 @@ export async function onRequestPost({ request, env }) {
       use: guess ? "" : fixMr(it.use), idx: m.idx, by: m.by, alts: [], exact: known ? m.d.idx : null,
     };
     Object.defineProperty(row, "_sw", { value: words(it.salt), enumerable: false });
+    Object.defineProperty(row, "_nn", { value: nums(it.name + " " + it.salt + " " + (it.strength || "")), enumerable: false });
     if (known) row.alts = m.d.s ? sameSalt(m.d.sw, m.d.nn, m.d.f, false, meds) : [{ i: m.d.idx, st: "same" }];
     else if (!guess) row.alts = saltOptions(it, meds);
     if (known && !row.alts.some((a) => a.i === m.d.idx)) row.alts.push({ i: m.d.idx, st: "same" });
@@ -378,7 +379,9 @@ export async function onRequestPost({ request, env }) {
     const same = meds.filter((d) => [...r._sw].every((x) => d.sw.has(x)) && [...d.sw].every((x) => r._sw.has(x) || FORMW.has(x)));
     const st = [...new Set(same.map((d) => ((String(d.s).match(/(\d+(?:\.\d+)?)\s*mg/i) || [])[1])).filter(Boolean))]
       .sort((a, b) => parseFloat(a) - parseFloat(b));
-    if (st.length) r.otherStr = st.map((x) => x + "mg");
+    const sameMg = same.filter((d) => r._nn && r._nn.size && d.nn.size && numsCompatible(r._nn, d.nn));
+    if (sameMg.length) r.otherType = sameMg.map((d) => d.idx);
+    else if (st.length) r.otherStr = st.map((x) => x + "mg");
   }
   return json({
     items,
