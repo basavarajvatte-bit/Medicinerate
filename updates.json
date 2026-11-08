@@ -28143,6 +28143,1380 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-antifungal",
+   "meds": [
+    {
+     "n": "Flugee 150",
+     "s": "Fluconazole 150mg",
+     "c": "Zydus",
+     "m": 3.93,
+     "p": 3.93,
+     "t": 1
+    },
+    {
+     "n": "FCN 150",
+     "s": "Fluconazole 150mg",
+     "c": "Intas",
+     "m": 8.0,
+     "p": 8.0,
+     "t": 1
+    },
+    {
+     "n": "Fungicip 150",
+     "s": "Fluconazole 150mg",
+     "c": "Cipla",
+     "m": 8.0,
+     "p": 8.0,
+     "t": 1
+    },
+    {
+     "n": "FLUmet 150",
+     "s": "Fluconazole 150mg",
+     "c": "Leeford",
+     "m": 8.2,
+     "p": 8.2,
+     "t": 1
+    },
+    {
+     "n": "Fluka 150",
+     "s": "Fluconazole 150mg",
+     "c": "Cipla",
+     "m": 8.3,
+     "p": 8.3,
+     "t": 1
+    },
+    {
+     "n": "Gocan 150",
+     "s": "Fluconazole 150mg",
+     "c": "Hetero",
+     "m": 10.3,
+     "p": 10.3,
+     "t": 1
+    },
+    {
+     "n": "Flucona 150",
+     "s": "Fluconazole 150mg",
+     "c": "Calibar",
+     "m": 11.5,
+     "p": 11.5,
+     "t": 1
+    },
+    {
+     "n": "Stefazol 150",
+     "s": "Fluconazole 150mg",
+     "c": "Sun",
+     "m": 11.5,
+     "p": 11.5,
+     "t": 1
+    },
+    {
+     "n": "Nuforce 150",
+     "s": "Fluconazole 150mg",
+     "c": "Mankind",
+     "m": 11.75,
+     "p": 11.75,
+     "t": 1
+    },
+    {
+     "n": "Flucos 150",
+     "s": "Fluconazole 150mg",
+     "c": "Oaknet",
+     "m": 11.77,
+     "p": 11.77,
+     "t": 1
+    },
+    {
+     "n": "Forcan 150",
+     "s": "Fluconazole 150mg",
+     "c": "Cipla",
+     "m": 11.78,
+     "p": 11.78,
+     "t": 1
+    },
+    {
+     "n": "Fusys 150",
+     "s": "Fluconazole 150mg",
+     "c": "Zydus",
+     "m": 11.78,
+     "p": 11.78,
+     "t": 1
+    },
+    {
+     "n": "Onecan 150 (4)",
+     "s": "Fluconazole 150mg",
+     "c": "Wallace",
+     "m": 11.78,
+     "p": 11.78,
+     "t": 1
+    },
+    {
+     "n": "FZHH",
+     "s": "Fluconazole 150mg",
+     "c": "Hegde & Hegde",
+     "m": 11.9,
+     "p": 11.9,
+     "t": 1
+    },
+    {
+     "n": "Faze 150",
+     "s": "Fluconazole 150mg",
+     "c": "Megha",
+     "m": 13.12,
+     "p": 13.12,
+     "t": 1
+    },
+    {
+     "n": "Fungid Best 150",
+     "s": "Fluconazole 150mg",
+     "c": "BestoChem",
+     "m": 13.16,
+     "p": 13.16,
+     "t": 1
+    },
+    {
+     "n": "Surfaz-O",
+     "s": "Fluconazole 150mg",
+     "c": "Franco-Indian",
+     "m": 13.2,
+     "p": 13.2,
+     "t": 1
+    },
+    {
+     "n": "Funspor 150 (2)",
+     "s": "Fluconazole 150mg",
+     "c": "DWD",
+     "m": 13.23,
+     "p": 13.23,
+     "t": 1
+    },
+    {
+     "n": "Fungal F 150",
+     "s": "Fluconazole 150mg",
+     "c": "Inga",
+     "m": 13.23,
+     "p": 13.23,
+     "t": 1
+    },
+    {
+     "n": "Nitican 150",
+     "s": "Fluconazole 150mg",
+     "c": "",
+     "m": 24.0,
+     "p": 24.0,
+     "t": 1
+    },
+    {
+     "n": "Itrason 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Unison",
+     "m": 8.49,
+     "p": 8.49,
+     "t": 1
+    },
+    {
+     "n": "Itromed 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Leeford",
+     "m": 9.78,
+     "p": 9.78,
+     "t": 1
+    },
+    {
+     "n": "Itralase 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Cipla",
+     "m": 10.8,
+     "p": 10.8,
+     "t": 1
+    },
+    {
+     "n": "Candiforce 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Mankind",
+     "m": 12.5,
+     "p": 12.5,
+     "t": 1
+    },
+    {
+     "n": "IT Mac 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Macleods",
+     "m": 13.88,
+     "p": 13.88,
+     "t": 1
+    },
+    {
+     "n": "Ceastra 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Emcure",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Syntran 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Glenmark",
+     "m": 15.6,
+     "p": 15.6,
+     "t": 1
+    },
+    {
+     "n": "Fixtral 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Dr Reddy's",
+     "m": 15.71,
+     "p": 15.71,
+     "t": 1
+    },
+    {
+     "n": "Itrapic (7)",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Sun",
+     "m": 15.8,
+     "p": 15.8,
+     "t": 1
+    },
+    {
+     "n": "Canditral 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Glenmark",
+     "m": 15.97,
+     "p": 15.97,
+     "t": 1
+    },
+    {
+     "n": "Itaspor 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Intas",
+     "m": 16.47,
+     "p": 16.47,
+     "t": 1
+    },
+    {
+     "n": "Onitraz 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "",
+     "m": 18.4,
+     "p": 18.4,
+     "t": 1
+    },
+    {
+     "n": "Fungeeheal 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "Lupin",
+     "m": 18.84,
+     "p": 18.84,
+     "t": 1
+    },
+    {
+     "n": "Sporanox 100",
+     "s": "Itraconazole 100mg capsule",
+     "c": "J&J",
+     "m": 49.69,
+     "p": 49.69,
+     "t": 1
+    },
+    {
+     "n": "Itramer 200",
+     "s": "Itraconazole 200mg capsule",
+     "c": "BRD",
+     "m": 18.75,
+     "p": 18.75,
+     "t": 1
+    },
+    {
+     "n": "Zitran 200 (7)",
+     "s": "Itraconazole 200mg capsule",
+     "c": "FDC",
+     "m": 21.43,
+     "p": 21.43,
+     "t": 1
+    },
+    {
+     "n": "Fungeeheal 200",
+     "s": "Itraconazole 200mg capsule",
+     "c": "Lupin",
+     "m": 23.2,
+     "p": 23.2,
+     "t": 1
+    },
+    {
+     "n": "I Tyza 200",
+     "s": "Itraconazole 200mg capsule",
+     "c": "Abbott",
+     "m": 23.23,
+     "p": 23.23,
+     "t": 1
+    },
+    {
+     "n": "Itaspor 200",
+     "s": "Itraconazole 200mg capsule",
+     "c": "Intas",
+     "m": 23.63,
+     "p": 23.63,
+     "t": 1
+    },
+    {
+     "n": "Zole IT 200",
+     "s": "Itraconazole 200mg capsule",
+     "c": "Sun",
+     "m": 23.63,
+     "p": 23.63,
+     "t": 1
+    },
+    {
+     "n": "I Win 200",
+     "s": "Itraconazole 200mg capsule",
+     "c": "Sun",
+     "m": 23.63,
+     "p": 23.63,
+     "t": 1
+    },
+    {
+     "n": "Canditral 200",
+     "s": "Itraconazole 200mg capsule",
+     "c": "Glenmark",
+     "m": 24.7,
+     "p": 24.7,
+     "t": 1
+    },
+    {
+     "n": "Candiforce 200 (7)",
+     "s": "Itraconazole 200mg capsule",
+     "c": "Mankind",
+     "m": 33.75,
+     "p": 33.75,
+     "t": 1
+    },
+    {
+     "n": "Syscan 200 (4)",
+     "s": "Itraconazole 200mg capsule",
+     "c": "",
+     "m": 44.75,
+     "p": 44.75,
+     "t": 1
+    },
+    {
+     "n": "Terbifex 250",
+     "s": "Terbinafine 250mg",
+     "c": "Zeelab",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Tbf 250",
+     "s": "Terbinafine 250mg",
+     "c": "Capri",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "TerBESt",
+     "s": "Terbinafine 250mg",
+     "c": "Systopic",
+     "m": 13.93,
+     "p": 13.93,
+     "t": 1
+    },
+    {
+     "n": "Terbitotal",
+     "s": "Terbinafine 250mg",
+     "c": "Macleods",
+     "m": 14.14,
+     "p": 14.14,
+     "t": 1
+    },
+    {
+     "n": "Skitofine 250",
+     "s": "Terbinafine 250mg",
+     "c": "Rockmed",
+     "m": 16.0,
+     "p": 16.0,
+     "t": 1
+    },
+    {
+     "n": "Terbinaforce (7)",
+     "s": "Terbinafine 250mg",
+     "c": "Mankind",
+     "m": 16.13,
+     "p": 16.13,
+     "t": 1
+    },
+    {
+     "n": "Ifin 250 (7)",
+     "s": "Terbinafine 250mg",
+     "c": "Glenmark",
+     "m": 18.36,
+     "p": 18.36,
+     "t": 1
+    },
+    {
+     "n": "Zygter 250 (7)",
+     "s": "Terbinafine 250mg",
+     "c": "Encore",
+     "m": 20.43,
+     "p": 20.43,
+     "t": 1
+    },
+    {
+     "n": "Terbinator 250 (7)",
+     "s": "Terbinafine 250mg",
+     "c": "Cadila",
+     "m": 20.71,
+     "p": 20.71,
+     "t": 1
+    },
+    {
+     "n": "Funzi",
+     "s": "Terbinafine 250mg",
+     "c": "Corona",
+     "m": 25.03,
+     "p": 25.03,
+     "t": 1
+    },
+    {
+     "n": "Tyza",
+     "s": "Terbinafine 250mg",
+     "c": "Abbott",
+     "m": 25.7,
+     "p": 25.7,
+     "t": 1
+    },
+    {
+     "n": "Terbikem 250 (7)",
+     "s": "Terbinafine 250mg",
+     "c": "Alkem",
+     "m": 25.71,
+     "p": 25.71,
+     "t": 1
+    },
+    {
+     "n": "Terbigen 250 (7)",
+     "s": "Terbinafine 250mg",
+     "c": "Alkem",
+     "m": 27.43,
+     "p": 27.43,
+     "t": 1
+    },
+    {
+     "n": "Trfy 250",
+     "s": "Terbinafine 250mg",
+     "c": "Hegde & Hegde",
+     "m": 29.0,
+     "p": 29.0,
+     "t": 1
+    },
+    {
+     "n": "Terbicip",
+     "s": "Terbinafine 250mg",
+     "c": "Cipla",
+     "m": 29.93,
+     "p": 29.93,
+     "t": 1
+    },
+    {
+     "n": "Texifen 250",
+     "s": "Terbinafine 250mg",
+     "c": "Eris",
+     "m": 32.71,
+     "p": 32.71,
+     "t": 1
+    },
+    {
+     "n": "Sebifin (15)",
+     "s": "Terbinafine 250mg",
+     "c": "Sun",
+     "m": 34.47,
+     "p": 34.47,
+     "t": 1
+    },
+    {
+     "n": "Grisomed 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Comed",
+     "m": 1.27,
+     "p": 1.27,
+     "t": 1
+    },
+    {
+     "n": "Griseoderm 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Litaka",
+     "m": 1.36,
+     "p": 1.36,
+     "t": 1
+    },
+    {
+     "n": "Fungivin 250 (8)",
+     "s": "Griseofulvin 250mg",
+     "c": "Euphoric",
+     "m": 1.38,
+     "p": 1.38,
+     "t": 1
+    },
+    {
+     "n": "Grisactin Forte 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Adcock Ingram",
+     "m": 1.43,
+     "p": 1.43,
+     "t": 1
+    },
+    {
+     "n": "Geovin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Menarini",
+     "m": 1.47,
+     "p": 1.47,
+     "t": 1
+    },
+    {
+     "n": "Walavin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Wallace",
+     "m": 1.53,
+     "p": 1.53,
+     "t": 1
+    },
+    {
+     "n": "Profulvin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Prism",
+     "m": 1.56,
+     "p": 1.56,
+     "t": 1
+    },
+    {
+     "n": "Nufluvin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "NuLife",
+     "m": 1.6,
+     "p": 1.6,
+     "t": 1
+    },
+    {
+     "n": "Griseofulvin FP 250",
+     "s": "Griseofulvin 250mg",
+     "c": "GSK",
+     "m": 1.62,
+     "p": 1.62,
+     "t": 1
+    },
+    {
+     "n": "Dermonorm 250",
+     "s": "Griseofulvin 250mg",
+     "c": "GSK",
+     "m": 1.65,
+     "p": 1.65,
+     "t": 1
+    },
+    {
+     "n": "Grisodac 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Ikon",
+     "m": 1.68,
+     "p": 1.68,
+     "t": 1
+    },
+    {
+     "n": "Grisoral 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Bal Pharma",
+     "m": 1.78,
+     "p": 1.78,
+     "t": 1
+    },
+    {
+     "n": "Idifulvin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "IDPL",
+     "m": 1.9,
+     "p": 1.9,
+     "t": 1
+    },
+    {
+     "n": "Tineavin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Spic",
+     "m": 1.94,
+     "p": 1.94,
+     "t": 1
+    },
+    {
+     "n": "Grisofulvin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Adcock Ingram",
+     "m": 1.96,
+     "p": 1.96,
+     "t": 1
+    },
+    {
+     "n": "Nufulvin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "NuLife",
+     "m": 1.98,
+     "p": 1.98,
+     "t": 1
+    },
+    {
+     "n": "Grisovin-FP 250",
+     "s": "Griseofulvin 250mg",
+     "c": "GSK",
+     "m": 1.98,
+     "p": 1.98,
+     "t": 1
+    },
+    {
+     "n": "Microfulvin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Psycormedies",
+     "m": 2.27,
+     "p": 2.27,
+     "t": 1
+    },
+    {
+     "n": "Grisgeo 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Dermawin",
+     "m": 2.4,
+     "p": 2.4,
+     "t": 1
+    },
+    {
+     "n": "Grisofal 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Sanko",
+     "m": 2.7,
+     "p": 2.7,
+     "t": 1
+    },
+    {
+     "n": "Fluvin Forte 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Bombay Tablet",
+     "m": 2.81,
+     "p": 2.81,
+     "t": 1
+    },
+    {
+     "n": "Griskin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Terrace",
+     "m": 2.9,
+     "p": 2.9,
+     "t": 1
+    },
+    {
+     "n": "Ulvin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Seagull",
+     "m": 3.25,
+     "p": 3.25,
+     "t": 1
+    },
+    {
+     "n": "Grisopex 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Uni-Pex",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Alfulvin 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Alpha",
+     "m": 3.7,
+     "p": 3.7,
+     "t": 1
+    },
+    {
+     "n": "Oriderm 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Orison",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Grisoderm 250",
+     "s": "Griseofulvin 250mg",
+     "c": "Litaka",
+     "m": 5.79,
+     "p": 5.79,
+     "t": 1
+    },
+    {
+     "n": "Fulvinem 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Medopharm",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Dermonorm 500",
+     "s": "Griseofulvin 500mg",
+     "c": "GSK",
+     "m": 3.62,
+     "p": 3.62,
+     "t": 1
+    },
+    {
+     "n": "Grisovin-FP 500",
+     "s": "Griseofulvin 500mg",
+     "c": "GSK",
+     "m": 4.08,
+     "p": 4.08,
+     "t": 1
+    },
+    {
+     "n": "Grisocon 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Zeelab",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Gresvin 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Carlton",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Fungigris OD 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Exoplanet",
+     "m": 11.1,
+     "p": 11.1,
+     "t": 1
+    },
+    {
+     "n": "Profulvin 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Prism",
+     "m": 11.99,
+     "p": 11.99,
+     "t": 1
+    },
+    {
+     "n": "Gresotive 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Rockmed",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Fungal 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Inga",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Ulvin 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Seagull",
+     "m": 14.5,
+     "p": 14.5,
+     "t": 1
+    },
+    {
+     "n": "Grisure 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Indiabulls",
+     "m": 14.52,
+     "p": 14.52,
+     "t": 1
+    },
+    {
+     "n": "Zorbax 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Ajanta",
+     "m": 15.1,
+     "p": 15.1,
+     "t": 1
+    },
+    {
+     "n": "Grissom 500",
+     "s": "Griseofulvin 500mg",
+     "c": "IGP",
+     "m": 16.0,
+     "p": 16.0,
+     "t": 1
+    },
+    {
+     "n": "Ecovin 500",
+     "s": "Griseofulvin 500mg",
+     "c": "Brinton",
+     "m": 16.61,
+     "p": 16.61,
+     "t": 1
+    },
+    {
+     "n": "Lulilok (30g ₹123)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 4.12,
+     "p": 4.12
+    },
+    {
+     "n": "Lulinext (30g ₹127)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 4.22,
+     "p": 4.22
+    },
+    {
+     "n": "Luliford (50g ₹250)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 5.0,
+     "p": 5.0
+    },
+    {
+     "n": "L-Sys (50g ₹325)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Systopic",
+     "m": 6.5,
+     "p": 6.5
+    },
+    {
+     "n": "Lulican XL (50g ₹370)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Glenmark",
+     "m": 7.41,
+     "p": 7.41
+    },
+    {
+     "n": "Lulibor (30g ₹234)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 7.81,
+     "p": 7.81
+    },
+    {
+     "n": "Ludura (50g ₹428)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Cipla",
+     "m": 8.55,
+     "p": 8.55
+    },
+    {
+     "n": "Lulizol (30g ₹258)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "KLM",
+     "m": 8.59,
+     "p": 8.59
+    },
+    {
+     "n": "Lulibet (30g ₹263)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 8.75,
+     "p": 8.75
+    },
+    {
+     "n": "Lucoz (30g ₹289)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 9.63,
+     "p": 9.63
+    },
+    {
+     "n": "Lufic (30g ₹298)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 9.93,
+     "p": 9.93
+    },
+    {
+     "n": "Lulifin (30g ₹317)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Sun",
+     "m": 10.56,
+     "p": 10.56
+    },
+    {
+     "n": "Lucrush (50g ₹585)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Dr Reddy's",
+     "m": 11.71,
+     "p": 11.71
+    },
+    {
+     "n": "Lulican (30g ₹352)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Glenmark",
+     "m": 11.72,
+     "p": 11.72
+    },
+    {
+     "n": "Luly (30g ₹355)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 11.84,
+     "p": 11.84
+    },
+    {
+     "n": "Lulifin Max (30g ₹361)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Sun",
+     "m": 12.03,
+     "p": 12.03
+    },
+    {
+     "n": "Lulifin (20g ₹280)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Sun",
+     "m": 14.02,
+     "p": 14.02
+    },
+    {
+     "n": "Ludura (20g ₹288)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Cipla",
+     "m": 14.41,
+     "p": 14.41
+    },
+    {
+     "n": "Emluz (20g ₹299)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 14.95,
+     "p": 14.95
+    },
+    {
+     "n": "Lulifin (10g ₹158)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Sun",
+     "m": 15.75,
+     "p": 15.75
+    },
+    {
+     "n": "Lulibrut (10g ₹159)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Mankind",
+     "m": 15.9,
+     "p": 15.9
+    },
+    {
+     "n": "Lulimac (10g ₹168)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 16.8,
+     "p": 16.8
+    },
+    {
+     "n": "Lutigold (10g ₹170)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "Ajanta",
+     "m": 17.0,
+     "p": 17.0
+    },
+    {
+     "n": "Lilituf (15g ₹255)",
+     "s": "Luliconazole 1% cream (per gm)",
+     "c": "",
+     "m": 17.03,
+     "p": 17.03
+    },
+    {
+     "n": "Tifin (20g ₹82)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "Salve",
+     "m": 4.1,
+     "p": 4.1
+    },
+    {
+     "n": "Terbirin (15g ₹64)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "",
+     "m": 4.27,
+     "p": 4.27
+    },
+    {
+     "n": "Keptafine (15g ₹65)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "Kepler",
+     "m": 4.33,
+     "p": 4.33
+    },
+    {
+     "n": "Terbest (15g ₹70.5)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "Systopic",
+     "m": 4.7,
+     "p": 4.7
+    },
+    {
+     "n": "Terbicide (15g ₹80)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "",
+     "m": 5.33,
+     "p": 5.33
+    },
+    {
+     "n": "Texifen (10g ₹58.5)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "Eris",
+     "m": 5.85,
+     "p": 5.85
+    },
+    {
+     "n": "Terbicip (10g ₹58.9)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "Cipla",
+     "m": 5.89,
+     "p": 5.89
+    },
+    {
+     "n": "Lamifin (30g ₹175)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "",
+     "m": 5.83,
+     "p": 5.83
+    },
+    {
+     "n": "Terbinaforce (10g ₹58.8)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "Mankind",
+     "m": 5.88,
+     "p": 5.88
+    },
+    {
+     "n": "Fungotek (10g ₹58.8)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "FDC",
+     "m": 5.88,
+     "p": 5.88
+    },
+    {
+     "n": "Trfy (15g ₹88.2)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "Hegde & Hegde",
+     "m": 5.88,
+     "p": 5.88
+    },
+    {
+     "n": "Terbitotal (15g ₹88.2)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "Macleods",
+     "m": 5.88,
+     "p": 5.88
+    },
+    {
+     "n": "Tyza (15g ₹88.4)",
+     "s": "Terbinafine 1% cream (per gm)",
+     "c": "Abbott",
+     "m": 5.89,
+     "p": 5.89
+    },
+    {
+     "n": "Sertaspor (50g ₹382)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "",
+     "m": 7.64,
+     "p": 7.64
+    },
+    {
+     "n": "Sertamid (10g ₹84)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "",
+     "m": 8.44,
+     "p": 8.44
+    },
+    {
+     "n": "Onabet Max (50g ₹491)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "Eris",
+     "m": 9.83,
+     "p": 9.83
+    },
+    {
+     "n": "SzHH (30g)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "Hegde & Hegde",
+     "m": 10.47,
+     "p": 10.47
+    },
+    {
+     "n": "Monoguard (30g ₹327)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "",
+     "m": 10.9,
+     "p": 10.9
+    },
+    {
+     "n": "Sertacide (10g ₹116)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "Cipla",
+     "m": 11.6,
+     "p": 11.6
+    },
+    {
+     "n": "Onabet (30g ₹400)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "Eris",
+     "m": 13.33,
+     "p": 13.33
+    },
+    {
+     "n": "Monoguard (10g ₹147)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "",
+     "m": 14.7,
+     "p": 14.7
+    },
+    {
+     "n": "Seriva (10g ₹152)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "",
+     "m": 15.2,
+     "p": 15.2
+    },
+    {
+     "n": "Onabet (15g ₹265)",
+     "s": "Sertaconazole 2% cream (per gm)",
+     "c": "Eris",
+     "m": 17.68,
+     "p": 17.68
+    },
+    {
+     "n": "Mycocid (15g ₹33)",
+     "s": "Clotrimazole 1% cream (per gm)",
+     "c": "Intermed",
+     "m": 2.2,
+     "p": 2.2
+    },
+    {
+     "n": "Imidil (15g ₹38)",
+     "s": "Clotrimazole 1% cream (per gm)",
+     "c": "Hetero",
+     "m": 2.53,
+     "p": 2.53
+    },
+    {
+     "n": "Clozol (15g ₹41.5)",
+     "s": "Clotrimazole 1% cream (per gm)",
+     "c": "",
+     "m": 2.77,
+     "p": 2.77
+    },
+    {
+     "n": "Surfaz (15g ₹45)",
+     "s": "Clotrimazole 1% cream (per gm)",
+     "c": "Franco-Indian",
+     "m": 3.0,
+     "p": 3.0
+    },
+    {
+     "n": "Candid (30g ₹95.8)",
+     "s": "Clotrimazole 1% cream (per gm)",
+     "c": "Glenmark",
+     "m": 3.19,
+     "p": 3.19
+    },
+    {
+     "n": "Canesten (30g ₹97)",
+     "s": "Clotrimazole 1% cream (per gm)",
+     "c": "Bayer",
+     "m": 3.23,
+     "p": 3.23
+    },
+    {
+     "n": "Clocip (15g ₹50.4)",
+     "s": "Clotrimazole 1% cream (per gm)",
+     "c": "Cipla",
+     "m": 3.36,
+     "p": 3.36
+    },
+    {
+     "n": "Candid (50g ₹170)",
+     "s": "Clotrimazole 1% cream (per gm)",
+     "c": "Glenmark",
+     "m": 3.4,
+     "p": 3.4
+    },
+    {
+     "n": "Clocamin (125g ₹117)",
+     "s": "Clotrimazole 1% powder (per gm)",
+     "c": "",
+     "m": 0.94,
+     "p": 0.94
+    },
+    {
+     "n": "Abzorb (120g ₹164)",
+     "s": "Clotrimazole 1% powder (per gm)",
+     "c": "Sun",
+     "m": 1.37,
+     "p": 1.37
+    },
+    {
+     "n": "Abzorb (50g ₹80)",
+     "s": "Clotrimazole 1% powder (per gm)",
+     "c": "Sun",
+     "m": 1.6,
+     "p": 1.6
+    },
+    {
+     "n": "Abzorb (100g ₹160)",
+     "s": "Clotrimazole 1% powder (per gm)",
+     "c": "Sun",
+     "m": 1.6,
+     "p": 1.6
+    },
+    {
+     "n": "Abzorb (75g ₹125)",
+     "s": "Clotrimazole 1% powder (per gm)",
+     "c": "Sun",
+     "m": 1.67,
+     "p": 1.67
+    },
+    {
+     "n": "Onabet Powder (50g ₹219)",
+     "s": "Sertaconazole 2% powder (per gm)",
+     "c": "Eris",
+     "m": 4.38,
+     "p": 4.38
+    },
+    {
+     "n": "Myconorm (15ml ₹21)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Psychotropics",
+     "m": 1.42,
+     "p": 1.42
+    },
+    {
+     "n": "Mycocid (15ml ₹39)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Intermed",
+     "m": 2.6,
+     "p": 2.6
+    },
+    {
+     "n": "Orabest (15ml ₹43)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Santo",
+     "m": 2.87,
+     "p": 2.87
+    },
+    {
+     "n": "Canfree (15ml ₹45)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Chem + Med",
+     "m": 3.0,
+     "p": 3.0
+    },
+    {
+     "n": "Candifung (20ml ₹61.5)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Morepen",
+     "m": 3.08,
+     "p": 3.08
+    },
+    {
+     "n": "Clodoc (20ml ₹64)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Morepen",
+     "m": 3.2,
+     "p": 3.2
+    },
+    {
+     "n": "Leezole (15ml ₹55)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Leeford",
+     "m": 3.67,
+     "p": 3.67
+    },
+    {
+     "n": "Canazole (15ml ₹64)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Lupin",
+     "m": 4.26,
+     "p": 4.26
+    },
+    {
+     "n": "Clotigem (15ml ₹65)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Leeford",
+     "m": 4.33,
+     "p": 4.33
+    },
+    {
+     "n": "Clomiron-MP (15ml ₹65)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Agron",
+     "m": 4.33,
+     "p": 4.33
+    },
+    {
+     "n": "Nuforce (15ml ₹79.7)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Mankind",
+     "m": 5.31,
+     "p": 5.31
+    },
+    {
+     "n": "Candid (25ml ₹149)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Glenmark",
+     "m": 5.96,
+     "p": 5.96
+    },
+    {
+     "n": "Clospray (50ml ₹300)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "U & V",
+     "m": 6.0,
+     "p": 6.0
+    },
+    {
+     "n": "Cancourse (15ml ₹100)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Xenial",
+     "m": 6.67,
+     "p": 6.67
+    },
+    {
+     "n": "Orasep OT (15ml ₹100)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Elan",
+     "m": 6.67,
+     "p": 6.67
+    },
+    {
+     "n": "Lotrifung (50ml ₹380)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "Wembrace",
+     "m": 7.6,
+     "p": 7.6
+    },
+    {
+     "n": "Clotrin (15ml ₹153)",
+     "s": "Clotrimazole 1% mouth paint (per ml)",
+     "c": "NuLife",
+     "m": 10.2,
+     "p": 10.2
+    },
+    {
+     "n": "Ketocip (100ml ₹284)",
+     "s": "Ketoconazole 2% shampoo (per ml)",
+     "c": "Cipla",
+     "m": 2.84,
+     "p": 2.84
+    }
+   ]
   }
  ]
 }
