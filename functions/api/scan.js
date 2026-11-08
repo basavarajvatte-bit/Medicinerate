@@ -31,7 +31,7 @@ function numsCompatible(a, b) {
   return false;
 }
 // घटकांची वेगवेगळी स्पेलिंग एकच मानायची: Amoxycillin = Amoxicillin, Clavulanate = Clavulanic acid
-const SKIP = new Set(["sodium", "potassium", "hydrochloride", "sulphate", "sulfate", "acid", "tablet", "tablets", "capsule", "capsules", "succinate", "tartrate", "besilate", "besylate", "maleate", "mesylate", "mesilate", "fumarate", "hyclate", "bitartrate", "trihydrate", "dihydrate", "monohydrate", "prolonged", "release", "extended", "sustained"]);
+const SKIP = new Set(["sodium", "potassium", "hydrochloride", "sulphate", "sulfate", "acid", "tablet", "tablets", "capsule", "capsules", "besilate", "besylate", "maleate", "mesylate", "mesilate", "fumarate", "hyclate", "bitartrate", "trihydrate", "dihydrate", "monohydrate", "prolonged", "release", "extended", "sustained"]);
 const canon = (w) => ({ amoxycillin: "amoxicillin", clavulanate: "clavulanic", clavulanic: "clavulanic", acetaminophen: "paracetamol" }[w] || w);
 const words = (s) => new Set(norm(s).split(" ").filter((w) => w.length >= 4 && /^[a-z]+$/.test(w) && !SKIP.has(w)).map(canon));
 const sameSet = (a, b) => a.size > 0 && a.size === b.size && [...a].every((x) => b.has(x));
@@ -374,7 +374,7 @@ export async function onRequestPost({ request, env }) {
   // त्याच घटकाचे पण वेगळ्या ताकदीचे औषध: फक्त माहितीसाठी दाखवायचे (निवडता येणार नाही)
   for (const r of items) {
     if (r.alts.length || !r._sw || !r._sw.size) continue;
-    r.others = meds.filter((d) => sameSet(r._sw, d.sw)).slice(0, 6).map((d) => d.idx);
+    r.others = meds.filter((d) => [...r._sw].every((x) => d.sw.has(x))).slice(0, 8).map((d) => d.idx);
   }
   return json({
     items,

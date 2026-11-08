@@ -5528,6 +5528,811 @@
      "p": 27.0
     }
    ]
+  },
+  {
+   "id": "2026-11-08-metoprolol",
+   "meds": [
+    {
+     "n": "DavaIndia Metoprolol 12.5",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Davaindia",
+     "m": 1.4,
+     "p": 1.4,
+     "t": 1
+    },
+    {
+     "n": "Meto 12.5 ER",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Orchid",
+     "m": 2.42,
+     "p": 2.42,
+     "t": 1
+    },
+    {
+     "n": "Sel XL 12.5",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Foncer",
+     "m": 3.2,
+     "p": 3.2,
+     "t": 1
+    },
+    {
+     "n": "Metopole 12.5 XL",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Knoll",
+     "m": 3.25,
+     "p": 3.25,
+     "t": 1
+    },
+    {
+     "n": "Metoan 12.5 ER",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Noel",
+     "m": 3.28,
+     "p": 3.28,
+     "t": 1
+    },
+    {
+     "n": "Met XL 12.5",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Ajanta",
+     "m": 3.28,
+     "p": 3.28,
+     "t": 1
+    },
+    {
+     "n": "Metordil-XL 12.5",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Prevego",
+     "m": 3.39,
+     "p": 3.39,
+     "t": 1
+    },
+    {
+     "n": "Metrate XL 12.5",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Care Formulation",
+     "m": 3.45,
+     "p": 3.45,
+     "t": 1
+    },
+    {
+     "n": "Betacon 12.5 ER",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Concertina",
+     "m": 3.45,
+     "p": 3.45,
+     "t": 1
+    },
+    {
+     "n": "Genericart Metoprolol 12.5",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Genericart",
+     "m": 3.63,
+     "p": 3.63,
+     "t": 1
+    },
+    {
+     "n": "Topme-XL 12.5",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Johnlee",
+     "m": 3.75,
+     "p": 3.75,
+     "t": 1
+    },
+    {
+     "n": "Etolol 12.5 ER",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Daxia",
+     "m": 3.8,
+     "p": 3.8,
+     "t": 1
+    },
+    {
+     "n": "Prolomet XL 12.5",
+     "s": "Metoprolol succinate 12.5mg ER",
+     "c": "Sun Pharma",
+     "m": 4.1,
+     "p": 4.1,
+     "t": 1
+    },
+    {
+     "n": "Ozolol-XL 25",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Ozone",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Metopot 25 ER",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Akesiss",
+     "m": 2.35,
+     "p": 2.35,
+     "t": 1
+    },
+    {
+     "n": "Betabest XL 25",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Medley",
+     "m": 3.2,
+     "p": 3.2,
+     "t": 1
+    },
+    {
+     "n": "Blumeta 25 ER",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Blue Cross",
+     "m": 3.4,
+     "p": 3.4,
+     "t": 1
+    },
+    {
+     "n": "Betaone-XL 25",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Dr Reddy's",
+     "m": 3.45,
+     "p": 3.45,
+     "t": 1
+    },
+    {
+     "n": "Yogaprol 25 ER",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "HiGlance",
+     "m": 3.65,
+     "p": 3.65,
+     "t": 1
+    },
+    {
+     "n": "Metolen-XL 25",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Aylen",
+     "m": 3.9,
+     "p": 3.9,
+     "t": 1
+    },
+    {
+     "n": "Metaloc XL 25",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Eris",
+     "m": 3.97,
+     "p": 3.97,
+     "t": 1
+    },
+    {
+     "n": "Sustameto 25 ER",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Zydus",
+     "m": 4.27,
+     "p": 4.27,
+     "t": 1
+    },
+    {
+     "n": "Metbeta XL 25",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Shrrishti",
+     "m": 4.3,
+     "p": 4.3,
+     "t": 1
+    },
+    {
+     "n": "Protol-XL 25",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Eris",
+     "m": 4.38,
+     "p": 4.38,
+     "t": 1
+    },
+    {
+     "n": "Best-Beta 25 ER",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Aprica",
+     "m": 4.49,
+     "p": 4.49,
+     "t": 1
+    },
+    {
+     "n": "Betablock XL 25",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Healing Pharma",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Metprocer 25 XL",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "Retra",
+     "m": 4.51,
+     "p": 4.51,
+     "t": 1
+    },
+    {
+     "n": "Mexmet 25 ER",
+     "s": "Metoprolol succinate 25mg ER",
+     "c": "UTH",
+     "m": 8.8,
+     "p": 8.8,
+     "t": 1
+    },
+    {
+     "n": "Drprol 50 ER",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "DR Best",
+     "m": 2.2,
+     "p": 2.2,
+     "t": 1
+    },
+    {
+     "n": "Metodil 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Shankus Acme",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Metoser 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Bal Pharma",
+     "m": 4.11,
+     "p": 4.11,
+     "t": 1
+    },
+    {
+     "n": "Betabest XL 50",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Medley",
+     "m": 4.23,
+     "p": 4.23,
+     "t": 1
+    },
+    {
+     "n": "Metogud 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Curosis",
+     "m": 4.27,
+     "p": 4.27,
+     "t": 1
+    },
+    {
+     "n": "Metlio 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Econ",
+     "m": 4.55,
+     "p": 4.55,
+     "t": 1
+    },
+    {
+     "n": "Metored 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Morepen",
+     "m": 4.68,
+     "p": 4.68,
+     "t": 1
+    },
+    {
+     "n": "Mexes 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Aamorb",
+     "m": 4.73,
+     "p": 4.73,
+     "t": 1
+    },
+    {
+     "n": "Grabeta 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Kanad",
+     "m": 4.77,
+     "p": 4.77,
+     "t": 1
+    },
+    {
+     "n": "MT 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Vasolife",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Excemet 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Instanz",
+     "m": 5.05,
+     "p": 5.05,
+     "t": 1
+    },
+    {
+     "n": "Metwun 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Wunderz",
+     "m": 5.2,
+     "p": 5.2,
+     "t": 1
+    },
+    {
+     "n": "Metomac 50 ER",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Macleods",
+     "m": 5.26,
+     "p": 5.26,
+     "t": 1
+    },
+    {
+     "n": "Cadprol 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Caddes",
+     "m": 5.26,
+     "p": 5.26,
+     "t": 1
+    },
+    {
+     "n": "Mintor 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Drukst",
+     "m": 5.3,
+     "p": 5.3,
+     "t": 1
+    },
+    {
+     "n": "Metcy 50 ER",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "CMR Life",
+     "m": 5.35,
+     "p": 5.35,
+     "t": 1
+    },
+    {
+     "n": "Metlow-XR 50",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "MVD",
+     "m": 5.55,
+     "p": 5.55,
+     "t": 1
+    },
+    {
+     "n": "Metozest 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Innovative",
+     "m": 5.82,
+     "p": 5.82,
+     "t": 1
+    },
+    {
+     "n": "Metfirst 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Zyphar's",
+     "m": 6.4,
+     "p": 6.4,
+     "t": 1
+    },
+    {
+     "n": "Prevamet 50 XL",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Elinor",
+     "m": 6.43,
+     "p": 6.43,
+     "t": 1
+    },
+    {
+     "n": "Best-Beta 50 ER",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Aprica",
+     "m": 6.45,
+     "p": 6.45,
+     "t": 1
+    },
+    {
+     "n": "Myoprol XL 50",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Aristo",
+     "m": 6.47,
+     "p": 6.47,
+     "t": 1
+    },
+    {
+     "n": "Protol-XL 50",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Eris",
+     "m": 6.47,
+     "p": 6.47,
+     "t": 1
+    },
+    {
+     "n": "Embeta XR 50",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Intas",
+     "m": 6.48,
+     "p": 6.48,
+     "t": 1
+    },
+    {
+     "n": "Sustameto 50 ER",
+     "s": "Metoprolol succinate 50mg ER",
+     "c": "Zydus",
+     "m": 6.48,
+     "p": 6.48,
+     "t": 1
+    },
+    {
+     "n": "DavaIndia Metoprolol 100",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Davaindia",
+     "m": 2.7,
+     "p": 2.7,
+     "t": 1
+    },
+    {
+     "n": "Metapol 100 ER",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Leeford",
+     "m": 3.44,
+     "p": 3.44,
+     "t": 1
+    },
+    {
+     "n": "Tanklor 95 ER",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Fabino",
+     "m": 6.3,
+     "p": 6.3,
+     "t": 1
+    },
+    {
+     "n": "Metwon 100 ER",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Walron",
+     "m": 9.82,
+     "p": 9.82,
+     "t": 1
+    },
+    {
+     "n": "Metaloc XL 100",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Eris",
+     "m": 10.91,
+     "p": 10.91,
+     "t": 1
+    },
+    {
+     "n": "Metolar XT 100",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Cipla",
+     "m": 12.74,
+     "p": 12.74,
+     "t": 1
+    },
+    {
+     "n": "Best-Beta 100 ER",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Aprica",
+     "m": 13.92,
+     "p": 13.92,
+     "t": 1
+    },
+    {
+     "n": "Met XL 100",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Ajanta",
+     "m": 15.19,
+     "p": 15.19,
+     "t": 1
+    },
+    {
+     "n": "Prolomet XL 100",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Sun Pharma",
+     "m": 16.79,
+     "p": 16.79,
+     "t": 1
+    },
+    {
+     "n": "Supermet XL 100",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Abbott",
+     "m": 16.79,
+     "p": 16.79,
+     "t": 1
+    },
+    {
+     "n": "Protol-XL 100",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Eris",
+     "m": 16.79,
+     "p": 16.79,
+     "t": 1
+    },
+    {
+     "n": "Tolol-XR 100",
+     "s": "Metoprolol succinate 100mg ER",
+     "c": "Torrent",
+     "m": 16.79,
+     "p": 16.79,
+     "t": 1
+    },
+    {
+     "n": "Embeta 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Intas",
+     "m": 1.74,
+     "p": 1.74,
+     "t": 1
+    },
+    {
+     "n": "Metrelax 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Algen",
+     "m": 2.33,
+     "p": 2.33,
+     "t": 1
+    },
+    {
+     "n": "Metolar 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Cipla",
+     "m": 2.44,
+     "p": 2.44,
+     "t": 1
+    },
+    {
+     "n": "Metpol 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Medipol",
+     "m": 2.5,
+     "p": 2.5,
+     "t": 1
+    },
+    {
+     "n": "Metosafe 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Zinnia",
+     "m": 2.66,
+     "p": 2.66,
+     "t": 1
+    },
+    {
+     "n": "Metapro 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Micro Labs",
+     "m": 2.7,
+     "p": 2.7,
+     "t": 1
+    },
+    {
+     "n": "Prolante 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Krebz",
+     "m": 2.9,
+     "p": 2.9,
+     "t": 1
+    },
+    {
+     "n": "Genericart Metoprolol 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Genericart",
+     "m": 3.05,
+     "p": 3.05,
+     "t": 1
+    },
+    {
+     "n": "Lopresor 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Novartis",
+     "m": 3.19,
+     "p": 3.19,
+     "t": 1
+    },
+    {
+     "n": "Betaloc 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "AstraZeneca",
+     "m": 3.3,
+     "p": 3.3,
+     "t": 1
+    },
+    {
+     "n": "Metrate 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Care Formulation",
+     "m": 3.4,
+     "p": 3.4,
+     "t": 1
+    },
+    {
+     "n": "Topme 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Johnlee",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Tomep 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Shine",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Morrix 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Curis",
+     "m": 3.9,
+     "p": 3.9,
+     "t": 1
+    },
+    {
+     "n": "Metocop 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Avecia",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Metolife 25",
+     "s": "Metoprolol tartrate 25mg",
+     "c": "Life Science",
+     "m": 4.15,
+     "p": 4.15,
+     "t": 1
+    },
+    {
+     "n": "Metar 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Ortin",
+     "m": 0.75,
+     "p": 0.75,
+     "t": 1
+    },
+    {
+     "n": "Embeta 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Intas",
+     "m": 3.04,
+     "p": 3.04,
+     "t": 1
+    },
+    {
+     "n": "Metrelax 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Algen",
+     "m": 3.67,
+     "p": 3.67,
+     "t": 1
+    },
+    {
+     "n": "Metolar 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Cipla",
+     "m": 3.98,
+     "p": 3.98,
+     "t": 1
+    },
+    {
+     "n": "Metatus 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Sanctus",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Metapro 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Micro Labs",
+     "m": 4.22,
+     "p": 4.22,
+     "t": 1
+    },
+    {
+     "n": "Metosafe 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Zinnia",
+     "m": 4.26,
+     "p": 4.26,
+     "t": 1
+    },
+    {
+     "n": "Genericart Metoprolol 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Genericart",
+     "m": 4.45,
+     "p": 4.45,
+     "t": 1
+    },
+    {
+     "n": "Xmbeta 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Macleods",
+     "m": 4.78,
+     "p": 4.78,
+     "t": 1
+    },
+    {
+     "n": "Metopol 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Medipol",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Betaloc 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "AstraZeneca",
+     "m": 5.01,
+     "p": 5.01,
+     "t": 1
+    },
+    {
+     "n": "Lopresor 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Novartis",
+     "m": 5.16,
+     "p": 5.16,
+     "t": 1
+    },
+    {
+     "n": "Topme 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Johnlee",
+     "m": 5.3,
+     "p": 5.3,
+     "t": 1
+    },
+    {
+     "n": "Fineomet 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Neocardiab",
+     "m": 5.3,
+     "p": 5.3,
+     "t": 1
+    },
+    {
+     "n": "Metprol 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Serwina",
+     "m": 5.5,
+     "p": 5.5,
+     "t": 1
+    },
+    {
+     "n": "Tecbeta 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Panacea",
+     "m": 5.51,
+     "p": 5.51,
+     "t": 1
+    },
+    {
+     "n": "Metocop 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Avecia",
+     "m": 5.7,
+     "p": 5.7,
+     "t": 1
+    },
+    {
+     "n": "Metolife 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Life Science",
+     "m": 6.0,
+     "p": 6.0,
+     "t": 1
+    },
+    {
+     "n": "Renowell 50",
+     "s": "Metoprolol tartrate 50mg",
+     "c": "Meditouch",
+     "m": 6.0,
+     "p": 6.0,
+     "t": 1
+    }
+   ]
   }
  ]
 }

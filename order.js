@@ -82,7 +82,7 @@
     if(!c.alts.length){
       var wa="*"+SHOP+"*\n\nहे औषध मागवून देता येईल का?\nऔषध: "+c.n+(/[a-z]/i.test(c.s)?"\nघटक: "+c.s:"");
       if(c.o&&c.o.length){
-        h+='<div class="oth"><b>⚠️ हेच औषध आमच्याकडे वेगळ्या ताकदीत (mg) आहे:</b>'+c.o.map(function(i){var d=meds[i];return '<div class="row"><span>'+E(d.n)+(d.c?' · '+E(d.c):'')+'<small style="display:block;color:var(--mute)">'+E(d.s)+'</small></span><b>'+F(d.p)+(d.t?' / '+d.t+' गोळ्या':'')+'</b></div>'}).join("")+'<p class="mini" style="margin-top:6px">ताकद वेगळी आहे. डॉक्टरांना विचारल्याशिवाय बदलू नका.</p></div>';
+        h+='<div class="oth"><b>⚠️ हाच घटक असलेली ही औषधे आमच्याकडे आहेत, पण ताकद (mg) किंवा प्रकार वेगळा असू शकतो:</b>'+c.o.map(function(i){var d=meds[i];return '<div class="row"><span>'+E(d.n)+(d.c?' · '+E(d.c):'')+'<small style="display:block;color:var(--mute)">'+E(d.s)+'</small></span><b>'+F(d.p)+(d.t?' / '+d.t+' गोळ्या':'')+'</b></div>'}).join("")+'<p class="mini" style="margin-top:6px">डॉक्टरांना किंवा दुकानात विचारल्याशिवाय बदलू नका.</p></div>';
       }
       h+='<a class="ask" target="_blank" rel="noopener" href="https://wa.me/'+NUM+'?text='+encodeURIComponent(wa)+'" aria-label="WhatsApp वर दुकानाला विचारा"><span aria-hidden="true">💬</span><span>हे औषध मागवून देता येईल का, ते दुकानात विचारा.</span></a>';
     }else{
