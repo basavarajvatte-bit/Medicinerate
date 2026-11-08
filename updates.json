@@ -12929,6 +12929,761 @@
      "p": 183.0
     }
    ]
+  },
+  {
+   "id": "2026-11-08-asthma",
+   "meds": [
+    {
+     "n": "Astinol",
+     "s": "Salbutamol 100mcg inhaler",
+     "c": "",
+     "m": 64.0,
+     "p": 64.0
+    },
+    {
+     "n": "Bronkonat",
+     "s": "Salbutamol 100mcg inhaler",
+     "c": "",
+     "m": 80.0,
+     "p": 80.0
+    },
+    {
+     "n": "Salbair 100 Transhaler",
+     "s": "Salbutamol 100mcg inhaler",
+     "c": "Lupin",
+     "m": 139.0,
+     "p": 139.0
+    },
+    {
+     "n": "Asthalin (200 MDI)",
+     "s": "Salbutamol 100mcg inhaler",
+     "c": "Cipla",
+     "m": 180.0,
+     "p": 180.0
+    },
+    {
+     "n": "Aerozest 50mcg",
+     "s": "Levosalbutamol 50mcg inhaler",
+     "c": "Macleods",
+     "m": 83.0,
+     "p": 83.0
+    },
+    {
+     "n": "Levair B Transhaler",
+     "s": "Levosalbutamol 50mcg inhaler",
+     "c": "Lupin",
+     "m": 125.0,
+     "p": 125.0
+    },
+    {
+     "n": "Airlevo 50",
+     "s": "Levosalbutamol 50mcg inhaler",
+     "c": "",
+     "m": 140.0,
+     "p": 140.0
+    },
+    {
+     "n": "Salbair 50 Transhaler",
+     "s": "Levosalbutamol 50mcg inhaler",
+     "c": "Lupin",
+     "m": 168.0,
+     "p": 168.0
+    },
+    {
+     "n": "Ibires Nexhaler",
+     "s": "Levosalbutamol 50mcg inhaler",
+     "c": "Indiabulls",
+     "m": 202.0,
+     "p": 202.0
+    },
+    {
+     "n": "Levolin 50 (200 MDI)",
+     "s": "Levosalbutamol 50mcg inhaler",
+     "c": "Cipla",
+     "m": 257.0,
+     "p": 257.0
+    },
+    {
+     "n": "Levolin Synchrobreathe",
+     "s": "Levosalbutamol 50mcg inhaler",
+     "c": "Cipla",
+     "m": 417.0,
+     "p": 417.0
+    },
+    {
+     "n": "Symbiva 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Sun Pharma",
+     "m": 318.0,
+     "p": 318.0
+    },
+    {
+     "n": "Budetrol 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Macleods",
+     "m": 318.0,
+     "p": 318.0
+    },
+    {
+     "n": "Airtec FB 200 (150 MDI)",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Glenmark",
+     "m": 329.0,
+     "p": 329.0
+    },
+    {
+     "n": "Budefine 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Prevego",
+     "m": 359.0,
+     "p": 359.0
+    },
+    {
+     "n": "Formonide 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Zydus",
+     "m": 360.0,
+     "p": 360.0
+    },
+    {
+     "n": "Combihale FB 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Dr Reddy's",
+     "m": 360.0,
+     "p": 360.0
+    },
+    {
+     "n": "Fomtide 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Sun Pharma",
+     "m": 360.0,
+     "p": 360.0
+    },
+    {
+     "n": "Pulmosmart 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Alkem",
+     "m": 360.0,
+     "p": 360.0
+    },
+    {
+     "n": "Foracort 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Cipla",
+     "m": 360.0,
+     "p": 360.0
+    },
+    {
+     "n": "Unipuff FB 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Uniza",
+     "m": 388.0,
+     "p": 388.0
+    },
+    {
+     "n": "Digihaler FB 200",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Glenmark",
+     "m": 411.0,
+     "p": 411.0
+    },
+    {
+     "n": "Foracort 200 Synchrobreathe",
+     "s": "Budesonide 200mcg + Formoterol 6mcg inhaler",
+     "c": "Cipla",
+     "m": 436.0,
+     "p": 436.0
+    },
+    {
+     "n": "Budetrol 400",
+     "s": "Budesonide 400mcg + Formoterol 6mcg inhaler",
+     "c": "Macleods",
+     "m": 398.0,
+     "p": 398.0
+    },
+    {
+     "n": "Airwin-BF 400",
+     "s": "Budesonide 400mcg + Formoterol 6mcg inhaler",
+     "c": "Ultimate",
+     "m": 408.0,
+     "p": 408.0
+    },
+    {
+     "n": "Fomtide 400",
+     "s": "Budesonide 400mcg + Formoterol 6mcg inhaler",
+     "c": "Sun Pharma",
+     "m": 409.0,
+     "p": 409.0
+    },
+    {
+     "n": "Combihale FB 400",
+     "s": "Budesonide 400mcg + Formoterol 6mcg inhaler",
+     "c": "Dr Reddy's",
+     "m": 410.0,
+     "p": 410.0
+    },
+    {
+     "n": "Formonide 400",
+     "s": "Budesonide 400mcg + Formoterol 6mcg inhaler",
+     "c": "Zydus",
+     "m": 410.0,
+     "p": 410.0
+    },
+    {
+     "n": "Pulmosmart 400",
+     "s": "Budesonide 400mcg + Formoterol 6mcg inhaler",
+     "c": "Alkem",
+     "m": 411.0,
+     "p": 411.0
+    },
+    {
+     "n": "Foracort 400",
+     "s": "Budesonide 400mcg + Formoterol 6mcg inhaler",
+     "c": "Cipla",
+     "m": 411.0,
+     "p": 411.0
+    },
+    {
+     "n": "Digihaler FB 400",
+     "s": "Budesonide 400mcg + Formoterol 6mcg inhaler",
+     "c": "Glenmark",
+     "m": 462.0,
+     "p": 462.0
+    },
+    {
+     "n": "Foracort 200 Rotacap",
+     "s": "Budesonide 200mcg + Formoterol 6mcg Rotacap",
+     "c": "Cipla",
+     "m": 169.0,
+     "p": 169.0
+    },
+    {
+     "n": "Budetrol 200 Rotacap",
+     "s": "Budesonide 200mcg + Formoterol 6mcg Rotacap",
+     "c": "Macleods",
+     "m": 188.0,
+     "p": 188.0
+    },
+    {
+     "n": "Budamate 200 Transcaps",
+     "s": "Budesonide 200mcg + Formoterol 6mcg Rotacap",
+     "c": "Lupin",
+     "m": 195.0,
+     "p": 195.0
+    },
+    {
+     "n": "Foracort 400 Rotacap",
+     "s": "Budesonide 400mcg + Formoterol 6mcg Rotacap",
+     "c": "Cipla",
+     "m": 222.0,
+     "p": 222.0
+    },
+    {
+     "n": "Budetrol 400 Rotacap",
+     "s": "Budesonide 400mcg + Formoterol 6mcg Rotacap",
+     "c": "Macleods",
+     "m": 226.0,
+     "p": 226.0
+    },
+    {
+     "n": "Fomtide 400 Octacap",
+     "s": "Budesonide 400mcg + Formoterol 6mcg Rotacap",
+     "c": "Sun Pharma",
+     "m": 240.0,
+     "p": 240.0
+    },
+    {
+     "n": "Preflut S",
+     "s": "Salmeterol 25mcg + Fluticasone 250mcg inhaler",
+     "c": "Pragmatics",
+     "m": 420.0,
+     "p": 420.0
+    },
+    {
+     "n": "Quikhale SF 250",
+     "s": "Salmeterol 25mcg + Fluticasone 250mcg inhaler",
+     "c": "Intas",
+     "m": 577.0,
+     "p": 577.0
+    },
+    {
+     "n": "Seretide 250 Evohaler",
+     "s": "Salmeterol 25mcg + Fluticasone 250mcg inhaler",
+     "c": "GSK",
+     "m": 588.0,
+     "p": 588.0
+    },
+    {
+     "n": "Combitide 250",
+     "s": "Salmeterol 25mcg + Fluticasone 250mcg inhaler",
+     "c": "Sun Pharma",
+     "m": 665.0,
+     "p": 665.0
+    },
+    {
+     "n": "Seroflo 250",
+     "s": "Salmeterol 25mcg + Fluticasone 250mcg inhaler",
+     "c": "Cipla",
+     "m": 685.0,
+     "p": 685.0
+    },
+    {
+     "n": "Seroflo Ecopack 250 (200 MDI)",
+     "s": "Salmeterol 25mcg + Fluticasone 250mcg inhaler",
+     "c": "Cipla",
+     "m": 705.0,
+     "p": 705.0
+    },
+    {
+     "n": "Seroflo 250 Synchrobreathe",
+     "s": "Salmeterol 25mcg + Fluticasone 250mcg inhaler",
+     "c": "Cipla",
+     "m": 759.0,
+     "p": 759.0
+    },
+    {
+     "n": "Seroflo 100 Rotacap",
+     "s": "Salmeterol + Fluticasone 100mcg Rotacap",
+     "c": "Cipla",
+     "m": 217.0,
+     "p": 217.0
+    },
+    {
+     "n": "Combitide 250 Octacap",
+     "s": "Salmeterol + Fluticasone 250mcg Rotacap",
+     "c": "Sun Pharma",
+     "m": 429.0,
+     "p": 429.0
+    },
+    {
+     "n": "Seroflo 250 Rotacap",
+     "s": "Salmeterol + Fluticasone 250mcg Rotacap",
+     "c": "Cipla",
+     "m": 522.0,
+     "p": 522.0
+    },
+    {
+     "n": "Seroflo 500 Rotacap",
+     "s": "Salmeterol + Fluticasone 500mcg Rotacap",
+     "c": "Cipla",
+     "m": 545.0,
+     "p": 545.0
+    },
+    {
+     "n": "Tiova Rotacap 15",
+     "s": "Tiotropium 18mcg Rotacap",
+     "c": "Cipla",
+     "m": 10.18,
+     "p": 10.18
+    },
+    {
+     "n": "Tiova Rotacap 20",
+     "s": "Tiotropium 18mcg Rotacap",
+     "c": "Cipla",
+     "m": 10.35,
+     "p": 10.35
+    },
+    {
+     "n": "Tiova Rotacap 30",
+     "s": "Tiotropium 18mcg Rotacap",
+     "c": "Cipla",
+     "m": 11.45,
+     "p": 11.45
+    },
+    {
+     "n": "Budecort 0.5",
+     "s": "Budesonide 0.5mg respules",
+     "c": "Cipla",
+     "m": 114.0,
+     "p": 114.0
+    },
+    {
+     "n": "Derinide 0.5 (7 respules)",
+     "s": "Budesonide 0.5mg respules",
+     "c": "Zydus",
+     "m": 117.0,
+     "p": 117.0
+    },
+    {
+     "n": "Duolin New",
+     "s": "Levosalbutamol 1.25mg + Ipratropium 500mcg respules",
+     "c": "Cipla",
+     "m": 58.0,
+     "p": 58.0
+    },
+    {
+     "n": "Luckys Pharma brand",
+     "s": "Levosalbutamol 1.25mg + Ipratropium 500mcg respules",
+     "c": "Luckys",
+     "m": 78.0,
+     "p": 78.0
+    },
+    {
+     "n": "Ipralungs",
+     "s": "Levosalbutamol 1.25mg + Ipratropium 500mcg respules",
+     "c": "Mankind",
+     "m": 87.0,
+     "p": 87.0
+    },
+    {
+     "n": "Duopules",
+     "s": "Levosalbutamol 1.25mg + Ipratropium 500mcg respules",
+     "c": "May & Baker",
+     "m": 180.0,
+     "p": 180.0
+    },
+    {
+     "n": "Duosules",
+     "s": "Levosalbutamol 1.25mg + Ipratropium 500mcg respules",
+     "c": "Elder",
+     "m": 180.0,
+     "p": 180.0
+    },
+    {
+     "n": "Montecip 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Cipla",
+     "m": 2.56,
+     "p": 2.56,
+     "t": 1
+    },
+    {
+     "n": "Moto 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Aamorb",
+     "m": 2.85,
+     "p": 2.85,
+     "t": 1
+    },
+    {
+     "n": "Montina 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Aristo",
+     "m": 4.93,
+     "p": 4.93,
+     "t": 1
+    },
+    {
+     "n": "Montifresh 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Mankind",
+     "m": 5.69,
+     "p": 5.69,
+     "t": 1
+    },
+    {
+     "n": "Solokast 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Zuventus",
+     "m": 6.66,
+     "p": 6.66,
+     "t": 1
+    },
+    {
+     "n": "Ebmont 10 (15 tab)",
+     "s": "Montelukast 10mg tablet",
+     "c": "MMC",
+     "m": 7.99,
+     "p": 7.99,
+     "t": 1
+    },
+    {
+     "n": "Lasma 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Apex",
+     "m": 8.14,
+     "p": 8.14,
+     "t": 1
+    },
+    {
+     "n": "Moncee 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Prayas",
+     "m": 8.99,
+     "p": 8.99,
+     "t": 1
+    },
+    {
+     "n": "Symkast DX 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Symbiotic",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Acemont",
+     "s": "Montelukast 10mg tablet",
+     "c": "Avis",
+     "m": 11.9,
+     "p": 11.9,
+     "t": 1
+    },
+    {
+     "n": "Montemac 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Macleods",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Monzem 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Saffron",
+     "m": 12.5,
+     "p": 12.5,
+     "t": 1
+    },
+    {
+     "n": "Montex 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Zee Labs",
+     "m": 13.7,
+     "p": 13.7,
+     "t": 1
+    },
+    {
+     "n": "Spiromont 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Koye",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Montek 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Sun Pharma",
+     "m": 16.42,
+     "p": 16.42,
+     "t": 1
+    },
+    {
+     "n": "Singulair 10 (15 tab)",
+     "s": "Montelukast 10mg tablet",
+     "c": "MSD",
+     "m": 17.87,
+     "p": 17.87,
+     "t": 1
+    },
+    {
+     "n": "Romilast 10 (15 tab)",
+     "s": "Montelukast 10mg tablet",
+     "c": "RPG",
+     "m": 18.63,
+     "p": 18.63,
+     "t": 1
+    },
+    {
+     "n": "Montair 10 (15 tab)",
+     "s": "Montelukast 10mg tablet",
+     "c": "Cipla",
+     "m": 19.3,
+     "p": 19.3,
+     "t": 1
+    },
+    {
+     "n": "Odimont 10",
+     "s": "Montelukast 10mg tablet",
+     "c": "Zydus",
+     "m": 20.46,
+     "p": 20.46,
+     "t": 1
+    },
+    {
+     "n": "Setmont-Kid",
+     "s": "Montelukast 4mg chewable",
+     "c": "Ultimate",
+     "m": 5.44,
+     "p": 5.44,
+     "t": 1
+    },
+    {
+     "n": "Montifast 4",
+     "s": "Montelukast 4mg chewable",
+     "c": "Globela",
+     "m": 6.92,
+     "p": 6.92,
+     "t": 1
+    },
+    {
+     "n": "Monte-P Kid",
+     "s": "Montelukast 4mg chewable",
+     "c": "MDC",
+     "m": 7.76,
+     "p": 7.76,
+     "t": 1
+    },
+    {
+     "n": "Hymont 4",
+     "s": "Montelukast 4mg chewable",
+     "c": "Zareenova",
+     "m": 8.32,
+     "p": 8.32,
+     "t": 1
+    },
+    {
+     "n": "Montair 4 (15 tab)",
+     "s": "Montelukast 4mg chewable",
+     "c": "Cipla",
+     "m": 10.93,
+     "p": 10.93,
+     "t": 1
+    },
+    {
+     "n": "Singulair 4",
+     "s": "Montelukast 4mg chewable",
+     "c": "MSD",
+     "m": 14.32,
+     "p": 14.32,
+     "t": 1
+    },
+    {
+     "n": "Montair 5 Chewable",
+     "s": "Montelukast 5mg chewable",
+     "c": "Cipla",
+     "m": 13.4,
+     "p": 13.4,
+     "t": 1
+    },
+    {
+     "n": "Montey B",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Finecure",
+     "m": 8.5,
+     "p": 8.5,
+     "t": 1
+    },
+    {
+     "n": "Broncocet-Forte NF",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Seagull",
+     "m": 9.08,
+     "p": 9.08,
+     "t": 1
+    },
+    {
+     "n": "Bmont",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Avis",
+     "m": 10.5,
+     "p": 10.5,
+     "t": 1
+    },
+    {
+     "n": "Bammon",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Franco-Indian",
+     "m": 11.54,
+     "p": 11.54,
+     "t": 1
+    },
+    {
+     "n": "Emster B",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Cutigen",
+     "m": 12.9,
+     "p": 12.9,
+     "t": 1
+    },
+    {
+     "n": "Asthamon BL",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "East West",
+     "m": 15.2,
+     "p": 15.2,
+     "t": 1
+    },
+    {
+     "n": "Monway Plus",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Arrowin",
+     "m": 16.18,
+     "p": 16.18,
+     "t": 1
+    },
+    {
+     "n": "Bamirol",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Integral",
+     "m": 16.27,
+     "p": 16.27,
+     "t": 1
+    },
+    {
+     "n": "M-Tek Plus",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Gamete",
+     "m": 17.5,
+     "p": 17.5,
+     "t": 1
+    },
+    {
+     "n": "Odimont-Plus",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Zydus",
+     "m": 20.2,
+     "p": 20.2,
+     "t": 1
+    },
+    {
+     "n": "Montair Plus",
+     "s": "Montelukast 10mg + Bambuterol 10mg tablet",
+     "c": "Cipla",
+     "m": 28.15,
+     "p": 28.15,
+     "t": 1
+    },
+    {
+     "n": "Pulmodox 400",
+     "s": "Doxofylline 400mg tablet",
+     "c": "TTK",
+     "m": 4.33,
+     "p": 4.33,
+     "t": 1
+    },
+    {
+     "n": "Carbasma 400",
+     "s": "Doxofylline 400mg tablet",
+     "c": "Strides",
+     "m": 4.33,
+     "p": 4.33,
+     "t": 1
+    },
+    {
+     "n": "Doxolin 400 (30 tab)",
+     "s": "Doxofylline 400mg tablet",
+     "c": "Zydus",
+     "m": 4.37,
+     "p": 4.37,
+     "t": 1
+    },
+    {
+     "n": "Doxiflo 400",
+     "s": "Doxofylline 400mg tablet",
+     "c": "Lupin",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Dfl 400",
+     "s": "Doxofylline 400mg tablet",
+     "c": "Unimarck",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Dofasma OD 400",
+     "s": "Doxofylline 400mg tablet",
+     "c": "Tas Med",
+     "m": 4.9,
+     "p": 4.9,
+     "t": 1
+    }
+   ]
   }
  ]
 }
