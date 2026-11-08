@@ -22504,6 +22504,1106 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-vertigo",
+   "meds": [
+    {
+     "n": "Vertistop 8",
+     "s": "Betahistine 8mg",
+     "c": "Ind Swift",
+     "m": 2.2,
+     "p": 2.2,
+     "t": 1
+    },
+    {
+     "n": "Govert 8",
+     "s": "Betahistine 8mg",
+     "c": "Orchid",
+     "m": 2.21,
+     "p": 2.21,
+     "t": 1
+    },
+    {
+     "n": "Stinbeta 8",
+     "s": "Betahistine 8mg",
+     "c": "AGM Biotec",
+     "m": 2.8,
+     "p": 2.8,
+     "t": 1
+    },
+    {
+     "n": "Vermid 8",
+     "s": "Betahistine 8mg",
+     "c": "Tenet",
+     "m": 3.18,
+     "p": 3.18,
+     "t": 1
+    },
+    {
+     "n": "Vertiford 8",
+     "s": "Betahistine 8mg",
+     "c": "Leeford",
+     "m": 3.42,
+     "p": 3.42,
+     "t": 1
+    },
+    {
+     "n": "Berzin 8",
+     "s": "Betahistine 8mg",
+     "c": "Mission Research",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Betlan 8",
+     "s": "Betahistine 8mg",
+     "c": "",
+     "m": 3.81,
+     "p": 3.81,
+     "t": 1
+    },
+    {
+     "n": "Egeptin 8",
+     "s": "Betahistine 8mg",
+     "c": "Dycine",
+     "m": 3.94,
+     "p": 3.94,
+     "t": 1
+    },
+    {
+     "n": "Meni 8",
+     "s": "Betahistine 8mg",
+     "c": "FDC",
+     "m": 3.96,
+     "p": 3.96,
+     "t": 1
+    },
+    {
+     "n": "Betatine 8",
+     "s": "Betahistine 8mg",
+     "c": "Zeelab",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Gidihist 8",
+     "s": "Betahistine 8mg",
+     "c": "Lupin",
+     "m": 4.15,
+     "p": 4.15,
+     "t": 1
+    },
+    {
+     "n": "Divert 8",
+     "s": "Betahistine 8mg",
+     "c": "Meridian",
+     "m": 4.25,
+     "p": 4.25,
+     "t": 1
+    },
+    {
+     "n": "Macvert 8",
+     "s": "Betahistine 8mg",
+     "c": "Macleods",
+     "m": 4.42,
+     "p": 4.42,
+     "t": 1
+    },
+    {
+     "n": "Spinil 8",
+     "s": "Betahistine 8mg",
+     "c": "Ceras",
+     "m": 4.46,
+     "p": 4.46,
+     "t": 1
+    },
+    {
+     "n": "Vertisrin 8",
+     "s": "Betahistine 8mg",
+     "c": "Shrinivas Gujarat",
+     "m": 4.48,
+     "p": 4.48,
+     "t": 1
+    },
+    {
+     "n": "Vertibar 8",
+     "s": "Betahistine 8mg",
+     "c": "",
+     "m": 4.57,
+     "p": 4.57,
+     "t": 1
+    },
+    {
+     "n": "Biohistin 8",
+     "s": "Betahistine 8mg",
+     "c": "Biochem",
+     "m": 5.02,
+     "p": 5.02,
+     "t": 1
+    },
+    {
+     "n": "Vertibil 8",
+     "s": "Betahistine 8mg",
+     "c": "Viilbery",
+     "m": 5.4,
+     "p": 5.4,
+     "t": 1
+    },
+    {
+     "n": "Vertipress 8",
+     "s": "Betahistine 8mg",
+     "c": "Cipla",
+     "m": 6.23,
+     "p": 6.23,
+     "t": 1
+    },
+    {
+     "n": "Bvert 8",
+     "s": "Betahistine 8mg",
+     "c": "Icon Life",
+     "m": 6.4,
+     "p": 6.4,
+     "t": 1
+    },
+    {
+     "n": "Vertimak 8",
+     "s": "Betahistine 8mg",
+     "c": "Healthitude",
+     "m": 6.62,
+     "p": 6.62,
+     "t": 1
+    },
+    {
+     "n": "Verbet 8",
+     "s": "Betahistine 8mg",
+     "c": "Albert David",
+     "m": 6.7,
+     "p": 6.7,
+     "t": 1
+    },
+    {
+     "n": "Vertirest 8",
+     "s": "Betahistine 8mg",
+     "c": "Linux",
+     "m": 7.3,
+     "p": 7.3,
+     "t": 1
+    },
+    {
+     "n": "Betavert 8",
+     "s": "Betahistine 8mg",
+     "c": "Sun",
+     "m": 8.73,
+     "p": 8.73,
+     "t": 1
+    },
+    {
+     "n": "B-Stil 8",
+     "s": "Betahistine 8mg",
+     "c": "Abbott",
+     "m": 9.05,
+     "p": 9.05,
+     "t": 1
+    },
+    {
+     "n": "Vertin 8 (15)",
+     "s": "Betahistine 8mg",
+     "c": "Abbott",
+     "m": 13.27,
+     "p": 13.27,
+     "t": 1
+    },
+    {
+     "n": "Vertifyl 16",
+     "s": "Betahistine 16mg",
+     "c": "Leeford",
+     "m": 4.81,
+     "p": 4.81,
+     "t": 1
+    },
+    {
+     "n": "Betatine 16",
+     "s": "Betahistine 16mg",
+     "c": "Zeelab",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Vertiford 16",
+     "s": "Betahistine 16mg",
+     "c": "Leeford",
+     "m": 5.92,
+     "p": 5.92,
+     "t": 1
+    },
+    {
+     "n": "Stinbeta 16",
+     "s": "Betahistine 16mg",
+     "c": "AGM Biotec",
+     "m": 6.0,
+     "p": 6.0,
+     "t": 1
+    },
+    {
+     "n": "Vermid 16",
+     "s": "Betahistine 16mg",
+     "c": "Tenet",
+     "m": 6.1,
+     "p": 6.1,
+     "t": 1
+    },
+    {
+     "n": "Vertisrin 16",
+     "s": "Betahistine 16mg",
+     "c": "Shrinivas Gujarat",
+     "m": 6.76,
+     "p": 6.76,
+     "t": 1
+    },
+    {
+     "n": "Berzin 16",
+     "s": "Betahistine 16mg",
+     "c": "Mission Research",
+     "m": 7.1,
+     "p": 7.1,
+     "t": 1
+    },
+    {
+     "n": "Meni 16",
+     "s": "Betahistine 16mg",
+     "c": "FDC",
+     "m": 7.37,
+     "p": 7.37,
+     "t": 1
+    },
+    {
+     "n": "Betahist Forte 16",
+     "s": "Betahistine 16mg",
+     "c": "Geno",
+     "m": 7.4,
+     "p": 7.4,
+     "t": 1
+    },
+    {
+     "n": "Gidihist 16",
+     "s": "Betahistine 16mg",
+     "c": "Lupin",
+     "m": 8.0,
+     "p": 8.0,
+     "t": 1
+    },
+    {
+     "n": "Vbeta 16",
+     "s": "Betahistine 16mg",
+     "c": "Kivi Labs",
+     "m": 8.14,
+     "p": 8.14,
+     "t": 1
+    },
+    {
+     "n": "Betleods 16",
+     "s": "Betahistine 16mg",
+     "c": "Macleods",
+     "m": 8.61,
+     "p": 8.61,
+     "t": 1
+    },
+    {
+     "n": "Biohistin 16",
+     "s": "Betahistine 16mg",
+     "c": "Biochem",
+     "m": 9.74,
+     "p": 9.74,
+     "t": 1
+    },
+    {
+     "n": "Vertirest 16",
+     "s": "Betahistine 16mg",
+     "c": "Linux",
+     "m": 10.85,
+     "p": 10.85,
+     "t": 1
+    },
+    {
+     "n": "Bvert 16",
+     "s": "Betahistine 16mg",
+     "c": "Icon Life",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Verticheck 16",
+     "s": "Betahistine 16mg",
+     "c": "Mackenzie",
+     "m": 12.8,
+     "p": 12.8,
+     "t": 1
+    },
+    {
+     "n": "Sovert 16",
+     "s": "Betahistine 16mg",
+     "c": "Solvate",
+     "m": 13.33,
+     "p": 13.33,
+     "t": 1
+    },
+    {
+     "n": "Vertipress 16",
+     "s": "Betahistine 16mg",
+     "c": "Cipla",
+     "m": 14.24,
+     "p": 14.24,
+     "t": 1
+    },
+    {
+     "n": "Verbet 16",
+     "s": "Betahistine 16mg",
+     "c": "Albert David",
+     "m": 15.7,
+     "p": 15.7,
+     "t": 1
+    },
+    {
+     "n": "B-Stil 16",
+     "s": "Betahistine 16mg",
+     "c": "Abbott",
+     "m": 16.76,
+     "p": 16.76,
+     "t": 1
+    },
+    {
+     "n": "Dizibeat 16",
+     "s": "Betahistine 16mg",
+     "c": "La Renon",
+     "m": 17.2,
+     "p": 17.2,
+     "t": 1
+    },
+    {
+     "n": "Betavert 16",
+     "s": "Betahistine 16mg",
+     "c": "Sun",
+     "m": 17.67,
+     "p": 17.67,
+     "t": 1
+    },
+    {
+     "n": "Vertin 16 (15)",
+     "s": "Betahistine 16mg",
+     "c": "Abbott",
+     "m": 24.47,
+     "p": 24.47,
+     "t": 1
+    },
+    {
+     "n": "Verzin 24",
+     "s": "Betahistine 24mg",
+     "c": "Tas Med",
+     "m": 7.24,
+     "p": 7.24,
+     "t": 1
+    },
+    {
+     "n": "Spinil 24",
+     "s": "Betahistine 24mg",
+     "c": "Ceras",
+     "m": 8.6,
+     "p": 8.6,
+     "t": 1
+    },
+    {
+     "n": "Tevert 24",
+     "s": "Betahistine 24mg",
+     "c": "Taurus",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Macvert 24",
+     "s": "Betahistine 24mg",
+     "c": "Macleods",
+     "m": 9.31,
+     "p": 9.31,
+     "t": 1
+    },
+    {
+     "n": "Histavert 24",
+     "s": "Betahistine 24mg",
+     "c": "Pulse",
+     "m": 10.45,
+     "p": 10.45,
+     "t": 1
+    },
+    {
+     "n": "Gidihist 24",
+     "s": "Betahistine 24mg",
+     "c": "Lupin",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Ronyvert 24",
+     "s": "Betahistine 24mg",
+     "c": "Ronyd",
+     "m": 11.99,
+     "p": 11.99,
+     "t": 1
+    },
+    {
+     "n": "Vbeta 24",
+     "s": "Betahistine 24mg",
+     "c": "Kivi Labs",
+     "m": 13.19,
+     "p": 13.19,
+     "t": 1
+    },
+    {
+     "n": "Bvert 24",
+     "s": "Betahistine 24mg",
+     "c": "Icon Life",
+     "m": 15.2,
+     "p": 15.2,
+     "t": 1
+    },
+    {
+     "n": "Betagold 24",
+     "s": "Betahistine 24mg",
+     "c": "CNX",
+     "m": 16.6,
+     "p": 16.6,
+     "t": 1
+    },
+    {
+     "n": "Neurohist 24",
+     "s": "Betahistine 24mg",
+     "c": "Biosearch",
+     "m": 16.7,
+     "p": 16.7,
+     "t": 1
+    },
+    {
+     "n": "Verbet 24",
+     "s": "Betahistine 24mg",
+     "c": "Albert David",
+     "m": 18.7,
+     "p": 18.7,
+     "t": 1
+    },
+    {
+     "n": "Vertirest OD 24",
+     "s": "Betahistine 24mg",
+     "c": "Linux",
+     "m": 19.4,
+     "p": 19.4,
+     "t": 1
+    },
+    {
+     "n": "Vicoten 24",
+     "s": "Betahistine 24mg",
+     "c": "Lyceum",
+     "m": 21.6,
+     "p": 21.6,
+     "t": 1
+    },
+    {
+     "n": "Dizibeat 24",
+     "s": "Betahistine 24mg",
+     "c": "La Renon",
+     "m": 23.4,
+     "p": 23.4,
+     "t": 1
+    },
+    {
+     "n": "Betavert 24",
+     "s": "Betahistine 24mg",
+     "c": "Sun",
+     "m": 23.9,
+     "p": 23.9,
+     "t": 1
+    },
+    {
+     "n": "Vertin 24",
+     "s": "Betahistine 24mg",
+     "c": "Abbott",
+     "m": 35.07,
+     "p": 35.07,
+     "t": 1
+    },
+    {
+     "n": "Cinadil 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Psychotropics",
+     "m": 1.58,
+     "p": 1.58,
+     "t": 1
+    },
+    {
+     "n": "EEN 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Klokter",
+     "m": 1.6,
+     "p": 1.6,
+     "t": 1
+    },
+    {
+     "n": "Syzeron 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Psycormedies",
+     "m": 1.94,
+     "p": 1.94,
+     "t": 1
+    },
+    {
+     "n": "Cinon 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Wens Drugs",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Cinaz 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Tripada",
+     "m": 2.14,
+     "p": 2.14,
+     "t": 1
+    },
+    {
+     "n": "Stedicin 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Morepen",
+     "m": 2.18,
+     "p": 2.18,
+     "t": 1
+    },
+    {
+     "n": "Cinvert 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Baroda",
+     "m": 2.43,
+     "p": 2.43,
+     "t": 1
+    },
+    {
+     "n": "Zivert 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Alna Biotech",
+     "m": 2.5,
+     "p": 2.5,
+     "t": 1
+    },
+    {
+     "n": "Sinarzine",
+     "s": "Cinnarizine 25mg",
+     "c": "Leeford",
+     "m": 2.6,
+     "p": 2.6,
+     "t": 1
+    },
+    {
+     "n": "Kvert 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Kivi Labs",
+     "m": 2.64,
+     "p": 2.64,
+     "t": 1
+    },
+    {
+     "n": "E Brium 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Med Manor",
+     "m": 2.68,
+     "p": 2.68,
+     "t": 1
+    },
+    {
+     "n": "Dizi 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Thrift",
+     "m": 3.0,
+     "p": 3.0,
+     "t": 1
+    },
+    {
+     "n": "Cinsat 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Saturn",
+     "m": 3.1,
+     "p": 3.1,
+     "t": 1
+    },
+    {
+     "n": "Vertiron (25)",
+     "s": "Cinnarizine 25mg",
+     "c": "Cipla",
+     "m": 3.86,
+     "p": 3.86,
+     "t": 1
+    },
+    {
+     "n": "Cintigo 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Wallace",
+     "m": 3.99,
+     "p": 3.99,
+     "t": 1
+    },
+    {
+     "n": "Cervaton 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Inga Labs",
+     "m": 4.02,
+     "p": 4.02,
+     "t": 1
+    },
+    {
+     "n": "Vertizine 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Marc Labs",
+     "m": 4.1,
+     "p": 4.1,
+     "t": 1
+    },
+    {
+     "n": "Cinzan 25 DT",
+     "s": "Cinnarizine 25mg",
+     "c": "FDC",
+     "m": 4.56,
+     "p": 4.56,
+     "t": 1
+    },
+    {
+     "n": "Vertigon",
+     "s": "Cinnarizine 25mg",
+     "c": "Geno",
+     "m": 4.7,
+     "p": 4.7,
+     "t": 1
+    },
+    {
+     "n": "Cinirone 25",
+     "s": "Cinnarizine 25mg",
+     "c": "Biochem",
+     "m": 6.73,
+     "p": 6.73,
+     "t": 1
+    },
+    {
+     "n": "Diziron (20)",
+     "s": "Cinnarizine 25mg",
+     "c": "Glenmark",
+     "m": 7.65,
+     "p": 7.65,
+     "t": 1
+    },
+    {
+     "n": "Stugeron (25)",
+     "s": "Cinnarizine 25mg",
+     "c": "Janssen",
+     "m": 7.96,
+     "p": 7.96,
+     "t": 1
+    },
+    {
+     "n": "Cinzan Plus",
+     "s": "Cinnarizine 20mg + Dimenhydrinate 40mg",
+     "c": "FDC",
+     "m": 8.16,
+     "p": 8.16,
+     "t": 1
+    },
+    {
+     "n": "Dizinext",
+     "s": "Cinnarizine 20mg + Dimenhydrinate 40mg",
+     "c": "Anax",
+     "m": 9.0,
+     "p": 9.0,
+     "t": 1
+    },
+    {
+     "n": "Diziliv",
+     "s": "Cinnarizine 20mg + Dimenhydrinate 40mg",
+     "c": "Icon Life",
+     "m": 9.94,
+     "p": 9.94,
+     "t": 1
+    },
+    {
+     "n": "Vomivert",
+     "s": "Cinnarizine 20mg + Dimenhydrinate 40mg",
+     "c": "Mankind",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Stugil D (6)",
+     "s": "Cinnarizine 20mg + Dimenhydrinate 40mg",
+     "c": "Strides",
+     "m": 11.0,
+     "p": 11.0,
+     "t": 1
+    },
+    {
+     "n": "Vertizac",
+     "s": "Cinnarizine 20mg + Dimenhydrinate 40mg",
+     "c": "Ajanta",
+     "m": 12.67,
+     "p": 12.67,
+     "t": 1
+    },
+    {
+     "n": "Stugeron Plus",
+     "s": "Cinnarizine 20mg + Dimenhydrinate 40mg",
+     "c": "J&J",
+     "m": 12.7,
+     "p": 12.7,
+     "t": 1
+    },
+    {
+     "n": "Dizitac",
+     "s": "Cinnarizine 20mg + Dimenhydrinate 40mg",
+     "c": "Sun",
+     "m": 13.0,
+     "p": 13.0,
+     "t": 1
+    },
+    {
+     "n": "Spinfree (15)",
+     "s": "Cinnarizine 20mg + Dimenhydrinate 40mg",
+     "c": "J&J",
+     "m": 15.4,
+     "p": 15.4,
+     "t": 1
+    },
+    {
+     "n": "Spinil D",
+     "s": "Cinnarizine 20mg + Domperidone 15mg",
+     "c": "",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "Vertizine D",
+     "s": "Cinnarizine 20mg + Domperidone 15mg",
+     "c": "Marc Labs",
+     "m": 6.0,
+     "p": 6.0,
+     "t": 1
+    },
+    {
+     "n": "Vertigil (6)",
+     "s": "Cinnarizine 20mg + Domperidone 15mg",
+     "c": "",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Vertidom",
+     "s": "Cinnarizine 20mg + Domperidone 15mg",
+     "c": "",
+     "m": 8.6,
+     "p": 8.6,
+     "t": 1
+    },
+    {
+     "n": "Navtil 5",
+     "s": "Prochlorperazine 5mg",
+     "c": "RKG Pharma",
+     "m": 1.5,
+     "p": 1.5,
+     "t": 1
+    },
+    {
+     "n": "Prochlor 5",
+     "s": "Prochlorperazine 5mg",
+     "c": "Hema Labs",
+     "m": 1.91,
+     "p": 1.91,
+     "t": 1
+    },
+    {
+     "n": "Emidoxyn 5",
+     "s": "Prochlorperazine 5mg",
+     "c": "Shreya",
+     "m": 2.35,
+     "p": 2.35,
+     "t": 1
+    },
+    {
+     "n": "Steminol 5",
+     "s": "Prochlorperazine 5mg",
+     "c": "",
+     "m": 2.7,
+     "p": 2.7,
+     "t": 1
+    },
+    {
+     "n": "Stemil 5",
+     "s": "Prochlorperazine 5mg",
+     "c": "Theo",
+     "m": 2.8,
+     "p": 2.8,
+     "t": 1
+    },
+    {
+     "n": "Emikind MD",
+     "s": "Prochlorperazine 5mg",
+     "c": "Mankind",
+     "m": 4.4,
+     "p": 4.4,
+     "t": 1
+    },
+    {
+     "n": "Stemetil MD (10)",
+     "s": "Prochlorperazine 5mg",
+     "c": "Abbott",
+     "m": 7.15,
+     "p": 7.15,
+     "t": 1
+    },
+    {
+     "n": "Vertizen 5",
+     "s": "Prochlorperazine 5mg",
+     "c": "Zenlabs",
+     "m": 7.2,
+     "p": 7.2,
+     "t": 1
+    },
+    {
+     "n": "Acuvert (9)",
+     "s": "Prochlorperazine 5mg",
+     "c": "Abbott",
+     "m": 7.43,
+     "p": 7.43,
+     "t": 1
+    },
+    {
+     "n": "Stemetil MD (15)",
+     "s": "Prochlorperazine 5mg",
+     "c": "Abbott",
+     "m": 8.65,
+     "p": 8.65,
+     "t": 1
+    },
+    {
+     "n": "Stemetil Inj",
+     "s": "Prochlorperazine 12.5mg/ml injection",
+     "c": "Abbott",
+     "m": 16.94,
+     "p": 16.94
+    },
+    {
+     "n": "Flunan 10",
+     "s": "Flunarizine 10mg",
+     "c": "Zeelab",
+     "m": 0.4,
+     "p": 0.4,
+     "t": 1
+    },
+    {
+     "n": "Fluzine 10",
+     "s": "Flunarizine 10mg",
+     "c": "Mission Research",
+     "m": 3.0,
+     "p": 3.0,
+     "t": 1
+    },
+    {
+     "n": "Fine 10",
+     "s": "Flunarizine 10mg",
+     "c": "Baroda",
+     "m": 3.76,
+     "p": 3.76,
+     "t": 1
+    },
+    {
+     "n": "Migarid 10",
+     "s": "Flunarizine 10mg",
+     "c": "Cipla",
+     "m": 4.11,
+     "p": 4.11,
+     "t": 1
+    },
+    {
+     "n": "Elium 10",
+     "s": "Flunarizine 10mg",
+     "c": "Psycogen",
+     "m": 4.41,
+     "p": 4.41,
+     "t": 1
+    },
+    {
+     "n": "Flunarest 10",
+     "s": "Flunarizine 10mg",
+     "c": "Senses",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Flurtrip 10",
+     "s": "Flunarizine 10mg",
+     "c": "Tripada",
+     "m": 4.5,
+     "p": 4.5,
+     "t": 1
+    },
+    {
+     "n": "Razin 10",
+     "s": "Flunarizine 10mg",
+     "c": "Shine",
+     "m": 4.74,
+     "p": 4.74,
+     "t": 1
+    },
+    {
+     "n": "Suzin",
+     "s": "Flunarizine 10mg",
+     "c": "Raymed",
+     "m": 4.8,
+     "p": 4.8,
+     "t": 1
+    },
+    {
+     "n": "Zerograin 10",
+     "s": "Flunarizine 10mg",
+     "c": "Mankind",
+     "m": 4.81,
+     "p": 4.81,
+     "t": 1
+    },
+    {
+     "n": "Preventek 10",
+     "s": "Flunarizine 10mg",
+     "c": "Tas Med",
+     "m": 4.9,
+     "p": 4.9,
+     "t": 1
+    },
+    {
+     "n": "Flunarin 10",
+     "s": "Flunarizine 10mg",
+     "c": "FDC",
+     "m": 4.9,
+     "p": 4.9,
+     "t": 1
+    },
+    {
+     "n": "Nomigan 10",
+     "s": "Flunarizine 10mg",
+     "c": "Kivi Labs",
+     "m": 4.95,
+     "p": 4.95,
+     "t": 1
+    },
+    {
+     "n": "Profigran 10",
+     "s": "Flunarizine 10mg",
+     "c": "Alkem",
+     "m": 4.96,
+     "p": 4.96,
+     "t": 1
+    },
+    {
+     "n": "Fluner 10",
+     "s": "Flunarizine 10mg",
+     "c": "Geno",
+     "m": 5.04,
+     "p": 5.04,
+     "t": 1
+    },
+    {
+     "n": "F Racil 10",
+     "s": "Flunarizine 10mg",
+     "c": "CNX",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Vasorin 10",
+     "s": "Flunarizine 10mg",
+     "c": "Theo",
+     "m": 5.14,
+     "p": 5.14,
+     "t": 1
+    },
+    {
+     "n": "Migon 10",
+     "s": "Flunarizine 10mg",
+     "c": "Cadila",
+     "m": 5.15,
+     "p": 5.15,
+     "t": 1
+    },
+    {
+     "n": "Migranex 10",
+     "s": "Flunarizine 10mg",
+     "c": "Intas",
+     "m": 5.15,
+     "p": 5.15,
+     "t": 1
+    },
+    {
+     "n": "Mgr 10",
+     "s": "Flunarizine 10mg",
+     "c": "Inga Labs",
+     "m": 5.32,
+     "p": 5.32,
+     "t": 1
+    },
+    {
+     "n": "Migravas 10",
+     "s": "Flunarizine 10mg",
+     "c": "A N Pharmacia",
+     "m": 5.32,
+     "p": 5.32,
+     "t": 1
+    },
+    {
+     "n": "Sibelium 10 (30)",
+     "s": "Flunarizine 10mg",
+     "c": "J&J",
+     "m": 5.39,
+     "p": 5.39,
+     "t": 1
+    },
+    {
+     "n": "Flumigra 10",
+     "s": "Flunarizine 10mg",
+     "c": "Navnidhi",
+     "m": 5.9,
+     "p": 5.9,
+     "t": 1
+    },
+    {
+     "n": "Diligan 25 (15)",
+     "s": "Meclizine 25mg",
+     "c": "Dr Reddy's",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Dramamine",
+     "s": "Dimenhydrinate 50mg",
+     "c": "RPG Life",
+     "m": 0.96,
+     "p": 0.96,
+     "t": 1
+    }
+   ]
   }
  ]
 }
