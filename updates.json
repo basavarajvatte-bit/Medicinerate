@@ -338,6 +338,131 @@
      "t": 15
     }
    ]
+  },
+  {
+   "id": "2026-11-08-diabetes",
+   "meds": [
+    {
+     "n": "Amaryl 1",
+     "s": "Glimepiride 1mg",
+     "c": "Sanofi",
+     "m": 119.07,
+     "p": 110.0,
+     "t": 30
+    },
+    {
+     "n": "Glimisave 1",
+     "s": "Glimepiride 1mg",
+     "c": "Eris Lifesciences",
+     "m": 58.73,
+     "p": 55.8,
+     "t": 15
+    },
+    {
+     "n": "Glimda 1",
+     "s": "Glimepiride 1mg",
+     "c": "Cipla",
+     "m": 38.85,
+     "p": 19.7,
+     "t": 10
+    },
+    {
+     "n": "Gluconorm G1",
+     "s": "Glimepiride 1mg + Metformin 500mg",
+     "c": "Lupin",
+     "m": 232.3,
+     "p": 214.0,
+     "t": 15
+    },
+    {
+     "n": "Gluconorm G2 Forte",
+     "s": "Glimepiride 2mg + Metformin 1000mg",
+     "c": "Lupin",
+     "m": 311.6,
+     "p": 296.0,
+     "t": 15
+    },
+    {
+     "n": "Istamet 50/1000",
+     "s": "Sitagliptin 50mg + Metformin 1000mg",
+     "c": "Sun Pharma",
+     "m": 195.0,
+     "p": 179.0,
+     "t": 15
+    },
+    {
+     "n": "Istamet G-IR 50/500/1",
+     "s": "Sitagliptin 50mg + Glimepiride 1mg + Metformin 500mg",
+     "c": "Sun Pharma",
+     "m": 132.19,
+     "p": 122.0,
+     "t": 10
+    },
+    {
+     "n": "Glycomet GP Star 1",
+     "s": "Sitagliptin 50mg + Glimepiride 1mg + Metformin 500mg",
+     "c": "USV",
+     "m": 120.94,
+     "p": 111.0,
+     "t": 10
+    },
+    {
+     "n": "Tenepride M 500",
+     "s": "Teneligliptin 20mg + Metformin 500mg",
+     "c": "Micro Labs",
+     "m": 240.9,
+     "p": 222.0,
+     "t": 15
+    },
+    {
+     "n": "Jardiance 10",
+     "s": "Empagliflozin 10mg",
+     "c": "Boehringer Ingelheim",
+     "m": 422.0,
+     "p": 384.0,
+     "t": 10
+    },
+    {
+     "n": "Dapanorm 10",
+     "s": "Dapagliflozin 10mg",
+     "c": "Alkem",
+     "m": 296.7,
+     "p": 267.0,
+     "t": 15
+    },
+    {
+     "n": "Dapanorm 10",
+     "s": "Dapagliflozin 10mg",
+     "c": "Alkem",
+     "m": 197.8,
+     "p": 182.0,
+     "t": 10
+    },
+    {
+     "n": "Cipdapla 10",
+     "s": "Dapagliflozin 10mg",
+     "c": "Cipla",
+     "m": 113.43,
+     "p": 74.5,
+     "t": 10
+    },
+    {
+     "n": "Dapanorm M 5/500",
+     "s": "Dapagliflozin 5mg + Metformin 500mg",
+     "c": "Alkem",
+     "m": 113.4,
+     "p": 108.0,
+     "t": 10
+    },
+    {
+     "n": "Volix 0.3",
+     "s": "Voglibose 0.3mg",
+     "c": "Sun Pharma",
+     "m": 278.0,
+     "p": 250.0,
+     "t": 15
+    }
+   ]
   }
  ]
 }
