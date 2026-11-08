@@ -14849,6 +14849,1252 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-blood-thinner",
+   "meds": [
+    {
+     "n": "Nistrom 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Neiss Labs",
+     "m": 3.9,
+     "p": 3.9,
+     "t": 1
+    },
+    {
+     "n": "Nicoz 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Ajanta",
+     "m": 3.9,
+     "p": 3.9,
+     "t": 1
+    },
+    {
+     "n": "Acimalone 2 (30 tab)",
+     "s": "Acenocoumarol 2mg",
+     "c": "Zeelab",
+     "m": 4.2,
+     "p": 4.2,
+     "t": 1
+    },
+    {
+     "n": "Acethromb 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Suvik Hitek",
+     "m": 4.3,
+     "p": 4.3,
+     "t": 1
+    },
+    {
+     "n": "Nicomnol 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Knoll",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Aceno 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "",
+     "m": 8.6,
+     "p": 8.6,
+     "t": 1
+    },
+    {
+     "n": "Nicoron 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Trumac",
+     "m": 8.6,
+     "p": 8.6,
+     "t": 1
+    },
+    {
+     "n": "Cgtrom 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Cmg Biotech",
+     "m": 9.8,
+     "p": 9.8,
+     "t": 1
+    },
+    {
+     "n": "Biotrom 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Innovative",
+     "m": 10.5,
+     "p": 10.5,
+     "t": 1
+    },
+    {
+     "n": "Artiflo 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Zuventus",
+     "m": 11.42,
+     "p": 11.42,
+     "t": 1
+    },
+    {
+     "n": "Acenomac 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Macleods",
+     "m": 11.95,
+     "p": 11.95,
+     "t": 1
+    },
+    {
+     "n": "Nimalin 2",
+     "s": "Acenocoumarol 2mg",
+     "c": "Shinto",
+     "m": 12.3,
+     "p": 12.3,
+     "t": 1
+    },
+    {
+     "n": "Acitrom 2 (30 tab)",
+     "s": "Acenocoumarol 2mg",
+     "c": "Abbott",
+     "m": 14.53,
+     "p": 14.53,
+     "t": 1
+    },
+    {
+     "n": "Sofarin 5",
+     "s": "Warfarin 5mg",
+     "c": "Samarth",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Uniwarfin 5",
+     "s": "Warfarin 5mg",
+     "c": "Torrent",
+     "m": 2.26,
+     "p": 2.26,
+     "t": 1
+    },
+    {
+     "n": "Warf 5 (30 tab)",
+     "s": "Warfarin 5mg",
+     "c": "Cipla",
+     "m": 2.56,
+     "p": 2.56,
+     "t": 1
+    },
+    {
+     "n": "Cadiquis 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Cadila",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Apixapil 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Alkem",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Apiquis 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Medicamen",
+     "m": 10.5,
+     "p": 10.5,
+     "t": 1
+    },
+    {
+     "n": "Apiban 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "MSN",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Apixator 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Torrent",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Elixaban 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Sun Pharma",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Prepixa 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Emcure",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Apixabid 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Indoco",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Faxapix 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "La Renon",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Emboxan 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Pulse",
+     "m": 13.5,
+     "p": 13.5,
+     "t": 1
+    },
+    {
+     "n": "Abaxis 2.5 (30 tab)",
+     "s": "Apixaban 2.5mg",
+     "c": "Intas",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Paxiba 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Glenmark",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Xapilis 2.5 (14 tab)",
+     "s": "Apixaban 2.5mg",
+     "c": "Abbott",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Zuvixa 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Zuventus",
+     "m": 16.49,
+     "p": 16.49,
+     "t": 1
+    },
+    {
+     "n": "Eliquis 2.5",
+     "s": "Apixaban 2.5mg",
+     "c": "Pfizer",
+     "m": 72.5,
+     "p": 72.5,
+     "t": 1
+    },
+    {
+     "n": "Apixapil 5",
+     "s": "Apixaban 5mg",
+     "c": "Alkem",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Cadiquis 5",
+     "s": "Apixaban 5mg",
+     "c": "Cadila",
+     "m": 10.0,
+     "p": 10.0,
+     "t": 1
+    },
+    {
+     "n": "Apixator 5",
+     "s": "Apixaban 5mg",
+     "c": "Torrent",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Apiban 5",
+     "s": "Apixaban 5mg",
+     "c": "MSN",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Apiquis 5",
+     "s": "Apixaban 5mg",
+     "c": "Medicamen",
+     "m": 15.5,
+     "p": 15.5,
+     "t": 1
+    },
+    {
+     "n": "Pixaflo 5",
+     "s": "Apixaban 5mg",
+     "c": "Lupin",
+     "m": 15.75,
+     "p": 15.75,
+     "t": 1
+    },
+    {
+     "n": "Faxapix 5",
+     "s": "Apixaban 5mg",
+     "c": "La Renon",
+     "m": 18.0,
+     "p": 18.0,
+     "t": 1
+    },
+    {
+     "n": "Apixabid 5",
+     "s": "Apixaban 5mg",
+     "c": "Indoco",
+     "m": 18.0,
+     "p": 18.0,
+     "t": 1
+    },
+    {
+     "n": "Thromboxan 5",
+     "s": "Apixaban 5mg",
+     "c": "Pulse",
+     "m": 18.5,
+     "p": 18.5,
+     "t": 1
+    },
+    {
+     "n": "Abaxis 5",
+     "s": "Apixaban 5mg",
+     "c": "Intas",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Xapilis 5 (14 tab)",
+     "s": "Apixaban 5mg",
+     "c": "Abbott",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Apigy 5 (14 tab)",
+     "s": "Apixaban 5mg",
+     "c": "Cipla",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Paxiba 5",
+     "s": "Apixaban 5mg",
+     "c": "Glenmark",
+     "m": 20.0,
+     "p": 20.0,
+     "t": 1
+    },
+    {
+     "n": "Prepixa 5",
+     "s": "Apixaban 5mg",
+     "c": "Emcure",
+     "m": 20.0,
+     "p": 20.0,
+     "t": 1
+    },
+    {
+     "n": "Zuvixa 5",
+     "s": "Apixaban 5mg",
+     "c": "Zuventus",
+     "m": 21.98,
+     "p": 21.98,
+     "t": 1
+    },
+    {
+     "n": "Apigat 5 (30 tab)",
+     "s": "Apixaban 5mg",
+     "c": "Natco",
+     "m": 28.5,
+     "p": 28.5,
+     "t": 1
+    },
+    {
+     "n": "Eliquis 5 (20 tab)",
+     "s": "Apixaban 5mg",
+     "c": "Pfizer",
+     "m": 72.5,
+     "p": 72.5,
+     "t": 1
+    },
+    {
+     "n": "Rivaban 10 (14 tab)",
+     "s": "Rivaroxaban 10mg",
+     "c": "Lupin",
+     "m": 7.36,
+     "p": 7.36,
+     "t": 1
+    },
+    {
+     "n": "Rpigat 10",
+     "s": "Rivaroxaban 10mg",
+     "c": "Natco",
+     "m": 9.31,
+     "p": 9.31,
+     "t": 1
+    },
+    {
+     "n": "Rivamus 10 (14 tab)",
+     "s": "Rivaroxaban 10mg",
+     "c": "Optimus",
+     "m": 9.71,
+     "p": 9.71,
+     "t": 1
+    },
+    {
+     "n": "Rivabax 10 (7 tab)",
+     "s": "Rivaroxaban 10mg",
+     "c": "Prevego",
+     "m": 13.57,
+     "p": 13.57,
+     "t": 1
+    },
+    {
+     "n": "Unclot 10",
+     "s": "Rivaroxaban 10mg",
+     "c": "Intas",
+     "m": 14.06,
+     "p": 14.06,
+     "t": 1
+    },
+    {
+     "n": "Rivaright 10 (7 tab)",
+     "s": "Rivaroxaban 10mg",
+     "c": "Morepen",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Rivaxa 10",
+     "s": "Rivaroxaban 10mg",
+     "c": "Abbott",
+     "m": 22.33,
+     "p": 22.33,
+     "t": 1
+    },
+    {
+     "n": "Ricosprin 10 (15 tab)",
+     "s": "Rivaroxaban 10mg",
+     "c": "USV",
+     "m": 22.46,
+     "p": 22.46,
+     "t": 1
+    },
+    {
+     "n": "Rovor 10",
+     "s": "Rivaroxaban 10mg",
+     "c": "Torrent",
+     "m": 23.92,
+     "p": 23.92,
+     "t": 1
+    },
+    {
+     "n": "Rivaflo 10",
+     "s": "Rivaroxaban 10mg",
+     "c": "Sun Pharma",
+     "m": 27.09,
+     "p": 27.09,
+     "t": 1
+    },
+    {
+     "n": "Exafib 10 (14 tab)",
+     "s": "Rivaroxaban 10mg",
+     "c": "Emcure",
+     "m": 49.65,
+     "p": 49.65,
+     "t": 1
+    },
+    {
+     "n": "Xarelto 10",
+     "s": "Rivaroxaban 10mg",
+     "c": "Bayer",
+     "m": 122.71,
+     "p": 122.71,
+     "t": 1
+    },
+    {
+     "n": "Rpigat 20",
+     "s": "Rivaroxaban 20mg",
+     "c": "Natco",
+     "m": 13.13,
+     "p": 13.13,
+     "t": 1
+    },
+    {
+     "n": "Xavix 20",
+     "s": "Rivaroxaban 20mg",
+     "c": "Lincoln",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Cameriv 20 (14 tab)",
+     "s": "Rivaroxaban 20mg",
+     "c": "Alembic",
+     "m": 22.0,
+     "p": 22.0,
+     "t": 1
+    },
+    {
+     "n": "Unclot 20",
+     "s": "Rivaroxaban 20mg",
+     "c": "Intas",
+     "m": 25.0,
+     "p": 25.0,
+     "t": 1
+    },
+    {
+     "n": "Rivaheal 20",
+     "s": "Rivaroxaban 20mg",
+     "c": "Maksun",
+     "m": 30.0,
+     "p": 30.0,
+     "t": 1
+    },
+    {
+     "n": "Rivaxa 20 (14 tab)",
+     "s": "Rivaroxaban 20mg",
+     "c": "Abbott",
+     "m": 38.5,
+     "p": 38.5,
+     "t": 1
+    },
+    {
+     "n": "Rivakind 20 (14 tab)",
+     "s": "Rivaroxaban 20mg",
+     "c": "Ikon",
+     "m": 45.0,
+     "p": 45.0,
+     "t": 1
+    },
+    {
+     "n": "Ixarola 20 (14 tab)",
+     "s": "Rivaroxaban 20mg",
+     "c": "Zydus",
+     "m": 72.5,
+     "p": 72.5,
+     "t": 1
+    },
+    {
+     "n": "Xarelto 20 (14 tab)",
+     "s": "Rivaroxaban 20mg",
+     "c": "Bayer Zydus",
+     "m": 72.5,
+     "p": 72.5,
+     "t": 1
+    },
+    {
+     "n": "Dabigo 110",
+     "s": "Dabigatran 110mg capsule",
+     "c": "",
+     "m": 15.45,
+     "p": 15.45,
+     "t": 1
+    },
+    {
+     "n": "Afogatran 110",
+     "s": "Dabigatran 110mg capsule",
+     "c": "",
+     "m": 35.6,
+     "p": 35.6,
+     "t": 1
+    },
+    {
+     "n": "Pradaxa 110",
+     "s": "Dabigatran 110mg capsule",
+     "c": "Boehringer",
+     "m": 71.8,
+     "p": 71.8,
+     "t": 1
+    },
+    {
+     "n": "Clotmik 10",
+     "s": "Prasugrel 10mg",
+     "c": "Mikayla",
+     "m": 7.6,
+     "p": 7.6,
+     "t": 1
+    },
+    {
+     "n": "Prasuvix 10",
+     "s": "Prasugrel 10mg",
+     "c": "Ajanta",
+     "m": 9.4,
+     "p": 9.4,
+     "t": 1
+    },
+    {
+     "n": "Ecogrel 10",
+     "s": "Prasugrel 10mg",
+     "c": "Delvin",
+     "m": 9.49,
+     "p": 9.49,
+     "t": 1
+    },
+    {
+     "n": "Prasulet 10",
+     "s": "Prasugrel 10mg",
+     "c": "Micro Labs",
+     "m": 11.5,
+     "p": 11.5,
+     "t": 1
+    },
+    {
+     "n": "Prasurel 10",
+     "s": "Prasugrel 10mg",
+     "c": "Macleods",
+     "m": 11.89,
+     "p": 11.89,
+     "t": 1
+    },
+    {
+     "n": "Prethromb 10",
+     "s": "Prasugrel 10mg",
+     "c": "Ordain",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Pangrel 10",
+     "s": "Prasugrel 10mg",
+     "c": "Panacea",
+     "m": 14.5,
+     "p": 14.5,
+     "t": 1
+    },
+    {
+     "n": "Rasug 10",
+     "s": "Prasugrel 10mg",
+     "c": "Kardic Kare",
+     "m": 16.8,
+     "p": 16.8,
+     "t": 1
+    },
+    {
+     "n": "Prasusafe 10",
+     "s": "Prasugrel 10mg",
+     "c": "MSN",
+     "m": 16.82,
+     "p": 16.82,
+     "t": 1
+    },
+    {
+     "n": "Troyplatt 10",
+     "s": "Prasugrel 10mg",
+     "c": "Troikaa",
+     "m": 18.9,
+     "p": 18.9,
+     "t": 1
+    },
+    {
+     "n": "Praso 10",
+     "s": "Prasugrel 10mg",
+     "c": "Viilbery",
+     "m": 19.14,
+     "p": 19.14,
+     "t": 1
+    },
+    {
+     "n": "Efiplat 10",
+     "s": "Prasugrel 10mg",
+     "c": "Sun Pharma",
+     "m": 19.2,
+     "p": 19.2,
+     "t": 1
+    },
+    {
+     "n": "Prasudoc 10",
+     "s": "Prasugrel 10mg",
+     "c": "Lupin",
+     "m": 23.31,
+     "p": 23.31,
+     "t": 1
+    },
+    {
+     "n": "Prasita 10",
+     "s": "Prasugrel 10mg",
+     "c": "Sun Pharma",
+     "m": 25.6,
+     "p": 25.6,
+     "t": 1
+    },
+    {
+     "n": "Aplet 10",
+     "s": "Prasugrel 10mg",
+     "c": "Glenmark",
+     "m": 26.2,
+     "p": 26.2,
+     "t": 1
+    },
+    {
+     "n": "Prasuvas 10",
+     "s": "Prasugrel 10mg",
+     "c": "Cipla",
+     "m": 28.75,
+     "p": 28.75,
+     "t": 1
+    },
+    {
+     "n": "Prax 10",
+     "s": "Prasugrel 10mg",
+     "c": "Torrent",
+     "m": 29.6,
+     "p": 29.6,
+     "t": 1
+    },
+    {
+     "n": "Prasugrin 10",
+     "s": "Prasugrel 10mg",
+     "c": "Zydus",
+     "m": 30.39,
+     "p": 30.39,
+     "t": 1
+    },
+    {
+     "n": "Effient 10 (14 tab)",
+     "s": "Prasugrel 10mg",
+     "c": "Eli Lilly",
+     "m": 143.0,
+     "p": 143.0,
+     "t": 1
+    },
+    {
+     "n": "Cistaz 100",
+     "s": "Cilostazol 100mg",
+     "c": "Chemo",
+     "m": 11.6,
+     "p": 11.6,
+     "t": 1
+    },
+    {
+     "n": "Silosta 100",
+     "s": "Cilostazol 100mg",
+     "c": "Neocardiab",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Cilatoz 100",
+     "s": "Cilostazol 100mg",
+     "c": "Ghrelin",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Cilonol 100",
+     "s": "Cilostazol 100mg",
+     "c": "Knoll",
+     "m": 15.5,
+     "p": 15.5,
+     "t": 1
+    },
+    {
+     "n": "Preclaud 100",
+     "s": "Cilostazol 100mg",
+     "c": "Ordain",
+     "m": 15.93,
+     "p": 15.93,
+     "t": 1
+    },
+    {
+     "n": "Stilolex 100",
+     "s": "Cilostazol 100mg",
+     "c": "Unilex",
+     "m": 17.4,
+     "p": 17.4,
+     "t": 1
+    },
+    {
+     "n": "Cilozide 100",
+     "s": "Cilostazol 100mg",
+     "c": "Innovative",
+     "m": 17.5,
+     "p": 17.5,
+     "t": 1
+    },
+    {
+     "n": "Cliatrip 100",
+     "s": "Cilostazol 100mg",
+     "c": "DRS Alexia",
+     "m": 18.0,
+     "p": 18.0,
+     "t": 1
+    },
+    {
+     "n": "Pletameg 100",
+     "s": "Cilostazol 100mg",
+     "c": "Ridhima",
+     "m": 18.45,
+     "p": 18.45,
+     "t": 1
+    },
+    {
+     "n": "Ciltron 100",
+     "s": "Cilostazol 100mg",
+     "c": "Kentreck",
+     "m": 18.73,
+     "p": 18.73,
+     "t": 1
+    },
+    {
+     "n": "Cilzil 100",
+     "s": "Cilostazol 100mg",
+     "c": "Inavars",
+     "m": 20.7,
+     "p": 20.7,
+     "t": 1
+    },
+    {
+     "n": "Cilofine 100",
+     "s": "Cilostazol 100mg",
+     "c": "Shinto",
+     "m": 23.8,
+     "p": 23.8,
+     "t": 1
+    },
+    {
+     "n": "Zilast 100",
+     "s": "Cilostazol 100mg",
+     "c": "Ipca",
+     "m": 24.18,
+     "p": 24.18,
+     "t": 1
+    },
+    {
+     "n": "Pletoz 100",
+     "s": "Cilostazol 100mg",
+     "c": "Cipla",
+     "m": 24.5,
+     "p": 24.5,
+     "t": 1
+    },
+    {
+     "n": "Cilocard 100",
+     "s": "Cilostazol 100mg",
+     "c": "Fibovil",
+     "m": 26.5,
+     "p": 26.5,
+     "t": 1
+    },
+    {
+     "n": "Cilodoc 100",
+     "s": "Cilostazol 100mg",
+     "c": "Lupin",
+     "m": 26.59,
+     "p": 26.59,
+     "t": 1
+    },
+    {
+     "n": "Enoxsave 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Eris",
+     "m": 368.93,
+     "p": 368.93
+    },
+    {
+     "n": "Neoparin NX 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Vhb",
+     "m": 379.0,
+     "p": 379.0
+    },
+    {
+     "n": "Noxprin 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Ajanta",
+     "m": 385.0,
+     "p": 385.0
+    },
+    {
+     "n": "Stener 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Claris",
+     "m": 394.13,
+     "p": 394.13
+    },
+    {
+     "n": "Zeroklot",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Samarth",
+     "m": 425.54,
+     "p": 425.54
+    },
+    {
+     "n": "Cutenox 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Gland",
+     "m": 427.0,
+     "p": 427.0
+    },
+    {
+     "n": "Lupenox 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Lupin",
+     "m": 427.12,
+     "p": 427.12
+    },
+    {
+     "n": "Lmwx 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Abbott",
+     "m": 427.79,
+     "p": 427.79
+    },
+    {
+     "n": "Lonopin 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Bharat Serums",
+     "m": 427.93,
+     "p": 427.93
+    },
+    {
+     "n": "Enoxarin 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Zuventus",
+     "m": 427.93,
+     "p": 427.93
+    },
+    {
+     "n": "Enoxatroy 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Troikaa",
+     "m": 427.94,
+     "p": 427.94
+    },
+    {
+     "n": "Enoxacare 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Ipca",
+     "m": 433.12,
+     "p": 433.12
+    },
+    {
+     "n": "Lomorin NX 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Vhb",
+     "m": 448.0,
+     "p": 448.0
+    },
+    {
+     "n": "Lowcap 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Samarth",
+     "m": 470.27,
+     "p": 470.27
+    },
+    {
+     "n": "Womenox",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Intas",
+     "m": 470.33,
+     "p": 470.33
+    },
+    {
+     "n": "Enclex 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Cipla",
+     "m": 470.35,
+     "p": 470.35
+    },
+    {
+     "n": "Clexane 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Sanofi",
+     "m": 474.01,
+     "p": 474.01
+    },
+    {
+     "n": "Enoxion 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Neon",
+     "m": 490.0,
+     "p": 490.0
+    },
+    {
+     "n": "Enoxel 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Celon",
+     "m": 491.0,
+     "p": 491.0
+    },
+    {
+     "n": "Troynoxa 40",
+     "s": "Enoxaparin 40mg (0.4ml) injection",
+     "c": "Troikaa",
+     "m": 508.5,
+     "p": 508.5
+    },
+    {
+     "n": "Loparin 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Intas",
+     "m": 376.57,
+     "p": 376.57
+    },
+    {
+     "n": "Noxprin 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Ajanta",
+     "m": 432.68,
+     "p": 432.68
+    },
+    {
+     "n": "Renoxa 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Unimark",
+     "m": 461.53,
+     "p": 461.53
+    },
+    {
+     "n": "Neoparin NX 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Vhb",
+     "m": 557.0,
+     "p": 557.0
+    },
+    {
+     "n": "Antixa 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Emcure",
+     "m": 557.5,
+     "p": 557.5
+    },
+    {
+     "n": "Markparin 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Mark Remedies",
+     "m": 557.68,
+     "p": 557.68
+    },
+    {
+     "n": "Fidenox 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Fidelity",
+     "m": 581.0,
+     "p": 581.0
+    },
+    {
+     "n": "Lowcap 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Samarth",
+     "m": 600.99,
+     "p": 600.99
+    },
+    {
+     "n": "Enoxion 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Neon",
+     "m": 626.0,
+     "p": 626.0
+    },
+    {
+     "n": "Corparin 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Corona",
+     "m": 627.47,
+     "p": 627.47
+    },
+    {
+     "n": "Flohep 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Fusion",
+     "m": 629.0,
+     "p": 629.0
+    },
+    {
+     "n": "Faciloc 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Cadila",
+     "m": 638.51,
+     "p": 638.51
+    },
+    {
+     "n": "Lmwx 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Abbott",
+     "m": 641.68,
+     "p": 641.68
+    },
+    {
+     "n": "Enoxarin 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Zuventus",
+     "m": 641.9,
+     "p": 641.9
+    },
+    {
+     "n": "Lonopin 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Bharat Serums",
+     "m": 705.47,
+     "p": 705.47
+    },
+    {
+     "n": "Clexane 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Sanofi",
+     "m": 705.41,
+     "p": 705.41
+    },
+    {
+     "n": "Enclex 60",
+     "s": "Enoxaparin 60mg (0.6ml) injection",
+     "c": "Cipla",
+     "m": 705.53,
+     "p": 705.53
+    },
+    {
+     "n": "Keparin 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Neon",
+     "m": 18.75,
+     "p": 18.75
+    },
+    {
+     "n": "Thinla 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Biocon",
+     "m": 47.09,
+     "p": 47.09
+    },
+    {
+     "n": "Lofh 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Abbott",
+     "m": 62.43,
+     "p": 62.43
+    },
+    {
+     "n": "Heparin Sodium 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Gland",
+     "m": 70.16,
+     "p": 70.16
+    },
+    {
+     "n": "Nuparin 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Troikaa",
+     "m": 76.7,
+     "p": 76.7
+    },
+    {
+     "n": "Inflorin 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Infallible",
+     "m": 88.0,
+     "p": 88.0
+    },
+    {
+     "n": "Heparen 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Claris",
+     "m": 98.0,
+     "p": 98.0
+    },
+    {
+     "n": "Celparin 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Celon",
+     "m": 98.0,
+     "p": 98.0
+    },
+    {
+     "n": "Hep 5",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Gland",
+     "m": 105.5,
+     "p": 105.5
+    },
+    {
+     "n": "Hepastal 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Stallion",
+     "m": 110.0,
+     "p": 110.0
+    },
+    {
+     "n": "Makparin 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Makcur",
+     "m": 110.0,
+     "p": 110.0
+    },
+    {
+     "n": "Troyhep 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Troikaa",
+     "m": 113.28,
+     "p": 113.28
+    },
+    {
+     "n": "Caprin 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Samarth",
+     "m": 118.77,
+     "p": 118.77
+    },
+    {
+     "n": "Adhestop 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Varenyam",
+     "m": 127.1,
+     "p": 127.1
+    },
+    {
+     "n": "Hepakal 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Kalmia",
+     "m": 135.5,
+     "p": 135.5
+    },
+    {
+     "n": "Celhep 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Celon",
+     "m": 136.58,
+     "p": 136.58
+    },
+    {
+     "n": "V Parin 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Vhb",
+     "m": 148.81,
+     "p": 148.81
+    },
+    {
+     "n": "Geohep 5000",
+     "s": "Heparin 5000 IU/ml (5ml vial) injection",
+     "c": "Alna",
+     "m": 180.0,
+     "p": 180.0
+    }
+   ]
   }
  ]
 }
