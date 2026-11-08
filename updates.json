@@ -1645,6 +1645,555 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-antibiotic-per-tablet",
+   "meds": [
+    {
+     "n": "Azikem 500",
+     "s": "Azithromycin 500mg",
+     "c": "Alkem",
+     "m": 15.97,
+     "p": 15.97,
+     "t": 1
+    },
+    {
+     "n": "Azax 500",
+     "s": "Azithromycin 500mg",
+     "c": "Sun Pharma",
+     "m": 16.87,
+     "p": 16.87,
+     "t": 1
+    },
+    {
+     "n": "Zithrolect 500",
+     "s": "Azithromycin 500mg",
+     "c": "Abbott",
+     "m": 17.77,
+     "p": 17.77,
+     "t": 1
+    },
+    {
+     "n": "Azimax 500",
+     "s": "Azithromycin 500mg",
+     "c": "Cipla",
+     "m": 18.34,
+     "p": 18.34,
+     "t": 1
+    },
+    {
+     "n": "Zady 500",
+     "s": "Azithromycin 500mg",
+     "c": "Mankind",
+     "m": 23.0,
+     "p": 23.0,
+     "t": 1
+    },
+    {
+     "n": "Azibact 500",
+     "s": "Azithromycin 500mg",
+     "c": "Ipca",
+     "m": 23.0,
+     "p": 23.0,
+     "t": 1
+    },
+    {
+     "n": "Azifast 500",
+     "s": "Azithromycin 500mg",
+     "c": "Ipca",
+     "m": 23.0,
+     "p": 23.0,
+     "t": 1
+    },
+    {
+     "n": "Aziwok 500",
+     "s": "Azithromycin 500mg",
+     "c": "Dr Reddy's",
+     "m": 23.2,
+     "p": 23.2,
+     "t": 1
+    },
+    {
+     "n": "Cefix 200",
+     "s": "Cefixime 200mg",
+     "c": "Cipla",
+     "m": 6.5,
+     "p": 6.5,
+     "t": 1
+    },
+    {
+     "n": "Abixim 200",
+     "s": "Cefixime 200mg",
+     "c": "Abbott",
+     "m": 6.6,
+     "p": 6.6,
+     "t": 1
+    },
+    {
+     "n": "Milixim 200",
+     "s": "Cefixime 200mg",
+     "c": "Glenmark",
+     "m": 7.97,
+     "p": 7.97,
+     "t": 1
+    },
+    {
+     "n": "Mahacef 200",
+     "s": "Cefixime 200mg",
+     "c": "Mankind",
+     "m": 8.96,
+     "p": 8.96,
+     "t": 1
+    },
+    {
+     "n": "Ceftas 200",
+     "s": "Cefixime 200mg",
+     "c": "Intas",
+     "m": 9.16,
+     "p": 9.16,
+     "t": 1
+    },
+    {
+     "n": "Hhcefi 200",
+     "s": "Cefixime 200mg",
+     "c": "Hegde & Hegde",
+     "m": 9.33,
+     "p": 9.33,
+     "t": 1
+    },
+    {
+     "n": "Cefolac 200",
+     "s": "Cefixime 200mg",
+     "c": "Macleods",
+     "m": 9.44,
+     "p": 9.44,
+     "t": 1
+    },
+    {
+     "n": "Cefi 200",
+     "s": "Cefixime 200mg",
+     "c": "Abbott",
+     "m": 9.5,
+     "p": 9.5,
+     "t": 1
+    },
+    {
+     "n": "Omnicef-O 200",
+     "s": "Cefixime 200mg",
+     "c": "Aristo",
+     "m": 9.51,
+     "p": 9.51,
+     "t": 1
+    },
+    {
+     "n": "Opox 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Hetero",
+     "m": 15.85,
+     "p": 15.85,
+     "t": 1
+    },
+    {
+     "n": "Cefiz 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Zoticus",
+     "m": 16.0,
+     "p": 16.0,
+     "t": 1
+    },
+    {
+     "n": "Uva Cef 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Torrent",
+     "m": 17.45,
+     "p": 17.45,
+     "t": 1
+    },
+    {
+     "n": "Oxipod 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Indoco",
+     "m": 17.5,
+     "p": 17.5,
+     "t": 1
+    },
+    {
+     "n": "Gudcef 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Mankind",
+     "m": 18.03,
+     "p": 18.03,
+     "t": 1
+    },
+    {
+     "n": "Proxoral 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Semiotic",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Kefpod 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Glenmark",
+     "m": 19.8,
+     "p": 19.8,
+     "t": 1
+    },
+    {
+     "n": "Monocef-O 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Aristo",
+     "m": 19.9,
+     "p": 19.9,
+     "t": 1
+    },
+    {
+     "n": "Xop 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Corona",
+     "m": 20.13,
+     "p": 20.13,
+     "t": 1
+    },
+    {
+     "n": "Doxcef 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Lupin",
+     "m": 20.38,
+     "p": 20.38,
+     "t": 1
+    },
+    {
+     "n": "Zedocef 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Macleods",
+     "m": 20.45,
+     "p": 20.45,
+     "t": 1
+    },
+    {
+     "n": "Macpod 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Macleods",
+     "m": 20.45,
+     "p": 20.45,
+     "t": 1
+    },
+    {
+     "n": "Polypod 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Macleods",
+     "m": 20.45,
+     "p": 20.45,
+     "t": 1
+    },
+    {
+     "n": "Swich 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Alkem",
+     "m": 22.0,
+     "p": 22.0,
+     "t": 1
+    },
+    {
+     "n": "Kefdox 200",
+     "s": "Cefpodoxime 200mg",
+     "c": "Saffron",
+     "m": 22.0,
+     "p": 22.0,
+     "t": 1
+    },
+    {
+     "n": "Cefoxim 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Zydus",
+     "m": 33.97,
+     "p": 33.97,
+     "t": 1
+    },
+    {
+     "n": "Zotum 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Aglowmed",
+     "m": 41.5,
+     "p": 41.5,
+     "t": 1
+    },
+    {
+     "n": "Bencef 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Innovative",
+     "m": 42.85,
+     "p": 42.85,
+     "t": 1
+    },
+    {
+     "n": "Zefu 500",
+     "s": "Cefuroxime 500mg",
+     "c": "FDC",
+     "m": 43.17,
+     "p": 43.17,
+     "t": 1
+    },
+    {
+     "n": "C Furo 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Hetero",
+     "m": 43.7,
+     "p": 43.7,
+     "t": 1
+    },
+    {
+     "n": "Wallbact 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Rebanta",
+     "m": 44.9,
+     "p": 44.9,
+     "t": 1
+    },
+    {
+     "n": "Cefakind 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Mankind",
+     "m": 48.2,
+     "p": 48.2,
+     "t": 1
+    },
+    {
+     "n": "C Tum 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Hauz",
+     "m": 52.0,
+     "p": 52.0,
+     "t": 1
+    },
+    {
+     "n": "Pulmocef 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Micro Labs",
+     "m": 53.65,
+     "p": 53.65,
+     "t": 1
+    },
+    {
+     "n": "Ceftum 500",
+     "s": "Cefuroxime 500mg",
+     "c": "GSK",
+     "m": 57.6,
+     "p": 57.6,
+     "t": 1
+    },
+    {
+     "n": "Cefasyn 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Cipla",
+     "m": 57.6,
+     "p": 57.6,
+     "t": 1
+    },
+    {
+     "n": "Novacef 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Cipla",
+     "m": 57.6,
+     "p": 57.6,
+     "t": 1
+    },
+    {
+     "n": "Zocef 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Alkem",
+     "m": 57.6,
+     "p": 57.6,
+     "t": 1
+    },
+    {
+     "n": "Cetil 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Lupin",
+     "m": 57.6,
+     "p": 57.6,
+     "t": 1
+    },
+    {
+     "n": "Cerom 500",
+     "s": "Cefuroxime 500mg",
+     "c": "Abbott",
+     "m": 57.6,
+     "p": 57.6,
+     "t": 1
+    },
+    {
+     "n": "Unimegyl 400",
+     "s": "Metronidazole 400mg",
+     "c": "Torrent",
+     "m": 0.63,
+     "p": 0.63,
+     "t": 1
+    },
+    {
+     "n": "Metropen 400",
+     "s": "Metronidazole 400mg",
+     "c": "Pfizer",
+     "m": 0.74,
+     "p": 0.74,
+     "t": 1
+    },
+    {
+     "n": "Metron 400",
+     "s": "Metronidazole 400mg",
+     "c": "Alkem",
+     "m": 0.82,
+     "p": 0.82,
+     "t": 1
+    },
+    {
+     "n": "Aldezol 400",
+     "s": "Metronidazole 400mg",
+     "c": "Albert David",
+     "m": 0.95,
+     "p": 0.95,
+     "t": 1
+    },
+    {
+     "n": "Met 400",
+     "s": "Metronidazole 400mg",
+     "c": "Ind Swift",
+     "m": 1.05,
+     "p": 1.05,
+     "t": 1
+    },
+    {
+     "n": "Flagyl 400",
+     "s": "Metronidazole 400mg",
+     "c": "Abbott",
+     "m": 1.43,
+     "p": 1.43,
+     "t": 1
+    },
+    {
+     "n": "Aristogyl 400",
+     "s": "Metronidazole 400mg",
+     "c": "Aristo",
+     "m": 1.43,
+     "p": 1.43,
+     "t": 1
+    },
+    {
+     "n": "Almox CV 625",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "Alkem",
+     "m": 12.6,
+     "p": 12.6,
+     "t": 1
+    },
+    {
+     "n": "Novaclav 625",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "Cipla",
+     "m": 12.7,
+     "p": 12.7,
+     "t": 1
+    },
+    {
+     "n": "Omniclav 625",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "Cipla",
+     "m": 13.65,
+     "p": 13.65,
+     "t": 1
+    },
+    {
+     "n": "Amoxyclav 625",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "Abbott",
+     "m": 13.9,
+     "p": 13.9,
+     "t": 1
+    },
+    {
+     "n": "Moxikind-CV 625",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "Mankind",
+     "m": 18.1,
+     "p": 18.1,
+     "t": 1
+    },
+    {
+     "n": "Mega-CV 625",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "Aristo",
+     "m": 18.8,
+     "p": 18.8,
+     "t": 1
+    },
+    {
+     "n": "Moxclav 625",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "Sun Pharma",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Clavam 625",
+     "s": "Amoxycillin 500mg + Clavulanic acid 125mg",
+     "c": "Alkem",
+     "m": 19.4,
+     "p": 19.4,
+     "t": 1
+    },
+    {
+     "n": "Ofron-OZ",
+     "s": "Ofloxacin 200mg + Ornidazole 500mg",
+     "c": "Leeford",
+     "m": 5.29,
+     "p": 5.29,
+     "t": 1
+    },
+    {
+     "n": "Oflotas-OZ",
+     "s": "Ofloxacin 200mg + Ornidazole 500mg",
+     "c": "Intas",
+     "m": 9.32,
+     "p": 9.32,
+     "t": 1
+    },
+    {
+     "n": "Olox-OZ",
+     "s": "Ofloxacin 200mg + Ornidazole 500mg",
+     "c": "Cipla",
+     "m": 10.2,
+     "p": 10.2,
+     "t": 1
+    },
+    {
+     "n": "Zenflox-OZ",
+     "s": "Ofloxacin 200mg + Ornidazole 500mg",
+     "c": "Mankind",
+     "m": 14.7,
+     "p": 14.7,
+     "t": 1
+    },
+    {
+     "n": "O2",
+     "s": "Ofloxacin 200mg + Ornidazole 500mg",
+     "c": "Medley",
+     "m": 18.9,
+     "p": 18.9,
+     "t": 1
+    },
+    {
+     "n": "Oflox OZ",
+     "s": "Ofloxacin 200mg + Ornidazole 500mg",
+     "c": "Cipla",
+     "m": 20.01,
+     "p": 20.01,
+     "t": 1
+    }
+   ]
   }
  ]
 }
