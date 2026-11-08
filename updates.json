@@ -34976,6 +34976,469 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-prescription-combos",
+   "meds": [
+    {
+     "n": "Acloreb 200/20 SR",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR tablet)",
+     "c": "Zerdia",
+     "m": 7.28,
+     "p": 7.28,
+     "t": 1
+    },
+    {
+     "n": "Mac 200/20 SR",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR tablet)",
+     "m": 8.28,
+     "p": 8.28,
+     "t": 1
+    },
+    {
+     "n": "Aceliv R",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR capsule)",
+     "c": "Novalife",
+     "m": 9.19,
+     "p": 9.19,
+     "t": 1
+    },
+    {
+     "n": "Aldigesic-Rab",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR capsule)",
+     "c": "Alkem",
+     "m": 10.1,
+     "p": 10.1,
+     "t": 1
+    },
+    {
+     "n": "Segirab AD 200/20 SR",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR tablet)",
+     "c": "Selaginella",
+     "m": 10.3,
+     "p": 10.3,
+     "t": 1
+    },
+    {
+     "n": "Nuflam-RB",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR capsule)",
+     "c": "Cadila",
+     "m": 11.6,
+     "p": 11.6,
+     "t": 1
+    },
+    {
+     "n": "Acetrial R 200/20 SR",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR tablet)",
+     "c": "Mendcure",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Altraday",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR capsule)",
+     "c": "Sun",
+     "m": 12.8,
+     "p": 12.8,
+     "t": 1
+    },
+    {
+     "n": "Raceclo",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR capsule)",
+     "c": "Aristo",
+     "m": 13.1,
+     "p": 13.1,
+     "t": 1
+    },
+    {
+     "n": "Zix-R OD",
+     "s": "Aceclofenac 200mg SR + Rabeprazole 20mg (SR capsule)",
+     "c": "Jenburkt",
+     "m": 16.0,
+     "p": 16.0,
+     "t": 1
+    },
+    {
+     "n": "Jan Aushadhi Aceclofenac+PCM+Thiocolchicoside",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Thiocolchicoside 4mg",
+     "c": "Jan Aushadhi",
+     "m": 11.5,
+     "p": 11.5,
+     "t": 1
+    },
+    {
+     "n": "Flucimol T",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Thiocolchicoside 4mg",
+     "m": 17.34,
+     "p": 17.34,
+     "t": 1
+    },
+    {
+     "n": "Thioford AP",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Thiocolchicoside 4mg",
+     "c": "Leeford",
+     "m": 17.81,
+     "p": 17.81,
+     "t": 1
+    },
+    {
+     "n": "Zerodol TH Max 4",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Thiocolchicoside 4mg",
+     "c": "Ipca",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Acenac MR 4",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Thiocolchicoside 4mg",
+     "c": "Medley",
+     "m": 19.9,
+     "p": 19.9,
+     "t": 1
+    },
+    {
+     "n": "Neorelax MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Thiocolchicoside 4mg",
+     "c": "Meyer",
+     "m": 24.2,
+     "p": 24.2,
+     "t": 1
+    },
+    {
+     "n": "Grimpa CX",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Bennet Mypher",
+     "m": 5.7,
+     "p": 5.7,
+     "t": 1
+    },
+    {
+     "n": "Pyronac MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Harnik",
+     "m": 6.5,
+     "p": 6.5,
+     "t": 1
+    },
+    {
+     "n": "Apache-MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Nitro Organics",
+     "m": 6.5,
+     "p": 6.5,
+     "t": 1
+    },
+    {
+     "n": "Acival MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Meddox",
+     "m": 6.8,
+     "p": 6.8,
+     "t": 1
+    },
+    {
+     "n": "Hubec MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Hublore",
+     "m": 6.9,
+     "p": 6.9,
+     "t": 1
+    },
+    {
+     "n": "Endonac CX",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Endocard",
+     "m": 6.99,
+     "p": 6.99,
+     "t": 1
+    },
+    {
+     "n": "Aceliv MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Novalife",
+     "m": 7.31,
+     "p": 7.31,
+     "t": 1
+    },
+    {
+     "n": "Acecloflam",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Knoll",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Flucimol MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "m": 7.97,
+     "p": 7.97,
+     "t": 1
+    },
+    {
+     "n": "Dolokind-MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Mankind",
+     "m": 8.25,
+     "p": 8.25,
+     "t": 1
+    },
+    {
+     "n": "Kindac MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Kinedex",
+     "m": 8.4,
+     "p": 8.4,
+     "t": 1
+    },
+    {
+     "n": "Acepine MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "m": 8.91,
+     "p": 8.91,
+     "t": 1
+    },
+    {
+     "n": "Movexx MR",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg + Chlorzoxazone 250mg",
+     "c": "Cipla",
+     "m": 13.73,
+     "p": 13.73,
+     "t": 1
+    },
+    {
+     "n": "P Pan D",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "m": 9.34,
+     "p": 9.34,
+     "t": 1
+    },
+    {
+     "n": "Epika DSR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "m": 9.7,
+     "p": 9.7,
+     "t": 1
+    },
+    {
+     "n": "PNZ-D",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "c": "Cachet",
+     "m": 9.84,
+     "p": 9.84,
+     "t": 1
+    },
+    {
+     "n": "Anleo DSR",
+     "s": "Pantoprazole 40mg + Domperidone 30mg SR",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Recalmin-XT",
+     "s": "Calcium Carbonate 1250mg + Vitamin D3 2000IU + Mecobalamin 1500mcg + L-Methylfolate 1mg + Pyridoxal-5-Phosphate 20mg",
+     "c": "Leeford",
+     "m": 20.31,
+     "p": 20.31,
+     "t": 1
+    },
+    {
+     "n": "Shelcal XT",
+     "s": "Calcium Carbonate 1250mg + Vitamin D3 2000IU + Mecobalamin 1500mcg + L-Methylfolate 1mg + Pyridoxal-5-Phosphate 20mg",
+     "c": "Torrent",
+     "m": 26.81,
+     "p": 26.81,
+     "t": 1
+    },
+    {
+     "n": "Dicloran AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "J B Chemicals",
+     "m": 15.4,
+     "p": 15.4
+    },
+    {
+     "n": "Diclosil AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Asiltus",
+     "m": 15.4,
+     "p": 15.4
+    },
+    {
+     "n": "Pardifen Aqua Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Spey",
+     "m": 17.6,
+     "p": 17.6
+    },
+    {
+     "n": "Dicsal 75 Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Salveo",
+     "m": 20.6,
+     "p": 20.6
+    },
+    {
+     "n": "Dolwall-AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Aegisco",
+     "m": 20.6,
+     "p": 20.6
+    },
+    {
+     "n": "Dywer Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Bioclix",
+     "m": 21.4,
+     "p": 21.4
+    },
+    {
+     "n": "Dynatroy AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Troikaa",
+     "m": 30.42,
+     "p": 30.42
+    },
+    {
+     "n": "Voveran AQ Inj",
+     "s": "Diclofenac 75mg/1ml AQ Injection",
+     "c": "Dr Reddy's",
+     "m": 35.64,
+     "p": 35.64
+    },
+    {
+     "n": "Nacpo Gel (30g ₹43.5)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 1.45,
+     "p": 1.45
+    },
+    {
+     "n": "Dieclo Gel (30g ₹46.8)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 1.56,
+     "p": 1.56
+    },
+    {
+     "n": "Maxoflam Gel (30g ₹52)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 1.73,
+     "p": 1.73
+    },
+    {
+     "n": "Nodard Gel (30g ₹56)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 1.87,
+     "p": 1.87
+    },
+    {
+     "n": "Combac Gel (30g ₹60)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "c": "Dea-della",
+     "m": 2.0,
+     "p": 2.0
+    },
+    {
+     "n": "Lifogesic Gel (30g ₹65)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "c": "Intra Life",
+     "m": 2.17,
+     "p": 2.17
+    },
+    {
+     "n": "Fastflam Gel (30g ₹66.46)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 2.22,
+     "p": 2.22
+    },
+    {
+     "n": "Ordic Gel (30g ₹70)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 2.33,
+     "p": 2.33
+    },
+    {
+     "n": "Dicmax Gel (30g ₹79.69)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 2.66,
+     "p": 2.66
+    },
+    {
+     "n": "Aurnac Gel (30g ₹83)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "c": "Phoenix Biotech",
+     "m": 2.77,
+     "p": 2.77
+    },
+    {
+     "n": "Vesdol Gel (30g ₹90)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 3.0,
+     "p": 3.0
+    },
+    {
+     "n": "Diclovis Gel (30g ₹90)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "c": "Vistica",
+     "m": 3.0,
+     "p": 3.0
+    },
+    {
+     "n": "Gelofast Gel (30g ₹95)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 3.17,
+     "p": 3.17
+    },
+    {
+     "n": "Axinac Nano Gel (30g ₹99)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "c": "Axenic",
+     "m": 3.3,
+     "p": 3.3
+    },
+    {
+     "n": "DP-Gold-Hot Gel (30g ₹100)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "c": "Alloes",
+     "m": 3.33,
+     "p": 3.33
+    },
+    {
+     "n": "Emuflex Gel (30g ₹109.4)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 3.65,
+     "p": 3.65
+    },
+    {
+     "n": "Volicad Gel (30g ₹110)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "m": 3.67,
+     "p": 3.67
+    },
+    {
+     "n": "Diclogesic Gel (30g ₹120)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "c": "Torrent",
+     "m": 4.0,
+     "p": 4.0
+    },
+    {
+     "n": "Volini Gel (30g ₹120)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "c": "Sun",
+     "m": 4.0,
+     "p": 4.0
+    },
+    {
+     "n": "Nobel Gel (30g ₹135.26)",
+     "s": "Diclofenac 1.16% + Linseed Oil 3% + Menthol 5% + Methyl Salicylate 10% gel (per gm)",
+     "c": "Mankind",
+     "m": 4.51,
+     "p": 4.51
+    }
+   ]
   }
  ]
 }
