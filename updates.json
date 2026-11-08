@@ -463,6 +463,67 @@
      "t": 15
     }
    ]
+  },
+  {
+   "id": "2026-11-08-kidney",
+   "meds": [
+    {
+     "n": "Dytor 10",
+     "s": "Torasemide 10mg",
+     "c": "Cipla",
+     "m": 105.93,
+     "p": 82.1,
+     "t": 15
+    },
+    {
+     "n": "Dytor Plus 10",
+     "s": "Torasemide 10mg + Spironolactone 50mg",
+     "c": "Cipla",
+     "m": 122.56,
+     "p": 117.0,
+     "t": 15
+    },
+    {
+     "n": "Nodosis",
+     "s": "Sodium bicarbonate 500mg",
+     "c": "Steadfast Medishield",
+     "m": 53.44,
+     "p": 49.1,
+     "t": 15
+    },
+    {
+     "n": "Nodosis",
+     "s": "Sodium bicarbonate 500mg",
+     "c": "Steadfast Medishield",
+     "m": 33.75,
+     "p": 29.7,
+     "t": 10
+    },
+    {
+     "n": "Rocaltrol",
+     "s": "Calcitriol 0.25mcg",
+     "c": "Abbott",
+     "m": 389.84,
+     "p": 358.0,
+     "t": 10
+    },
+    {
+     "n": "Febutaz 40",
+     "s": "Febuxostat 40mg",
+     "c": "Sun Pharma",
+     "m": 253.0,
+     "p": 230.0,
+     "t": 15
+    },
+    {
+     "n": "Orofer XT",
+     "s": "Ferrous ascorbate 100mg + Folic acid 1.5mg",
+     "c": "Emcure",
+     "m": 349.25,
+     "p": 340.0,
+     "t": 15
+    }
+   ]
   }
  ]
 }
