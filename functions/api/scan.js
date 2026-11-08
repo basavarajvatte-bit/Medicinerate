@@ -31,7 +31,7 @@ function numsCompatible(a, b) {
   return false;
 }
 // घटकांची वेगवेगळी स्पेलिंग एकच मानायची: Amoxycillin = Amoxicillin, Clavulanate = Clavulanic acid
-const SKIP = new Set(["sodium", "potassium", "hydrochloride", "sulphate", "sulfate", "acid", "tablet", "tablets", "capsule", "capsules", "besilate", "besylate", "maleate", "mesylate", "mesilate", "fumarate", "hyclate", "bitartrate", "trihydrate", "dihydrate", "monohydrate", "prolonged", "release", "extended", "sustained"]);
+const SKIP = new Set(["sodium", "potassium", "hydrochloride", "sulphate", "sulfate", "acid", "tablet", "tablets", "capsule", "capsules", "besilate", "besylate", "maleate", "mesylate", "mesilate", "fumarate", "hyclate", "bitartrate", "trihydrate", "dihydrate", "monohydrate", "prolonged", "release", "extended", "sustained", "retard", "controlled"]);
 const canon = (w) => ({ amoxycillin: "amoxicillin", clavulanate: "clavulanic", clavulanic: "clavulanic", acetaminophen: "paracetamol" }[w] || w);
 const words = (s) => new Set(norm(s).split(" ").filter((w) => w.length >= 4 && /^[a-z]+$/.test(w) && !SKIP.has(w)).map(canon));
 const sameSet = (a, b) => a.size > 0 && a.size === b.size && [...a].every((x) => b.has(x));
@@ -51,6 +51,8 @@ function formOf(t) {
   if (/ (cream|oint|ointment|gel|lotion) /.test(x)) return "top";
   return "";
 }
+// हळूहळू विरघळणारी गोळी (SR/ER/XL/PR/CR/OD/LA/TR/Retard) साध्या गोळीपेक्षा वेगळी मानायची
+const relOf = (t) => / (sr|er|xl|xr|pr|cr|od|la|tr|retard|prolonged|extended|sustained|controlled) /.test(" " + norm(t) + " ") ? "r" : "";
 // नाव तुलना करताना Tab, Inj असे शब्द काढायचे
 const brandOf = (t) => norm(t).replace(/\b(tab|tabs|tablet|tablets|cap|caps|capsule|capsules|inj|injection|syp|syrup)\b/g, " ");
 const firstWord = (t) => brandOf(t).trim().split(/\s+/)[0] || "";
@@ -81,7 +83,7 @@ function parseList(text) {
     }
     const n = o > 0 ? rest.slice(0, o).trim() : rest.trim();
     const s = o > 0 && c > o ? rest.slice(o + 1, c).trim() : "";
-    out.push({ idx, n, s, nn: nums(n + " " + s), sw: words(s), f: formOf(n + " " + s) });
+    out.push({ idx, n, s, nn: nums(n + " " + s), sw: words(s), f: formOf(n + " " + s), r: relOf(n + " " + s) });
   }
   return out;
 }
@@ -91,6 +93,7 @@ function bestMatch(it, meds) {
   const itForm = formOf(it.name + " " + it.form);
   const unknown = /unknown/i.test(String(it.form || "")) && !itForm;  // परचीवर प्रकार लिहिलेला नाही
   const itWords = words(it.salt);
+  const itRel = relOf(it.name + " " + it.salt + " " + (it.strength || "") + " " + (it.form || ""));
   let best = null, bestScore = 0, by = "name";
   for (const d of meds) {
     if (!unknown && d.f !== itForm) continue;             // इंजेक्शन ≠ गोळी
@@ -101,7 +104,7 @@ function bestMatch(it, meds) {
     const nameNumsOk = !inNum.size || !dNum.size || numsCompatible(inNum, dNum);
     if (a.length >= 4 && a === firstWord(d.n) && itNums.size && d.nn.size && nameNumsOk) nameSim = 1;
     // घटक फोटोत छापलेला नसेल तर त्यावरून पर्याय दाखवायचा नाही
-    const saltSim = it.saltPrinted === false || (unknown && d.f) ? 0 : jacc(itWords, d.sw);
+    const saltSim = it.saltPrinted === false || (unknown && d.f) || itRel !== d.r ? 0 : jacc(itWords, d.sw);
     const score = Math.max(nameSim, saltSim * 0.95);
     if (score > bestScore) { bestScore = score; best = d; by = nameSim >= saltSim * 0.95 ? "name" : "salt"; }
   }
@@ -109,8 +112,9 @@ function bestMatch(it, meds) {
 }
 
 // यादीतील त्याच घटकाची, त्याच ताकदीची आणि त्याच प्रकारची सर्व औषधे
-function sameSalt(sw, nn, form, unknown, meds) {
+function sameSalt(sw, nn, form, unknown, meds, rel) {
   return meds.filter((d) => {
+    if ((rel || "") !== d.r) return false;   // SR ≠ साधी गोळी
     if (!unknown && d.f !== form) return false;
     if (unknown && d.f) return false;
     return sameSet(sw, d.sw) && numsCompatible(nn, d.nn);
@@ -119,7 +123,7 @@ function sameSalt(sw, nn, form, unknown, meds) {
 const isUnknown = (it) => /unknown/i.test(String(it.form || "")) && !formOf(it.name + " " + it.form);
 function saltOptions(it, meds) {
   return sameSalt(words(it.salt), nums(it.name + " " + it.salt + " " + it.strength),
-    formOf(it.name + " " + it.form), isUnknown(it), meds);
+    formOf(it.name + " " + it.form), isUnknown(it), meds, relOf(it.name + " " + it.salt + " " + (it.strength || "") + " " + (it.form || "")));
 }
 // नावातच घटक असेल (Paracetamol 500) तर तो घटक छापलेलाच आहे
 const nameIsSalt = (it) => { const a = words(it.salt), b = words(it.name); return a.size > 0 && [...a].every((x) => b.has(x)); };
@@ -132,6 +136,8 @@ const PROMPT =
   "- salt: the complete composition with every ingredient, names only (keep English letters). " +
   "Combination medicines have many ingredients: list all of them. Doctors usually write only the brand name, so when the composition is not printed, " +
   "give the known composition of this brand from your own knowledge. Return an empty string only if you do not recognise the brand at all.\n" +
+  "Keep the salt form if printed (e.g. Metoprolol Succinate, Metoprolol Tartrate). If the name or label shows a slow-release type " +
+  "(SR, ER, XL, XR, PR, CR, OD, LA, TR, Retard), add it at the end of salt, e.g. 'Metformin SR'.\n" +
   "- saltPrinted: true if the composition or generic name is printed or written in the image, false if it came from your own knowledge.\n" +
   "- strength: the strength of every ingredient exactly as printed, e.g. '40mg', '500mg + 125mg', '4mg/2ml'. " +
   "Look carefully on the whole strip, box or prescription. A number that is part of the medicine name, like 'PSAM 40', counts as printed: " +
@@ -343,7 +349,7 @@ export async function onRequestPost({ request, env }) {
     };
     Object.defineProperty(row, "_sw", { value: words(it.salt), enumerable: false });
     Object.defineProperty(row, "_nn", { value: nums(it.name + " " + it.salt + " " + (it.strength || "")), enumerable: false });
-    if (known) row.alts = m.d.s ? sameSalt(m.d.sw, m.d.nn, m.d.f, false, meds) : [{ i: m.d.idx, st: "same" }];
+    if (known) row.alts = m.d.s ? sameSalt(m.d.sw, m.d.nn, m.d.f, false, meds, m.d.r) : [{ i: m.d.idx, st: "same" }];
     else if (!guess) row.alts = saltOptions(it, meds);
     if (known && !row.alts.some((a) => a.i === m.d.idx)) row.alts.push({ i: m.d.idx, st: "same" });
     if (!known) row.idx = row.alts.length ? row.alts[0].i : null;
