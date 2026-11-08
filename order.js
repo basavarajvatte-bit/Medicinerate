@@ -284,10 +284,13 @@
     try{
       var blob=await W.shrink(f),img=await W.b64(blob);
       var list=M().map(function(d,i){return i+": "+d.n+" ("+d.s+")"}).join("\n");
+      var mod=null;
+      try{mod=await import("/match.js")}catch(er){mod=null}
+      var body=JSON.stringify(mod?{image:img,raw:true}:{image:img,list:list});
       var res,j,tries=0;
       while(true){
         try{
-          res=await fetch("/api/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,list:list})});
+          res=await fetch("/api/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:body});
           j=await res.json().catch(function(){return{}});
           if(res.ok||res.status===429||tries>=2)break;
         }catch(er){if(tries>=2)throw er}
@@ -295,6 +298,14 @@
         await new Promise(function(r){setTimeout(r,1200)});
       }
       if(!res.ok)throw new Error(j.error||"स्कॅन झाले नाही.");
+      if(mod&&j.raw){
+        /* जुळवणी फोनवरच: सर्व्हरवर भार नाही */
+        var ask=function(b){return fetch("/api/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(b)})
+          .then(function(r){return r.json()}).then(function(x){return (x&&x.out)||[]}).catch(function(){return []})};
+        j={items:await mod.finishItems(j.raw,mod.parseList(list),{
+          second:function(n){return ask({mode:"second",names:n})},
+          uses:function(sl){return ask({mode:"uses",salts:sl})}})};
+      }
       clearInterval(tm);URL.revokeObjectURL(pic);
       var cards=cardsFrom(j.items||[]);
       var old=W.__cards||[];
