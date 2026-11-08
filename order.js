@@ -71,7 +71,7 @@
       var ex=(it.exact!=null)?it.exact:((it.by==="name"&&it.idx!=null)?it.idx:null);
       var up=function(d){return d.p/(d.t||1)};
       alts.sort(function(a,b){return (up(meds[a.i])-up(meds[b.i]))||((b.i===ex)-(a.i===ex))});
-      return {o:(it.others||[]).filter(function(i){return meds[i]}),n:it.name||"",s:it.salt||"",u:it.use||"",g:!!it.guess,ex:ex,alts:alts,sel:alts.length?alts[0].i:null};
+      return {os:it.otherStr||[],n:it.name||"",s:it.salt||"",u:it.use||"",g:!!it.guess,ex:ex,alts:alts,sel:alts.length?alts[0].i:null};
     });
   }
   function cardHtml(c,k){
@@ -81,8 +81,8 @@
       (c.g?'<a class="gsearch" target="_blank" rel="noopener" href="https://www.google.com/search?q='+encodeURIComponent(c.n+" composition uses")+'">🔍 Google वर घटक पहा</a>':'');
     if(!c.alts.length){
       var wa="*"+SHOP+"*\n\nहे औषध मागवून देता येईल का?\nऔषध: "+c.n+(/[a-z]/i.test(c.s)?"\nघटक: "+c.s:"");
-      if(c.o&&c.o.length){
-        h+='<div class="oth"><b>⚠️ हाच घटक असलेली ही औषधे आमच्याकडे आहेत, पण ताकद (mg) किंवा प्रकार वेगळा असू शकतो:</b>'+c.o.map(function(i){var d=meds[i];return '<div class="row"><span>'+E(d.n)+(d.c?' · '+E(d.c):'')+'<small style="display:block;color:var(--mute)">'+E(d.s)+'</small></span><b>'+F(d.p)+(d.t?' / '+d.t+' गोळ्या':'')+'</b></div>'}).join("")+'<p class="mini" style="margin-top:6px">डॉक्टरांना किंवा दुकानात विचारल्याशिवाय बदलू नका.</p></div>';
+      if(c.os&&c.os.length){
+        h+='<div class="oth">⚠️ <b>'+E(c.n)+' ची ही ताकद आमच्याकडे नाही.</b> आमच्याकडे फक्त <b>'+c.os.map(E).join(", ")+'</b> मध्ये आहे. डॉक्टरांना विचारल्याशिवाय ताकद बदलू नका.</div>';
       }
       h+='<a class="ask" target="_blank" rel="noopener" href="https://wa.me/'+NUM+'?text='+encodeURIComponent(wa)+'" aria-label="WhatsApp वर दुकानाला विचारा"><span aria-hidden="true">💬</span><span>हे औषध मागवून देता येईल का, ते दुकानात विचारा.</span></a>';
     }else{

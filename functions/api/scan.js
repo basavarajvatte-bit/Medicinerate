@@ -374,7 +374,11 @@ export async function onRequestPost({ request, env }) {
   // त्याच घटकाचे पण वेगळ्या ताकदीचे औषध: फक्त माहितीसाठी दाखवायचे (निवडता येणार नाही)
   for (const r of items) {
     if (r.alts.length || !r._sw || !r._sw.size) continue;
-    r.others = meds.filter((d) => [...r._sw].every((x) => d.sw.has(x))).slice(0, 8).map((d) => d.idx);
+    const FORMW = new Set(["succinate", "tartrate"]);
+    const same = meds.filter((d) => [...r._sw].every((x) => d.sw.has(x)) && [...d.sw].every((x) => r._sw.has(x) || FORMW.has(x)));
+    const st = [...new Set(same.map((d) => ((String(d.s).match(/(\d+(?:\.\d+)?)\s*mg/i) || [])[1])).filter(Boolean))]
+      .sort((a, b) => parseFloat(a) - parseFloat(b));
+    if (st.length) r.otherStr = st.map((x) => x + "mg");
   }
   return json({
     items,
