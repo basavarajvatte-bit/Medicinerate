@@ -166,6 +166,7 @@ label{display:block;font-weight:600;margin:12px 0 5px;font-size:15px;color:var(-
     <p class="note">येथे जे काही बदल कराल ते ऑनलाइन सेव्ह होतील आणि सर्व ग्राहकांना दिसतील.</p>
   </section>
 
+  <p class="foot" id="upd" style="margin-bottom:4px"></p>
   <p class="foot"><a id="own">दुकान मालक लॉगिन</a><a id="out" class="hide">मालक म्हणून बाहेर पडा</a></p>
 </div>
 <script>
@@ -193,6 +194,7 @@ async function loadRemote(){
     if(!r.ok)return;
     var j=await r.json();
     if(j&&"meds" in j)ready=true;
+    if(j&&j.updated){try{var dt=new Date(j.updated);if(!isNaN(dt))$("upd").textContent="दर अद्ययावत: "+dt.toLocaleDateString("mr-IN",{day:"numeric",month:"long",year:"numeric"})+" · दर बदलू शकतात, खरेदीच्या वेळी दुकानात खात्री करा."}catch(e){}}
     if(j&&Array.isArray(j.meds)){meds=j.meds;cache();
       if($("q").value.trim()&&sel===null)suggest();
       if(!$("p2").classList.contains("hide"))renderAll()}
@@ -243,7 +245,7 @@ if(pw)ownerUI(true);
 function suggest(){
   var v=$("q").value.trim().toLowerCase();
   if(!v){$("sug").innerHTML="";return}
-  var f=meds.map(function(d,i){return{d:d,i:i}}).filter(function(o){return (o.d.n+" "+o.d.s).toLowerCase().indexOf(v)>-1}).slice(0,6);
+  var f=meds.map(function(d,i){return{d:d,i:i}}).filter(function(o){return !o.d.o&&(o.d.n+" "+o.d.s).toLowerCase().indexOf(v)>-1}).slice(0,6);
   $("sug").innerHTML=f.length?f.map(function(o){return '<button class="item" data-i="'+o.i+'"><span>'+esc(o.d.n)+'<small>'+esc(o.d.s)+'</small></span><span class="price">'+fm(o.d.p)+pk(o.d)+'</span></button>'}).join(""):'<div class="empty">हे औषध यादीत नाही. दुकानात विचारा.</div>';
 }
 $("q").oninput=function(){sel=null;$("res").innerHTML="";suggest()};
@@ -253,6 +255,7 @@ function show(){
   var off=Math.round((1-d.p/d.m)*100);
   $("res").innerHTML='<div class="result"><h2>'+esc(d.n)+'</h2><p class="salt">'+esc(d.s)+'</p>'+
   (d.m>0?'<div class="row"><span>MRP</span><b>'+fm(d.m)+pk(d)+'</b></div>':'')+
+  (window.rxOf&&window.rxOf(d)?'<div class="rxn">🔒 हे औषध फक्त <b>डॉक्टरांच्या चिठ्ठीवर</b> मिळते. चिठ्ठी दुकानात दाखवावी लागेल.</div>':'')+
   '<div class="row"><span>आमच्याकडे</span><span><span class="big">'+fm(d.p)+'</span><b>'+pk(d)+'</b></span></div>'+
   (d.m>0?'<div class="row"><span>MRP पेक्षा बचत</span><b>'+fm(d.m-d.p)+' ('+off+'% सूट)</b></div>':'')+
   '<label for="o">तुम्हाला दुसरीकडे किती रुपयांना मिळाले? (₹)</label><input id="o" type="number" inputmode="decimal" min="0" placeholder="उदा. '+Math.round(d.m)+'">'+
@@ -305,7 +308,7 @@ function renderAll(){
   var dg=dupGroups(),dset={};dg.forEach(function(a){a.forEach(function(i){dset[i]=1})});
   var first={},view=meds.map(function(d,i){var k=saltKey(d.s)||("~"+i);if(!(k in first))first[k]=i;return{d:d,i:i,o:first[k]}});
   view.sort(function(a,b){return (a.o-b.o)||(a.i-b.i)});
-  var row=function(d,i){return '<div class="item" style="cursor:default'+(dset[i]?';border:2px solid var(--bad)':'')+'"><span>'+(dset[i]?'<b style="color:var(--bad)">⚠️ दोनदा · </b>':'')+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+(d.m>0?' · MRP '+fm(d.m):' · MRP नाही')+(!d.t&&!/inject|infusion|syrup|ml|gargle|pack|drop/i.test(d.n+' '+d.s)?' · <b style="color:var(--bad)">पॅक नाही</b>':'')+(!d.c?' · <b style="color:var(--bad)">कंपनी नाही</b>':'')+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span><span class="edbtns"><button class="btn ghost ed" data-ed="'+i+'">बदला</button><button class="btn ghost" data-del="'+i+'">काढा</button></span></span></div>'};
+  var row=function(d,i){return '<div class="item" style="cursor:default'+(dset[i]?';border:2px solid var(--bad)':'')+'"><span>'+(dset[i]?'<b style="color:var(--bad)">⚠️ दोनदा · </b>':'')+esc(d.n)+'<small>'+esc(d.s)+(d.c?' · '+esc(d.c):'')+(d.m>0?' · MRP '+fm(d.m):' · MRP नाही')+(!d.t&&!/inject|infusion|syrup|ml|gargle|pack|drop/i.test(d.n+' '+d.s)?' · <b style="color:var(--bad)">पॅक नाही</b>':'')+(!d.c?' · <b style="color:var(--bad)">कंपनी नाही</b>':'')+(d.o?' · <b style="color:var(--bad)">स्टॉक संपला</b>':'')+'</small></span><span><span class="price">'+fm(d.p)+pk(d)+'</span><span class="edbtns"><button class="btn ghost" data-stk="'+i+'">'+(d.o?'स्टॉक आला':'स्टॉक संपला')+'</button><button class="btn ghost ed" data-ed="'+i+'">बदला</button><button class="btn ghost" data-del="'+i+'">काढा</button></span></span></div>'};
   var warn=dg.length?'<div class="result" style="border:2px solid var(--bad)"><b style="color:var(--bad)">⚠️ '+dg.length+' औषधे यादीत दोनदा आहेत</b><p class="salt">एकाच कंपनीचे, एकाच पॅकचे औषध दोनदा आहे. जुने "काढा" किंवा योग्य दर "बदला".</p>'+dg.map(function(a){return a.map(function(i){return row(meds[i],i)}).join("")}).join('<hr style="border:0;border-top:1px dashed var(--line);margin:8px 0">')+'</div>':'';
   var groups=[];for(var k=0;k<=CATS.length;k++)groups.push([]);
   view.forEach(function(v){groups[catOf(v.d)].push(v)});
@@ -317,7 +320,8 @@ function renderAll(){
   if(openCat!==null&&groups[openCat]&&groups[openCat].length){
     boxes+='<div class="catv" id="catv"><div class="cath"><span>'+esc(nm(openCat))+' · '+groups[openCat].length+'</span><button class="btn ghost" data-cat="'+openCat+'">बंद करा ✕</button></div>'+groups[openCat].map(function(v){return row(v.d,v.i)}).join("")+'</div>';
   }
-  $("all").innerHTML=warn+(view.length?boxes:'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>');
+  var bar='<div class="item" style="cursor:default;gap:8px;flex-wrap:wrap"><button class="btn ghost" data-csv="1">⬇ यादी डाउनलोड (बॅकअप)</button><button class="btn ghost" data-undo="1">↩ मागील यादी परत आणा</button></div>';
+  $("all").innerHTML=bar+warn+(view.length?boxes:'<div class="empty">अजून कोणतेही औषध नाही. वरून जोडा.</div>');
 }
 function clearForm(){
   edit=null;
@@ -336,6 +340,17 @@ $("cancel").onclick=clearForm;
 $("all").onclick=function(e){
   var cb=e.target.closest("[data-cat]");
   if(cb){var k=+cb.dataset.cat;openCat=(openCat===k)?null:k;renderAll();if(openCat!==null){var cv=$("catv");if(cv)cv.scrollIntoView({behavior:"smooth",block:"start"})}return}
+  var sk=e.target.closest("[data-stk]");
+  if(sk){if(!canSave())return;var q=meds[+sk.dataset.stk];if(q.o)delete q.o;else q.o=1;renderAll();save();return}
+  if(e.target.closest("[data-csv]")){
+    var csv="\ufeffनाव,घटक,कंपनी,MRP,दर,पॅक,स्टॉक संपला\n"+meds.map(function(d){return [d.n,d.s,d.c||"",d.m,d.p,d.t||"",d.o?"हो":""].map(function(x){return '"'+String(x).replace(/"/g,'""')+'"'}).join(",")}).join("\n");
+    var a=document.createElement("a");a.href=URL.createObjectURL(new Blob([csv],{type:"text/csv;charset=utf-8"}));a.download="tuljabhavani-yadi-"+new Date().toISOString().slice(0,10)+".csv";document.body.appendChild(a);a.click();a.remove();return}
+  if(e.target.closest("[data-undo]")){
+    if(!canSave()||!confirm("मागील सेव्ह केलेली यादी परत आणायची? आत्ताची यादी बदलली जाईल."))return;
+    fetch(API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({password:pw,undo:true})})
+    .then(function(r){return r.json().catch(function(){return{}}).then(function(j){return{r:r,j:j}})})
+    .then(function(o){if(!o.r.ok){alert(o.j.error||"परत आणता आले नाही.");return}meds=o.j.meds;cache();renderAll();status("मागील यादी परत आली ✓")})
+    .catch(function(){alert("इंटरनेट नाही.")});return}
   var u=e.target.closest("[data-ed]");
   if(u){startEdit(+u.dataset.ed);return}
   var b=e.target.closest("[data-del]");if(!b)return;
@@ -404,7 +419,7 @@ async function doScan(f){
   var tm=setInterval(function(){var e=$("spm");if(!e){clearInterval(tm);return}mi=(mi+1)%msgs.length;e.textContent=msgs[mi]},1500);
   try{
     var blob=await shrink(f),img=await b64(blob);
-    var list=meds.map(function(d,i){return i+": "+d.n+" ("+d.s+")"}).join("\n");
+    var list=meds.map(function(d,i){return d.o?"":i+": "+d.n+" ("+d.s+")"}).filter(Boolean).join("\n");
     var res=await fetch("/api/scan",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({image:img,list:list})});
     var j=await res.json().catch(function(){return{}});
     if(!res.ok)throw new Error(j.error||"स्कॅन झाले नाही.");

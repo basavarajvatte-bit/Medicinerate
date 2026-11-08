@@ -1,3 +1,4 @@
+import { checkOwner } from "../../lib/auth.js";
 const json = (obj, status = 200) =>
   Response.json(obj, { status, headers: { "Cache-Control": "no-store" } });
 
@@ -97,9 +98,8 @@ export async function onRequestPost({ request, env }) {
   try { body = await request.json(); } catch { return json({ error: "चुकीची विनंती" }, 400); }
 
   // फक्त दुकान मालकासाठी
-  if (!env.OWNER_PASSWORD || typeof body.password !== "string" || body.password !== env.OWNER_PASSWORD) {
-    return json({ error: "पासवर्ड चुकीचा आहे. पुन्हा लॉगिन करा." }, 401);
-  }
+  const bad = await checkOwner(request, env, body.password);
+  if (bad) return json({ error: bad.error }, bad.status);
 
   const image = String(body.image || "");
   if (!image || image.length > 4000000) return json({ error: "फोटो नाही किंवा खूप मोठा आहे." }, 400);

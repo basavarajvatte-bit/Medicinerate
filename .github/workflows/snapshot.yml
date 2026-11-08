@@ -1,5 +1,7 @@
 name: list-snapshot
 on:
+  schedule:
+    - cron: "30 20 * * *"   # रोज रात्री 2:00 (भारतीय वेळ)
   push:
     paths: [".github/snapshot-trigger"]
   workflow_dispatch:

@@ -35439,6 +35439,80 @@
      "p": 4.51
     }
    ]
+  },
+  {
+   "id": "2026-11-09-cleanup",
+   "remove": [
+    "Womastin",
+    "Womaplat",
+    "Carbokem Novo",
+    "Naproplat",
+    "Adcarb",
+    "Lyocarb",
+    "Celcarb",
+    "Innocar",
+    "Carboplatin",
+    "Carbosayoka",
+    "Neocarb",
+    "Kemocarb",
+    "Carplat",
+    "Karplat",
+    "Carbozar",
+    "Oncocarb",
+    "Carbotinal",
+    "Carmuta",
+    "Biocarb",
+    "Carbowel",
+    "Carbcure",
+    "Carbopa",
+    "Unicarb",
+    "Carboteen",
+    "Paraplatin (original)",
+    "Dolowin-Plus",
+    "Doxyla B6 20 (20)"
+   ],
+   "meds": [
+    {
+     "n": "Pacimol 650",
+     "s": "Paracetamol 650mg",
+     "c": "Ipca",
+     "m": 2.25,
+     "p": 2.14,
+     "t": 1
+    },
+    {
+     "n": "Hifenac",
+     "s": "Aceclofenac 100mg",
+     "c": "Intas",
+     "m": 64.22,
+     "p": 62.5,
+     "t": 10
+    },
+    {
+     "n": "Hifenac P",
+     "s": "Aceclofenac 100mg + Paracetamol 325mg",
+     "c": "Intas",
+     "m": 117.5,
+     "p": 108.45,
+     "t": 15
+    },
+    {
+     "n": "Combiflam",
+     "s": "Ibuprofen 400mg + Paracetamol 325mg",
+     "c": "Sanofi",
+     "m": 2.87,
+     "p": 2.68,
+     "t": 1
+    },
+    {
+     "n": "Ultracet",
+     "s": "Tramadol 37.5mg + Paracetamol 325mg",
+     "c": "Janssen",
+     "m": 19.12,
+     "p": 19.12,
+     "t": 1
+    }
+   ]
   }
  ]
 }

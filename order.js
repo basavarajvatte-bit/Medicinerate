@@ -25,10 +25,16 @@
     if(/sachet|powder/.test(t))return ["पाकिटे","किती पाकिटे हवी?"];
     return ["पॅक","किती पॅक हवे?"];
   }
+  /* डॉक्टरांच्या चिठ्ठीवरच मिळणारी औषधे (Schedule H / H1 / कर्करोग / मानसिक / हार्मोन / इंजेक्शन इ.) */
+  var RX=/tramadol|tapentadol|codeine|morphine|fentanyl|buprenorphine|alprazolam|clonazepam|lorazepam|diazepam|etizolam|zolpidem|nitrazepam|clobazam|pregabalin|gabapentin|sumatriptan|rizatriptan|naratriptan|zolmitriptan|ergotamine|levothyroxine|thyroxine|carbimazole|methimazole|insulin|warfarin|acenocoumarol|apixaban|rivaroxaban|dabigatran|enoxaparin|heparin|clopidogrel|ticagrelor|prasugrel|lithium|haloperidol|olanzapine|quetiapine|risperidone|aripiprazole|clozapine|sertraline|escitalopram|fluoxetine|paroxetine|venlafaxine|duloxetine|mirtazapine|amitriptyline|nortriptyline|levetiracetam|lamotrigine|oxcarbazepine|carbamazepine|valpro|phenytoin|phenobarbit|topiramate|lacosamide|methotrexate|carboplatin|cisplatin|oxaliplatin|docetaxel|paclitaxel|doxorubicin|epirubicin|gemcitabine|pemetrexed|capecitabine|etoposide|irinotecan|cyclophosphamide|tamoxifen|anastrozole|letrozole|exemestane|bicalutamide|enzalutamide|abiraterone|apalutamide|gefitinib|erlotinib|afatinib|osimertinib|lenvatinib|palbociclib|ribociclib|abemaciclib|nivolumab|pembrolizumab|trastuzumab|bevacizumab|leuprolide|goserelin|degarelix|fulvestrant|megestrol|cabergoline|misoprostol|mifepristone|methylergometrine|isotretinoin|prednisolone|dexamethasone|methylprednisolone|hydrocortisone|linezolid|meropenem|imipenem|piperacillin|colistin|vancomycin|teicoplanin|ceftriaxone|cefoperazone|cefixime|cefpodoxime|cefuroxime|amoxy|azithro|clarithro|ciproflox|oflox|doxycycline|metronidazole|tinidazole|ornidazole|amikacin|gentamicin|tadalafil|sildenafil|finasteride|dutasteride|silodosin|alfuzosin|torsemide|torasemide|furosemide|spironolactone|ivabradine|sacubitril|ranolazine|nicorandil|amiodarone|digoxin/;
+  W.rxOf=function(d){return !!d&&RX.test((d.n+" "+d.s).toLowerCase())};
   function qtyHtml(c,k){
     var d=M()[c.sel];
     if(!d)return "";
-    var x=L(c,d),lab=d.t?"किती गोळ्या हव्या?":U(d)[1],mx=d.t?60:30,h='<label class="qty"><span>'+lab+'</span><select data-q="'+k+'" aria-label="'+lab+'">';
+    var x=L(c,d),lab=d.t?"किती गोळ्या हव्या?":U(d)[1],mx=d.t?60:30,
+      note=(W.rxOf(d)?'<div class="rxn">🔒 हे औषध फक्त <b>डॉक्टरांच्या चिठ्ठीवर</b> मिळते. चिठ्ठी (किंवा तिचा फोटो) दुकानात दाखवावी लागेल.</div>':'')+
+        (c.ex!=null&&c.sel!==c.ex?'<p class="mini" style="margin-top:6px">ब्रँड बदलण्यापूर्वी डॉक्टरांना किंवा दुकानातील फार्मासिस्टला विचारा.</p>':''),
+      h=note+'<label class="qty"><span>'+lab+'</span><select data-q="'+k+'" aria-label="'+lab+'">';
     for(var i=1;i<=mx;i++)h+='<option value="'+i+'"'+(i===x.q?' selected':'')+'>'+i+'</option>';
     return h+'</select></label><div class="qtyp"><span>किंमत</span><b>'+F(x.p)+'</b></div>';
   }
@@ -64,6 +70,7 @@
       ".qtyp b{font:400 25px/1.1 var(--disp);color:var(--brand)}"+
       ".use{margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--goodbg);border-left:4px solid var(--accent);font-size:20px;line-height:1.3;font-weight:800}"+
       ".opt.xh{display:none}"+
+      ".rxn{margin-top:10px;padding:10px 12px;border-radius:10px;border:1.5px solid var(--bad);font-size:15px}"+
       ".oth{margin-top:10px;padding:10px 12px;border-radius:10px;border:1.5px dashed var(--accent);font-size:15px}"+
       ".morebtn{display:block;margin:8px auto 0;padding:6px 14px;border-radius:999px;border:1.5px solid var(--brand);background:transparent;color:var(--brand);font:700 14px Mukta,sans-serif;cursor:pointer}"+
       ".mini{font-size:12px;line-height:1.4;color:var(--mute);margin:12px 2px 0}"+
@@ -147,6 +154,7 @@
         if(d.m>0)lines.push("   MRP: "+F(d.m)+P(d));
         lines.push("   आमचा दर: "+F(d.p)+P(d));
         if(x.q)lines.push(d.t?"   मला हव्या: "+x.q+" गोळ्या = "+F(x.p):"   मला हवे: "+x.q+" "+U(d)[0]+" = "+F(x.p));
+        if(W.rxOf(d))lines.push("   🔒 चिठ्ठी आवश्यक (दुकानात दाखवेन)");
         if(c.sel!==c.ex)lines.push("   (स्कॅन केलेले: "+c.n+(c.s?", घटक: "+c.s:"")+")");
       }else{
         lines.push((k+1)+". "+c.n);
@@ -283,7 +291,7 @@
     var tm=setInterval(function(){var e=g("spm");if(!e){clearInterval(tm);return}mi=(mi+1)%msgs.length;e.textContent=msgs[mi]},1500);
     try{
       var blob=await W.shrink(f),img=await W.b64(blob);
-      var list=M().map(function(d,i){return i+": "+d.n+" ("+d.s+")"}).join("\n");
+      var list=M().map(function(d,i){return d.o?"":i+": "+d.n+" ("+d.s+")"}).filter(Boolean).join("\n");
       var mod=null;
       try{mod=await import("/match.js")}catch(er){mod=null}
       var body=JSON.stringify(mod?{image:img,raw:true}:{image:img,list:list});

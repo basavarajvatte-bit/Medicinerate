@@ -1,3 +1,4 @@
+import { RX } from "../../match.js";
 const G = "https://graph.facebook.com/v21.0/";
 let E = {};
 let ORIGIN = "";
@@ -42,7 +43,7 @@ function findByText(meds, q) {
 }
 
 function line(d) {
-  return "💊 *" + d.n + "*\n" + d.s + (d.m > 0 ? "\nMRP: " + rs(d.m) : "") + "\n✅ आमचा दर: *" + rs(d.p) + "*" + (d.m > 0 ? "  (बचत " + rs(d.m - d.p) + ")" : "");
+  return (isRx(d) ? "🔒 (डॉक्टरांच्या चिठ्ठीवरच मिळते)\n" : "") + "💊 *" + d.n + "*\n" + d.s + (d.m > 0 ? "\nMRP: " + rs(d.m) : "") + "\n✅ आमचा दर: *" + rs(d.p) + "*" + (d.m > 0 ? "  (बचत " + rs(d.m - d.p) + ")" : "");
 }
 
 async function readImage(mediaId) {
@@ -57,32 +58,26 @@ async function readImage(mediaId) {
   return { mime, data };
 }
 
-async function askGemini(image, meds) {
-  const list = meds.map((d, i) => i + ": " + d.n + " (" + d.s + ")").join("\n").slice(0, 12000);
-  const prompt =
-    "Image me dawa ka strip/box ya doctor ki parchi hai. Har dawa padho. " +
-    "Har dawa ke liye: name (jo likha hai), salt (composition), use (kis kaam aati hai, Marathi me max 8 shabd), " +
-    "idx (neeche LIST ka wo number jo isi dawa ya isi salt ki hai, nahi ho to null). " +
-    "Pakka na padh paao to us dawa ko chhod do. Andaza mat lagao.\nLIST:\n" + list;
-  const schema = {
-    type: "OBJECT",
-    properties: { items: { type: "ARRAY", items: { type: "OBJECT",
-      properties: { name: { type: "STRING" }, salt: { type: "STRING" }, use: { type: "STRING" }, idx: { type: "INTEGER", nullable: true } },
-      required: ["name", "salt", "use"] } } },
-    required: ["items"],
-  };
-  const model = env("GEMINI_MODEL") || "gemini-3.1-flash-lite";
-  const r = await fetch("https://generativelanguage.googleapis.com/v1beta/models/" + model + ":generateContent", {
+// फोटो वाचणे /api/scan कडून (फक्त वाचन). यादीशी जुळवणी इथे साधी आणि निश्चित: AI ला यादी देत नाही,
+// त्यामुळे चुकीचे औषध/दर जुळण्याचा धोका नाही.
+async function readItems(image) {
+  const r = await fetch(ORIGIN + "/api/scan", {
     method: "POST",
-    headers: { "Content-Type": "application/json", "x-goog-api-key": env("GEMINI_API_KEY") },
-    body: JSON.stringify({
-      contents: [{ parts: [{ inline_data: { mime_type: image.mime, data: image.data } }, { text: prompt }] }],
-      generationConfig: { temperature: 0, maxOutputTokens: 700, responseMimeType: "application/json", responseSchema: schema },
-    }),
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ image: image.data, raw: true }),
   });
-  const j = await r.json();
-  const t = (j?.candidates?.[0]?.content?.parts || []).map((p) => p.text || "").join("");
-  try { return JSON.parse(t).items || []; } catch { return []; }
+  if (!r.ok) return null;
+  const j = await r.json().catch(() => ({}));
+  return Array.isArray(j.raw) ? j.raw : [];
+}
+
+const isRx = (d) => RX.test((d.n + " " + d.s).toLowerCase());
+
+function pick(meds, it) {
+  const f = findByText(meds.filter((d) => !d.o), it.name || "");
+  if (!f.length) return null;
+  const nm = norm(it.name);
+  return f.find((d) => norm(d.n) === nm) || (f.length === 1 ? f[0] : null);
 }
 
 async function handle(msg, meds) {
@@ -90,26 +85,33 @@ async function handle(msg, meds) {
   if (msg.type === "text") {
     const q = msg.text.body.trim();
     if (/^(hi|hello|hii|hey|नमस्कार|नमस्ते|menu|मदत|help)\b/i.test(q) || q.length < 2) return send(to, HELP);
-    const f = findByText(meds, q);
+    const f = findByText(meds.filter((d) => !d.o), q);
     if (!f.length) return send(to, "माफ करा, \"" + q + "\" आमच्या यादीत सापडले नाही. औषधाचा फोटो पाठवा किंवा दुकानात विचारा." + FOOT);
     return send(to, f.map(line).join("\n\n") + FOOT);
   }
   if (msg.type === "image") {
     await send(to, "⏳ फोटो वाचत आहे, थोडा वेळ थांबा…");
     const image = await readImage(msg.image.id);
-    const items = await askGemini(image, meds);
+    if (image.data.length > 4000000) return send(to, "फोटो खूप मोठा आहे. थोडा लहान/जवळून फोटो पाठवा." + FOOT);
+    const items = await readItems(image);
+    if (items === null) return send(to, "फोटो वाचता आला नाही. थोड्या वेळाने पुन्हा पाठवा किंवा औषधाचे नाव लिहा." + FOOT);
     if (!items.length) return send(to, "औषध ओळखता आले नाही. स्पष्ट फोटो पाठवा किंवा नाव लिहा." + FOOT);
     let tot = 0, mrp = 0, n = 0, out = [];
-    items.forEach((it, k) => {
-      const d = it.idx != null ? meds[it.idx] : null;
-      let t = (k + 1) + ". *" + it.name + "*\n" + it.salt + "\nउपयोग: " + it.use;
-      if (d) { n++; tot += d.p; mrp += d.m > 0 ? d.m : d.p; t += (d.m > 0 ? "\nMRP: " + rs(d.m) : "") + "\n✅ आमचा दर: *" + rs(d.p) + "*"; }
-      else t += "\n❓ आमच्या यादीत नाही, दुकानात विचारा.";
+    items.slice(0, 15).forEach((it, k) => {
+      const d = pick(meds, it);
+      let t = (k + 1) + ". *" + it.name + "*";
+      if (it.salt) t += "\n" + (it.saltPrinted ? "" : "अंदाजे घटक: ") + it.salt;
+      if (it.use) t += "\nउपयोग: " + it.use;
+      if (d) {
+        n++; tot += d.p; mrp += d.m > 0 ? d.m : d.p;
+        t += (d.m > 0 ? "\nMRP: " + rs(d.m) : "") + "\n✅ आमचा दर: *" + rs(d.p) + "*";
+        if (isRx(d)) t += "\n🔒 हे औषध फक्त डॉक्टरांच्या चिठ्ठीवर मिळते.";
+      } else t += "\n❓ आमच्या यादीत सापडले नाही, दुकानात विचारा.";
       out.push(t);
     });
     let text = out.join("\n\n");
     if (n > 1) text += "\n\n🧾 एकूण (" + n + " औषधे): *" + rs(tot) + "*  (MRP " + rs(mrp) + ", बचत " + rs(mrp - tot) + ")";
-    text += "\n\n⚠️ औषध घेण्यापूर्वी फार्मासिस्टकडून खात्री करा.";
+    text += "\n\n⚠️ औषध घेण्यापूर्वी डॉक्टर किंवा फार्मासिस्टकडून खात्री करा. दर बदलू शकतात.";
     return send(to, text + FOOT);
   }
   return send(to, HELP);
@@ -138,8 +140,18 @@ export async function onRequest(context) {
     return new Response("forbidden", { status: 403 });
   }
   if (req.method !== "POST") return new Response("ok");
+  const raw = await req.text();
+  // Meta ची सही तपासणे (WHATSAPP_APP_SECRET सेट असेल तर): बनावट संदेशांनी खर्च/मर्यादा संपवू नये
+  const secret = env("WHATSAPP_APP_SECRET");
+  if (secret) {
+    const sig = (req.headers.get("x-hub-signature-256") || "").replace("sha256=", "");
+    const k = await crypto.subtle.importKey("raw", new TextEncoder().encode(secret), { name: "HMAC", hash: "SHA-256" }, false, ["sign"]);
+    const mac = new Uint8Array(await crypto.subtle.sign("HMAC", k, new TextEncoder().encode(raw)));
+    const hex = Array.from(mac).map((b) => b.toString(16).padStart(2, "0")).join("");
+    if (hex.length !== sig.length || hex !== sig) return new Response("forbidden", { status: 403 });
+  }
   let body;
-  try { body = await req.json(); } catch { return new Response("ok"); }
+  try { body = JSON.parse(raw); } catch { return new Response("ok"); }
   context.waitUntil(processBody(body));
   return new Response("ok", { status: 200 });
 }

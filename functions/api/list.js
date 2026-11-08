@@ -1,3 +1,5 @@
+import { checkOwner } from "../../lib/auth.js";
+
 const json = (obj, status = 200) =>
   Response.json(obj, { status, headers: { "Cache-Control": "no-store" } });
 
@@ -14,6 +16,7 @@ function one(d) {
   if (c) o.c = c;                                   // कंपनी
   const t = Number(d.t);
   if (Number.isInteger(t) && t >= 1 && t <= 200) o.t = t;  // पॅकेटमधील गोळ्या
+  if (d.o === 1 || d.o === true) o.o = 1;           // स्टॉक संपला
   return o;
 }
 
@@ -34,6 +37,7 @@ function clean(arr) {
 const low = (s) => String(s || "").toLowerCase().replace(/\s+/g, " ").trim();
 
 const MAX_LIST = 10000;
+
 
 // एका वेळी एकच batch, Map वापरून — Cloudflare ची CPU मर्यादा ओलांडू नये म्हणून.
 function mergeBatch(list, meds) {
@@ -93,8 +97,10 @@ async function applyUpdates(request, env, list) {
   mergeBatch(out, (Array.isArray(b.meds) ? b.meds : []).map(one).filter(Boolean));
   if (out.length > MAX_LIST) return list;
   applied.push(b.id);
+  await env.MEDS.put("list_prev", JSON.stringify(base));   // मागील आवृत्ती (undo साठी)
   await env.MEDS.put("list", JSON.stringify(out));
   await env.MEDS.put("applied", JSON.stringify(applied));
+  await env.MEDS.put("stamp", new Date().toISOString());
   return out;
 }
 
@@ -103,7 +109,9 @@ export async function onRequestGet({ request, env }) {
   try {
     let v = await env.MEDS.get("list", { type: "json" });
     try { v = await applyUpdates(request, env, v); } catch {}
-    return json({ meds: v ?? null });
+    let stamp = null;
+    try { stamp = await env.MEDS.get("stamp"); } catch {}
+    return json({ meds: v ?? null, updated: stamp });
   } catch {
     return json({ meds: null });
   }
@@ -113,16 +121,27 @@ export async function onRequestPost({ request, env }) {
   let body;
   try { body = await request.json(); } catch { return json({ error: "चुकीची विनंती." }, 400); }
 
-  const secret = env.OWNER_PASSWORD;
-  if (!secret) return json({ error: "OWNER_PASSWORD सेट केलेला नाही." }, 500);
-  if (typeof body.password !== "string" || body.password !== secret) {
-    return json({ error: "पासवर्ड चुकीचा आहे." }, 401);
+  const bad = await checkOwner(request, env, body.password);
+  if (bad) return json({ error: bad.error }, bad.status);
+  // "undo": मागील यादी परत मागवणे
+  if (body.undo === true) {
+    if (!env.MEDS) return json({ error: "KV (MEDS) जोडलेले नाही." }, 500);
+    const prev = await env.MEDS.get("list_prev", { type: "json" });
+    if (!Array.isArray(prev)) return json({ error: "मागील यादी उपलब्ध नाही." }, 404);
+    await env.MEDS.put("list", JSON.stringify(prev));
+    await env.MEDS.put("stamp", new Date().toISOString());
+    return json({ ok: true, meds: prev });
   }
   if (body.meds === undefined) return json({ ok: true });
 
   if (!env.MEDS) return json({ error: "KV (MEDS) जोडलेले नाही." }, 500);
   const meds = clean(body.meds);
   if (!meds) return json({ error: "यादी बरोबर नाही." }, 400);
+  try {                                               // मागील यादी जपून ठेवणे
+    const cur = await env.MEDS.get("list");
+    if (cur) await env.MEDS.put("list_prev", cur);
+  } catch {}
   await env.MEDS.put("list", JSON.stringify(meds));
+  await env.MEDS.put("stamp", new Date().toISOString());
   return json({ ok: true });
 }

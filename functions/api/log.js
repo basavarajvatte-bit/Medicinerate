@@ -1,3 +1,4 @@
+import { checkOwner } from "../../lib/auth.js";
 const json = (o, s = 200) =>
   Response.json(o, { status: s, headers: { "Cache-Control": "no-store" } });
 const istDay = (off = 0) =>
@@ -12,8 +13,8 @@ export async function onRequestPost({ request, env }) {
   try { b = await request.json(); } catch { return json({ error: "चुकीची विनंती" }, 400); }
 
   if (b.report) {
-    if (!env.OWNER_PASSWORD || b.password !== env.OWNER_PASSWORD)
-      return json({ error: "पासवर्ड चुकीचा आहे." }, 401);
+    const bad = await checkOwner(request, env, b.password);
+    if (bad) return json({ error: bad.error }, bad.status);
     const days = b.days === 7 ? 7 : 1;
     const all = {};
     let scans = 0;
