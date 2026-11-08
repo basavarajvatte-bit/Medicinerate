@@ -11437,6 +11437,1094 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-antiallergic",
+   "meds": [
+    {
+     "n": "Dio 1 10mg",
+     "s": "Cetirizine 10mg",
+     "c": "Unison",
+     "m": 0.95,
+     "p": 0.95,
+     "t": 1
+    },
+    {
+     "n": "Stanhist 10",
+     "s": "Cetirizine 10mg",
+     "c": "Sun Pharma",
+     "m": 1.16,
+     "p": 1.16,
+     "t": 1
+    },
+    {
+     "n": "Cetriver 10mg",
+     "s": "Cetirizine 10mg",
+     "c": "Leeford",
+     "m": 1.25,
+     "p": 1.25,
+     "t": 1
+    },
+    {
+     "n": "CETcip",
+     "s": "Cetirizine 10mg",
+     "c": "Cipla",
+     "m": 1.27,
+     "p": 1.27,
+     "t": 1
+    },
+    {
+     "n": "New Okacet",
+     "s": "Cetirizine 10mg",
+     "c": "Cipla",
+     "m": 1.27,
+     "p": 1.27,
+     "t": 1
+    },
+    {
+     "n": "Zyncet",
+     "s": "Cetirizine 10mg",
+     "c": "Torrent",
+     "m": 1.29,
+     "p": 1.29,
+     "t": 1
+    },
+    {
+     "n": "Citrazan 10mg",
+     "s": "Cetirizine 10mg",
+     "c": "Mac Labs",
+     "m": 1.35,
+     "p": 1.35,
+     "t": 1
+    },
+    {
+     "n": "Setride 10mg",
+     "s": "Cetirizine 10mg",
+     "c": "Wockhardt",
+     "m": 1.68,
+     "p": 1.68,
+     "t": 1
+    },
+    {
+     "n": "Cetmet 10mg",
+     "s": "Cetirizine 10mg",
+     "c": "Almet",
+     "m": 1.68,
+     "p": 1.68,
+     "t": 1
+    },
+    {
+     "n": "Ocet 10mg",
+     "s": "Cetirizine 10mg",
+     "c": "Calyx",
+     "m": 1.7,
+     "p": 1.7,
+     "t": 1
+    },
+    {
+     "n": "Allercet",
+     "s": "Cetirizine 10mg",
+     "c": "Micro Labs",
+     "m": 1.8,
+     "p": 1.8,
+     "t": 1
+    },
+    {
+     "n": "Alerid",
+     "s": "Cetirizine 10mg",
+     "c": "Cipla",
+     "m": 1.83,
+     "p": 1.83,
+     "t": 1
+    },
+    {
+     "n": "Cetzine",
+     "s": "Cetirizine 10mg",
+     "c": "Dr Reddy's",
+     "m": 1.83,
+     "p": 1.83,
+     "t": 1
+    },
+    {
+     "n": "Zyrtec",
+     "s": "Cetirizine 10mg",
+     "c": "Dr Reddy's",
+     "m": 1.85,
+     "p": 1.85,
+     "t": 1
+    },
+    {
+     "n": "Alday 10mg",
+     "s": "Cetirizine 10mg",
+     "c": "S H Pharma",
+     "m": 2.11,
+     "p": 2.11,
+     "t": 1
+    },
+    {
+     "n": "Livzone 5mg",
+     "s": "Levocetirizine 5mg",
+     "c": "Zeelab",
+     "m": 0.4,
+     "p": 0.4,
+     "t": 1
+    },
+    {
+     "n": "L Dio 1",
+     "s": "Levocetirizine 5mg",
+     "c": "Unison",
+     "m": 1.32,
+     "p": 1.32,
+     "t": 1
+    },
+    {
+     "n": "Levosiz",
+     "s": "Levocetirizine 5mg",
+     "c": "Systopic",
+     "m": 1.99,
+     "p": 1.99,
+     "t": 1
+    },
+    {
+     "n": "Levocetrizen 5mg",
+     "s": "Levocetirizine 5mg",
+     "c": "Leeford",
+     "m": 2.08,
+     "p": 2.08,
+     "t": 1
+    },
+    {
+     "n": "LCZ",
+     "s": "Levocetirizine 5mg",
+     "c": "Rapross",
+     "m": 2.95,
+     "p": 2.95,
+     "t": 1
+    },
+    {
+     "n": "Levozet",
+     "s": "Levocetirizine 5mg",
+     "c": "Cadila",
+     "m": 3.33,
+     "p": 3.33,
+     "t": 1
+    },
+    {
+     "n": "1-AL",
+     "s": "Levocetirizine 5mg",
+     "c": "FDC",
+     "m": 3.47,
+     "p": 3.47,
+     "t": 1
+    },
+    {
+     "n": "Lecope",
+     "s": "Levocetirizine 5mg",
+     "c": "Mankind",
+     "m": 3.61,
+     "p": 3.61,
+     "t": 1
+    },
+    {
+     "n": "L Hist",
+     "s": "Levocetirizine 5mg",
+     "c": "Alkem",
+     "m": 4.22,
+     "p": 4.22,
+     "t": 1
+    },
+    {
+     "n": "Cetcip-L",
+     "s": "Levocetirizine 5mg",
+     "c": "Cipla",
+     "m": 4.82,
+     "p": 4.82,
+     "t": 1
+    },
+    {
+     "n": "Levocet",
+     "s": "Levocetirizine 5mg",
+     "c": "Hetero",
+     "m": 4.84,
+     "p": 4.84,
+     "t": 1
+    },
+    {
+     "n": "Safecet",
+     "s": "Levocetirizine 5mg",
+     "c": "Talent India",
+     "m": 5.1,
+     "p": 5.1,
+     "t": 1
+    },
+    {
+     "n": "Hatric",
+     "s": "Levocetirizine 5mg",
+     "c": "Aristo",
+     "m": 5.15,
+     "p": 5.15,
+     "t": 1
+    },
+    {
+     "n": "Okacet-L",
+     "s": "Levocetirizine 5mg",
+     "c": "Cipla",
+     "m": 6.9,
+     "p": 6.9,
+     "t": 1
+    },
+    {
+     "n": "HHLEVO",
+     "s": "Levocetirizine 5mg",
+     "c": "Hegde & Hegde",
+     "m": 8.5,
+     "p": 8.5,
+     "t": 1
+    },
+    {
+     "n": "Teczine",
+     "s": "Levocetirizine 5mg",
+     "c": "Sun Pharma",
+     "m": 8.57,
+     "p": 8.57,
+     "t": 1
+    },
+    {
+     "n": "Vozet",
+     "s": "Levocetirizine 5mg",
+     "c": "Dr Reddy's",
+     "m": 9.3,
+     "p": 9.3,
+     "t": 1
+    },
+    {
+     "n": "Lezyncet",
+     "s": "Levocetirizine 5mg",
+     "c": "Torrent",
+     "m": 9.37,
+     "p": 9.37,
+     "t": 1
+    },
+    {
+     "n": "Levorid",
+     "s": "Levocetirizine 5mg",
+     "c": "Cipla",
+     "m": 9.74,
+     "p": 9.74,
+     "t": 1
+    },
+    {
+     "n": "Xyzal 5mg",
+     "s": "Levocetirizine 5mg",
+     "c": "Dr Reddy's",
+     "m": 13.23,
+     "p": 13.23,
+     "t": 1
+    },
+    {
+     "n": "Allerhin L",
+     "s": "Levocetirizine syrup 2.5mg/5ml",
+     "c": "Embiotic",
+     "m": 66.0,
+     "p": 66.0
+    },
+    {
+     "n": "Alexcet L",
+     "s": "Levocetirizine syrup 2.5mg/5ml",
+     "c": "Glenmark",
+     "m": 70.0,
+     "p": 70.0
+    },
+    {
+     "n": "Elu",
+     "s": "Levocetirizine syrup 2.5mg/5ml",
+     "c": "Corona Remedies",
+     "m": 75.0,
+     "p": 75.0
+    },
+    {
+     "n": "Zipcet",
+     "s": "Levocetirizine syrup 2.5mg/5ml",
+     "c": "Zydus",
+     "m": 91.0,
+     "p": 91.0
+    },
+    {
+     "n": "Laizal 2.5mg",
+     "s": "Levocetirizine syrup 2.5mg/5ml",
+     "c": "",
+     "m": 103.0,
+     "p": 103.0
+    },
+    {
+     "n": "Criz 2.5mg",
+     "s": "Levocetirizine syrup 2.5mg/5ml",
+     "c": "Alkem",
+     "m": 124.0,
+     "p": 124.0
+    },
+    {
+     "n": "Laveta",
+     "s": "Levocetirizine syrup 2.5mg/5ml",
+     "c": "Alembic",
+     "m": 212.0,
+     "p": 212.0
+    },
+    {
+     "n": "Elriz",
+     "s": "Levocetirizine syrup 2.5mg/5ml",
+     "c": "Zuventus",
+     "m": 239.0,
+     "p": 239.0
+    },
+    {
+     "n": "Xyzal",
+     "s": "Levocetirizine syrup 2.5mg/5ml",
+     "c": "Dr Reddy's",
+     "m": 310.0,
+     "p": 310.0
+    },
+    {
+     "n": "Miontizee-L",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Zeelab",
+     "m": 1.5,
+     "p": 1.5,
+     "t": 1
+    },
+    {
+     "n": "Levozet M",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Cadila",
+     "m": 4.75,
+     "p": 4.75,
+     "t": 1
+    },
+    {
+     "n": "Montina-L",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Aristo",
+     "m": 6.45,
+     "p": 6.45,
+     "t": 1
+    },
+    {
+     "n": "Levocet M",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Hetero",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Monticope",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Mankind",
+     "m": 9.99,
+     "p": 9.99,
+     "t": 1
+    },
+    {
+     "n": "Montas-L",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Intas",
+     "m": 11.6,
+     "p": 11.6,
+     "t": 1
+    },
+    {
+     "n": "Minolast 10",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Leeford",
+     "m": 13.45,
+     "p": 13.45,
+     "t": 1
+    },
+    {
+     "n": "Montecip LC",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Cipla",
+     "m": 14.5,
+     "p": 14.5,
+     "t": 1
+    },
+    {
+     "n": "Montemac-L",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Macleods",
+     "m": 16.3,
+     "p": 16.3,
+     "t": 1
+    },
+    {
+     "n": "Levotiz-M",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Foregen",
+     "m": 17.33,
+     "p": 17.33,
+     "t": 1
+    },
+    {
+     "n": "Odimont-LC",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Zydus",
+     "m": 20.39,
+     "p": 20.39,
+     "t": 1
+    },
+    {
+     "n": "Laveta M",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Alembic",
+     "m": 22.14,
+     "p": 22.14,
+     "t": 1
+    },
+    {
+     "n": "Montek LC",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Sun Pharma",
+     "m": 22.2,
+     "p": 22.2,
+     "t": 1
+    },
+    {
+     "n": "Montair-LC",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Cipla",
+     "m": 22.33,
+     "p": 22.33,
+     "t": 1
+    },
+    {
+     "n": "Montewok-LC",
+     "s": "Montelukast 10mg + Levocetirizine 5mg",
+     "c": "Wockhardt",
+     "m": 23.85,
+     "p": 23.85,
+     "t": 1
+    },
+    {
+     "n": "Alert 120mg",
+     "s": "Fexofenadine 120mg",
+     "c": "Alkem",
+     "m": 2.85,
+     "p": 2.85,
+     "t": 1
+    },
+    {
+     "n": "Zelgra 120",
+     "s": "Fexofenadine 120mg",
+     "c": "Zeelab",
+     "m": 3.5,
+     "p": 3.5,
+     "t": 1
+    },
+    {
+     "n": "FX 24 120mg",
+     "s": "Fexofenadine 120mg",
+     "c": "Hetero",
+     "m": 7.59,
+     "p": 7.59,
+     "t": 1
+    },
+    {
+     "n": "Fexodine 120mg",
+     "s": "Fexofenadine 120mg",
+     "c": "Cipla",
+     "m": 8.2,
+     "p": 8.2,
+     "t": 1
+    },
+    {
+     "n": "Histafree 120",
+     "s": "Fexofenadine 120mg",
+     "c": "Mankind",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Fexofen 120 (6 tab)",
+     "s": "Fexofenadine 120mg",
+     "c": "Aristo",
+     "m": 10.28,
+     "p": 10.28,
+     "t": 1
+    },
+    {
+     "n": "Nemegra 120mg",
+     "s": "Fexofenadine 120mg",
+     "c": "Nemus",
+     "m": 10.45,
+     "p": 10.45,
+     "t": 1
+    },
+    {
+     "n": "Fexocet 120mg",
+     "s": "Fexofenadine 120mg",
+     "c": "Kivi Labs",
+     "m": 10.56,
+     "p": 10.56,
+     "t": 1
+    },
+    {
+     "n": "Gemfex 120mg",
+     "s": "Fexofenadine 120mg",
+     "c": "Saffron",
+     "m": 10.7,
+     "p": 10.7,
+     "t": 1
+    },
+    {
+     "n": "Fexidine 120mg",
+     "s": "Fexofenadine 120mg",
+     "c": "Ind Swift",
+     "m": 10.83,
+     "p": 10.83,
+     "t": 1
+    },
+    {
+     "n": "Allerfex 120mg",
+     "s": "Fexofenadine 120mg",
+     "c": "Torrent",
+     "m": 11.7,
+     "p": 11.7,
+     "t": 1
+    },
+    {
+     "n": "Fexova 120",
+     "s": "Fexofenadine 120mg",
+     "c": "Ipca",
+     "m": 14.76,
+     "p": 14.76,
+     "t": 1
+    },
+    {
+     "n": "Fexy 120",
+     "s": "Fexofenadine 120mg",
+     "c": "Lupin",
+     "m": 16.48,
+     "p": 16.48,
+     "t": 1
+    },
+    {
+     "n": "Allegra 120mg",
+     "s": "Fexofenadine 120mg",
+     "c": "Sanofi",
+     "m": 19.89,
+     "p": 19.89,
+     "t": 1
+    },
+    {
+     "n": "Air 180",
+     "s": "Fexofenadine 180mg",
+     "c": "Systopic",
+     "m": 6.8,
+     "p": 6.8,
+     "t": 1
+    },
+    {
+     "n": "Lcfex 180",
+     "s": "Fexofenadine 180mg",
+     "c": "Rapross",
+     "m": 9.1,
+     "p": 9.1,
+     "t": 1
+    },
+    {
+     "n": "Odifex 180 (6 tab)",
+     "s": "Fexofenadine 180mg",
+     "c": "Biochem",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Histakind 180mg",
+     "s": "Fexofenadine 180mg",
+     "c": "Mankind",
+     "m": 12.1,
+     "p": 12.1,
+     "t": 1
+    },
+    {
+     "n": "Fexday 180",
+     "s": "Fexofenadine 180mg",
+     "c": "Canbro",
+     "m": 12.5,
+     "p": 12.5,
+     "t": 1
+    },
+    {
+     "n": "Allerfex 180mg",
+     "s": "Fexofenadine 180mg",
+     "c": "Torrent",
+     "m": 14.13,
+     "p": 14.13,
+     "t": 1
+    },
+    {
+     "n": "Histafree 180",
+     "s": "Fexofenadine 180mg",
+     "c": "Mankind",
+     "m": 14.9,
+     "p": 14.9,
+     "t": 1
+    },
+    {
+     "n": "Fexofen 180 (6 tab)",
+     "s": "Fexofenadine 180mg",
+     "c": "Aristo",
+     "m": 15.25,
+     "p": 15.25,
+     "t": 1
+    },
+    {
+     "n": "Fexert 180mg",
+     "s": "Fexofenadine 180mg",
+     "c": "La Pristine",
+     "m": 15.3,
+     "p": 15.3,
+     "t": 1
+    },
+    {
+     "n": "Etofex",
+     "s": "Fexofenadine 180mg",
+     "c": "Leeford",
+     "m": 16.0,
+     "p": 16.0,
+     "t": 1
+    },
+    {
+     "n": "Fexocet 180mg",
+     "s": "Fexofenadine 180mg",
+     "c": "Kivi Labs",
+     "m": 16.3,
+     "p": 16.3,
+     "t": 1
+    },
+    {
+     "n": "Hhfexo 180",
+     "s": "Fexofenadine 180mg",
+     "c": "Hegde & Hegde",
+     "m": 17.5,
+     "p": 17.5,
+     "t": 1
+    },
+    {
+     "n": "Fenixa 180",
+     "s": "Fexofenadine 180mg",
+     "c": "Canixa",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Allegra 180mg",
+     "s": "Fexofenadine 180mg",
+     "c": "Sanofi",
+     "m": 22.84,
+     "p": 22.84,
+     "t": 1
+    },
+    {
+     "n": "Altiva 180mg",
+     "s": "Fexofenadine 180mg",
+     "c": "Sun Pharma",
+     "m": 23.4,
+     "p": 23.4,
+     "t": 1
+    },
+    {
+     "n": "Histakem 180mg",
+     "s": "Fexofenadine 180mg",
+     "c": "Alkem",
+     "m": 23.5,
+     "p": 23.5,
+     "t": 1
+    },
+    {
+     "n": "Fexy 180",
+     "s": "Fexofenadine 180mg",
+     "c": "Lupin",
+     "m": 29.05,
+     "p": 29.05,
+     "t": 1
+    },
+    {
+     "n": "Blson 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Unison",
+     "m": 4.43,
+     "p": 4.43,
+     "t": 1
+    },
+    {
+     "n": "ATA 20mg",
+     "s": "Bilastine 20mg",
+     "c": "FDC",
+     "m": 9.18,
+     "p": 9.18,
+     "t": 1
+    },
+    {
+     "n": "Belatin 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Macleods",
+     "m": 10.0,
+     "p": 10.0,
+     "t": 1
+    },
+    {
+     "n": "Nohives 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Akumentis",
+     "m": 10.97,
+     "p": 10.97,
+     "t": 1
+    },
+    {
+     "n": "Bilastero 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Hetero",
+     "m": 11.25,
+     "p": 11.25,
+     "t": 1
+    },
+    {
+     "n": "Bilanta 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Ajanta",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Bilanix 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Ajanta",
+     "m": 13.78,
+     "p": 13.78,
+     "t": 1
+    },
+    {
+     "n": "Bularid 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Ipca",
+     "m": 13.91,
+     "p": 13.91,
+     "t": 1
+    },
+    {
+     "n": "Prucros 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Alkem",
+     "m": 14.06,
+     "p": 14.06,
+     "t": 1
+    },
+    {
+     "n": "Bilashine 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Sun Pharma",
+     "m": 15.56,
+     "p": 15.56,
+     "t": 1
+    },
+    {
+     "n": "Bilaxten 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Menarini",
+     "m": 16.69,
+     "p": 16.69,
+     "t": 1
+    },
+    {
+     "n": "Bilasure 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Sun Pharma",
+     "m": 17.1,
+     "p": 17.1,
+     "t": 1
+    },
+    {
+     "n": "Bilafav 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Cipla",
+     "m": 18.53,
+     "p": 18.53,
+     "t": 1
+    },
+    {
+     "n": "Bilatis 20mg",
+     "s": "Bilastine 20mg",
+     "c": "Micro Labs",
+     "m": 19.71,
+     "p": 19.71,
+     "t": 1
+    },
+    {
+     "n": "Dezeedine",
+     "s": "Desloratadine 5mg",
+     "c": "Zeelab",
+     "m": 1.5,
+     "p": 1.5,
+     "t": 1
+    },
+    {
+     "n": "Desent 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "Indoco",
+     "m": 2.75,
+     "p": 2.75,
+     "t": 1
+    },
+    {
+     "n": "Dexly 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "Hetero",
+     "m": 2.77,
+     "p": 2.77,
+     "t": 1
+    },
+    {
+     "n": "Rodera 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "Sun Pharma",
+     "m": 3.8,
+     "p": 3.8,
+     "t": 1
+    },
+    {
+     "n": "Alides 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "Leeford",
+     "m": 3.86,
+     "p": 3.86,
+     "t": 1
+    },
+    {
+     "n": "Desogold 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "Gold Line",
+     "m": 4.0,
+     "p": 4.0,
+     "t": 1
+    },
+    {
+     "n": "Eslot 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "Kivi Labs",
+     "m": 6.4,
+     "p": 6.4,
+     "t": 1
+    },
+    {
+     "n": "Dezlin 5",
+     "s": "Desloratadine 5mg",
+     "c": "HBC Dermiza",
+     "m": 6.75,
+     "p": 6.75,
+     "t": 1
+    },
+    {
+     "n": "D-Luracise",
+     "s": "Desloratadine 5mg",
+     "c": "CNX",
+     "m": 6.94,
+     "p": 6.94,
+     "t": 1
+    },
+    {
+     "n": "Dezlorid 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "Intas",
+     "m": 8.22,
+     "p": 8.22,
+     "t": 1
+    },
+    {
+     "n": "Allerde 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "East West",
+     "m": 8.53,
+     "p": 8.53,
+     "t": 1
+    },
+    {
+     "n": "Des-OD 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "Cadila",
+     "m": 8.65,
+     "p": 8.65,
+     "t": 1
+    },
+    {
+     "n": "daZIT 5mg",
+     "s": "Desloratadine 5mg",
+     "c": "Sun Pharma",
+     "m": 9.87,
+     "p": 9.87,
+     "t": 1
+    },
+    {
+     "n": "Deslor",
+     "s": "Desloratadine 5mg",
+     "c": "Sun Pharma",
+     "m": 10.8,
+     "p": 10.8,
+     "t": 1
+    },
+    {
+     "n": "Hyzine 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "East West",
+     "m": 1.9,
+     "p": 1.9,
+     "t": 1
+    },
+    {
+     "n": "Hydrocas 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Medicasa",
+     "m": 3.7,
+     "p": 3.7,
+     "t": 1
+    },
+    {
+     "n": "D Rax 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "D D Pharma",
+     "m": 3.86,
+     "p": 3.86,
+     "t": 1
+    },
+    {
+     "n": "Inirex 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Incepta",
+     "m": 3.93,
+     "p": 3.93,
+     "t": 1
+    },
+    {
+     "n": "Daztra 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Dazroz",
+     "m": 3.93,
+     "p": 3.93,
+     "t": 1
+    },
+    {
+     "n": "Prutrip 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Kivi Labs",
+     "m": 4.18,
+     "p": 4.18,
+     "t": 1
+    },
+    {
+     "n": "Hilerin 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "East West",
+     "m": 4.3,
+     "p": 4.3,
+     "t": 1
+    },
+    {
+     "n": "Hydil 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Psychotropics",
+     "m": 4.59,
+     "p": 4.59,
+     "t": 1
+    },
+    {
+     "n": "Vistarax 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Prism",
+     "m": 4.6,
+     "p": 4.6,
+     "t": 1
+    },
+    {
+     "n": "Hizet 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Talent India",
+     "m": 4.6,
+     "p": 4.6,
+     "t": 1
+    },
+    {
+     "n": "Algicant 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Medicant",
+     "m": 5.0,
+     "p": 5.0,
+     "t": 1
+    },
+    {
+     "n": "Prugo 25",
+     "s": "Hydroxyzine 25mg",
+     "c": "Oaknet",
+     "m": 5.26,
+     "p": 5.26,
+     "t": 1
+    },
+    {
+     "n": "Pruwyen 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Wyenne Davis",
+     "m": 5.89,
+     "p": 5.89,
+     "t": 1
+    },
+    {
+     "n": "Pru 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Yash Pharma",
+     "m": 6.22,
+     "p": 6.22,
+     "t": 1
+    },
+    {
+     "n": "Atarax 25mg",
+     "s": "Hydroxyzine 25mg",
+     "c": "Dr Reddy's",
+     "m": 6.88,
+     "p": 6.88,
+     "t": 1
+    },
+    {
+     "n": "Avil 2ml amp",
+     "s": "Pheniramine 22.75mg/ml",
+     "c": "Sanofi",
+     "m": 6.0,
+     "p": 6.0
+    },
+    {
+     "n": "Avil 10ml vial",
+     "s": "Pheniramine 22.75mg/ml",
+     "c": "Sanofi",
+     "m": 12.38,
+     "p": 12.38
+    },
+    {
+     "n": "Awil 2ml",
+     "s": "Pheniramine 22.75mg/ml",
+     "c": "",
+     "m": 17.0,
+     "p": 17.0
+    },
+    {
+     "n": "Intavil 25",
+     "s": "Pheniramine 22.75mg/ml",
+     "c": "",
+     "m": 65.0,
+     "p": 65.0
+    }
+   ]
   }
  ]
 }
