@@ -2194,6 +2194,505 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-injection-linezolid-faropenem",
+   "meds": [
+    {
+     "n": "Tazomac 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "Macleods",
+     "m": 238.53,
+     "p": 238.53
+    },
+    {
+     "n": "Maxotaz 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "Macleods",
+     "m": 238.53,
+     "p": 238.53
+    },
+    {
+     "n": "Durataz 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "Aristo",
+     "m": 239.83,
+     "p": 239.83
+    },
+    {
+     "n": "Tazar 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "Lupin",
+     "m": 253.45,
+     "p": 253.45
+    },
+    {
+     "n": "Cadigard 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "Cadila",
+     "m": 261.47,
+     "p": 261.47
+    },
+    {
+     "n": "Pipzo 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "Alkem",
+     "m": 275.4,
+     "p": 275.4
+    },
+    {
+     "n": "Tazopen 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "Zydus",
+     "m": 296.26,
+     "p": 296.26
+    },
+    {
+     "n": "Microtaz 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "Micro Labs",
+     "m": 300.0,
+     "p": 300.0
+    },
+    {
+     "n": "Tazoren 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "La Renon",
+     "m": 427.0,
+     "p": 427.0
+    },
+    {
+     "n": "Revotaz 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "Alkem",
+     "m": 446.94,
+     "p": 446.94
+    },
+    {
+     "n": "Piptaz 4.5",
+     "s": "Piperacillin 4g + Tazobactam 0.5g Injection vial",
+     "c": "VHB Life Sciences",
+     "m": 749.0,
+     "p": 749.0
+    },
+    {
+     "n": "Merojet 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Scutonix",
+     "m": 598.0,
+     "p": 598.0
+    },
+    {
+     "n": "Varnem 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Varenyam",
+     "m": 630.0,
+     "p": 630.0
+    },
+    {
+     "n": "Indopenem 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Indoco",
+     "m": 699.0,
+     "p": 699.0
+    },
+    {
+     "n": "Merixim 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Sun Pharma",
+     "m": 750.0,
+     "p": 750.0
+    },
+    {
+     "n": "Merofic 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Gufic",
+     "m": 862.4,
+     "p": 862.4
+    },
+    {
+     "n": "Germero 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Zydus",
+     "m": 878.0,
+     "p": 878.0
+    },
+    {
+     "n": "Carbapen M 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Blue Cross",
+     "m": 890.0,
+     "p": 890.0
+    },
+    {
+     "n": "Meromer 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Orchid",
+     "m": 899.0,
+     "p": 899.0
+    },
+    {
+     "n": "Vivem Plus 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Intas",
+     "m": 980.0,
+     "p": 980.0
+    },
+    {
+     "n": "Eupen 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Neon",
+     "m": 1061.0,
+     "p": 1061.0
+    },
+    {
+     "n": "Meronem 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Pfizer",
+     "m": 1067.0,
+     "p": 1067.0
+    },
+    {
+     "n": "Merotec 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Zuventus",
+     "m": 1067.0,
+     "p": 1067.0
+    },
+    {
+     "n": "Micropenam 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Micro Labs",
+     "m": 1067.0,
+     "p": 1067.0
+    },
+    {
+     "n": "Merrobe 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Glenmark",
+     "m": 1067.01,
+     "p": 1067.01
+    },
+    {
+     "n": "M Nem 1g",
+     "s": "Meropenem 1g Injection vial",
+     "c": "Sanofi",
+     "m": 1067.0,
+     "p": 1067.0
+    },
+    {
+     "n": "Mahazone 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Mankind",
+     "m": 22.5,
+     "p": 22.5
+    },
+    {
+     "n": "D Cef 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "DWD",
+     "m": 48.36,
+     "p": 48.36
+    },
+    {
+     "n": "Grosafe 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Gerrysun",
+     "m": 50.0,
+     "p": 50.0
+    },
+    {
+     "n": "Supercef 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Akumentis",
+     "m": 52.3,
+     "p": 52.3
+    },
+    {
+     "n": "Taxone 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Mapra",
+     "m": 52.34,
+     "p": 52.34
+    },
+    {
+     "n": "Ceftrian 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Taurus",
+     "m": 56.0,
+     "p": 56.0
+    },
+    {
+     "n": "Monocef 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Aristo",
+     "m": 60.52,
+     "p": 60.52
+    },
+    {
+     "n": "Oframax 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Sun Pharma",
+     "m": 61.85,
+     "p": 61.85
+    },
+    {
+     "n": "Finecef 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Abbott",
+     "m": 63.0,
+     "p": 63.0
+    },
+    {
+     "n": "Encef 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Enzo",
+     "m": 69.02,
+     "p": 69.02
+    },
+    {
+     "n": "C Zone 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Marc Labs",
+     "m": 69.9,
+     "p": 69.9
+    },
+    {
+     "n": "Zetri 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Aequitas",
+     "m": 72.0,
+     "p": 72.0
+    },
+    {
+     "n": "Trox 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "AN Pharma",
+     "m": 78.12,
+     "p": 78.12
+    },
+    {
+     "n": "Ranceff 1g",
+     "s": "Ceftriaxone 1g Injection vial",
+     "c": "Sun Pharma",
+     "m": 141.25,
+     "p": 141.25
+    },
+    {
+     "n": "Zostum 1.5",
+     "s": "Cefoperazone 1g + Sulbactam 0.5g Injection vial",
+     "c": "Zuventus",
+     "m": 499.25,
+     "p": 499.25
+    },
+    {
+     "n": "Zosul 1.5",
+     "s": "Cefoperazone 1g + Sulbactam 0.5g Injection vial",
+     "c": "Cipla",
+     "m": 617.92,
+     "p": 617.92
+    },
+    {
+     "n": "Linokem 600",
+     "s": "Linezolid 600mg",
+     "c": "Alkem",
+     "m": 28.61,
+     "p": 28.61,
+     "t": 1
+    },
+    {
+     "n": "Linotop 600",
+     "s": "Linezolid 600mg",
+     "c": "Atlina",
+     "m": 32.8,
+     "p": 32.8,
+     "t": 1
+    },
+    {
+     "n": "Troyzolid 600",
+     "s": "Linezolid 600mg",
+     "c": "Troikaa",
+     "m": 35.63,
+     "p": 35.63,
+     "t": 1
+    },
+    {
+     "n": "Linzon 600",
+     "s": "Linezolid 600mg",
+     "c": "Lincoln",
+     "m": 36.82,
+     "p": 36.82,
+     "t": 1
+    },
+    {
+     "n": "Megazolid 600",
+     "s": "Linezolid 600mg",
+     "c": "Aristo",
+     "m": 37.55,
+     "p": 37.55,
+     "t": 1
+    },
+    {
+     "n": "Lizolid 600",
+     "s": "Linezolid 600mg",
+     "c": "Integrace",
+     "m": 39.9,
+     "p": 39.9,
+     "t": 1
+    },
+    {
+     "n": "Linowin 600",
+     "s": "Linezolid 600mg",
+     "c": "Hetero",
+     "m": 39.9,
+     "p": 39.9,
+     "t": 1
+    },
+    {
+     "n": "Lineca 600",
+     "s": "Linezolid 600mg",
+     "c": "Koye",
+     "m": 39.93,
+     "p": 39.93,
+     "t": 1
+    },
+    {
+     "n": "Lizoforce 600",
+     "s": "Linezolid 600mg",
+     "c": "Mankind",
+     "m": 39.94,
+     "p": 39.94,
+     "t": 1
+    },
+    {
+     "n": "Lizomac 600",
+     "s": "Linezolid 600mg",
+     "c": "Macleods",
+     "m": 39.94,
+     "p": 39.94,
+     "t": 1
+    },
+    {
+     "n": "Maxolid 600",
+     "s": "Linezolid 600mg",
+     "c": "Macleods",
+     "m": 39.94,
+     "p": 39.94,
+     "t": 1
+    },
+    {
+     "n": "Lenzomore 600",
+     "s": "Linezolid 600mg",
+     "c": "Morepen",
+     "m": 39.94,
+     "p": 39.94,
+     "t": 1
+    },
+    {
+     "n": "Xolid 600",
+     "s": "Linezolid 600mg",
+     "c": "Corona",
+     "m": 39.94,
+     "p": 39.94,
+     "t": 1
+    },
+    {
+     "n": "Linid 600",
+     "s": "Linezolid 600mg",
+     "c": "Zydus",
+     "m": 39.95,
+     "p": 39.95,
+     "t": 1
+    },
+    {
+     "n": "Linox 600",
+     "s": "Linezolid 600mg",
+     "c": "Torrent",
+     "m": 39.95,
+     "p": 39.95,
+     "t": 1
+    },
+    {
+     "n": "Linospan 600",
+     "s": "Linezolid 600mg",
+     "c": "Cipla",
+     "m": 39.95,
+     "p": 39.95,
+     "t": 1
+    },
+    {
+     "n": "Farospect 200",
+     "s": "Faropenem 200mg",
+     "c": "Leeford",
+     "m": 64.67,
+     "p": 64.67,
+     "t": 1
+    },
+    {
+     "n": "Exfaro 200",
+     "s": "Faropenem 200mg",
+     "c": "Intas",
+     "m": 80.7,
+     "p": 80.7,
+     "t": 1
+    },
+    {
+     "n": "Mero-O 200",
+     "s": "Faropenem 200mg",
+     "c": "Aristo",
+     "m": 83.5,
+     "p": 83.5,
+     "t": 1
+    },
+    {
+     "n": "Merosure O 200",
+     "s": "Faropenem 200mg",
+     "c": "Alkem",
+     "m": 88.89,
+     "p": 88.89,
+     "t": 1
+    },
+    {
+     "n": "Faronem 200",
+     "s": "Faropenem 200mg",
+     "c": "Sun Pharma",
+     "m": 99.3,
+     "p": 99.3,
+     "t": 1
+    },
+    {
+     "n": "Orpenem 200",
+     "s": "Faropenem 200mg",
+     "c": "Macleods",
+     "m": 100.2,
+     "p": 100.2,
+     "t": 1
+    },
+    {
+     "n": "Faroright 200",
+     "s": "Faropenem 200mg",
+     "c": "Sun Pharma",
+     "m": 108.7,
+     "p": 108.7,
+     "t": 1
+    },
+    {
+     "n": "Duonem 200",
+     "s": "Faropenem 200mg",
+     "c": "Zydus",
+     "m": 116.83,
+     "p": 116.83,
+     "t": 1
+    },
+    {
+     "n": "Farobact 200",
+     "s": "Faropenem 200mg",
+     "c": "Cipla",
+     "m": 119.8,
+     "p": 119.8,
+     "t": 1
+    }
+   ]
   }
  ]
 }
