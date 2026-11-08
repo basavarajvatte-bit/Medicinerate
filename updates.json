@@ -10124,6 +10124,538 @@
      "p": 48.81
     }
    ]
+  },
+  {
+   "id": "2026-11-08-laxatives",
+   "meds": [
+    {
+     "n": "Laxidyl",
+     "s": "Bisacodyl 5mg",
+     "m": 0.22,
+     "p": 0.22,
+     "c": "Troikaa",
+     "t": 1
+    },
+    {
+     "n": "Bisomer 5",
+     "s": "Bisacodyl 5mg",
+     "m": 0.43,
+     "p": 0.43,
+     "c": "Psychotropics",
+     "t": 1
+    },
+    {
+     "n": "Swilax 5",
+     "s": "Bisacodyl 5mg",
+     "m": 0.5,
+     "p": 0.5,
+     "c": "Ind Swift",
+     "t": 1
+    },
+    {
+     "n": "BO Lax 5",
+     "s": "Bisacodyl 5mg",
+     "m": 0.75,
+     "p": 0.75,
+     "c": "Cipla",
+     "t": 1
+    },
+    {
+     "n": "Saflax 5",
+     "s": "Bisacodyl 5mg",
+     "m": 0.9,
+     "p": 0.9,
+     "c": "Psycormedies",
+     "t": 1
+    },
+    {
+     "n": "Bisalax 5",
+     "s": "Bisacodyl 5mg",
+     "m": 0.93,
+     "p": 0.93,
+     "c": "Tripada",
+     "t": 1
+    },
+    {
+     "n": "Lupiplax",
+     "s": "Bisacodyl 5mg",
+     "m": 0.95,
+     "p": 0.95,
+     "c": "Lupin",
+     "t": 1
+    },
+    {
+     "n": "Dulfre 5",
+     "s": "Bisacodyl 5mg",
+     "m": 0.98,
+     "p": 0.98,
+     "c": "East West",
+     "t": 1
+    },
+    {
+     "n": "Dulax 5",
+     "s": "Bisacodyl 5mg",
+     "m": 1.0,
+     "p": 1.0,
+     "c": "Scott Edil",
+     "t": 1
+    },
+    {
+     "n": "Flylax B 5",
+     "s": "Bisacodyl 5mg",
+     "m": 1.0,
+     "p": 1.0,
+     "c": "Ryon",
+     "t": 1
+    },
+    {
+     "n": "Dulcowyn 5",
+     "s": "Bisacodyl 5mg",
+     "m": 1.04,
+     "p": 1.04,
+     "c": "Wynclark",
+     "t": 1
+    },
+    {
+     "n": "Julablax 5",
+     "s": "Bisacodyl 5mg",
+     "m": 1.05,
+     "p": 1.05,
+     "c": "Cadila Healthcare",
+     "t": 1
+    },
+    {
+     "n": "Lax 5",
+     "s": "Bisacodyl 5mg",
+     "m": 1.08,
+     "p": 1.08,
+     "c": "Hema Labs",
+     "t": 1
+    },
+    {
+     "n": "Cremaffin Fresh",
+     "s": "Bisacodyl 5mg",
+     "m": 1.09,
+     "p": 1.09,
+     "c": "Abbott",
+     "t": 1
+    },
+    {
+     "n": "Unilax 5",
+     "s": "Bisacodyl 5mg",
+     "m": 1.1,
+     "p": 1.1,
+     "c": "Concertina",
+     "t": 1
+    },
+    {
+     "n": "Gerbisa",
+     "s": "Bisacodyl 5mg",
+     "m": 1.12,
+     "p": 1.12,
+     "c": "Zydus",
+     "t": 1
+    },
+    {
+     "n": "Bylax 5",
+     "s": "Bisacodyl 5mg",
+     "m": 1.14,
+     "p": 1.14,
+     "c": "Zydus",
+     "t": 1
+    },
+    {
+     "n": "Bisafort 5",
+     "s": "Bisacodyl 5mg",
+     "m": 1.25,
+     "p": 1.25,
+     "c": "Montana",
+     "t": 1
+    },
+    {
+     "n": "Befalax 10",
+     "s": "Sodium Picosulfate 10mg",
+     "m": 2.12,
+     "p": 2.12,
+     "c": "Befam",
+     "t": 1
+    },
+    {
+     "n": "Picolax 10",
+     "s": "Sodium Picosulfate 10mg",
+     "m": 2.31,
+     "p": 2.31,
+     "c": "Kenn",
+     "t": 1
+    },
+    {
+     "n": "PICOlex",
+     "s": "Sodium Picosulfate 10mg",
+     "m": 2.66,
+     "p": 2.66,
+     "c": "Leeford",
+     "t": 1
+    },
+    {
+     "n": "LAXOclear",
+     "s": "Sodium Picosulfate 10mg",
+     "m": 2.97,
+     "p": 2.97,
+     "t": 1
+    },
+    {
+     "n": "Colvac",
+     "s": "Sodium Picosulfate 10mg",
+     "m": 5.9,
+     "p": 5.9,
+     "c": "Sun Pharma",
+     "t": 1
+    },
+    {
+     "n": "Laxecute 10",
+     "s": "Sodium Picosulfate 10mg",
+     "m": 6.81,
+     "p": 6.81,
+     "t": 1
+    },
+    {
+     "n": "Colax",
+     "s": "Sodium Picosulfate 10mg",
+     "m": 11.2,
+     "p": 11.2,
+     "c": "Strassenburg",
+     "t": 1
+    },
+    {
+     "n": "Cremalax",
+     "s": "Sodium Picosulfate 10mg",
+     "m": 12.44,
+     "p": 12.44,
+     "c": "Abbott",
+     "t": 1
+    },
+    {
+     "n": "Presmovac 1",
+     "s": "Prucalopride 1mg",
+     "m": 16.39,
+     "p": 16.39,
+     "t": 1
+    },
+    {
+     "n": "Prucalopride 1 Torrent",
+     "s": "Prucalopride 1mg",
+     "m": 23.5,
+     "p": 23.5,
+     "c": "Torrent",
+     "t": 1
+    },
+    {
+     "n": "Prucalopride 1 Intas",
+     "s": "Prucalopride 1mg",
+     "m": 23.9,
+     "p": 23.9,
+     "c": "Intas",
+     "t": 1
+    },
+    {
+     "n": "Pioride 2",
+     "s": "Prucalopride 2mg",
+     "m": 27.46,
+     "p": 27.46,
+     "c": "Alembic",
+     "t": 1
+    },
+    {
+     "n": "Medilax 100ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 49.5,
+     "p": 49.5,
+     "c": "Medichem"
+    },
+    {
+     "n": "Lactofresh 100ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 75.0,
+     "p": 75.0,
+     "c": "Polard"
+    },
+    {
+     "n": "Lack 100ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 88.0,
+     "p": 88.0,
+     "c": "Kavya"
+    },
+    {
+     "n": "Lactugic 100ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 97.35,
+     "p": 97.35,
+     "c": "Pharmagic"
+    },
+    {
+     "n": "Duphatis 200ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 200.0,
+     "p": 200.0,
+     "c": "Atlantis"
+    },
+    {
+     "n": "Lactuross 200ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 206.0,
+     "p": 206.0,
+     "c": "Emami Frank Ross"
+    },
+    {
+     "n": "Conloss 150ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 165.0,
+     "p": 165.0,
+     "c": "Shirr"
+    },
+    {
+     "n": "Lactovos 100ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 110.0,
+     "p": 110.0,
+     "c": "Medliva"
+    },
+    {
+     "n": "Caldob L 180ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 198.0,
+     "p": 198.0,
+     "c": "Comed"
+    },
+    {
+     "n": "Loomo 200ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 220.0,
+     "p": 220.0,
+     "c": "Cellrox"
+    },
+    {
+     "n": "Luxatin SF 150ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 166.0,
+     "p": 166.0,
+     "c": "Shilpex"
+    },
+    {
+     "n": "Lactivig 200ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 225.0,
+     "p": 225.0,
+     "c": "Invig"
+    },
+    {
+     "n": "Livoluk 450ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 514.98,
+     "p": 514.98,
+     "c": "Panacea"
+    },
+    {
+     "n": "Looz 200ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 231.0,
+     "p": 231.0,
+     "c": "Intas"
+    },
+    {
+     "n": "Smulax 100ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 115.5,
+     "p": 115.5,
+     "c": "Aristo"
+    },
+    {
+     "n": "Preloose 100ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 128.0,
+     "p": 128.0,
+     "c": "Prina"
+    },
+    {
+     "n": "Laxobus 100ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 128.0,
+     "p": 128.0,
+     "c": "Globus"
+    },
+    {
+     "n": "Laxit L 200ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 258.0,
+     "p": 258.0,
+     "c": "Duckbill"
+    },
+    {
+     "n": "Easylax L SF 200ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 258.3,
+     "p": 258.3,
+     "c": "Tirupati"
+    },
+    {
+     "n": "Evict 250ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 322.88,
+     "p": 322.88,
+     "c": "Albert David"
+    },
+    {
+     "n": "Duphalac Lemon 450ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 581.17,
+     "p": 581.17,
+     "c": "Abbott"
+    },
+    {
+     "n": "Emty 200ml",
+     "s": "Lactulose 10g/15ml Syrup",
+     "m": 262.5,
+     "p": 262.5
+    },
+    {
+     "n": "Coso 100ml",
+     "s": "Sodium Picosulfate 5mg/5ml Syrup",
+     "m": 45.0,
+     "p": 45.0,
+     "c": "Zee Labs"
+    },
+    {
+     "n": "Laax 100ml",
+     "s": "Sodium Picosulfate 5mg/5ml Syrup",
+     "m": 82.0,
+     "p": 82.0,
+     "c": "Accosts"
+    },
+    {
+     "n": "Pixit 100ml",
+     "s": "Sodium Picosulfate 5mg/5ml Syrup",
+     "m": 89.9,
+     "p": 89.9,
+     "c": "Endocard"
+    },
+    {
+     "n": "Oslax 100ml",
+     "s": "Sodium Picosulfate 5mg/5ml Syrup",
+     "m": 92.9,
+     "p": 92.9,
+     "c": "Obsurge"
+    },
+    {
+     "n": "Gutquick SF 170ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 65.64,
+     "p": 65.64,
+     "c": "Dey's"
+    },
+    {
+     "n": "Softner Plus 200ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 164.0,
+     "p": 164.0,
+     "c": "Votary"
+    },
+    {
+     "n": "Gudlax Plus 200ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 175.3,
+     "p": 175.3,
+     "c": "Mankind"
+    },
+    {
+     "n": "Cremaffin Plus 100ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 90.0,
+     "p": 90.0,
+     "c": "Abbott"
+    },
+    {
+     "n": "Softee Plus 200ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 181.0,
+     "p": 181.0,
+     "c": "Carecroft"
+    },
+    {
+     "n": "Kinlax Plus SF 200ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 216.0,
+     "p": 216.0,
+     "c": "Saffron"
+    },
+    {
+     "n": "Laxikem Plus 170ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 189.99,
+     "p": 189.99,
+     "c": "Morepen"
+    },
+    {
+     "n": "Lacmolax Plus 170ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 214.3,
+     "p": 214.3,
+     "c": "Torin"
+    },
+    {
+     "n": "Lactihep Plus 250ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 319.0,
+     "p": 319.0,
+     "c": "Sun Pharma"
+    },
+    {
+     "n": "Cremaffin Plus SF 225ml",
+     "s": "Liquid Paraffin + Milk of Magnesia + Sodium Picosulfate Syrup",
+     "m": 327.58,
+     "p": 327.58,
+     "c": "Abbott"
+    },
+    {
+     "n": "Cremaffin Mint 450ml",
+     "s": "Liquid Paraffin + Milk of Magnesia Syrup",
+     "m": 383.58,
+     "p": 383.58,
+     "c": "Abbott"
+    },
+    {
+     "n": "Cremadiet SF 300gm",
+     "s": "Ispaghula Husk Powder",
+     "m": 296.1,
+     "p": 296.1,
+     "c": "Abbott"
+    },
+    {
+     "n": "Fabolite SF 300gm",
+     "s": "Ispaghula Husk Powder",
+     "m": 528.99,
+     "p": 528.99
+    },
+    {
+     "n": "Husky Isabgol 100gm",
+     "s": "Ispaghula Husk Powder",
+     "m": 182.8,
+     "p": 182.8
+    },
+    {
+     "n": "Naturolax-A 100gm",
+     "s": "Ispaghula Husk Powder",
+     "m": 185.0,
+     "p": 185.0
+    },
+    {
+     "n": "Fybogel SF 100gm",
+     "s": "Ispaghula Husk Powder",
+     "m": 220.0,
+     "p": 220.0,
+     "c": "Reckitt"
+    }
+   ]
   }
  ]
 }
