@@ -137,7 +137,9 @@ const PROMPT =
   "Combination medicines have many ingredients: list all of them. Doctors usually write only the brand name, so when the composition is not printed, " +
   "give the known composition of this brand from your own knowledge. Return an empty string only if you do not recognise the brand at all.\n" +
   "Keep the salt form if printed (e.g. Metoprolol Succinate, Metoprolol Tartrate). If the name or label shows a slow-release type " +
-  "(SR, ER, XL, XR, PR, CR, OD, LA, TR, Retard), add it at the end of salt, e.g. 'Metformin SR'.\n" +
+  "(SR, ER, XL, XR, PR, CR, OD, LA, TR, Retard), or this brand is known to be a slow-release product even if not written " +
+  "(for example Glycomet-GP and Gluconorm-G are prolonged-release), add it at the end of salt, e.g. 'Metformin SR'. " +
+  "Also give the salt form the brand uses (e.g. Betaloc = Metoprolol Tartrate, Prolomet XL = Metoprolol Succinate).\n" +
   "- saltPrinted: true if the composition or generic name is printed or written in the image, false if it came from your own knowledge.\n" +
   "- strength: the strength of every ingredient exactly as printed, e.g. '40mg', '500mg + 125mg', '4mg/2ml'. " +
   "Look carefully on the whole strip, box or prescription. A number that is part of the medicine name, like 'PSAM 40', counts as printed: " +
