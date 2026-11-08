@@ -17362,6 +17362,1191 @@
      "t": 1
     }
    ]
+  },
+  {
+   "id": "2026-11-08-neuropathy",
+   "meds": [
+    {
+     "n": "Nervzone 75",
+     "s": "Pregabalin 75mg",
+     "c": "Zeelab",
+     "m": 2.0,
+     "p": 2.0,
+     "t": 1
+    },
+    {
+     "n": "Pregabolin 75 tab",
+     "s": "Pregabalin 75mg",
+     "c": "Intas",
+     "m": 7.5,
+     "p": 7.5,
+     "t": 1
+    },
+    {
+     "n": "Progab 75 tab",
+     "s": "Pregabalin 75mg",
+     "c": "Psycormedies",
+     "m": 7.88,
+     "p": 7.88,
+     "t": 1
+    },
+    {
+     "n": "Precarise 75 tab",
+     "s": "Pregabalin 75mg",
+     "c": "Carise",
+     "m": 8.5,
+     "p": 8.5,
+     "t": 1
+    },
+    {
+     "n": "Neuron M 75 tab",
+     "s": "Pregabalin 75mg",
+     "c": "AGM Biotec",
+     "m": 9.52,
+     "p": 9.52,
+     "t": 1
+    },
+    {
+     "n": "Pregalex 75 tab",
+     "s": "Pregabalin 75mg",
+     "c": "Ordain",
+     "m": 10.08,
+     "p": 10.08,
+     "t": 1
+    },
+    {
+     "n": "Zylin OD 75 tab",
+     "s": "Pregabalin 75mg",
+     "c": "Zydus",
+     "m": 11.35,
+     "p": 11.35,
+     "t": 1
+    },
+    {
+     "n": "Pgalib 75",
+     "s": "Pregabalin 75mg",
+     "c": "Adlib",
+     "m": 12.09,
+     "p": 12.09,
+     "t": 1
+    },
+    {
+     "n": "Pregader 75",
+     "s": "Pregabalin 75mg",
+     "c": "Elder",
+     "m": 12.19,
+     "p": 12.19,
+     "t": 1
+    },
+    {
+     "n": "Gabawin 75 tab",
+     "s": "Pregabalin 75mg",
+     "c": "Icon Life",
+     "m": 14.6,
+     "p": 14.6,
+     "t": 1
+    },
+    {
+     "n": "Maxgalin 75",
+     "s": "Pregabalin 75mg",
+     "c": "Sun",
+     "m": 17.8,
+     "p": 17.8,
+     "t": 1
+    },
+    {
+     "n": "Pregeb 75",
+     "s": "Pregabalin 75mg",
+     "c": "Torrent",
+     "m": 20.06,
+     "p": 20.06,
+     "t": 1
+    },
+    {
+     "n": "Pregamer 75",
+     "s": "Pregabalin 75mg",
+     "c": "Innova",
+     "m": 21.09,
+     "p": 21.09,
+     "t": 1
+    },
+    {
+     "n": "Pregaba 75 (15)",
+     "s": "Pregabalin 75mg",
+     "c": "Torrent",
+     "m": 23.08,
+     "p": 23.08,
+     "t": 1
+    },
+    {
+     "n": "Pregalin 75 (15)",
+     "s": "Pregabalin 75mg",
+     "c": "Torrent",
+     "m": 24.62,
+     "p": 24.62,
+     "t": 1
+    },
+    {
+     "n": "Lyrica 75",
+     "s": "Pregabalin 75mg",
+     "c": "Pfizer",
+     "m": 54.29,
+     "p": 54.29,
+     "t": 1
+    },
+    {
+     "n": "Pregabanyl-M",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "Leeford",
+     "m": 9.06,
+     "p": 9.06,
+     "t": 1
+    },
+    {
+     "n": "Meganeuron",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "Aristo",
+     "m": 10.6,
+     "p": 10.6,
+     "t": 1
+    },
+    {
+     "n": "Pregacip M",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "Cipla",
+     "m": 11.4,
+     "p": 11.4,
+     "t": 1
+    },
+    {
+     "n": "Pregalin X 75",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "Torrent",
+     "m": 14.33,
+     "p": 14.33,
+     "t": 1
+    },
+    {
+     "n": "Mahagaba-M 75",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "Mankind",
+     "m": 15.4,
+     "p": 15.4,
+     "t": 1
+    },
+    {
+     "n": "Neugaba M 75",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "",
+     "m": 16.8,
+     "p": 16.8,
+     "t": 1
+    },
+    {
+     "n": "Neurokem 75",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "",
+     "m": 18.7,
+     "p": 18.7,
+     "t": 1
+    },
+    {
+     "n": "Maxgalin M 75",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "Sun",
+     "m": 20.31,
+     "p": 20.31,
+     "t": 1
+    },
+    {
+     "n": "Nervmax",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "",
+     "m": 20.9,
+     "p": 20.9,
+     "t": 1
+    },
+    {
+     "n": "Pregalin M 75",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "Torrent",
+     "m": 21.6,
+     "p": 21.6,
+     "t": 1
+    },
+    {
+     "n": "Pregaba-M 75",
+     "s": "Pregabalin 75mg + Methylcobalamin 750mcg capsule",
+     "c": "Torrent",
+     "m": 23.0,
+     "p": 23.0,
+     "t": 1
+    },
+    {
+     "n": "ME Pxl (15)",
+     "s": "Pregabalin SR 75mg + Methylcobalamin 1500mcg tablet",
+     "c": "",
+     "m": 10.8,
+     "p": 10.8,
+     "t": 1
+    },
+    {
+     "n": "Pregamet SR",
+     "s": "Pregabalin SR 75mg + Methylcobalamin 1500mcg tablet",
+     "c": "Abbott",
+     "m": 17.9,
+     "p": 17.9,
+     "t": 1
+    },
+    {
+     "n": "Pregeb M OD 75 (15)",
+     "s": "Pregabalin SR 75mg + Methylcobalamin 1500mcg tablet",
+     "c": "Torrent",
+     "m": 19.13,
+     "p": 19.13,
+     "t": 1
+    },
+    {
+     "n": "Pregalin X SR 75 (15)",
+     "s": "Pregabalin SR 75mg + Methylcobalamin 1500mcg tablet",
+     "c": "Torrent",
+     "m": 20.6,
+     "p": 20.6,
+     "t": 1
+    },
+    {
+     "n": "Pregalin M SR 75 (15)",
+     "s": "Pregabalin SR 75mg + Methylcobalamin 1500mcg tablet",
+     "c": "Torrent",
+     "m": 20.6,
+     "p": 20.6,
+     "t": 1
+    },
+    {
+     "n": "Pregaba-M 150",
+     "s": "Pregabalin 150mg + Methylcobalamin 750mcg capsule",
+     "c": "Torrent",
+     "m": 17.41,
+     "p": 17.41,
+     "t": 1
+    },
+    {
+     "n": "Pregalin M 150",
+     "s": "Pregabalin 150mg + Methylcobalamin 750mcg capsule",
+     "c": "Torrent",
+     "m": 30.9,
+     "p": 30.9,
+     "t": 1
+    },
+    {
+     "n": "Pregamer NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Akums",
+     "m": 13.13,
+     "p": 13.13,
+     "t": 1
+    },
+    {
+     "n": "Pregab NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Aarvi",
+     "m": 14.16,
+     "p": 14.16,
+     "t": 1
+    },
+    {
+     "n": "Neurica NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Micro Labs",
+     "m": 17.0,
+     "p": 17.0,
+     "t": 1
+    },
+    {
+     "n": "Nervilax NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Saffron",
+     "m": 17.0,
+     "p": 17.0,
+     "t": 1
+    },
+    {
+     "n": "Pregalin NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Torrent",
+     "m": 17.11,
+     "p": 17.11,
+     "t": 1
+    },
+    {
+     "n": "Meganeuron NT 75",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Aristo",
+     "m": 17.4,
+     "p": 17.4,
+     "t": 1
+    },
+    {
+     "n": "Pregalift NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Linux",
+     "m": 18.1,
+     "p": 18.1,
+     "t": 1
+    },
+    {
+     "n": "Gabamax NT 75",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "",
+     "m": 19.0,
+     "p": 19.0,
+     "t": 1
+    },
+    {
+     "n": "Preganza NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Emcure",
+     "m": 19.23,
+     "p": 19.23,
+     "t": 1
+    },
+    {
+     "n": "Pyrope NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Arinna",
+     "m": 19.33,
+     "p": 19.33,
+     "t": 1
+    },
+    {
+     "n": "Gabawin-NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Icon Life",
+     "m": 19.4,
+     "p": 19.4,
+     "t": 1
+    },
+    {
+     "n": "Pregaba NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Torrent",
+     "m": 20.03,
+     "p": 20.03,
+     "t": 1
+    },
+    {
+     "n": "Nortipan",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Medley",
+     "m": 20.5,
+     "p": 20.5,
+     "t": 1
+    },
+    {
+     "n": "Nortryptomer-P",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Wockhardt",
+     "m": 21.78,
+     "p": 21.78,
+     "t": 1
+    },
+    {
+     "n": "Nervite",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "",
+     "m": 21.8,
+     "p": 21.8,
+     "t": 1
+    },
+    {
+     "n": "PEG NT (15)",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Ipca",
+     "m": 21.87,
+     "p": 21.87,
+     "t": 1
+    },
+    {
+     "n": "Pregadoc NT",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Lupin",
+     "m": 23.2,
+     "p": 23.2,
+     "t": 1
+    },
+    {
+     "n": "Norpregalin",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Torrent",
+     "m": 23.39,
+     "p": 23.39,
+     "t": 1
+    },
+    {
+     "n": "Pregabid NT (15)",
+     "s": "Pregabalin 75mg + Nortriptyline 10mg tablet",
+     "c": "Intas",
+     "m": 24.07,
+     "p": 24.07,
+     "t": 1
+    },
+    {
+     "n": "Gabella 300",
+     "s": "Gabapentin 300mg",
+     "c": "Glenmark",
+     "m": 8.61,
+     "p": 8.61,
+     "t": 1
+    },
+    {
+     "n": "Gabajet 300",
+     "s": "Gabapentin 300mg",
+     "c": "MDC",
+     "m": 9.2,
+     "p": 9.2,
+     "t": 1
+    },
+    {
+     "n": "Gapitas 300",
+     "s": "Gabapentin 300mg",
+     "c": "Tas Med",
+     "m": 9.8,
+     "p": 9.8,
+     "t": 1
+    },
+    {
+     "n": "Neurogesic 300",
+     "s": "Gabapentin 300mg",
+     "c": "Pulse",
+     "m": 9.9,
+     "p": 9.9,
+     "t": 1
+    },
+    {
+     "n": "Movapentin 300",
+     "s": "Gabapentin 300mg",
+     "c": "Mova",
+     "m": 10.32,
+     "p": 10.32,
+     "t": 1
+    },
+    {
+     "n": "Encentin 300",
+     "s": "Gabapentin 300mg",
+     "c": "East West",
+     "m": 10.78,
+     "p": 10.78,
+     "t": 1
+    },
+    {
+     "n": "Gabapil 300",
+     "s": "Gabapentin 300mg",
+     "c": "",
+     "m": 11.34,
+     "p": 11.34,
+     "t": 1
+    },
+    {
+     "n": "Gabacel 300",
+     "s": "Gabapentin 300mg",
+     "c": "Aishwarya",
+     "m": 11.5,
+     "p": 11.5,
+     "t": 1
+    },
+    {
+     "n": "Gpen 300",
+     "s": "Gabapentin 300mg",
+     "c": "Sigmund",
+     "m": 11.91,
+     "p": 11.91,
+     "t": 1
+    },
+    {
+     "n": "Gabapen 300",
+     "s": "Gabapentin 300mg",
+     "c": "Morepen",
+     "m": 14.0,
+     "p": 14.0,
+     "t": 1
+    },
+    {
+     "n": "Gabastone 300",
+     "s": "Gabapentin 300mg",
+     "c": "Gladstone",
+     "m": 14.6,
+     "p": 14.6,
+     "t": 1
+    },
+    {
+     "n": "Spironova",
+     "s": "Gabapentin 300mg",
+     "c": "AN Pharma",
+     "m": 15.0,
+     "p": 15.0,
+     "t": 1
+    },
+    {
+     "n": "Gaba 300",
+     "s": "Gabapentin 300mg",
+     "c": "DD Pharma",
+     "m": 15.4,
+     "p": 15.4,
+     "t": 1
+    },
+    {
+     "n": "Gabapax 300",
+     "s": "Gabapentin 300mg",
+     "c": "Alteus",
+     "m": 15.97,
+     "p": 15.97,
+     "t": 1
+    },
+    {
+     "n": "Baga 300 (15)",
+     "s": "Gabapentin 300mg",
+     "c": "Eris",
+     "m": 16.36,
+     "p": 16.36,
+     "t": 1
+    },
+    {
+     "n": "Gabasarv 300",
+     "s": "Gabapentin 300mg",
+     "c": "Asarva",
+     "m": 16.5,
+     "p": 16.5,
+     "t": 1
+    },
+    {
+     "n": "Gabagesic 300",
+     "s": "Gabapentin 300mg",
+     "c": "Linux",
+     "m": 17.34,
+     "p": 17.34,
+     "t": 1
+    },
+    {
+     "n": "Laregab 300",
+     "s": "Gabapentin 300mg",
+     "c": "La Renon",
+     "m": 17.4,
+     "p": 17.4,
+     "t": 1
+    },
+    {
+     "n": "Adgaba 300",
+     "s": "Gabapentin 300mg",
+     "c": "Bion",
+     "m": 19.57,
+     "p": 19.57,
+     "t": 1
+    },
+    {
+     "n": "Gabankit 300",
+     "s": "Gabapentin 300mg",
+     "c": "Sanix",
+     "m": 20.3,
+     "p": 20.3,
+     "t": 1
+    },
+    {
+     "n": "Gabamira 300",
+     "s": "Gabapentin 300mg",
+     "c": "Mirasure",
+     "m": 20.65,
+     "p": 20.65,
+     "t": 1
+    },
+    {
+     "n": "Progaba 300",
+     "s": "Gabapentin 300mg",
+     "c": "Icon Life",
+     "m": 21.0,
+     "p": 21.0,
+     "t": 1
+    },
+    {
+     "n": "Arigaba 300",
+     "s": "Gabapentin 300mg",
+     "c": "Pure & Cure",
+     "m": 22.5,
+     "p": 22.5,
+     "t": 1
+    },
+    {
+     "n": "Gabator 300",
+     "s": "Gabapentin 300mg",
+     "c": "Torrent",
+     "m": 22.92,
+     "p": 22.92,
+     "t": 1
+    },
+    {
+     "n": "Gabantin 300 cap",
+     "s": "Gabapentin 300mg",
+     "c": "Sun",
+     "m": 25.7,
+     "p": 25.7,
+     "t": 1
+    },
+    {
+     "n": "Nupentin 300",
+     "s": "Gabapentin 300mg",
+     "c": "East West",
+     "m": 26.0,
+     "p": 26.0,
+     "t": 1
+    },
+    {
+     "n": "Pentanerv 300",
+     "s": "Gabapentin 300mg",
+     "c": "Alkem",
+     "m": 27.8,
+     "p": 27.8,
+     "t": 1
+    },
+    {
+     "n": "Gabapin 300 cap (15)",
+     "s": "Gabapentin 300mg",
+     "c": "Intas",
+     "m": 28.77,
+     "p": 28.77,
+     "t": 1
+    },
+    {
+     "n": "Gabanyl",
+     "s": "Gabapentin 300mg + Methylcobalamin 500mcg tablet",
+     "c": "Leeford",
+     "m": 12.0,
+     "p": 12.0,
+     "t": 1
+    },
+    {
+     "n": "Gabagesic M",
+     "s": "Gabapentin 300mg + Methylcobalamin 500mcg tablet",
+     "c": "Linux",
+     "m": 18.75,
+     "p": 18.75,
+     "t": 1
+    },
+    {
+     "n": "Acegaba ME",
+     "s": "Gabapentin 300mg + Methylcobalamin 500mcg tablet",
+     "c": "Emcure",
+     "m": 19.86,
+     "p": 19.86,
+     "t": 1
+    },
+    {
+     "n": "Gabaneuron (15)",
+     "s": "Gabapentin 300mg + Methylcobalamin 500mcg tablet",
+     "c": "Aristo",
+     "m": 21.37,
+     "p": 21.37,
+     "t": 1
+    },
+    {
+     "n": "Gabapin ME (15)",
+     "s": "Gabapentin 300mg + Methylcobalamin 500mcg tablet",
+     "c": "Intas",
+     "m": 22.13,
+     "p": 22.13,
+     "t": 1
+    },
+    {
+     "n": "Gabagesic NT 400",
+     "s": "Gabapentin 400mg + Nortriptyline 10mg tablet",
+     "c": "Linux",
+     "m": 24.17,
+     "p": 24.17,
+     "t": 1
+    },
+    {
+     "n": "Elmecob OD",
+     "s": "Methylcobalamin 1500mcg tablet",
+     "c": "",
+     "m": 3.6,
+     "p": 3.6,
+     "t": 1
+    },
+    {
+     "n": "ME OD",
+     "s": "Methylcobalamin 1500mcg tablet",
+     "c": "Systopic",
+     "m": 3.95,
+     "p": 3.95,
+     "t": 1
+    },
+    {
+     "n": "Methylcomer SL",
+     "s": "Methylcobalamin 1500mcg tablet",
+     "c": "",
+     "m": 7.13,
+     "p": 7.13,
+     "t": 1
+    },
+    {
+     "n": "Nurokind OD (20)",
+     "s": "Methylcobalamin 1500mcg tablet",
+     "c": "Mankind",
+     "m": 10.61,
+     "p": 10.61,
+     "t": 1
+    },
+    {
+     "n": "Meconerv",
+     "s": "Methylcobalamin 1500mcg tablet",
+     "c": "",
+     "m": 11.8,
+     "p": 11.8,
+     "t": 1
+    },
+    {
+     "n": "Meconeuron OD (15)",
+     "s": "Methylcobalamin 1500mcg tablet",
+     "c": "",
+     "m": 12.8,
+     "p": 12.8,
+     "t": 1
+    },
+    {
+     "n": "B 29",
+     "s": "Methylcobalamin 1500mcg tablet",
+     "c": "",
+     "m": 18.5,
+     "p": 18.5,
+     "t": 1
+    },
+    {
+     "n": "Nurotroy SR",
+     "s": "Methylcobalamin 1500mcg tablet",
+     "c": "",
+     "m": 19.9,
+     "p": 19.9,
+     "t": 1
+    },
+    {
+     "n": "Cynocal-M 500 (2 amp)",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "Ozone",
+     "m": 10.99,
+     "p": 10.99
+    },
+    {
+     "n": "ME 12",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "",
+     "m": 22.51,
+     "p": 22.51
+    },
+    {
+     "n": "Nurokind Inj",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "Mankind",
+     "m": 24.91,
+     "p": 24.91
+    },
+    {
+     "n": "Hosit 500",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "Emcure",
+     "m": 34.97,
+     "p": 34.97
+    },
+    {
+     "n": "Full 24 AM",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "",
+     "m": 36.66,
+     "p": 36.66
+    },
+    {
+     "n": "Meconerv Inj",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "Micro Labs",
+     "m": 37.97,
+     "p": 37.97
+    },
+    {
+     "n": "Meganeuron Inj",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "Aristo",
+     "m": 44.85,
+     "p": 44.85
+    },
+    {
+     "n": "Cobaforte",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "Emcure",
+     "m": 48.8,
+     "p": 48.8
+    },
+    {
+     "n": "B-29 AQ",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "Corona",
+     "m": 67.45,
+     "p": 67.45
+    },
+    {
+     "n": "Rejunex",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "",
+     "m": 67.5,
+     "p": 67.5
+    },
+    {
+     "n": "Nervomin",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "",
+     "m": 75.0,
+     "p": 75.0
+    },
+    {
+     "n": "Met 500 (5ml vial)",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "",
+     "m": 89.06,
+     "p": 89.06
+    },
+    {
+     "n": "MetB12",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "Alteus",
+     "m": 95.0,
+     "p": 95.0
+    },
+    {
+     "n": "Rejunuron",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "",
+     "m": 98.44,
+     "p": 98.44
+    },
+    {
+     "n": "Nurite",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "",
+     "m": 108.0,
+     "p": 108.0
+    },
+    {
+     "n": "Meaxon",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "",
+     "m": 118.0,
+     "p": 118.0
+    },
+    {
+     "n": "Methycobal",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "",
+     "m": 134.34,
+     "p": 134.34
+    },
+    {
+     "n": "Nervup",
+     "s": "Methylcobalamin 500mcg injection",
+     "c": "Abbott",
+     "m": 134.44,
+     "p": 134.44
+    },
+    {
+     "n": "Nurokind OD Inj",
+     "s": "Methylcobalamin 1500mcg injection",
+     "c": "Mankind",
+     "m": 28.99,
+     "p": 28.99
+    },
+    {
+     "n": "Synovit 1500",
+     "s": "Methylcobalamin 1500mcg injection",
+     "c": "Shalman",
+     "m": 50.0,
+     "p": 50.0
+    },
+    {
+     "n": "Trinerve LC",
+     "s": "L-Carnitine 500mg + Methylcobalamin 1500mcg + Folic acid 1.5mg tablet",
+     "c": "Alkem",
+     "m": 15.4,
+     "p": 15.4,
+     "t": 1
+    },
+    {
+     "n": "Nurokind-LC (15)",
+     "s": "L-Carnitine 500mg + Methylcobalamin 1500mcg + Folic acid 1.5mg tablet",
+     "c": "Mankind",
+     "m": 15.99,
+     "p": 15.99,
+     "t": 1
+    },
+    {
+     "n": "Dutix 20",
+     "s": "Duloxetine 20mg capsule",
+     "c": "",
+     "m": 8.23,
+     "p": 8.23,
+     "t": 1
+    },
+    {
+     "n": "Duzela 20",
+     "s": "Duloxetine 20mg capsule",
+     "c": "Sun",
+     "m": 11.5,
+     "p": 11.5,
+     "t": 1
+    },
+    {
+     "n": "Delok 20",
+     "s": "Duloxetine 20mg capsule",
+     "c": "",
+     "m": 11.9,
+     "p": 11.9,
+     "t": 1
+    },
+    {
+     "n": "Dulane 20",
+     "s": "Duloxetine 20mg capsule",
+     "c": "",
+     "m": 12.6,
+     "p": 12.6,
+     "t": 1
+    },
+    {
+     "n": "Symbal 20",
+     "s": "Duloxetine 20mg capsule",
+     "c": "",
+     "m": 14.34,
+     "p": 14.34,
+     "t": 1
+    },
+    {
+     "n": "Delok 30",
+     "s": "Duloxetine 30mg capsule",
+     "c": "",
+     "m": 14.5,
+     "p": 14.5,
+     "t": 1
+    },
+    {
+     "n": "Duzela 30",
+     "s": "Duloxetine 30mg capsule",
+     "c": "Sun",
+     "m": 17.4,
+     "p": 17.4,
+     "t": 1
+    },
+    {
+     "n": "Dulot 30",
+     "s": "Duloxetine 30mg capsule",
+     "c": "",
+     "m": 21.7,
+     "p": 21.7,
+     "t": 1
+    },
+    {
+     "n": "DavaIndia Amitriptyline",
+     "s": "Amitriptyline 10mg",
+     "c": "Davaindia",
+     "m": 0.9,
+     "p": 0.9,
+     "t": 1
+    },
+    {
+     "n": "Amitor 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Torrent",
+     "m": 1.25,
+     "p": 1.25,
+     "t": 1
+    },
+    {
+     "n": "Neurotrip 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Pulse",
+     "m": 1.25,
+     "p": 1.25,
+     "t": 1
+    },
+    {
+     "n": "Triptop 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Theta Lab",
+     "m": 1.5,
+     "p": 1.5,
+     "t": 1
+    },
+    {
+     "n": "Tryptinol 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Knoll",
+     "m": 1.56,
+     "p": 1.56,
+     "t": 1
+    },
+    {
+     "n": "Amitar 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Signova",
+     "m": 1.91,
+     "p": 1.91,
+     "t": 1
+    },
+    {
+     "n": "Tryptoford 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Leeford",
+     "m": 1.99,
+     "p": 1.99,
+     "t": 1
+    },
+    {
+     "n": "Amitryptyline 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Unicure",
+     "m": 2.03,
+     "p": 2.03,
+     "t": 1
+    },
+    {
+     "n": "Amitone 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Intas",
+     "m": 2.15,
+     "p": 2.15,
+     "t": 1
+    },
+    {
+     "n": "Tryp 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Theo",
+     "m": 2.2,
+     "p": 2.2,
+     "t": 1
+    },
+    {
+     "n": "Triplent 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Talent",
+     "m": 2.24,
+     "p": 2.24,
+     "t": 1
+    },
+    {
+     "n": "Amitril 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Sigmund",
+     "m": 2.3,
+     "p": 2.3,
+     "t": 1
+    },
+    {
+     "n": "Tripty 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Solvate",
+     "m": 2.33,
+     "p": 2.33,
+     "t": 1
+    },
+    {
+     "n": "Eliwel 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Sun",
+     "m": 2.34,
+     "p": 2.34,
+     "t": 1
+    },
+    {
+     "n": "Depkey 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Arinna",
+     "m": 2.51,
+     "p": 2.51,
+     "t": 1
+    },
+    {
+     "n": "Mytrip 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Mayflower",
+     "m": 2.52,
+     "p": 2.52,
+     "t": 1
+    },
+    {
+     "n": "Ketrip 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Kivi",
+     "m": 2.52,
+     "p": 2.52,
+     "t": 1
+    },
+    {
+     "n": "Amilift 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Bion",
+     "m": 2.55,
+     "p": 2.55,
+     "t": 1
+    },
+    {
+     "n": "Sarotena 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Lundbeck",
+     "m": 2.55,
+     "p": 2.55,
+     "t": 1
+    },
+    {
+     "n": "Triptaz 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Linux",
+     "m": 2.63,
+     "p": 2.63,
+     "t": 1
+    },
+    {
+     "n": "Amitrip 10",
+     "s": "Amitriptyline 10mg",
+     "c": "East West",
+     "m": 2.66,
+     "p": 2.66,
+     "t": 1
+    },
+    {
+     "n": "Odep 10",
+     "s": "Amitriptyline 10mg",
+     "c": "Crescent",
+     "m": 2.67,
+     "p": 2.67,
+     "t": 1
+    },
+    {
+     "n": "Tryptomer 10 (30)",
+     "s": "Amitriptyline 10mg",
+     "c": "Dr Reddy's",
+     "m": 2.67,
+     "p": 2.67,
+     "t": 1
+    },
+    {
+     "n": "Shine 10 (20)",
+     "s": "Amitriptyline 10mg",
+     "c": "Shine",
+     "m": 2.67,
+     "p": 2.67,
+     "t": 1
+    },
+    {
+     "n": "Nildep 10",
+     "s": "Amitriptyline 10mg",
+     "c": "DD Pharma",
+     "m": 2.84,
+     "p": 2.84,
+     "t": 1
+    }
+   ]
   }
  ]
 }
